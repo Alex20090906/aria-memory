@@ -2,7 +2,7 @@
 
 > Part of the research *An Always-On Personal AI Voice Assistant: System Architecture and a Novel Memory System, with
 > a Study of Time Perception in Large Language Models*. This repository is the memory system. The main entry point
-> is `always-on-assistant`.
+> is [always-on-assistant](https://github.com/Alex20090906/always-on-assistant).
 >
 > 繁體中文說明：[README.zh-TW.md](README.zh-TW.md)
 
@@ -16,7 +16,7 @@ Research code. Pure Python and numpy, runs on a CPU. The LLM that listens and re
 ## Quick try (no GPU, no model download, about 10 seconds)
 
 ```bash
-git clone <this repository> && cd aria-memory
+git clone https://github.com/Alex20090906/aria-memory && cd aria-memory
 python -m venv .venv && . .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[test]"
 python examples/quickstart.py

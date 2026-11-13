@@ -1,6 +1,6 @@
 # aria-memory（繁體中文說明）
 
-> 本專案屬於研究《常駐型個人 AI 語音助理：系統架構與新型記憶系統研究（附：大型語言模型的時間感知研究）》，這裡是其中的「新型記憶系統」。總入口是 `always-on-assistant`。
+> 本專案屬於研究《常駐型個人 AI 語音助理：系統架構與新型記憶系統研究（附：大型語言模型的時間感知研究）》，這裡是其中的「新型記憶系統」。總入口是 [always-on-assistant](https://github.com/Alex20090906/always-on-assistant)。
 >
 > English: [README.md](README.md)
 
@@ -11,7 +11,7 @@
 ## 快速試玩（不需要 GPU、不用下載模型，約 10 秒）
 
 ```bash
-git clone <本 repo> && cd aria-memory
+git clone https://github.com/Alex20090906/aria-memory && cd aria-memory
 python -m venv .venv && . .venv/bin/activate      # Windows：.venv\Scripts\activate
 pip install -e ".[test]"
 python examples/quickstart.py
