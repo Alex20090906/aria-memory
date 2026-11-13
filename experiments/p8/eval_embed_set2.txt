@@ -1,0 +1,60 @@
+== zh_result_G_base_set2.json
+  tau 0.5: direct ok 8 wrong 6 | ask-back ok 12 wrong 19 | none 3 not routed 3 || never: direct 0 ask-back 15
+  tau 0.6: direct ok 8 wrong 6 | ask-back ok 9 wrong 7 | none 18 not routed 3 || never: direct 0 ask-back 4
+  tau 0.7: direct ok 8 wrong 6 | ask-back ok 2 wrong 2 | none 30 not routed 3 || never: direct 0 ask-back 1
+  tau 0.8: direct ok 8 wrong 6 | ask-back ok 0 wrong 0 | none 34 not routed 3 || never: direct 0 ask-back 0
+    told  備用眼鏡 [父輩用眼鏡|location] -> 螢幕蓋|attribute 0.45 '螢幕蓋 | attribute | 內徑' ok=False
+    never 封蠟印章 [風蠟印章|location] -> 螢幕蓋|attribute 0.44 '螢幕蓋 | attribute | 內徑' ok=None
+    told  無花果香精稀釋比例 [無花果香精|value] -> 春精油|attribute 0.53 '最小台，精準度0.01克' ok=False
+    told  林老闆 [無花果香精|value] -> 春精油|attribute 0.50 '最小台，精準度0.01克' ok=False
+    never 太陽眼鏡 [太陽眼鏡|location] -> 備用眼鏡|location 0.66 '客廳茶几下面的藤邊盒' ok=None
+    told  張副理 [張副理事|attribute] -> 衛林老闆|relation 0.46 '客戶/合作夥伴' ok=False
+    told  舊水苔 [舊水台|location] -> 舊水台|status 0.53 '泡在塑膠桶中消毒' ok=False
+    never 苦橙葉精油包裹 [苦沉夜精油包裹|time] -> 薰衣草精油包裹|plan 0.50 '第10天去郵局領取' ok=None
+    never 熱風槍 [熱風槍|location] -> 備用眼鏡|location 0.47 '客廳茶几下面的藤邊盒' ok=None
+    told  蜂蠟塊 [一箱瘋辣塊|location] -> 塑膠桶|location 0.50 '陽台洗手台旁' ok=False
+    told  發票與收據 [發票收據|location] -> 報稅發票與收據|location 0.70 '書架第三層綠色硬殼資料夾' ok=True
+    never 液態肥料 [路角角|location] -> 春精油|location 0.45 '中島下面的拉欄裡' ok=None
+    told  瓶器報價單 [瓶器報價單|location] -> 小電子秤|location 0.51 '工作室軟木塞留言板' ok=True
+    told  劍道護手 [不鏽鋼架接刀|location] -> 劍道護手|location 0.73 '鞋櫃上面' ok=False
+    told  手搖飲 [不鏽鋼架接刀|location] -> 劍道護手|location 0.53 '鞋櫃上面' ok=False
+    told  銅製修枝剪 [不鏽鋼架接刀|location] -> 劍道護手|location 0.56 '鞋櫃上面' ok=False
+    told  檜木精油樣品 [不鏽鋼架接刀|location] -> 台灣農林新款繪墓精油樣品|location 0.56 '書房窗台深色木盒（閉光保存）' ok=True
+    told  包裝緞帶顏色 [不鏽鋼架接刀|location] -> 包裝斷帶|preference 0.55 '霧面深灰色' ok=True
+    never 不鏽鋼嫁接刀 [不鏽鋼架接刀|location] -> 劍道護手|location 0.54 '鞋櫃上面' ok=None
+    never 產品照攝影師 [產品照拍攝|relation] -> 鏡頭|status 0.49 '發霉' ok=None
+    never 皮革圍裙 [皮革微裙|location] -> 銀露露腳掛|location 0.51 '浴室毛巾架上' ok=None
+    never 黃銅燭芯剪 [黃銅珠心繭|location] -> 滅火器|location 0.53 '客廳壁架左邊小釘子' ok=None
+    told  燙金打樣確認 [燙金打樣|plan] -> 燙精打樣|plan 0.62 '明天早上十點過去看' ok=False
+    never 數位溫濕度計 [數位溫濕度計|status] -> 記帳|status 0.56 '已完成' ok=None
+    told  銀鹿鹿角蕨 [銀露露角爵|location] -> 銀露露腳掛|location 0.63 '浴室毛巾架上' ok=False
+    told  舊合約 [合約|location] -> 舊合約|location 0.67 '主臥室衣櫃灰色保險箱' ok=True
+    never 皇冠鹿角蕨 [銀露露角爵|location] -> 銀露露腳掛|location 0.61 '浴室毛巾架上' ok=None
+    told  備用熱熔膠條 [熱熔膠條|location] -> 熱溶膠條|location 0.67 '工作桌右邊第二個抽屜' ok=True
+    told  聖誕節限定禮盒定價 [聖誕節限定理合|value] -> 聖誕節限定理|value 0.64 '1680元/組，含大蠟燭及室內噴霧' ok=False
+    never 電烙鐵 [電烙鐵|location] -> 滅火器|location 0.52 '客廳壁架左邊小釘子' ok=None
+    told  竹北選物店雪松蠟燭 [主北選物店|plan] -> 雪松蠟燭|plan 0.66 '禮拜五前要出貨' ok=False
+    told  保養竹油 [保養豬油|location] -> 滅火器|location 0.54 '客廳壁架左邊小釘子' ok=False
+    never 辦理外幣帳戶 [銀行|time] -> 記帳|status 0.56 '已完成' ok=None
+    never 冷氣濾網清洗 [工作室冷氣濾網|time] -> 會議|time 0.45 '明天下午2點（第4天）' ok=None
+    told  備用眼鏡 [黑框眼鏡|location] -> 備用眼鏡|location 0.68 '客廳茶几下面的藤邊盒' ok=True
+    told  辦理企業網銀憑證 [銀行行程|time] -> 會議|time 0.58 '明天下午2點（第4天）' ok=False
+    told  電子秤 [小秤|location] -> 小電子秤|location 0.71 '工作室軟木塞留言板' ok=False
+    told  防撞包材 [小秤|location] -> 被|location 0.48 '工作桌右邊第二個抽屜' ok=False
+    never 手持掛燙機 [手持掛燙機|location] -> 滅火器|location 0.54 '客廳壁架左邊小釘子' ok=None
+    told  室內擴香噴霧基底 [新款室內擴香噴霧|attribute] -> 大容量擴香|attribute 0.58 '長度25公分黑色纖維棒' ok=False
+    never 甜橙精油鋁瓶 [甜曾經有鋁平|location] -> 塑膠桶|location 0.54 '陽台洗手台旁' ok=None
+    told  無花果香精稀釋比例 [無花果香精|value] -> 香水|plan 0.51 '第11天下午3點去印刷廠確認打樣' ok=False
+    told  百貨快閃店押金 [快閃店押金|value] -> 百貨快閃電押金|value 0.74 '三萬元整' ok=True
+    never 零錢盒 [零錢盒|location] -> 百貨快閃電押金|value 0.59 '三萬元整' ok=None
+    told  火鍋湯底 [火鍋|preference] -> Q 火鍋|preference 0.65 '鍋皮辣椒雞' ok=True
+    told  託運單收執聯 [拖運單|location] -> 鐵拖運單|location 0.65 '玄關穿鞋椅旁磁鐵上' ok=False
+    told  電子游標卡尺 [電子郵標卡|location] -> 電子郵標卡尺|location 0.74 '工作室工具牆黑色收納架' ok=True
+    never 個人網銀讀卡機 [個人網銀讀卡機|location] -> 企業網銀讀卡機|location 0.80 '書房電腦螢幕下方' ok=None
+    told  發票與收據 [發票收據|location] -> 報稅發票與收據|location 0.67 '書架第三層綠色硬殼資料夾' ok=True
+    told  象耳鹿角蕨側芽 [發票收據|location] -> 報稅發票與收據|location 0.54 '書架第三層綠色硬殼資料夾' ok=False
+    never 備用玻璃燒杯 [備用玻璃燒|location] -> 備用眼鏡|location 0.55 '客廳茶几下面的藤邊盒' ok=None
+    told  辦理專櫃進場證 [專櫃進場|plan] -> 專櫃進場證|time 0.58 '第23天下午2:30' ok=False
+    told  融蠟鍋 [融蠟鍋|status] -> 熔蠟鍋|status 0.65 '溫控旋鈕已修好' ok=True
+    never 隨身噴霧香水瓶容量 [隨身噴霧香水瓶|value] -> 香水|plan 0.56 '第11天下午3點去印刷廠確認打樣' ok=None
+    never 發票章 [快閃店發票|location] -> 報稅發票與收據|location 0.61 '書架第三層綠色硬殼資料夾' ok=None

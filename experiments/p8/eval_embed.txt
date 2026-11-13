@@ -1,0 +1,113 @@
+== zh_result_F_stage_log.json
+  tau 0.5: direct ok 20 wrong 6 | ask-back ok 9 wrong 7 | none 3 not routed 6 || never: direct 2 ask-back 13
+  tau 0.6: direct ok 20 wrong 6 | ask-back ok 8 wrong 4 | none 7 not routed 6 || never: direct 2 ask-back 3
+  tau 0.7: direct ok 20 wrong 6 | ask-back ok 2 wrong 0 | none 17 not routed 6 || never: direct 2 ask-back 0
+  tau 0.8: direct ok 20 wrong 6 | ask-back ok 0 wrong 0 | none 19 not routed 6 || never: direct 2 ask-back 0
+    never 台胞證 [台包|location] -> 簽證文件|location 0.65 '黑色後背包夾層' ok=None
+    never 黑色摺疊傘 [黑色折疊傘|location] -> 媽媽|preference 0.47 '不吃辣' ok=None
+    told  專案報告 [專案報告|time] -> 新Project專案報告|plan 0.61 '這禮拜五中午十二點前完成' ok=True
+    told  印表機墨水 [書房印表機墨水|location] -> 印表機|value 0.61 'HP68 黑色 x2' ok=True
+    never 電動起子 [電動起子|location] -> 使用者|location 0.51 '黑色折疊傘插在沙發右側蝙蝠手收納袋' ok=None
+    told  媽媽生日聚餐 [媽媽生日聚餐|time] -> 聚餐|time 0.64 '第10天中午12點' ok=False
+    never 水電費 [汽水|value] -> 網路費|status 0.53 '已繳清' ok=None
+    told  烘衣機 [烘衣機|attribute] -> 廚師機|location 0.54 '陽台' ok=False
+    told  汽車保養 [汽車保養|time] -> 汽車|plan 0.53 '第9天早上9點' ok=False
+    never 英文家教 [英文課|time] -> mother's birthday dinner|plan 0.51 'rescheduled (time an' ok=None
+    never 手搖飲 [手搖飲|preference] -> 媽媽|preference 0.51 '不吃辣' ok=None
+    told  備用鑰匙 [車鑰匙|location] -> 備用鑰匙|location 0.73 '玄關吸鐵盒' ok=True
+    told  體重計 [車鑰匙|location] -> 體重計|location 0.65 '沙發底下' ok=True
+    never 西裝外套 [西裝外套|time] -> shirt|location 0.53 'dryer (context: "whe' ok=None
+    told  Kevin [Kevin|relation] -> 使用者|location 0.49 '黑色折疊傘插在沙發右側蝙蝠手收納袋' ok=False
+    told  除濕機 [除濕機|status] -> air conditioner|status 0.62 '陽台晾乾中，這兩天不要開' ok=False
+    never 台胞證 [台包|location] -> 簽證文件|location 0.65 '黑色後背包夾層' ok=None
+    told  瑜珈課 [瑜伽課|time] -> 聚餐|time 0.49 '第10天中午12點' ok=False
+    told  血壓藥 [血壓藥|value] -> 血壓藥|plan 0.66 '每天早上飯後吃半顆' ok=True
+    never 包裹 [包裹|value] -> 帳篷|status 0.47 '借給阿哲，已搬下樓讓他載走；相關文件（綠' ok=None
+    told  存摺 [存折|location] -> 銀行文件|location 0.62 '隨身拖特包夾層' ok=True
+    told  修車行 [腳踏車維修費|value] -> 修車行|value 0.60 '報價800元' ok=False
+    never 洗碗機 [洗碗機|time] -> 洗牙|time 0.56 '第12天下午2點' ok=None
+    never 咖啡豆 [咖啡豆|attribute] -> 咖啡|preference 0.52 '冰燕麥拿鐵不加糖' ok=None
+    told  冷氣師傅 [冷氣師傅|time] -> 冷氣|plan 0.50 '第13天早上10點維修' ok=False
+    told  行動電源 [黑色行動電源|location] -> 行動電源|location 0.69 '床頭櫃充電座' ok=True
+    told  東京住宿 [東京飯店|location] -> 東京住宿|location 0.59 '上野車站附近飯店' ok=True
+    never 汽車保險 [汽車保險|time] -> 汽車|plan 0.52 '第9天早上9點' ok=None
+    never 機車鑰匙 [機車|location] -> 備用鑰匙|location 0.65 '鞋櫃上方小盒子' ok=None
+    told  體重計電池 [體重計|value] -> 體重計電池|attribute 0.70 '4號兩顆' ok=False
+    told  報稅資料夾 [冰箱磁鐵|location] -> 報稅資料夾|location 0.71 '書櫃第二層藍色L家' ok=True
+    never 游泳蛙鏡 [游泳鏡|location] -> 太陽眼鏡|location 0.58 '玄關鞋櫃最上面' ok=None
+    told  汽車保養 [汽車保養|time] -> 修車行|value 0.56 '報價800元' ok=False
+    never 保溫杯 [保溫杯|location] -> 廚師機|location 0.54 '更衣室' ok=None
+== zh_result_E_log.json
+  tau 0.5: direct ok 17 wrong 10 | ask-back ok 5 wrong 9 | none 1 not routed 9 || never: direct 1 ask-back 13
+  tau 0.6: direct ok 17 wrong 10 | ask-back ok 4 wrong 5 | none 6 not routed 9 || never: direct 1 ask-back 5
+  tau 0.7: direct ok 17 wrong 10 | ask-back ok 1 wrong 2 | none 12 not routed 9 || never: direct 1 ask-back 0
+  tau 0.8: direct ok 17 wrong 10 | ask-back ok 0 wrong 0 | none 15 not routed 9 || never: direct 1 ask-back 0
+    never 台胞證 [台包|location] -> 簽證文件|location 0.65 '黑色後背包夾層' ok=None
+    never 黑色摺疊傘 [黑色折疊傘|location] -> 媽媽|preference 0.47 '不吃辣' ok=None
+    told  專案報告 [專案報告|time] -> 新Project專案報告|plan 0.61 '這禮拜五中午十二點前完成' ok=True
+    told  印表機墨水 [印表機|status] -> 印表機|attribute 0.65 'HP68' ok=False
+    never 水電費 [汽水|value] -> 網路費|status 0.53 '已繳清' ok=None
+    told  烘衣機 [襯衫|attribute] -> 襯衫|preference 0.57 '烘衣機低溫30分鐘' ok=False
+    told  汽車保養 [汽車保養|time] -> 汽車|plan 0.53 '第9天早上9點' ok=False
+    never 英文家教 [英文家教|time] -> 媽媽|plan 0.51 '生日聚餐改至第5天中午十二點吃將這菜' ok=None
+    told  印章 [印章|location] -> 圓形印章|location 0.64 '書桌左邊筆桶' ok=True
+    never 手搖飲 [手搖飲|preference] -> 媽媽|preference 0.51 '不吃辣' ok=None
+    told  備用鑰匙 [車鑰匙|location] -> 備用鑰匙|location 0.73 '玄關吸鐵盒' ok=True
+    never 西裝外套 [西裝外套|time] -> 乾洗收據|plan 0.53 '第9天去拿' ok=None
+    told  Kevin [Kevin|relation] -> Jie|relation 0.49 'cousin (borrowed cam' ok=False
+    told  除濕機 [除濕機|status] -> air conditioner|status 0.62 '陽台晾乾中，這兩天不要開' ok=False
+    never 台胞證 [台包|location] -> 簽證文件|location 0.65 '黑色後背包夾層' ok=None
+    told  血壓藥 [血壓藥|value] -> 血壓藥|plan 0.66 '每天飯後吃半顆' ok=True
+    never 包裹 [包裹|value] -> 帳篷|status 0.47 '借出' ok=None
+    told  存摺 [存折|location] -> 存摺|location 0.74 '綠色資料夾' ok=False
+    told  修車行 [腳踏車|value] -> 修車行|value 0.60 '800元' ok=False
+    never 洗碗機 [洗碗機|time] -> 洗牙|time 0.56 '第12天下午2點' ok=None
+    never 咖啡豆 [咖啡豆|attribute] -> 咖啡|preference 0.52 '冰燕麥拿鐵不加糖' ok=None
+    told  冷氣師傅 [冷氣師傅|time] -> 冷氣|status 0.54 '不冷' ok=False
+    told  東京住宿 [東京|location] -> 東京住宿|location 0.59 '上野車站附近飯店' ok=True
+    never 汽車保險 [汽車保險|time] -> 預約|time 0.56 '第13天下午1點' ok=None
+    told  烘衣機濾網 [天氣|status] -> 烘衣機濾網|status 0.76 '已清理' ok=False
+    never 機車鑰匙 [機車|plan] -> 備用鑰匙|location 0.62 '拿去' ok=None
+    never 冷氣遙控器電池 [冷氣遙控器|attribute] -> 冷氣遙控器|location 0.67 '沙發右手邊收納袋' ok=None
+    never 游泳蛙鏡 [游泳眼鏡|location] -> 太陽眼鏡|location 0.62 '玄關鞋櫃最上面' ok=None
+    told  汽車保養 [汽車保養|time] -> 修車行|value 0.56 '800元' ok=False
+    never 保溫杯 [保溫杯|location] -> 廚師機|location 0.54 '更衣室' ok=None
+== zh_result_F_stage.json
+  tau 0.5: direct ok 15 wrong 9 | ask-back ok 12 wrong 5 | none 2 not routed 8 || never: direct 2 ask-back 12
+  tau 0.6: direct ok 15 wrong 9 | ask-back ok 10 wrong 0 | none 9 not routed 8 || never: direct 2 ask-back 3
+  tau 0.7: direct ok 15 wrong 9 | ask-back ok 2 wrong 0 | none 17 not routed 8 || never: direct 2 ask-back 0
+  tau 0.8: direct ok 15 wrong 9 | ask-back ok 0 wrong 0 | none 19 not routed 8 || never: direct 2 ask-back 0
+    never 台胞證 [台包|location] -> 簽證文件|location 0.65 '黑色後背包夾層' ok=None
+    never 黑色摺疊傘 [黑色折疊傘|location] -> 太陽眼鏡|location 0.45 '玄關鞋櫃最上面' ok=None
+    told  專案報告 [專案報告|time] -> 新Project專案報告|plan 0.61 '這禮拜五中午十二點前完成' ok=True
+    told  印表機墨水 [印表機墨水|attribute] -> 印表機|value 0.62 'HP68 黑色 x2' ok=True
+    never 電動起子 [電動起子|location] -> 廚師機|location 0.50 '陽台' ok=None
+    never 水電費 [汽水|value] -> 網路費|status 0.53 '已繳清' ok=None
+    told  汽車保養 [汽車保養|time] -> 牙醫|time 0.52 '第3天下午2:30' ok=False
+    never 英文家教 [英文家教|time] -> meeting|time 0.54 '今天下午2:30' ok=None
+    told  印章 [印章|location] -> 圓形印章|location 0.64 '書桌左邊筆桶' ok=True
+    never 手搖飲 [手搖飲|preference] -> 媽媽|preference 0.51 '不吃辣' ok=None
+    told  備用鑰匙 [車鑰匙|location] -> 備用鑰匙|location 0.73 '玄關吸鐵盒' ok=True
+    told  體重計 [車鑰匙|location] -> 體重計|location 0.65 '沙發底下' ok=True
+    never 西裝外套 [西裝外套|time] -> 乾洗收據|plan 0.53 '第9天去拿' ok=None
+    told  Kevin [Kevin|relation] -> 使用者|location 0.49 '備用鑰匙放在玄關吸鐵盒' ok=False
+    told  除濕機 [除濕機|status] -> air purifier|status 0.59 '剛清洗完，未乾，這兩天不要開' ok=False
+    never 台胞證 [台包|location] -> 簽證文件|location 0.65 '黑色後背包夾層' ok=None
+    told  血壓藥 [血壓藥|value] -> 血壓藥|plan 0.66 '每天早上飯後吃半顆' ok=True
+    never 包裹 [包裹|value] -> 帳篷|status 0.47 '已收在隨身托特包夾層' ok=None
+    told  存摺 [存折|location] -> 銀行文件|location 0.62 '隨身拖特包夾層' ok=True
+    told  修車行 [腳踏車維修費|value] -> 網路費|status 0.46 '已繳清' ok=False
+    told  小姑姑 [小姑姑|preference] -> 小姑姑|attribute 0.57 '對花生、甲殼類過敏' ok=True
+    never 洗碗機 [洗碗機|time] -> 洗牙|time 0.56 '第12天下午2點' ok=None
+    never 咖啡豆 [咖啡豆|attribute] -> 咖啡|preference 0.52 '冰燕麥拿鐵不加糖' ok=None
+    told  冷氣師傅 [冷氣師傅|time] -> 冷氣|status 0.54 '不冷' ok=False
+    told  行動電源 [黑色行動電源|location] -> 行動電源|location 0.69 '床頭櫃充電座' ok=True
+    told  露營帳篷 [露營帳篷|location] -> 露營燈|location 0.59 '陽台儲藏櫃第二層' ok=False
+    told  東京住宿 [東京飯店|location] -> 東京住宿|location 0.59 '上野車站附近飯店' ok=True
+    never 汽車保險 [汽車保險|time] -> meeting|time 0.51 '今天下午2:30' ok=None
+    never 機車鑰匙 [機車|location] -> 備用鑰匙|location 0.65 '拿去' ok=None
+    told  報稅資料夾 [冰箱磁鐵|location] -> 報稅資料夾|location 0.71 '書櫃第二層藍色L家' ok=True
+    never 游泳蛙鏡 [游泳鏡|location] -> 太陽眼鏡|location 0.58 '玄關鞋櫃最上面' ok=None
+    told  汽車保養 [汽車保養|time] -> 牙醫|time 0.55 '第3天下午2:30' ok=False
+    told  乾洗店取件單 [乾洗取件單|location] -> 乾洗收據|location 0.67 '冰箱門上磁鐵旁' ok=True
+    never 保溫杯 [保溫杯|location] -> 廚師機|location 0.54 '更衣室' ok=None

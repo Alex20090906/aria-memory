@@ -1,0 +1,21 @@
+== zh_result_F_stage_log.json
+  tau 0.6 E           : right 28 (direct 20, ask 8) | ask wrong 4 | direct wrong 6 | none 7 | never asked 3 answered 2
+  tau 0.6 P rho 0.75  : right 24 (direct 20, ask 4) | ask wrong 7 | direct wrong 6 | none 8 | never asked 2 answered 2
+  tau 0.6 P rho 0.85  : right 24 (direct 20, ask 4) | ask wrong 7 | direct wrong 6 | none 8 | never asked 2 answered 2
+  tau 0.6 P rho 1.0   : right 24 (direct 20, ask 4) | ask wrong 7 | direct wrong 6 | none 8 | never asked 2 answered 2
+  tau 0.6 E+P rho 0.75: right 28 (direct 20, ask 8) | ask wrong 7 | direct wrong 6 | none 4 | never asked 5 answered 2
+  tau 0.6 E+P rho 0.85: right 28 (direct 20, ask 8) | ask wrong 7 | direct wrong 6 | none 4 | never asked 5 answered 2
+  tau 0.6 E+P rho 1.0 : right 28 (direct 20, ask 8) | ask wrong 7 | direct wrong 6 | none 4 | never asked 5 answered 2
+    sound told  專案報告 [專案報告|time] -> 新Project專案報告|plan 1.00 '這禮拜五中午十二點前完成' ok=True
+    sound told  印表機墨水 [書房印表機墨水|location] -> 印表機|value 1.00 'HP68 黑色 x2' ok=True
+    sound told  媽媽生日聚餐 [媽媽生日聚餐|time] -> 聚餐|time 1.00 '第10天中午12點' ok=False
+    sound told  汽車保養 [汽車保養|time] -> 汽車|plan 1.00 '第9天早上9點' ok=False
+    sound told  除濕機 [除濕機|status] -> 廚師機|status 1.00 '第12天晚上7:30' ok=False
+    sound told  血壓藥 [血壓藥|value] -> 血壓藥|plan 1.00 '每天早上飯後吃半顆' ok=True
+    sound told  修車行 [腳踏車維修費|value] -> 腳踏車|status 1.00 '後輪破胎送修中' ok=False
+    sound never 咖啡豆 [咖啡豆|attribute] -> 咖啡|preference 1.00 '冰燕麥拿鐵不加糖' ok=None
+    sound told  冷氣師傅 [冷氣師傅|time] -> 冷氣|plan 1.00 '第13天早上10點維修' ok=False
+    sound told  行動電源 [黑色行動電源|location] -> 行動電源|location 1.00 '床頭櫃充電座' ok=True
+    sound never 汽車保險 [汽車保險|time] -> 汽車|plan 1.00 '第9天早上9點' ok=None
+    sound told  體重計電池 [體重計|value] -> 體重計電池|plan 1.00 '下次去全聯購買' ok=False
+    sound told  汽車保養 [汽車保養|time] -> 汽車|plan 1.00 '第9天早上9點' ok=False

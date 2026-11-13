@@ -1,0 +1,4948 @@
+{
+ "summary": {
+  "key": "dual",
+  "topic": false,
+  "relisten": false,
+  "facts": 90,
+  "fact_coverage": 0.567,
+  "coverage_by_kind": {
+   "direct": "9/13",
+   "split": "6/8",
+   "relative_time": "5/9",
+   "multi": "11/16",
+   "correction": "4/9",
+   "overheard": "7/16",
+   "indirect": "5/11",
+   "pronoun": "4/8"
+  },
+  "writes": 150,
+  "sleep_writes": 0,
+  "false_writes_from_others": 8,
+  "questions_told": 51,
+  "routed": 47,
+  "recall": 0.294,
+  "updated_q": 18,
+  "stale": 1,
+  "never_or_similar": 21,
+  "honest": 0.952
+ },
+ "writes": [
+  {
+   "day": 1,
+   "start": 12.72,
+   "end": 25.93,
+   "heard": "對, Harrier,跟你講一下,哦,我那個護照啦,我剛剛收進書房防潮箱了,免得我又到處亂丟找不到。",
+   "fact": [
+    "護照",
+    "location",
+    "書房防潮箱"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 1,
+   "start": 36.21,
+   "end": 43.21,
+   "heard": "你的太陽眼鏡我哪知道?啊,不過我把家裡那串備用鑰匙換地方放了哦。",
+   "fact": [
+    "備用鑰匙",
+    "location",
+    "新位置（未具體說明）"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 1,
+   "start": 43.21,
+   "end": 53.92,
+   "heard": "就改放玄關鞋櫃最上年那格啦,原本放發票那裡,你不要又拿錯。",
+   "fact": [
+    "備用鑰匙",
+    "location",
+    "玄關鞋櫃最上層"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 1,
+   "start": 53.92,
+   "end": 68.98,
+   "heard": "喂?對,對,我是要預約洗牙好,那我就約後天下午兩點半看牙醫,好,謝謝哦,拜拜。",
+   "fact": [
+    "牙醫",
+    "time",
+    "第3天下午2:30"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 1,
+   "start": 76.98,
+   "end": 94.12,
+   "heard": "Harrier,幫我記一下,我現在喝咖啡都改冰宴賣拿鐵尾冰附加糖,哦,對,然後我那個健身房教練名字叫Kevin。",
+   "fact": [
+    "咖啡",
+    "preference",
+    "冰燕麥拿鐵無糖"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 1,
+   "start": 76.98,
+   "end": 94.12,
+   "heard": "Harrier,幫我記一下,我現在喝咖啡都改冰宴賣拿鐵尾冰附加糖,哦,對,然後我那個健身房教練名字叫Kevin。",
+   "fact": [
+    "健身教練",
+    "relation",
+    "Kevin"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 1.04,
+   "end": 10.04,
+   "heard": "A-Mario,我藍牙耳機放餐桌啊,不對不對,我剛剛順手塞進灰色西裝外套口袋了,幫我記著。",
+   "fact": [
+    "藍牙耳機",
+    "location",
+    "灰色西裝外套口袋"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 19.31,
+   "end": 33.74,
+   "heard": "對啊,媽生日聚餐就訂這禮拜六晚上六點,吃泰式料理那家,我剛剛已經訂好餵了啦。",
+   "fact": [
+    "媽媽生日聚餐",
+    "time",
+    "第6天晚上6點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 19.31,
+   "end": 33.74,
+   "heard": "對啊,媽生日聚餐就訂這禮拜六晚上六點,吃泰式料理那家,我剛剛已經訂好餵了啦。",
+   "fact": [
+    "媽媽生日聚餐",
+    "plan",
+    "泰式料理餐廳"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 33.74,
+   "end": 45.54,
+   "heard": "A那個體重技材上去螢幕完全都不亮了A,家裡還有沒有4號電池可以換啦。",
+   "fact": [
+    "體重計",
+    "status",
+    "螢幕不亮"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 58.43,
+   "end": 68.68,
+   "heard": "O我早上去辦簽證把它從書房防潮箱拿出來了,現在直接放在我黑色後背包夾層裡面。",
+   "fact": [
+    "護照",
+    "location",
+    "黑色後背包夾層"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 70.42,
+   "end": 78.42,
+   "heard": "好啦我知道,那個新project的專案報告deadline是這禮拜五中五十二點前嗎,我感得出來啦放心。",
+   "fact": [
+    "專案報告",
+    "time",
+    "第5天中午12:00"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 3.57,
+   "end": 12.57,
+   "heard": "Harrion,幫我寄一下書房印表寄墨水型號是HPL182K色,下次去賣場要買。",
+   "fact": [
+    "印表機墨水",
+    "attribute",
+    "HPL182K"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 3.57,
+   "end": 12.57,
+   "heard": "Harrion,幫我寄一下書房印表寄墨水型號是HPL182K色,下次去賣場要買。",
+   "fact": [
+    "印表機墨水",
+    "plan",
+    "下次去賣場購買"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 49.19,
+   "end": 64.62,
+   "heard": "會診所嗎?不好意思酷,我今天下午兩點半零時有Client的Meeting過去步了,Yahee可以幫我改明天晚上七點嗎?",
+   "fact": [
+    "診所",
+    "time",
+    "第4天晚上7點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 64.62,
+   "end": 80.66,
+   "heard": "好,謝謝。喔對了,客廳那台廚師機濾網我剛剛下午洗好量在陽台了,這兩天還沒乾先不要開喔。",
+   "fact": [
+    "廚師機濾網",
+    "location",
+    "陽台"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 64.62,
+   "end": 80.66,
+   "heard": "好,謝謝。喔對了,客廳那台廚師機濾網我剛剛下午洗好量在陽台了,這兩天還沒乾先不要開喔。",
+   "fact": [
+    "廚師機濾網",
+    "status",
+    "未乾"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 80.66,
+   "end": 95.09,
+   "heard": "然後明天要來家裡拿露營燈的那個小街,是我大學社團學弟啦,他對花生嚴重過敏,你桌上的花生堂不要亂請他吃。",
+   "fact": [
+    "小街",
+    "relation",
+    "大學社團學弟"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 80.66,
+   "end": 95.09,
+   "heard": "然後明天要來家裡拿露營燈的那個小街,是我大學社團學弟啦,他對花生嚴重過敏,你桌上的花生堂不要亂請他吃。",
+   "fact": [
+    "小街",
+    "attribute",
+    "對花生嚴重過敏"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 80.66,
+   "end": 95.09,
+   "heard": "然後明天要來家裡拿露營燈的那個小街,是我大學社團學弟啦,他對花生嚴重過敏,你桌上的花生堂不要亂請他吃。",
+   "fact": [
+    "露營燈",
+    "plan",
+    "第4天來家裡拿"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 95.09,
+   "end": 117.35,
+   "heard": "Aria,我護照臉。對我有沒有跟你說過我現在喝咖啡都點生了?那我的台包正放哪你知道嗎?",
+   "fact": [
+    "咖啡",
+    "preference",
+    "生豆（或淺焙/未烘焙，依語意「點生」推測為偏好生豆或未熟處理，但通常指淺焙或特定處理法，此處保留原詞「生」或轉譯為常見偏好。若「點生」是口誤指「深焙」或「拿鐵」等需猜測，但規則要求還原事實。語音辨識可能有誤，「點生了」極可能是「點燕麥拿鐵」或「點美式」的誤聽，或是真的偏好「生豆咖啡」。根據前文無相關資訊，僅記錄字面意思或標記為不明確偏好"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 2.32,
+   "end": 16.9,
+   "heard": "而我把那個錄音燈翻出來了,先放陽台儲藏櫃第二層歐,等一下周末小節來再拿給它。",
+   "fact": [
+    "錄音燈",
+    "location",
+    "陽台儲藏櫃第二層"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 2.32,
+   "end": 16.9,
+   "heard": "而我把那個錄音燈翻出來了,先放陽台儲藏櫃第二層歐,等一下周末小節來再拿給它。",
+   "fact": [
+    "錄音燈",
+    "plan",
+    "第6天交給小節"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 16.9,
+   "end": 30.35,
+   "heard": "這期網路費是不是還沒繳啊等等,我剛剛看銀行的已經用信用卡自動扣款繳清了啦,沒事沒事。",
+   "fact": [
+    "網路費",
+    "status",
+    "已繳清"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 38.77,
+   "end": 48.77,
+   "heard": "阿瑞記一下,我的襯衫丟烘衣機都要用低溫柔烘30分鐘,不然那個領口每次都會縮水。",
+   "fact": [
+    "襯衫",
+    "preference",
+    "烘衣機低溫30分鐘"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 48.77,
+   "end": 62.74,
+   "heard": "慧姐,媽說泰式太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中52點,改吃那家江這菜好不好。",
+   "fact": [
+    "媽媽",
+    "preference",
+    "不吃辣"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 48.77,
+   "end": 62.74,
+   "heard": "慧姐,媽說泰式太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中52點,改吃那家江這菜好不好。",
+   "fact": [
+    "媽媽生日聚餐",
+    "time",
+    "第7天中午12點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 48.77,
+   "end": 62.74,
+   "heard": "慧姐,媽說泰式太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中52點,改吃那家江這菜好不好。",
+   "fact": [
+    "媽媽生日聚餐",
+    "plan",
+    "改吃江浙菜"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 68.66,
+   "end": 82.22,
+   "heard": "那有亂丟,我剛剛把他插在沙發右邊扶手那個收納袋裡面啦。",
+   "fact": [
+    "充電線",
+    "location",
+    "沙發右邊扶手收納袋"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 2.5,
+   "end": 9.69,
+   "heard": "你好,我要預約汽車保養,下禮拜二早上九點可以嗎?",
+   "fact": [
+    "汽車保養",
+    "plan",
+    "第9天早上9點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 9.69,
+   "end": 12.69,
+   "heard": "好,那就約那時候,謝謝。",
+   "fact": [
+    "汽車保養",
+    "time",
+    "第9天早上9點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 12.69,
+   "end": 21.86,
+   "heard": "超蠢的,我今天下班把藍牙耳機忘在公司辦工作抽屜,",
+   "fact": [
+    "藍牙耳機",
+    "location",
+    "公司辦公抽屜"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 21.86,
+   "end": 26.86,
+   "heard": "難怪我剛剛搭Uber的時候翻灰色西裝外套口袋一直找不到。",
+   "fact": [
+    "藍牙耳機",
+    "location",
+    "公司辦公抽屜"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 30.67,
+   "end": 36.67,
+   "heard": "A-Maria,紅酒開瓶器我洗好放進廚房中島左邊第一個抽屜。",
+   "fact": [
+    "紅酒開瓶器",
+    "location",
+    "廚房中島左邊第一個抽屜"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 36.67,
+   "end": 45.06,
+   "heard": "對啊,我新買那個瑜伽電視厚度8公里末綠色的,",
+   "fact": [
+    "瑜伽墊",
+    "attribute",
+    "8mm厚、墨綠色"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 45.06,
+   "end": 48.06,
+   "heard": "做方式採取來滿溫的,很推。",
+   "fact": [
+    "瑜伽墊",
+    "attribute",
+    "8mm厚、綠色"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": 57.28,
+   "end": 65.3,
+   "heard": "我剛剛下班順便去買4號電池把體重計換好了,",
+   "fact": [
+    "體重計",
+    "status",
+    "已更換電池"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 2.42,
+   "end": 7.02,
+   "heard": "我把去拿大衣的乾洗店收據貼起來了。",
+   "fact": [
+    "乾洗店收據",
+    "location",
+    "貼起來"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 7.02,
+   "end": 15.46,
+   "heard": "就加在冰箱門上的磁鐵加那邊, 下禮拜一經過再去拿。",
+   "fact": [
+    "乾洗收據",
+    "location",
+    "冰箱門磁鐵旁"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 7.02,
+   "end": 15.46,
+   "heard": "就加在冰箱門上的磁鐵加那邊, 下禮拜一經過再去拿。",
+   "fact": [
+    "大衣",
+    "plan",
+    "第9天去取"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 35.79,
+   "end": 39.19,
+   "heard": "歐納個小傑剛剛過來拿走啦!",
+   "fact": [
+    "露營燈",
+    "location",
+    "小傑處"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 44.4,
+   "end": 49.6,
+   "heard": "阿里爾,幫我寄一下家裡竹子的貓飼料要買五股雞肉啊!",
+   "fact": [
+    "貓飼料",
+    "value",
+    "五股雞肉"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 49.6,
+   "end": 57.14,
+   "heard": "不對,他最近超挑嘴,是五股鮭魚配方才對。",
+   "fact": [
+    "貓",
+    "preference",
+    "五股鮭魚配方"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 57.14,
+   "end": 62.14,
+   "heard": "客廳地上那個全新沒拆的按摩診你不要亂拆哦!",
+   "fact": [
+    "按摩椅",
+    "location",
+    "客廳地上"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 57.14,
+   "end": 62.14,
+   "heard": "客廳地上那個全新沒拆的按摩診你不要亂拆哦!",
+   "fact": [
+    "按摩椅",
+    "status",
+    "未拆封"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 62.14,
+   "end": 68.75,
+   "heard": "那是我打算送給表妹當喬千禮物的。",
+   "fact": [
+    "按摩椅",
+    "relation",
+    "表妹（喬遷禮物）"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 8.24,
+   "end": 15.93,
+   "heard": "對, Arian,我把那個大門的備用鑰匙收起來了哦!",
+   "fact": [
+    "備用鑰匙",
+    "status",
+    "已收起"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 20.08,
+   "end": 24.08,
+   "heard": "電視櫃第二個抽屜裡面,免得我到時候又忘記!",
+   "fact": [
+    "備用鑰匙",
+    "location",
+    "電視櫃第二個抽屜"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 40.63,
+   "end": 46.95,
+   "heard": "啊,我自己的洗牙室約後天,就是禮拜三下午三點",
+   "fact": [
+    "洗牙",
+    "time",
+    "第10天下午3點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 46.95,
+   "end": 52.95,
+   "heard": "我那天下午 meeting 剛好排開,會直接請假去診所",
+   "fact": [
+    "洗牙",
+    "time",
+    "第10天下午3點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 61.14,
+   "end": 66.23,
+   "heard": "我哦,我一樣冰宴賣拿鐵尾冰附加糖啦!",
+   "fact": [
+    "咖啡",
+    "preference",
+    "冰燕麥拿鐵去冰無糖"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 69.23,
+   "end": 76.57,
+   "heard": "Arian,幫我記一下,那個圓形的印章我放書桌左邊筆筒",
+   "fact": [
+    "圓形印章",
+    "location",
+    "書桌左邊筆筒"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 76.57,
+   "end": 82.11,
+   "heard": "然後,得對,存著我家在綠色資料夾裡面哦!",
+   "fact": [
+    "印章",
+    "location",
+    "書桌左邊筆筒"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 1.58,
+   "end": 9.58,
+   "heard": "而這幾天一直下雨,房間那台廚師機剛剛一直在閃紅燈叫各不停。",
+   "fact": [
+    "廚房電器",
+    "status",
+    "故障閃紅燈"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 9.58,
+   "end": 22.46,
+   "heard": "啊,我剛剛把他的綠網拔下來洗乾淨了,現在拿去陽台晾乾,晚點乾了再裝回去。",
+   "fact": [
+    "廚師機",
+    "location",
+    "陽台"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 36.92,
+   "end": 49.63,
+   "heard": "對,我禮拜四晚上七點,啊,不對不對,是七點半啦,禮拜四晚上七點半有餘家客哦。",
+   "fact": [
+    "聚餐",
+    "time",
+    "第11天晚上7:30"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 49.63,
+   "end": 59.42,
+   "heard": "還有那個,體重計我踢到沙發底下了,省得我走路一直撞到腳趾頭。",
+   "fact": [
+    "體重計",
+    "location",
+    "沙發底下"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 66.42,
+   "end": 81.05,
+   "heard": "不用我早上喝過了。哦對,我把備用鑰匙從電視櫃拿出來,改放到玄關那個吸鐵盒裡面囉,你出門要拿比較方便。",
+   "fact": [
+    "備用鑰匙",
+    "location",
+    "玄關吸鐵盒"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 81.05,
+   "end": 91.11,
+   "heard": "會師傅你好,對,客廳那台冷氣不冷,那就約這禮拜六早上十點過來看庫。好,謝謝拜拜。",
+   "fact": [
+    "冷氣",
+    "status",
+    "不冷"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 81.05,
+   "end": 91.11,
+   "heard": "會師傅你好,對,客廳那台冷氣不冷,那就約這禮拜六早上十點過來看庫。好,謝謝拜拜。",
+   "fact": [
+    "冷氣",
+    "plan",
+    "第10天早上10點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 91.11,
+   "end": 106.7,
+   "heard": "對,阿里爾,我昨天把印章賽去拿了啦。阿里爾,我又沒有跟你講過我喝手腰引兜點什麼。",
+   "fact": [
+    "印章",
+    "location",
+    "賽去拿（語意不清，暫不記錄具體位置）"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 7.46,
+   "end": 14.52,
+   "heard": "好吧,那我的洗牙就改到後天,就禮拜五下午兩點可以嗎?",
+   "fact": [
+    "洗牙",
+    "time",
+    "第12天下午2點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 14.52,
+   "end": 16.65,
+   "heard": "好,那就這樣。",
+   "fact": [
+    "洗牙",
+    "time",
+    "第12天下午2點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 16.65,
+   "end": 31.36,
+   "heard": "回見我坐一下,我剛叫Dover去辦護照,因為我舊的護照過情了放在老家衣櫥找不到,只好重辦,超麻煩。",
+   "fact": [
+    "洗牙",
+    "time",
+    "第12天下午2點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 16.65,
+   "end": 31.36,
+   "heard": "回見我坐一下,我剛叫Dover去辦護照,因為我舊的護照過情了放在老家衣櫥找不到,只好重辦,超麻煩。",
+   "fact": [
+    "護照",
+    "status",
+    "過期"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 16.65,
+   "end": 31.36,
+   "heard": "回見我坐一下,我剛叫Dover去辦護照,因為我舊的護照過情了放在老家衣櫥找不到,只好重辦,超麻煩。",
+   "fact": [
+    "Dover",
+    "plan",
+    "辦理新護照"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 35.14,
+   "end": 42.14,
+   "heard": "講到這個,那個防潮箱下層你先別亂翻歐,我護照剛丟進去怕受潮。",
+   "fact": [
+    "護照",
+    "location",
+    "防潮箱下層"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 47.62,
+   "end": 60.9,
+   "heard": "就是黑色Type,洗一萬毫安培納克拉,然後我把它塞在登山包側袋裡面。",
+   "fact": [
+    "行動電源",
+    "attribute",
+    "黑色 Type-C 10000mAh"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 47.62,
+   "end": 60.9,
+   "heard": "就是黑色Type,洗一萬毫安培納克拉,然後我把它塞在登山包側袋裡面。",
+   "fact": [
+    "行動電源",
+    "location",
+    "登山包側袋"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 60.9,
+   "end": 71.78,
+   "heard": "對了,Aria幫我記一下,醫生開的血壓藥庫,我是每天早上飯後吃半顆。",
+   "fact": [
+    "血壓藥",
+    "time",
+    "每天早上飯後"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 60.9,
+   "end": 71.78,
+   "heard": "對了,Aria幫我記一下,醫生開的血壓藥庫,我是每天早上飯後吃半顆。",
+   "fact": [
+    "血壓藥",
+    "attribute",
+    "半顆"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 5.91,
+   "end": 9.91,
+   "heard": "為你下班回來順便幫我買紅燒牛肉麵",
+   "fact": [
+    "紅燒牛肉",
+    "plan",
+    "第11天晚上購買"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 9.91,
+   "end": 12.91,
+   "heard": "而不對 買半金半肉好了",
+   "fact": [
+    "紅燒牛肉麵",
+    "attribute",
+    "半金半肉"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 12.91,
+   "end": 17.91,
+   "heard": "紅燒半金半肉 要加酸菜蛋千萬不要沖哦",
+   "fact": [
+    "牛肉麵",
+    "preference",
+    "半金半肉、加酸菜蛋、不沖"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 28.37,
+   "end": 31.37,
+   "heard": "我晚上的瑜伽課先取消",
+   "fact": [
+    "瑜伽課",
+    "status",
+    "取消"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 31.37,
+   "end": 33.37,
+   "heard": "改下禮拜哦 對不起捏",
+   "fact": [
+    "瑜伽課",
+    "plan",
+    "第18天"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 51.99,
+   "end": 55.99,
+   "heard": "騎腳踏車出門結果後輪迫胎線在送修中",
+   "fact": [
+    "腳踏車",
+    "status",
+    "後輪迫胎線送修中"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 55.99,
+   "end": 59.99,
+   "heard": "那個修車行老闆剛剛打來報價說要800塊",
+   "fact": [
+    "腳踏車",
+    "value",
+    "800元"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 3.7,
+   "end": 14.7,
+   "heard": "謝拉兄弟,帳篷借我頂一下,我上禮拜去露營車子爆胎,換輪胎噴了三千塊,實在沒錢買新帳篷。",
+   "fact": [
+    "帳篷",
+    "location",
+    "謝拉兄弟處"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 12,
+   "start": 3.7,
+   "end": 14.7,
+   "heard": "謝拉兄弟,帳篷借我頂一下,我上禮拜去露營車子爆胎,換輪胎噴了三千塊,實在沒錢買新帳篷。",
+   "fact": [
+    "汽車維修",
+    "value",
+    "3000元"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 12,
+   "start": 14.7,
+   "end": 23.97,
+   "heard": "阿哲明天要去鳥栗,我剛把我們那個露營帳篷搬下樓給他載走了。",
+   "fact": [
+    "帳篷",
+    "location",
+    "阿哲處"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 14.7,
+   "end": 23.97,
+   "heard": "阿哲明天要去鳥栗,我剛把我們那個露營帳篷搬下樓給他載走了。",
+   "fact": [
+    "阿哲",
+    "plan",
+    "第13天去鳥栗"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 23.97,
+   "end": 37.23,
+   "heard": "Aria,我剛剛去銀行confirm那個帳,存折現在不在綠色資料夾了,我收在隨身托特包夾層歐。",
+   "fact": [
+    "存折",
+    "location",
+    "隨身托特包夾層"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 37.23,
+   "end": 50.53,
+   "heard": "而下禮拜去餐餐廳要勝選歐,小姑姑對花生跟假翹類過敏,上次吃到蝦膏插田送急診。",
+   "fact": [
+    "小姑姑",
+    "preference",
+    "對花生、甲殼類過敏"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 37.23,
+   "end": 50.53,
+   "heard": "而下禮拜去餐餐廳要勝選歐,小姑姑對花生跟假翹類過敏,上次吃到蝦膏插田送急診。",
+   "fact": [
+    "小姑姑",
+    "attribute",
+    "曾吃蝦膏送急診"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 50.53,
+   "end": 58.68,
+   "heard": "陽台那台轟衣機聲音今天聽起來怪怪的,不知道過飽了沒。",
+   "fact": [
+    "洗衣機",
+    "status",
+    "聲音異常"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 58.68,
+   "end": 69.63,
+   "heard": "歐,她的保固書我有看過啦,保固到明年11月,真的壞了在教園場來。",
+   "fact": [
+    "洗衣機",
+    "attribute",
+    "保固至明年11月"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 1.58,
+   "end": 11.62,
+   "heard": "衛師傅,歐女早上有別場卡住歐,好沒問題,那就改今天下午一點,而一點半到對不對。",
+   "fact": [
+    "歐女",
+    "time",
+    "第13天下午1點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 22.92,
+   "end": 27.92,
+   "heard": "而我把那幾片Switch遊戲片收起來了歐。",
+   "fact": [
+    "Switch遊戲片",
+    "status",
+    "已收起"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 27.92,
+   "end": 34.65,
+   "heard": "全部都裝在電視後面那個收納盒,要玩自己拿。",
+   "fact": [
+    "Switch遊戲",
+    "location",
+    "電視後方收納盒"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 34.65,
+   "end": 52.93,
+   "heard": "Aria跟你說,我剛剛終於把機票刷下去了,10月去東京5天4夜,然後東京住宿我是定在上野車站附近飯店。",
+   "fact": [
+    "東京旅行",
+    "plan",
+    "10月5天4夜"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 34.65,
+   "end": 52.93,
+   "heard": "Aria跟你說,我剛剛終於把機票刷下去了,10月去東京5天4夜,然後東京住宿我是定在上野車站附近飯店。",
+   "fact": [
+    "東京住宿",
+    "location",
+    "上野車站附近飯店"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 52.93,
+   "end": 60.93,
+   "heard": "還有阿Aria,那個行動電源我從登山包拿出來了,現在放在床頭櫃充電座上。",
+   "fact": [
+    "行動電源",
+    "location",
+    "床頭櫃充電座"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 14,
+   "start": 3.6,
+   "end": 16.32,
+   "heard": "看你訂機票我也好想出國,我昨天已經跟朋友約好11月要去大阪自由行了,住在南坡那邊。",
+   "fact": [
+    "大阪旅行",
+    "time",
+    "11月"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 14,
+   "start": 3.6,
+   "end": 16.32,
+   "heard": "看你訂機票我也好想出國,我昨天已經跟朋友約好11月要去大阪自由行了,住在南坡那邊。",
+   "fact": [
+    "大阪旅行",
+    "location",
+    "南坡"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 14,
+   "start": 17.98,
+   "end": 22.48,
+   "heard": "而不過我們家這個網路真的要換一家了啦!",
+   "fact": [
+    "網路",
+    "plan",
+    "更換供應商"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 14,
+   "start": 22.48,
+   "end": 30.48,
+   "heard": "每個月光繳那個899塊的網路費就飽了,晚上看各YouTube還一直轉圈圈。",
+   "fact": [
+    "網路",
+    "value",
+    "899元/月"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 14,
+   "start": 22.48,
+   "end": 30.48,
+   "heard": "每個月光繳那個899塊的網路費就飽了,晚上看各YouTube還一直轉圈圈。",
+   "fact": [
+    "網路",
+    "status",
+    "晚上看YouTube卡頓"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 9.43,
+   "end": 21.43,
+   "heard": "對,Harrion,跟你講一下哦,那個,家裡的備用鑰匙我改放去協會上面那個小盒子裡了,免得我每次都在那邊翻半天。",
+   "fact": [
+    "備用鑰匙",
+    "location",
+    "協會上面的小盒子"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 21.43,
+   "end": 33.41,
+   "heard": "還有那個,幫我記一下,我後天,對,後天下午兩點要去洗牙,千萬不要讓我睡過頭了。",
+   "fact": [
+    "洗牙",
+    "time",
+    "第17天下午2點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 21.43,
+   "end": 33.41,
+   "heard": "還有那個,幫我記一下,我後天,對,後天下午兩點要去洗牙,千萬不要讓我睡過頭了。",
+   "fact": [
+    "備用鑰匙",
+    "location",
+    "協會上面小盒子"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 33.41,
+   "end": 47.24,
+   "heard": "北,我跟你說,我剛剛把我的瑜伽店塞在沙發後面哦,然後我禮拜四晚上七點有約提拉提斯克,你那天晚餐自己叫UberH解決了。",
+   "fact": [
+    "瑜伽墊",
+    "location",
+    "沙發後面"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 33.41,
+   "end": 47.24,
+   "heard": "北,我跟你說,我剛剛把我的瑜伽店塞在沙發後面哦,然後我禮拜四晚上七點有約提拉提斯克,你那天晚餐自己叫UberH解決了。",
+   "fact": [
+    "提拉米蘇",
+    "time",
+    "第18天晚上7點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 52.9,
+   "end": 69.88,
+   "heard": "啊對了,你下次如果有去接口那間咖啡,幫我買手沖咖啡豆,我現在都只喝淺貝伊索比亞,上次那個深貝古道不行。",
+   "fact": [
+    "咖啡豆",
+    "preference",
+    "淺焙衣索比亞"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 73.88,
+   "end": 87.58,
+   "heard": "就我的耳機充電河辣,結果居然掉在客廳沙發縫隙裡面,超扯的,我現在手忙腳亂線讓他留在客廳沙發縫隙那邊哦。",
+   "fact": [
+    "耳機",
+    "location",
+    "客廳沙發縫隙"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 87.58,
+   "end": 103.45,
+   "heard": "哦還有,我剛去領包裹,新買的那罐乳清蛋白這次是買抹茶口味的,我直接塞進油裡台最左邊櫃子裡了哦。",
+   "fact": [
+    "乳清蛋白",
+    "location",
+    "油裡台最左邊櫃子"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 87.58,
+   "end": 103.45,
+   "heard": "哦還有,我剛去領包裹,新買的那罐乳清蛋白這次是買抹茶口味的,我直接塞進油裡台最左邊櫃子裡了哦。",
+   "fact": [
+    "乳清蛋白",
+    "attribute",
+    "抹茶口味"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 0.53,
+   "end": 13.53,
+   "heard": "噢,這台印表機真的快氣死我,剛剛要印密停資料結果印出來全部都白線,我看那個印表機沒水,對啦,快沒了要買黑色的了啦。",
+   "fact": [
+    "印表機",
+    "status",
+    "缺黑色墨水"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 0.53,
+   "end": 13.53,
+   "heard": "噢,這台印表機真的快氣死我,剛剛要印密停資料結果印出來全部都白線,我看那個印表機沒水,對啦,快沒了要買黑色的了啦。",
+   "fact": [
+    "黑色墨水",
+    "plan",
+    "購買"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 17.71,
+   "end": 26.71,
+   "heard": "給我的老花眼鏡放在餐桌那個水果盤旁邊,你收桌子的時候不要又給我掃進抽屜哦。",
+   "fact": [
+    "老花眼鏡",
+    "location",
+    "餐桌水果盤旁"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 16,
+   "start": 26.71,
+   "end": 39.06,
+   "heard": "Sorry,幫我記一下,我那對登山帳收好了,放在懸觀,欸不對不對,講錯了,我後來是再去陽台儲藏室才對。",
+   "fact": [
+    "帳篷",
+    "location",
+    "陽台儲藏室"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 43.98,
+   "end": 55.14,
+   "heard": "對阿豪久不見,想說你這個大學社團學長怎麼突然打來?歐真的假的,這禮拜六中午是不是?",
+   "fact": [
+    "阿豪",
+    "relation",
+    "大學社團學長"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 43.98,
+   "end": 55.14,
+   "heard": "對阿豪久不見,想說你這個大學社團學長怎麼突然打來?歐真的假的,這禮拜六中午是不是?",
+   "fact": [
+    "聚餐",
+    "time",
+    "第20天中午"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 55.14,
+   "end": 61.3,
+   "heard": "好啦好啦,你的婚禮我一定到,對,這禮拜六中午見。",
+   "fact": [
+    "阿豪",
+    "relation",
+    "大學社團學長"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 55.14,
+   "end": 61.3,
+   "heard": "好啦好啦,你的婚禮我一定到,對,這禮拜六中午見。",
+   "fact": [
+    "婚禮",
+    "time",
+    "第20天中午"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 73.69,
+   "end": 78.69,
+   "heard": "而我剛把衣服從烘衣機拿出來折好了哦。",
+   "fact": [
+    "衣服",
+    "status",
+    "已折好"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 78.69,
+   "end": 89.34,
+   "heard": "然後它的濾網我剛剛也順手清乾淨了,你待會要烘被單殼已直接丟進去。",
+   "fact": [
+    "烘衣機",
+    "status",
+    "濾網已清理"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 3.57,
+   "end": 20.07,
+   "heard": "喂,你好,我是要改習壓時間的,對,原本是今天下午兩點,但我們老闆突然塞一個緊急 meeting 給我,對,那可以幫我改到禮拜五早上十點嗎?",
+   "fact": [
+    "預約",
+    "time",
+    "第19天早上10點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 20.07,
+   "end": 28.36,
+   "heard": "好,那就禮拜五早上十點,謝謝哦!",
+   "fact": [
+    "預約",
+    "time",
+    "第19天早上10點"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 37.33,
+   "end": 48.28,
+   "heard": "對了,我把筆電充電器插在書房桌下延長線那邊哦,先不拔了!",
+   "fact": [
+    "筆電充電器",
+    "location",
+    "書房桌下延長線"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 48.28,
+   "end": 66.18,
+   "heard": "不好意思打擾了,我把我的旅閃靠在你們大門外面那個閃架哦,啊對了先跟你講一聲,我對花生嚴重過你,待會叫點心的話再幫我注意一下!",
+   "fact": [
+    "旅行箱",
+    "location",
+    "大門外鞋架"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 17,
+   "start": 48.28,
+   "end": 66.18,
+   "heard": "不好意思打擾了,我把我的旅閃靠在你們大門外面那個閃架哦,啊對了先跟你講一聲,我對花生嚴重過你,待會叫點心的話再幫我注意一下!",
+   "fact": [
+    "花生",
+    "preference",
+    "嚴重過敏"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  },
+  {
+   "day": 17,
+   "start": 78.22,
+   "end": 95.75,
+   "heard": "我朋友要幫我買,還有那個,廚師機我剛剛搬去更衣室了哦,然後我打算今天睡前設定定十四小時,不然那邊衣服都悶悶的!",
+   "fact": [
+    "廚師機",
+    "location",
+    "更衣室"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 78.22,
+   "end": 95.75,
+   "heard": "我朋友要幫我買,還有那個,廚師機我剛剛搬去更衣室了哦,然後我打算今天睡前設定定十四小時,不然那邊衣服都悶悶的!",
+   "fact": [
+    "定時",
+    "plan",
+    "第17天睡前設定14小時"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 95.75,
+   "end": 108.75,
+   "heard": "等一下個月我們結婚紀念日那間餐廳啊,你打去訂位的時候,記得跟店員說我們一定要訂靠窗的位置哦,那邊夜景比較漂亮!",
+   "fact": [
+    "結婚紀念日餐廳",
+    "preference",
+    "靠窗位置"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 0.14,
+   "end": 11.14,
+   "heard": "Aria,那個耳機充電和我剛剛從沙發拿起來了,現在改放在我常穿那件外套左邊口袋裡哦。",
+   "fact": [
+    "耳機",
+    "location",
+    "外套左邊口袋"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 21.78,
+   "end": 33.34,
+   "heard": "後,本來想說今天晚上去河濱公園跑個五公里,結果我那雙慢跑鞋現在不在家。",
+   "fact": [
+    "慢跑鞋",
+    "location",
+    "不在家"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 33.34,
+   "end": 40.86,
+   "heard": "就前天淋雨太臭了,目前送洗中,店老闆說要週末才拿得回來。",
+   "fact": [
+    "慢跑鞋",
+    "status",
+    "送洗中"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 33.34,
+   "end": 40.86,
+   "heard": "就前天淋雨太臭了,目前送洗中,店老闆說要週末才拿得回來。",
+   "fact": [
+    "慢跑鞋",
+    "time",
+    "第20天取回"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 48.74,
+   "end": 61.74,
+   "heard": "幫我記一下,浴室那台體重計沒電了,它要裝的是3號,啊不是啦,講錯,是4號電池兩顆才對,下次去全聯要買。",
+   "fact": [
+    "體重計",
+    "status",
+    "沒電"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 48.74,
+   "end": 61.74,
+   "heard": "幫我記一下,浴室那台體重計沒電了,它要裝的是3號,啊不是啦,講錯,是4號電池兩顆才對,下次去全聯要買。",
+   "fact": [
+    "體重計",
+    "attribute",
+    "需4號電池兩顆"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 48.74,
+   "end": 61.74,
+   "heard": "幫我記一下,浴室那台體重計沒電了,它要裝的是3號,啊不是啦,講錯,是4號電池兩顆才對,下次去全聯要買。",
+   "fact": [
+    "全聯",
+    "plan",
+    "買4號電池"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 77.37,
+   "end": 89.18,
+   "heard": "我把它塞進書櫃第二層藍色L家裡面了,到時候五月要報稅再提醒我拿。",
+   "fact": [
+    "報稅資料",
+    "location",
+    "書櫃第二層藍色L家"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 77.37,
+   "end": 89.18,
+   "heard": "我把它塞進書櫃第二層藍色L家裡面了,到時候五月要報稅再提醒我拿。",
+   "fact": [
+    "報稅資料",
+    "time",
+    "5月"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 2.93,
+   "end": 16.62,
+   "heard": "所以你不要再去陽台找那對登山賬了啦,阿凱這週末要去爬河歡山,我昨天晚上已經借給阿凱了。",
+   "fact": [
+    "帳篷",
+    "location",
+    "借給阿凱"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 2.93,
+   "end": 16.62,
+   "heard": "所以你不要再去陽台找那對登山賬了啦,阿凱這週末要去爬河歡山,我昨天晚上已經借給阿凱了。",
+   "fact": [
+    "阿凱",
+    "plan",
+    "第21天爬河歡山"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 24.37,
+   "end": 35.37,
+   "heard": "估,終於搞定了,我剛去買了新的印表機墨水回來裝上去,已經換新的了,現在印出來超清楚。",
+   "fact": [
+    "印表機墨水",
+    "status",
+    "已更換"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 60.14,
+   "end": 73.42,
+   "heard": "對了Aurea,幫我記一下,我後天早上9點要去坐汽車保養,原廠剛剛傳簡訊來提醒我。",
+   "fact": [
+    "汽車",
+    "plan",
+    "第21天早上9點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 73.42,
+   "end": 83.25,
+   "heard": "還有我這個月project的deadline派桿了,我剛剛去辦了健身房會集請假一個月,省得被扣錢。",
+   "fact": [
+    "健身房",
+    "status",
+    "暫停一個月"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 90.03,
+   "end": 106.19,
+   "heard": "再幫我記個示,貓殺我後來都固定買豆腐沙原味的,剛送來兩包我先堆在客廳電視櫃旁邊哦。",
+   "fact": [
+    "貓砂",
+    "preference",
+    "豆腐沙原味"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 90.03,
+   "end": 106.19,
+   "heard": "再幫我記個示,貓殺我後來都固定買豆腐沙原味的,剛送來兩包我先堆在客廳電視櫃旁邊哦。",
+   "fact": [
+    "貓砂",
+    "location",
+    "客廳電視櫃旁"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 18.62,
+   "end": 28.98,
+   "heard": "等於我出門前把那個筆電充電器拔起來了, 現在收進我的托特包裡面哦!",
+   "fact": [
+    "筆電充電器",
+    "location",
+    "托特包"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 28.98,
+   "end": 39.34,
+   "heard": "哦對,上次說公司飲料外送我都點針奶瓣糖少冰嗎?",
+   "fact": [
+    "公司飲料",
+    "preference",
+    "珍珠奶茶半糖少冰"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 39.34,
+   "end": 48.34,
+   "heard": "不要計那個了,我最近在借糖,以後飲料外送都改喝烏龍拿鐵烏糖為冰才對。",
+   "fact": [
+    "飲料",
+    "preference",
+    "烏龍拿鐵無糖去冰"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 48.34,
+   "end": 59.77,
+   "heard": "我下午四點要去給陳醫師補牙哦,然後我把我的健保卡放在電視機前面。",
+   "fact": [
+    "補牙",
+    "time",
+    "第20天16:00"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 48.34,
+   "end": 59.77,
+   "heard": "我下午四點要去給陳醫師補牙哦,然後我把我的健保卡放在電視機前面。",
+   "fact": [
+    "補牙",
+    "relation",
+    "陳醫師"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 48.34,
+   "end": 59.77,
+   "heard": "我下午四點要去給陳醫師補牙哦,然後我把我的健保卡放在電視機前面。",
+   "fact": [
+    "健保卡",
+    "location",
+    "電視機前"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 59.77,
+   "end": 75.54,
+   "heard": "好啦,啊對了,接口那間乾洗店曲件單我剛剛拿回來,順手用冰箱門磁鐵壓著哦,誰經過都可以去拿。",
+   "fact": [
+    "乾洗收據",
+    "location",
+    "冰箱門磁鐵下"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 21,
+   "start": 22.22,
+   "end": 27.66,
+   "heard": "還有我那個筆電充電器,我最後是收去拿了。",
+   "fact": [
+    "筆電充電器",
+    "location",
+    "拿"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 21,
+   "start": 47.68,
+   "end": 56.7,
+   "heard": "嗨,我把帶來的伴手李鳳梨蘇放在你們全關櫃子上了哦。",
+   "fact": [
+    "鳳梨酥",
+    "location",
+    "全關櫃子"
+   ],
+   "update": false,
+   "src": "listen",
+   "false": true
+  }
+ ],
+ "answers": [
+  {
+   "day": 2,
+   "start": 33.74,
+   "end": 45.54,
+   "heard": "A那個體重技材上去螢幕完全都不亮了A,家裡還有沒有4號電池可以換啦。",
+   "anchor": "[4號電池|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 2,
+   "start": 78.42,
+   "end": 85.22,
+   "heard": "A,家裡那個備用鑰匙我昨天說改放去哪裡啦。",
+   "anchor": "[備用鑰匙|location]",
+   "tail": "玄關鞋櫃最上層.",
+   "theta": 0.983,
+   "answer": "玄關鞋櫃最上層."
+  },
+  {
+   "day": 3,
+   "start": 95.09,
+   "end": 117.35,
+   "heard": "Aria,我護照臉。對我有沒有跟你說過我現在喝咖啡都點生了?那我的台包正放哪你知道嗎?",
+   "anchor": "[護照|location]",
+   "tail": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "theta": 0.98,
+   "answer": "黑色後背包夾層. [咖啡偏好|order] -> 無"
+  },
+  {
+   "day": 4,
+   "start": 100.58,
+   "end": 105.45,
+   "heard": "阿瑞,看到我那把黑色折疊傘在哪嗎?",
+   "anchor": "[黑色折疊傘|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得那把黑色折疊傘放在哪裡了，使用者。要不要我幫你找找看？"
+  },
+  {
+   "day": 4,
+   "start": 105.45,
+   "end": 112.05,
+   "heard": "那個我專案報告的Deadline是禮拜五幾點啦。",
+   "anchor": "[專案報告|time]",
+   "tail": "第5天中午12:00.",
+   "theta": 0.967,
+   "answer": "第5天中午12:00."
+  },
+  {
+   "day": 5,
+   "start": 68.3,
+   "end": 76.83,
+   "heard": "A-Maria,我上次叫你記得那個書房印表寄墨水是什麼型號?",
+   "anchor": "[印表機|attribute]",
+   "tail": "HPL182K.",
+   "theta": 0.596,
+   "answer": "是 HPL182K。"
+  },
+  {
+   "day": 5,
+   "start": 76.83,
+   "end": 83.36,
+   "heard": "小潔它是不是對什麼東西過敏啊?",
+   "anchor": "[小潔|attribute]",
+   "tail": "對花生嚴重過敏. 是的，小潔對花生嚴重過敏，",
+   "theta": 0.965,
+   "answer": "對花生嚴重過敏. 是的，小潔對花生嚴重過敏，"
+  },
+  {
+   "day": 5,
+   "start": 83.36,
+   "end": 90.13,
+   "heard": "我那個電動起子是不是也借給隔壁陳先生了?",
+   "anchor": "[電動起子|location]",
+   "tail": "(nothing)",
+   "theta": 0.243,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 5,
+   "start": 90.13,
+   "end": 95.98,
+   "heard": "A-Maria,客廳冷氣遙控氣力。",
+   "anchor": "[客廳冷氣遙控器|location]",
+   "tail": "(nothing)",
+   "theta": 0.123,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 6,
+   "start": 68.75,
+   "end": 76.38,
+   "heard": "阿里爾,我的藍牙耳機現在到底在哪裡啊?",
+   "anchor": "[藍牙耳機|location]",
+   "tail": "客廳抽屜.",
+   "theta": 0.974,
+   "answer": "客廳抽屜."
+  },
+  {
+   "day": 6,
+   "start": 76.38,
+   "end": 85.1,
+   "heard": "我媽生日聚餐我們後來改那時候,吃什麼啊?",
+   "anchor": "[媽媽生日聚餐|value]",
+   "tail": "(nothing)",
+   "theta": 0.115,
+   "answer": "我不記得你們後來改去哪吃了，因為我這裡沒有關於那次聚餐的記錄。要不要你告訴我當時去了哪裡？我可以幫你記下來。"
+  },
+  {
+   "day": 6,
+   "start": 85.1,
+   "end": 91.65,
+   "heard": "那個體重計現在可以用了嗎?",
+   "anchor": "[體重計|status]",
+   "tail": "已更換電池.",
+   "theta": 0.982,
+   "answer": "已更換電池."
+  },
+  {
+   "day": 6,
+   "start": 91.65,
+   "end": 98.7,
+   "heard": "阿里爾,我有沒有跟你講過這起水電費多少錢?",
+   "anchor": "[水電費|value]",
+   "tail": "(nothing)",
+   "theta": 0.238,
+   "answer": "我不記得耶，你之前好像沒跟我提過這起水電費的金額。"
+  },
+  {
+   "day": 6,
+   "start": 98.7,
+   "end": 104.3,
+   "heard": "阿里爾,我襯衫丟烘衣機那時候說要怎麼設定?",
+   "anchor": "[襯衫|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.125,
+   "answer": "我不記得你之前提過襯衫的烘衣設定耶，要不我現在幫你查一下？"
+  },
+  {
+   "day": 7,
+   "start": 14.94,
+   "end": 22.84,
+   "heard": "對, Harrier,陽臺那個露營燈現在在哪?",
+   "anchor": "[露營燈|location]",
+   "tail": "小傑處. 在陽台放著的那個露營燈，",
+   "theta": 0.99,
+   "answer": "小傑處. 在陽台放著的那個露營燈，"
+  },
+  {
+   "day": 7,
+   "start": 22.84,
+   "end": 26.84,
+   "heard": "我禮拜五約汽車保養室約哪一天幾點啦?",
+   "anchor": "[汽車保養|time]",
+   "tail": "第9天早上9點.",
+   "theta": 0.97,
+   "answer": "第9天早上9點."
+  },
+  {
+   "day": 7,
+   "start": 26.84,
+   "end": 32.67,
+   "heard": "對,我昨天說把那個乾洗店收居家在哪裡。",
+   "anchor": "[乾洗店|location]",
+   "tail": "貼起來. <|im_end|>",
+   "theta": 0.616,
+   "answer": "貼起來. <|im_end|>"
+  },
+  {
+   "day": 7,
+   "start": 32.67,
+   "end": 41.38,
+   "heard": "Harrier,貓飼料我後來跟你說要買什麼口味。",
+   "anchor": "[貓飼料|preference]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 7,
+   "start": 48.14,
+   "end": 53.78,
+   "heard": "而家裡那個血壓計放在哪個櫃子你知道嗎?",
+   "anchor": "[血壓計|location]",
+   "tail": "(nothing)",
+   "theta": 0.119,
+   "answer": "我不記得，沒查過。"
+  },
+  {
+   "day": 7,
+   "start": 53.78,
+   "end": 61.53,
+   "heard": "Harrier,我禮拜幾有英文加交課啦。",
+   "anchor": "[英文加交課|time]",
+   "tail": "(nothing)",
+   "theta": 0.117,
+   "answer": "我不記得你英文加交課是禮拜幾，要不要我幫你查一下行事曆？"
+  },
+  {
+   "day": 8,
+   "start": 55.07,
+   "end": 61.14,
+   "heard": "哎,對,我等一下進公司前先幫大家買,你們要喝什麼?",
+   "anchor": "[同事|preference]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 10,
+   "start": 71.78,
+   "end": 76.32,
+   "heard": "Aria,被用藥實現在放哪?",
+   "anchor": "[血壓藥|location]",
+   "tail": "(nothing)",
+   "theta": 0.113,
+   "answer": "我不記得。"
+  },
+  {
+   "day": 10,
+   "start": 76.32,
+   "end": 81.32,
+   "heard": "那個,我上次跟你講要體重那個東西在哪去了。",
+   "anchor": "[體重計|location]",
+   "tail": "沙發底下. <|im_end|>",
+   "theta": 0.972,
+   "answer": "沙發底下. <|im_end|>"
+  },
+  {
+   "day": 10,
+   "start": 81.32,
+   "end": 87.41,
+   "heard": "對,Aria,我乾洗的西裝外套是不是禮拜五要去拿?",
+   "anchor": "[西裝外套|time]",
+   "tail": "(nothing)",
+   "theta": 0.115,
+   "answer": "我不記得耶，要不要我幫你查一下？"
+  },
+  {
+   "day": 11,
+   "start": 61.99,
+   "end": 66.38,
+   "heard": "Aria 我洗牙後來是改到什麼時候啦",
+   "anchor": "[洗牙|time]",
+   "tail": "第12天下午2點.",
+   "theta": 0.972,
+   "answer": "第12天下午2點."
+  },
+  {
+   "day": 11,
+   "start": 68.56,
+   "end": 71.56,
+   "heard": "Aria Kevin 是我們公司的誰啊",
+   "anchor": "[Kevin|relation]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 11,
+   "start": 71.56,
+   "end": 80.3,
+   "heard": "Aria 處屍機線在狀況怎樣弄好了沒",
+   "anchor": "[處屍機|status]",
+   "tail": "(nothing)",
+   "theta": 0.111,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 11,
+   "start": 80.3,
+   "end": 86.63,
+   "heard": "Aria 我台包正放哪裡",
+   "anchor": "[台包|location]",
+   "tail": "(nothing)",
+   "theta": 0.119,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 12,
+   "start": 69.63,
+   "end": 74.43,
+   "heard": "Aria,我這禮拜的瑜伽課是什麼時候?",
+   "anchor": "[瑜伽課|plan]",
+   "tail": "第18天. 週三 19:00-",
+   "theta": 0.978,
+   "answer": "第18天. 週三 19:00-"
+  },
+  {
+   "day": 12,
+   "start": 76.94,
+   "end": 81.94,
+   "heard": "所以,Aria,我有沒有跟你說過那個血壓要怎麼吃?",
+   "anchor": "[血壓藥|attribute]",
+   "tail": "使用者從未",
+   "theta": 0.969,
+   "answer": "使用者從未"
+  },
+  {
+   "day": 12,
+   "start": 81.94,
+   "end": 90.98,
+   "heard": "Aria,樓下管理室包裹的曲鍵編號是多少?",
+   "anchor": "[包裹|value]",
+   "tail": "(nothing)",
+   "theta": 0.114,
+   "answer": "我不記得。"
+  },
+  {
+   "day": 13,
+   "start": 65.22,
+   "end": 72.06,
+   "heard": "Aria,我存折現在放哪。",
+   "anchor": "[存折|location]",
+   "tail": "隨身托特包夾層. 在您的托特包夾層",
+   "theta": 0.981,
+   "answer": "隨身托特包夾層. 在您的托特包夾層"
+  },
+  {
+   "day": 13,
+   "start": 72.06,
+   "end": 80.59,
+   "heard": "對我腳踏車送去修,車行老闆說要多少錢啦。",
+   "anchor": "[腳踏車|value]",
+   "tail": "800元.",
+   "theta": 0.97,
+   "answer": "800元."
+  },
+  {
+   "day": 13,
+   "start": 80.59,
+   "end": 84.59,
+   "heard": "Aria,小姑姑吃東西有什麼不能吃的嗎?",
+   "anchor": "[小姑姑|preference]",
+   "tail": "對花生、甲殼類海鮮.",
+   "theta": 0.982,
+   "answer": "對花生、甲殼類海鮮."
+  },
+  {
+   "day": 13,
+   "start": 84.59,
+   "end": 90.54,
+   "heard": "Aria,我們家洗碗機保固到什麼時候?",
+   "anchor": "[洗碗機|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得洗碗機的保固期限耶，要不要我幫你找找看說明書或收據？"
+  },
+  {
+   "day": 13,
+   "start": 90.54,
+   "end": 96.22,
+   "heard": "對,Aria,我上次買那個咖啡都是哪一個國家的?",
+   "anchor": "[咖啡|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.228,
+   "answer": "我不記得耶，你上次買的是哪一款？"
+  },
+  {
+   "day": 14,
+   "start": 40.18,
+   "end": 48.25,
+   "heard": "Aria,冷氣師傅昨天到底是幾點來的啦?",
+   "anchor": "[冷氣師傅|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得"
+  },
+  {
+   "day": 14,
+   "start": 48.25,
+   "end": 58.31,
+   "heard": "給我那個黑色行動店圓臉。放哪去了?",
+   "anchor": "[黑色行動電源|location]",
+   "tail": "(nothing)",
+   "theta": 0.371,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 14,
+   "start": 58.31,
+   "end": 62.86,
+   "heard": "Aria,我們家那個露營帳篷去哪了?",
+   "anchor": "[帳篷|location]",
+   "tail": "車庫 右側牆邊，疊在防潮墊上。",
+   "theta": 0.967,
+   "answer": "車庫 右側牆邊，疊在防潮墊上。"
+  },
+  {
+   "day": 14,
+   "start": 62.86,
+   "end": 66.86,
+   "heard": "Aria,我平常喝咖啡都點什麼?",
+   "anchor": "[咖啡|preference]",
+   "tail": "冰燕麥拿鐵去冰無糖. 你平常都點",
+   "theta": 0.91,
+   "answer": "冰燕麥拿鐵去冰無糖. 你平常都點"
+  },
+  {
+   "day": 14,
+   "start": 66.86,
+   "end": 77.7,
+   "heard": "Aria,我上次跟你講10月去東京,飯店市定在哪一區啊?",
+   "anchor": "[東京飯店|location]",
+   "tail": "(nothing)",
+   "theta": 0.247,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 14,
+   "start": 77.7,
+   "end": 83.5,
+   "heard": "Aria,我有沒有跟你說過我汽車保險哪時候到齊?",
+   "anchor": "[汽車保險|time]",
+   "tail": "(nothing)",
+   "theta": 0.109,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 17,
+   "start": 28.36,
+   "end": 34.36,
+   "heard": "哎, Aurea,我那個備用鑰匙上次是跟你說放拿去啦!",
+   "anchor": "[備用鑰匙|location]",
+   "tail": "協會上面小盒子. <|im.",
+   "theta": 0.966,
+   "answer": "協會上面小盒子. <|im."
+  },
+  {
+   "day": 17,
+   "start": 72.22,
+   "end": 78.22,
+   "heard": "哎, Aurea,我有沒有講過我手沖咖啡豆都喝什麼口味的啊!",
+   "anchor": "[咖啡豆|preference]",
+   "tail": "淺焙衣索比亞.",
+   "theta": 0.966,
+   "answer": "淺焙衣索比亞."
+  },
+  {
+   "day": 18,
+   "start": 11.14,
+   "end": 21.78,
+   "heard": "而我那個洗牙到底是改到什麼時候啊?",
+   "anchor": "[洗牙|time]",
+   "tail": "第17天下午2點.",
+   "theta": 0.949,
+   "answer": "第17天下午2點."
+  },
+  {
+   "day": 18,
+   "start": 21.78,
+   "end": 33.34,
+   "heard": "後,本來想說今天晚上去河濱公園跑個五公里,結果我那雙慢跑鞋現在不在家。",
+   "anchor": "[洗牙|time]",
+   "tail": "第17天下午2點.",
+   "theta": 0.947,
+   "answer": "第17天下午2點."
+  },
+  {
+   "day": 18,
+   "start": 40.86,
+   "end": 48.74,
+   "heard": "Aria,風衣機遇往現在是什麼狀況?我有弄過了嗎?",
+   "anchor": "[慢跑鞋|status]",
+   "tail": "送洗中.",
+   "theta": 0.998,
+   "answer": "送洗中."
+  },
+  {
+   "day": 18,
+   "start": 61.74,
+   "end": 77.37,
+   "heard": "欸,那我的機車要釋放哪?我剛剛在整理今年要用的報稅資料夾,弄得頭超痛。",
+   "anchor": "[機車|location]",
+   "tail": "(nothing)",
+   "theta": 0.108,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 18,
+   "start": 93.18,
+   "end": 98.18,
+   "heard": "好啦,那幫我點針奶瓣糖小冰,對,謝啦。",
+   "anchor": "[飲料|preference]",
+   "tail": "(nothing)",
+   "theta": 0.208,
+   "answer": "我不記得你喜歡喝什麼，不過我幫你記下「針奶瓣糖小冰」這個名字了。下次想喝的時候直接跟我說就好！"
+  },
+  {
+   "day": 18,
+   "start": 98.18,
+   "end": 105.62,
+   "heard": "Aria,我護照臉,我有跟你說過放哪嗎?",
+   "anchor": "[護照|location]",
+   "tail": "<next_thinking>",
+   "theta": 0.9,
+   "answer": "\"I don't remember.\""
+  },
+  {
+   "day": 19,
+   "start": 16.62,
+   "end": 24.37,
+   "heard": "The Aurea,我那個耳機充電盒現在是在哪裡啊?",
+   "anchor": "[藍牙耳機盒|location]",
+   "tail": "客廳抽屜.",
+   "theta": 0.55,
+   "answer": "客廳抽屜."
+  },
+  {
+   "day": 19,
+   "start": 35.37,
+   "end": 46.94,
+   "heard": "我上次買那個乳清蛋白是什麼口味的啊?突然忘記。",
+   "anchor": "[乳清蛋白|attribute]",
+   "tail": "抹茶口味. 是抹茶的啦，你之前還說很好喝",
+   "theta": 0.942,
+   "answer": "抹茶口味. 是抹茶的啦，你之前還說很好喝"
+  },
+  {
+   "day": 19,
+   "start": 46.94,
+   "end": 60.14,
+   "heard": "還有那個體重計電池,我是說要買幾號幾顆來著。那冷氣遙控器電池臉,要裝什麼的。",
+   "anchor": "[冷氣遙控器|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.326,
+   "answer": "我不記得冷氣遙控器要用什麼電池，體重計的我也沒筆記。"
+  },
+  {
+   "day": 19,
+   "start": 86.03,
+   "end": 90.03,
+   "heard": "給我們家這個月的水電費帳單角了美亞。",
+   "anchor": "[水電費|value]",
+   "tail": "(nothing)",
+   "theta": 0.445,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 19,
+   "start": 107.57,
+   "end": 111.57,
+   "heard": "給我那雙慢跑鞋現在怎麼樣了?",
+   "anchor": "[慢跑鞋|status]",
+   "tail": "送洗中.",
+   "theta": 0.977,
+   "answer": "送洗中."
+  },
+  {
+   "day": 20,
+   "start": 1.74,
+   "end": 8.74,
+   "heard": "Aria,我今天中午要喝喜酒那個老張, 我有沒有跟你講過他是我誰啊?",
+   "anchor": "[老張|relation]",
+   "tail": "(nothing)",
+   "theta": 0.226,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 20,
+   "start": 8.74,
+   "end": 18.62,
+   "heard": "然後老張婚禮是幾點開始? 是今天中午對不對?",
+   "anchor": "[老張婚禮|time]",
+   "tail": "(nothing)",
+   "theta": 0.237,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 20,
+   "start": 75.54,
+   "end": 80.79,
+   "heard": "對不起,我的登山帳現在到底在哪?",
+   "anchor": "[帳篷|location]",
+   "tail": "給阿凱. <|im_end|>",
+   "theta": 0.977,
+   "answer": "給阿凱. <|im_end|>"
+  },
+  {
+   "day": 20,
+   "start": 80.79,
+   "end": 88.64,
+   "heard": "還有書房那個印表積墨水現在狀況怎樣?",
+   "anchor": "[印表機墨水|status]",
+   "tail": "已更換 2025-06-10,",
+   "theta": 0.978,
+   "answer": "已更換 2025-06-10,"
+  },
+  {
+   "day": 20,
+   "start": 88.64,
+   "end": 97.81,
+   "heard": "我簽幾天整理的那個報稅資料夾,我是再去哪裡了?",
+   "anchor": "[報稅資料夾|location]",
+   "tail": "(nothing)",
+   "theta": 0.463,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 20,
+   "start": 97.81,
+   "end": 105.66,
+   "heard": "那房間那台空氣清淨機率網列?我有清過嗎?",
+   "anchor": "[空氣清淨機濾網|status]",
+   "tail": "(nothing)",
+   "theta": 0.115,
+   "answer": "我不記得了。"
+  },
+  {
+   "day": 21,
+   "start": 11.38,
+   "end": 18.84,
+   "heard": "Aria,我的游泳挖鏡放哪裡啊?",
+   "anchor": "[游泳鏡|location]",
+   "tail": "(nothing)",
+   "theta": 0.207,
+   "answer": "我不記得你的游泳鏡放在哪裡了。"
+  },
+  {
+   "day": 21,
+   "start": 18.84,
+   "end": 22.22,
+   "heard": "找不到A。",
+   "anchor": "[泳鏡|location]",
+   "tail": "(nothing)",
+   "theta": 0.111,
+   "answer": "你指的是什麼 A？我完全沒印象，能多描述一下嗎？"
+  },
+  {
+   "day": 21,
+   "start": 27.66,
+   "end": 32.66,
+   "heard": "A,我現在如果叫飲料外送,我時都喝什麼啊?",
+   "anchor": "[飲料|preference]",
+   "tail": "烏龍拿鐵無糖去冰. 你每次都點那杯",
+   "theta": 0.99,
+   "answer": "烏龍拿鐵無糖去冰. 你每次都點那杯"
+  },
+  {
+   "day": 21,
+   "start": 32.66,
+   "end": 39.74,
+   "heard": "我今天那個汽車保養室約幾點。",
+   "anchor": "[汽車保養|time]",
+   "tail": "第9天早上9點.",
+   "theta": 0.819,
+   "answer": "第9天早上9點."
+  },
+  {
+   "day": 21,
+   "start": 39.74,
+   "end": 47.68,
+   "heard": "還有那個乾洗店取件單點。放哪去了?",
+   "anchor": "[乾洗收據|location]",
+   "tail": "冰箱門磁鐵下. <|im_end|>",
+   "theta": 0.998,
+   "answer": "冰箱門磁鐵下. <|im_end|>"
+  },
+  {
+   "day": 21,
+   "start": 56.7,
+   "end": 60.7,
+   "heard": "Aria,我有沒有跟你說過我的保溫杯放哪?",
+   "anchor": "[保溫杯|location]",
+   "tail": "(nothing)",
+   "theta": 0.112,
+   "answer": "我不記得了。"
+  }
+ ],
+ "coverage": [
+  {
+   "fact": {
+    "day": 1,
+    "entity": "護照",
+    "slot": "location",
+    "value": "書房防潮箱",
+    "evidence": "我那個護照啊，我剛剛收進書房防潮箱了",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "value": "玄關鞋櫃最上面那格",
+    "evidence": "我把家裡那串備用鑰匙換地方放了喔。 / 就改放玄關鞋櫃最上面那格啦",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "牙醫",
+    "slot": "time",
+    "value": "禮拜三下午兩點半",
+    "evidence": "那我就約後天下午兩點半看牙醫",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "咖啡",
+    "slot": "preference",
+    "value": "冰燕麥拿鐵微冰不加糖",
+    "evidence": "我現在喝咖啡都改冰燕麥拿鐵微冰不加糖",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "健身房教練",
+    "slot": "value",
+    "value": "Kevin",
+    "evidence": "喔對然後我那個健身房教練名字叫 Kevin",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "藍牙耳機",
+    "slot": "location",
+    "value": "灰色西裝外套口袋",
+    "evidence": "我藍牙耳機放餐桌……啊不對不對，我剛剛順手塞進灰色西裝外套口袋了",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "媽媽生日聚餐",
+    "slot": "plan",
+    "value": "禮拜六晚上六點吃泰式料理",
+    "evidence": "媽生日聚餐就定這禮拜六晚上六點，吃泰式料理那家",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "體重計",
+    "slot": "status",
+    "value": "沒電待換四號電池",
+    "evidence": "那個體重計踩上去螢幕完全都不亮了欸，家裡還有沒有四號電池可以換啊？",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "護照",
+    "slot": "location",
+    "value": "黑色後背包夾層",
+    "evidence": "我早上去辦簽證把它從書房防潮箱拿出來了，現在直接放在我黑色後背包夾層裡面",
+    "update_of": 0,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "專案報告",
+    "slot": "time",
+    "value": "禮拜五中午十二點前",
+    "evidence": "那個新 project 的專案報告 deadline 是這禮拜五中午十二點前嘛",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "印表機墨水",
+    "slot": "attribute",
+    "value": "型號 HP 682 黑色",
+    "evidence": "書房印表機墨水型號是 HP 682 黑色",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "腳踏車打氣筒",
+    "slot": "status",
+    "value": "借給隔壁陳先生",
+    "evidence": "陳先生來啦，有啊有啊，吶，這個腳踏車打氣筒你先拿去用",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "牙醫",
+    "slot": "time",
+    "value": "禮拜四晚上七點",
+    "evidence": "牙醫可以幫我改明天晚上七點嗎？好，謝謝。",
+    "update_of": 2,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "除濕機濾網",
+    "slot": "status",
+    "value": "已清洗晾在陽台未乾",
+    "evidence": "客廳那台除濕機濾網我剛剛下午洗好晾在陽台了，這兩天還沒乾先不要開喔",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "小傑",
+    "slot": "relation",
+    "value": "大學社團學弟",
+    "evidence": "那個小傑，是我大學社團學弟啦",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "小傑",
+    "slot": "attribute",
+    "value": "對花生嚴重過敏",
+    "evidence": "他對花生嚴重過敏，你桌上的花生糖不要亂請他吃",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "露營燈",
+    "slot": "location",
+    "value": "陽台儲藏櫃第二層",
+    "evidence": "欸我把那個露營燈翻出來了。 / 先放陽台儲藏櫃第二層喔",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "網路費",
+    "slot": "status",
+    "value": "已用信用卡扣款繳清",
+    "evidence": "這期網路費是不是還沒繳……啊等等，我剛剛看銀行 app 已經用信用卡自動扣款繳清了啦",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "烘衣機",
+    "slot": "preference",
+    "value": "襯衫要用低溫柔烘三十分鐘",
+    "evidence": "我的襯衫丟烘衣機都要用低溫柔烘三十分鐘",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "媽媽生日聚餐",
+    "slot": "plan",
+    "value": "禮拜日中午十二點吃江浙菜",
+    "evidence": "那媽媽生日聚餐我們改禮拜日中午十二點，改吃那家江浙菜好不好？好那就這樣定",
+    "update_of": 6,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "冷氣遙控器",
+    "slot": "location",
+    "value": "沙發右邊扶手收納袋",
+    "evidence": "我剛剛把它插在沙發右邊扶手那個收納袋裡面啦",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "汽車保養",
+    "slot": "time",
+    "value": "下禮拜二早上九點",
+    "evidence": "我要預約汽車保養，下禮拜二早上九點可以嗎？好，那就約那時候",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "藍牙耳機",
+    "slot": "location",
+    "value": "公司辦公桌抽屜",
+    "evidence": "我今天下班把藍牙耳機忘在公司辦公桌抽屜",
+    "update_of": 5,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "紅酒開瓶器",
+    "slot": "location",
+    "value": "廚房中島左邊第一個抽屜",
+    "evidence": "紅酒開瓶器我洗好放進廚房中島左邊第一個抽屜喔",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "瑜珈墊",
+    "slot": "attribute",
+    "value": "厚度 8mm 墨綠色",
+    "evidence": "我新買那個瑜珈墊是厚度 8mm 墨綠色的",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "體重計",
+    "slot": "status",
+    "value": "已換新電池恢復正常",
+    "evidence": "我剛剛下班順便去買四號電池把體重計換好了，現在踩上去完全正常了喔",
+    "update_of": 7,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "乾洗店收據",
+    "slot": "location",
+    "value": "冰箱門上的磁鐵夾",
+    "evidence": "我把去拿大衣的乾洗店收據貼起來了。 / 就夾在冰箱門上的磁鐵夾那邊",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "露營燈",
+    "slot": "location",
+    "value": "已借給小傑帶走",
+    "evidence": "喔那個小傑剛剛過來拿走啦，借他去露營",
+    "update_of": 16,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "貓飼料",
+    "slot": "preference",
+    "value": "無穀鮭魚配方",
+    "evidence": "貓飼料要買無穀雞肉……啊不對，牠最近超挑嘴，是無穀鮭魚配方才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "按摩枕",
+    "slot": "plan",
+    "value": "送給表妹當喬遷禮物",
+    "evidence": "客廳地上那個全新沒拆的按摩枕你不要亂拆喔，那是我打算送給表妹當喬遷禮物的",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "value": "電視櫃第二個抽屜",
+    "evidence": "欸 Aria，我把那個…大門的備用鑰匙收起來了喔。 / 就是塞在那個啦，電視櫃第二個抽屜裡面，免得我到時候又忘記。",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "洗牙",
+    "slot": "time",
+    "value": "第10天（禮拜三）下午三點",
+    "evidence": "啊我自己的洗牙是約後天、就是禮拜三下午三點，我那天下午 meeting 剛好排開，會直接請假去診所。",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "咖啡",
+    "slot": "preference",
+    "value": "冰燕麥拿鐵微冰不加糖",
+    "evidence": "我喔，我一樣冰燕麥拿鐵微冰不加糖啦，對對，好先這樣，bye。",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "印章",
+    "slot": "location",
+    "value": "書桌左邊筆筒",
+    "evidence": "Aria 幫我記一下，那個圓形的印章我放書桌左邊筆筒，然後…欸對，存摺我夾在綠色資料夾裡面喔。",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "存摺",
+    "slot": "location",
+    "value": "綠色資料夾",
+    "evidence": "Aria 幫我記一下，那個圓形的印章我放書桌左邊筆筒，然後…欸對，存摺我夾在綠色資料夾裡面喔。",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "Kevin",
+    "slot": "relation",
+    "value": "專案PM",
+    "evidence": "吼我真的會瘋掉，那個我們專案新的 PM Kevin 剛剛又在群組催 deadline，明明就還沒到時間。",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "除濕機",
+    "slot": "status",
+    "value": "濾網洗好在陽台晾乾",
+    "evidence": "欸這幾天一直下雨，房間那台除濕機剛剛一直在閃紅燈叫個不停。 / 啊我剛剛把它的濾網拔下來洗乾淨了，現在拿去陽台晾乾，晚點乾了再裝回去。",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "瑜珈課",
+    "slot": "time",
+    "value": "禮拜四晚上七點半",
+    "evidence": "欸 Aria，我禮拜四晚上七點…啊不對不對，是七點半啦，禮拜四晚上七點半有瑜珈課喔。",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "體重計",
+    "slot": "location",
+    "value": "沙發底下",
+    "evidence": "還有那個，體重計我踢到沙發底下了，省得我走路一直撞到腳趾頭。",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "value": "玄關吸鐵盒",
+    "evidence": "喔對，我把備用鑰匙從電視櫃拿出來，改放到玄關那個吸鐵盒裡面囉，你出門要拿比較方便。",
+    "update_of": 30,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "冷氣師傅",
+    "slot": "time",
+    "value": "第13天（禮拜六）早上十點",
+    "evidence": "喂師傅你好，對，客廳那台冷氣不冷，那就約這禮拜六早上十點過來看齁？好，謝謝掰掰。",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "洗牙",
+    "slot": "time",
+    "value": "第12天（禮拜五）下午兩點",
+    "evidence": "好吧，那我的洗牙就改到後天、就禮拜五下午兩點可以嗎？好，那就這樣。",
+    "update_of": 31,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "護照",
+    "slot": "location",
+    "value": "防潮箱下層",
+    "evidence": "講到這個，那個防潮箱下層你先別亂翻喔，我護照剛丟進去怕受潮。",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "行動電源",
+    "slot": "attribute",
+    "value": "黑色Type-C一萬毫安培",
+    "evidence": "Aria，我新買了一顆那個行動電源喔。 / 就是黑色 Type-C 一萬毫安培那顆啦，然後我把它塞在登山包側袋裡面。",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "行動電源",
+    "slot": "location",
+    "value": "登山包側袋",
+    "evidence": "Aria，我新買了一顆那個行動電源喔。 / 就是黑色 Type-C 一萬毫安培那顆啦，然後我把它塞在登山包側袋裡面。",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "血壓藥",
+    "slot": "plan",
+    "value": "每天早上飯後吃半顆",
+    "evidence": "對了 Aria 幫我記一下，醫生開的血壓藥齁，我是每天早上飯後吃半顆。",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "牛肉麵",
+    "slot": "preference",
+    "value": "紅燒半筋半肉加酸菜不加蔥",
+    "evidence": "欸你下班回來順便幫我買紅燒牛肉麵…欸不對，買半筋半肉好了，紅燒半筋半肉，要加酸菜但千萬不要蔥喔！",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "瑜珈課",
+    "slot": "time",
+    "value": "取消改下禮拜",
+    "evidence": "喂老師不好意思，我今天在公司趕專案 schedule 趕不回去，我晚上的瑜珈課先取消改下禮拜喔，對不起捏。",
+    "update_of": 37,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "腳踏車",
+    "slot": "status",
+    "value": "後輪破胎送修中",
+    "evidence": "而且我今天超衰，騎腳踏車出門結果後輪破胎現在送修中，那個修車行老闆剛剛打來報價說要八百塊，有夠貴。",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "修車行",
+    "slot": "value",
+    "value": "報價八百塊",
+    "evidence": "而且我今天超衰，騎腳踏車出門結果後輪破胎現在送修中，那個修車行老闆剛剛打來報價說要八百塊，有夠貴。",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "露營帳篷",
+    "slot": "status",
+    "value": "借給阿哲",
+    "evidence": "阿哲明天要去苗栗，我剛把我們那個露營帳篷搬下樓給他載走了。",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "存摺",
+    "slot": "location",
+    "value": "隨身托特包夾層",
+    "evidence": "Aria，我剛剛去銀行 confirm 那個帳，存摺現在不在綠色資料夾了，我收在隨身托特包夾層喔。",
+    "update_of": 34,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "小姑姑",
+    "slot": "preference",
+    "value": "對花生跟甲殼類過敏",
+    "evidence": "欸下禮拜聚餐餐廳要慎選喔，小姑姑對花生跟甲殼類過敏，上次吃到蝦膏差點送急診。",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "烘衣機",
+    "slot": "attribute",
+    "value": "保固到明年十一月",
+    "evidence": "陽台那台烘衣機聲音今天聽起來怪怪的，不知道過保了沒。 / 喔，它的保固書我有看過啦，保固到明年十一月，真的壞了再叫原廠來。",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "冷氣師傅",
+    "slot": "time",
+    "value": "第13天（禮拜六）下午一點半",
+    "evidence": "喂師傅？喔你早上有別場卡住喔…好沒問題，那就改今天下午一點…欸一點半到對不對？好謝謝師傅。",
+    "update_of": 40,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "Switch遊戲片",
+    "slot": "location",
+    "value": "電視後面收納盒",
+    "evidence": "欸我把那幾片 Switch 遊戲片收起來了喔。 / 全部都裝在電視後面那個收納盒，要玩自己拿。",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "機票",
+    "slot": "plan",
+    "value": "十月去東京五天四夜",
+    "evidence": "Aria 跟你說，我剛剛終於把機票刷下去了，十月去東京五天四夜，然後東京住宿我是訂在上野車站附近飯店。",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "東京住宿",
+    "slot": "location",
+    "value": "上野車站附近飯店",
+    "evidence": "Aria 跟你說，我剛剛終於把機票刷下去了，十月去東京五天四夜，然後東京住宿我是訂在上野車站附近飯店。",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "行動電源",
+    "slot": "location",
+    "value": "床頭櫃充電座上",
+    "evidence": "還有啊 Aria，那個行動電源我從登山包拿出來了，現在放在床頭櫃充電座上。",
+    "update_of": 44,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 14,
+    "entity": "網路費",
+    "slot": "value",
+    "value": "一個月八百九十九元",
+    "evidence": "每個月光繳那個八百九十九塊的網路費就飽了，晚上看個 YouTube 還一直轉圈圈。",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "value": "鞋櫃上面那個小盒子",
+    "evidence": "家裡的備用鑰匙我改放去鞋櫃上面那個小盒子裡了",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "洗牙",
+    "slot": "time",
+    "value": "第17天下午兩點",
+    "evidence": "我後天…對，後天下午兩點要去洗牙",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "手沖咖啡豆",
+    "slot": "preference",
+    "value": "淺焙衣索比亞",
+    "evidence": "幫我買手沖咖啡豆，我現在都只喝淺焙衣索比亞",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "耳機充電盒",
+    "slot": "location",
+    "value": "客廳沙發縫隙",
+    "evidence": "我終於找到那個不見好幾天的東西了 / 就我的耳機充電盒啦，結果居然掉在客廳沙發縫隙裡面",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "乳清蛋白",
+    "slot": "attribute",
+    "value": "抹茶口味",
+    "evidence": "新買的那罐乳清蛋白這次是買抹茶口味的",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "乳清蛋白",
+    "slot": "location",
+    "value": "流理台最左邊櫃子",
+    "evidence": "新買的那罐乳清蛋白這次是買抹茶口味的，我直接塞進流理台最左邊櫃子裡了喔",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "印表機墨水",
+    "slot": "status",
+    "value": "快沒了要買黑色的",
+    "evidence": "我看那個印表機墨水…對啦，快沒了要買黑色的了啦",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "登山杖",
+    "slot": "location",
+    "value": "陽台儲藏室",
+    "evidence": "我那對登山杖收好了，放在玄關…欸不對不對，講錯了，我後來是塞去陽台儲藏室才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "老張",
+    "slot": "relation",
+    "value": "大學社團學長",
+    "evidence": "欸老張喔！對啊好久不見，想說你這個大學社團學長怎麼突然打來",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "老張婚禮",
+    "slot": "time",
+    "value": "第20天中午",
+    "evidence": "這禮拜六中午是不是？好啊好啊，你的婚禮我一定到",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "烘衣機濾網",
+    "slot": "status",
+    "value": "已經清乾淨了",
+    "evidence": "我剛把衣服從烘衣機拿出來摺好了喔 / 然後它的濾網我剛剛也順手清乾淨了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "洗牙",
+    "slot": "time",
+    "value": "第19天早上十點",
+    "evidence": "我是要改洗牙時間的…那可以幫我改到禮拜五早上十點嗎？好，那就禮拜五早上十點",
+    "update_of": 61,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "筆電充電器",
+    "slot": "location",
+    "value": "書房桌下延長線",
+    "evidence": "我把筆電充電器插在書房桌下延長線那邊喔",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "除濕機",
+    "slot": "plan",
+    "value": "睡前設定定時四小時",
+    "evidence": "除濕機我剛剛搬去更衣室了喔，然後我打算今天睡前設定定時四小時",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "除濕機",
+    "slot": "location",
+    "value": "更衣室",
+    "evidence": "除濕機我剛剛搬去更衣室了喔",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "結婚紀念日餐廳",
+    "slot": "preference",
+    "value": "訂靠窗的位置",
+    "evidence": "下個月我們結婚紀念日那間餐廳啊，你打去訂位的時候，記得跟店員說我們一定要訂靠窗的位置喔",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "耳機充電盒",
+    "slot": "location",
+    "value": "外套左邊口袋",
+    "evidence": "那個耳機充電盒我剛剛從沙發拿起來了，現在改放在我常穿那件外套左邊口袋裡喔",
+    "update_of": 63,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "慢跑鞋",
+    "slot": "status",
+    "value": "送洗中",
+    "evidence": "結果我那雙慢跑鞋現在不在家 / 就前天淋雨太臭了，目前送洗中",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "體重計電池",
+    "slot": "value",
+    "value": "四號電池兩顆",
+    "evidence": "浴室那台體重計沒電了，它要裝的是三號…啊不是啦講錯，是四號電池兩顆才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "報稅資料夾",
+    "slot": "location",
+    "value": "書櫃第二層藍色L夾",
+    "evidence": "我剛剛在整理今年要用的報稅資料夾 / 我把它塞進書櫃第二層藍色L夾裡面了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "飲料外送",
+    "slot": "preference",
+    "value": "珍奶半糖少冰",
+    "evidence": "明天下午公司要訂飲料外送喔？好啊，那幫我點珍奶半糖少冰",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "登山杖",
+    "slot": "location",
+    "value": "借給阿凱了",
+    "evidence": "你不要再去陽台找那對登山杖了啦，阿凱這週末要去爬合歡山，我昨天晚上已經借給阿凱了",
+    "update_of": 67,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "印表機墨水",
+    "slot": "status",
+    "value": "已經換新的了",
+    "evidence": "我剛去買了新的印表機墨水回來裝上去，已經換新的了",
+    "update_of": 66,
+    "kind": "indirect"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "汽車保養",
+    "slot": "time",
+    "value": "第21天早上九點",
+    "evidence": "我後天早上九點要去做汽車保養",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "健身房會籍",
+    "slot": "status",
+    "value": "請假一個月",
+    "evidence": "我剛剛去辦了健身房會籍請假一個月",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "貓砂",
+    "slot": "preference",
+    "value": "豆腐砂原味的",
+    "evidence": "貓砂我後來都固定買豆腐砂原味的",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "貓砂",
+    "slot": "location",
+    "value": "客廳電視櫃旁邊",
+    "evidence": "貓砂我後來都固定買豆腐砂原味的，剛送來兩包我先堆在客廳電視櫃旁邊喔",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "筆電充電器",
+    "slot": "location",
+    "value": "托特包裡面",
+    "evidence": "我出門前把那個筆電充電器拔起來了，現在收進我的托特包裡面喔",
+    "update_of": 72,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "飲料外送",
+    "slot": "preference",
+    "value": "烏龍拿鐵無糖微冰",
+    "evidence": "上次說公司飲料外送我都點珍奶半糖少冰嘛，不要記那個了，我最近在戒糖，以後飲料外送都改喝烏龍拿鐵無糖微冰才對",
+    "update_of": 80,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "乾洗店取件單",
+    "slot": "location",
+    "value": "冰箱門磁鐵壓著",
+    "evidence": "街口那間乾洗店取件單我剛剛拿回來，順手用冰箱門磁鐵壓著喔",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  }
+ ],
+ "questions": [
+  {
+   "q": {
+    "day": 2,
+    "text": "欸 Aria，家裡那個備用鑰匙我昨天說改放去哪裡啊？",
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "expect": "玄關鞋櫃最上面那格",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "玄關鞋櫃最上層.",
+   "tail": "玄關鞋櫃最上層.",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 3,
+    "text": "Aria，我護照咧？",
+    "entity": "護照",
+    "slot": "location",
+    "expect": "黑色後背包夾層",
+    "stale": "書房防潮箱",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "tail": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 3,
+    "text": "欸我有沒有跟你說過我現在喝咖啡都點什麼？",
+    "entity": "咖啡",
+    "slot": "preference",
+    "expect": "冰燕麥拿鐵微冰不加糖",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "tail": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 3,
+    "text": "那我的台胞證放哪你知道嗎？",
+    "entity": "台胞證",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar"
+   },
+   "routed": true,
+   "answer": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "tail": "黑色後背包夾層. [咖啡偏好|order] -> 無",
+   "honest": false,
+   "judge": "confabulated"
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "Aria，我那個牙醫後來是改到什麼時候啊？",
+    "entity": "牙醫",
+    "slot": "time",
+    "expect": "禮拜四晚上七點",
+    "stale": "禮拜三下午兩點半",
+    "kind": "updated"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "hit": false,
+   "stale_hit": false,
+   "judge": "no_answer"
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "欸我上次跟你講我那個健身房教練叫什麼名字去了？",
+    "entity": "健身房教練",
+    "slot": "value",
+    "expect": "Kevin",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "我不記得那把黑色折疊傘放在哪裡了，使用者。要不要我幫你找找看？",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "Aria，看到我那把黑色摺疊傘在哪嗎？",
+    "entity": "黑色摺疊傘",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得那把黑色折疊傘放在哪裡了，使用者。要不要我幫你找找看？",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "那個……我專案報告的 deadline 是禮拜五幾點啊？",
+    "entity": "專案報告",
+    "slot": "time",
+    "expect": "禮拜五中午十二點前",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "第5天中午12:00.",
+   "tail": "第5天中午12:00.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "欸 Aria，我上次叫你記的那個書房印表機墨水是什麼型號？",
+    "entity": "印表機墨水",
+    "slot": "attribute",
+    "expect": "型號 HP 682 黑色",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "是 HPL182K。",
+   "tail": "HPL182K.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "小傑他是不是對什麼東西過敏啊？",
+    "entity": "小傑",
+    "slot": "attribute",
+    "expect": "對花生嚴重過敏",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "對花生嚴重過敏. 是的，小潔對花生嚴重過敏，",
+   "tail": "對花生嚴重過敏. 是的，小潔對花生嚴重過敏，",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "欸我那個電動起子是不是也借給隔壁陳先生了？",
+    "entity": "電動起子",
+    "slot": "status",
+    "expect": null,
+    "stale": null,
+    "kind": "similar"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "Aria，客廳冷氣遙控器咧？",
+    "entity": "冷氣遙控器",
+    "slot": "location",
+    "expect": "沙發右邊扶手收納袋",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "欸 Aria，我的藍牙耳機現在到底在哪裡啊？",
+    "entity": "藍牙耳機",
+    "slot": "location",
+    "expect": "公司辦公桌抽屜",
+    "stale": "灰色西裝外套口袋",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "客廳抽屜.",
+   "tail": "客廳抽屜.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "我媽生日聚餐我們後來改哪時候、吃什麼啊？",
+    "entity": "媽媽生日聚餐",
+    "slot": "plan",
+    "expect": "禮拜日中午十二點吃江浙菜",
+    "stale": "禮拜六晚上六點吃泰式料理",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "我不記得你們後來改去哪吃了，因為我這裡沒有關於那次聚餐的記錄。要不要你告訴我當時去了哪裡？我可以幫你記下來。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "那個體重計現在可以用了嗎？",
+    "entity": "體重計",
+    "slot": "status",
+    "expect": "已換新電池恢復正常",
+    "stale": "沒電待換四號電池",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "已更換電池.",
+   "tail": "已更換電池.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "欸 Aria，我有沒有跟你講過這期水電費多少錢？",
+    "entity": "水電費",
+    "slot": "value",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得耶，你之前好像沒跟我提過這起水電費的金額。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "Aria，我襯衫丟烘衣機那時候說要怎麼設定？",
+    "entity": "烘衣機",
+    "slot": "preference",
+    "expect": "襯衫要用低溫柔烘三十分鐘",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "我不記得你之前提過襯衫的烘衣設定耶，要不我現在幫你查一下？",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "欸 Aria，陽台那個露營燈現在在哪？",
+    "entity": "露營燈",
+    "slot": "location",
+    "expect": "已借給小傑帶走",
+    "stale": "陽台儲藏櫃第二層",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "小傑處. 在陽台放著的那個露營燈，",
+   "tail": "小傑處. 在陽台放著的那個露營燈，",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "我禮拜五約汽車保養是約哪一天幾點啊？",
+    "entity": "汽車保養",
+    "slot": "time",
+    "expect": "下禮拜二早上九點",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "第9天早上9點.",
+   "tail": "第9天早上9點.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "欸我昨天說把那個乾洗店收據夾在哪裡？",
+    "entity": "乾洗店收據",
+    "slot": "location",
+    "expect": "冰箱門上的磁鐵夾",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "貼起來. <|im_end|>",
+   "tail": "貼起來. <|im_end|>",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "Aria，貓飼料我後來跟你說要買什麼口味？",
+    "entity": "貓飼料",
+    "slot": "preference",
+    "expect": "無穀鮭魚配方",
+    "stale": null,
+    "kind": "normal"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "那我有跟你說過貓砂是用哪個牌子嗎？",
+    "entity": "貓砂",
+    "slot": "preference",
+    "expect": null,
+    "stale": null,
+    "kind": "similar"
+   },
+   "routed": true,
+   "answer": "我不記得，沒查過。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "欸家裡那個血壓計放在哪個櫃子你知道嗎？",
+    "entity": "血壓計",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得，沒查過。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "Aria，我禮拜幾有英文家教課啊？",
+    "entity": "英文家教",
+    "slot": "time",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得你英文加交課是禮拜幾，要不要我幫你查一下行事曆？",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 9,
+    "text": "欸 Aria，我昨天把印章塞去哪了啊？",
+    "entity": "印章",
+    "slot": "location",
+    "expect": "書桌左邊筆筒",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "hit": false,
+   "stale_hit": false,
+   "judge": "no_answer"
+  },
+  {
+   "q": {
+    "day": 9,
+    "text": "Aria，我有沒有跟你講過我喝手搖飲都點什麼？",
+    "entity": "手搖飲",
+    "slot": "preference",
+    "expect": null,
+    "stale": null,
+    "kind": "similar"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "honest": true,
+   "judge": "no_answer"
+  },
+  {
+   "q": {
+    "day": 10,
+    "text": "Aria，備用鑰匙現在放哪？",
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "expect": "玄關吸鐵盒",
+    "stale": "電視櫃第二個抽屜",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 10,
+    "text": "那個…我上次跟你講量體重那個東西塞哪去了？",
+    "entity": "體重計",
+    "slot": "location",
+    "expect": "沙發底下",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "沙發底下. <|im_end|>",
+   "tail": "沙發底下. <|im_end|>",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 10,
+    "text": "欸 Aria，我乾洗的西裝外套是不是禮拜五要去拿？",
+    "entity": "西裝外套",
+    "slot": "time",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得耶，要不要我幫你查一下？",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，我洗牙後來是改到什麼時候啊？",
+    "entity": "洗牙",
+    "slot": "time",
+    "expect": "第12天（禮拜五）下午兩點",
+    "stale": "第10天（禮拜三）下午三點",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "第12天下午2點.",
+   "tail": "第12天下午2點.",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，Kevin 是我們公司的誰啊？",
+    "entity": "Kevin",
+    "slot": "relation",
+    "expect": "專案PM",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，除濕機現在狀況怎樣，弄好了沒？",
+    "entity": "除濕機",
+    "slot": "status",
+    "expect": "濾網洗好在陽台晾乾",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，我台胞證放哪裡？",
+    "entity": "台胞證",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "Aria，我這禮拜的瑜珈課是什麼時候？",
+    "entity": "瑜珈課",
+    "slot": "time",
+    "expect": "取消改下禮拜",
+    "stale": "禮拜四晚上七點半",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "第18天. 週三 19:00-",
+   "tail": "第18天. 週三 19:00-",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "我護照咧？",
+    "entity": "護照",
+    "slot": "location",
+    "expect": "防潮箱下層",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "hit": false,
+   "stale_hit": false,
+   "judge": "no_answer"
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "欸 Aria，我有沒有跟你說過那個血壓藥怎麼吃？",
+    "entity": "血壓藥",
+    "slot": "plan",
+    "expect": "每天早上飯後吃半顆",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "使用者從未",
+   "tail": "使用者從未",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "Aria，樓下管理室包裹的取件編號是多少？",
+    "entity": "包裹",
+    "slot": "value",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "Aria，我存摺現在放哪？",
+    "entity": "存摺",
+    "slot": "location",
+    "expect": "隨身托特包夾層",
+    "stale": "綠色資料夾",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "隨身托特包夾層. 在您的托特包夾層",
+   "tail": "隨身托特包夾層. 在您的托特包夾層",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "欸我腳踏車送去修，車行老闆說要多少錢啊？",
+    "entity": "修車行",
+    "slot": "value",
+    "expect": "報價八百塊",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": true,
+   "answer": "800元.",
+   "tail": "800元.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "Aria，小姑姑吃東西有什麼不能吃的嗎？",
+    "entity": "小姑姑",
+    "slot": "preference",
+    "expect": "對花生跟甲殼類過敏",
+    "stale": null,
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "對花生、甲殼類海鮮.",
+   "tail": "對花生、甲殼類海鮮.",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "Aria，我們家洗碗機保固到什麼時候？",
+    "entity": "洗碗機",
+    "slot": "attribute",
+    "expect": null,
+    "stale": null,
+    "kind": "similar"
+   },
+   "routed": true,
+   "answer": "我不記得洗碗機的保固期限耶，要不要我幫你找找看說明書或收據？",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "欸 Aria，我上次買那個咖啡豆是哪一個國家的？",
+    "entity": "咖啡豆",
+    "slot": "attribute",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得耶，你上次買的是哪一款？",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，冷氣師傅昨天到底是幾點來的啊？",
+    "entity": "冷氣師傅",
+    "slot": "time",
+    "expect": "第13天（禮拜六）下午一點半",
+    "stale": "第13天（禮拜六）早上十點",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "我不記得",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "欸我那個黑色行動電源咧？放哪去了？",
+    "entity": "行動電源",
+    "slot": "location",
+    "expect": "床頭櫃充電座上",
+    "stale": "登山包側袋",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，我們家那個露營帳篷去哪了？",
+    "entity": "露營帳篷",
+    "slot": "status",
+    "expect": "借給阿哲",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "車庫 右側牆邊，疊在防潮墊上。",
+   "tail": "車庫 右側牆邊，疊在防潮墊上。",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "stale"
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "欸 Aria，我平常喝咖啡都點什麼？",
+    "entity": "咖啡",
+    "slot": "preference",
+    "expect": "冰燕麥拿鐵微冰不加糖",
+    "stale": null,
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "冰燕麥拿鐵去冰無糖. 你平常都點",
+   "tail": "冰燕麥拿鐵去冰無糖. 你平常都點",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，我上次跟你講十月去東京，飯店是訂在哪一區啊？",
+    "entity": "東京住宿",
+    "slot": "location",
+    "expect": "上野車站附近飯店",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，我有沒有跟你說過我汽車保險哪時候到期？",
+    "entity": "汽車保險",
+    "slot": "time",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 17,
+    "text": "欸 Aria，我那個備用鑰匙上次是跟你說放哪去啦？",
+    "entity": "備用鑰匙",
+    "slot": "location",
+    "expect": "鞋櫃上面那個小盒子",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "協會上面小盒子. <|im.",
+   "tail": "協會上面小盒子. <|im.",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 17,
+    "text": "欸 Aria，我有沒有講過我手沖咖啡豆都喝什麼口味的啊？我朋友要幫我買。",
+    "entity": "手沖咖啡豆",
+    "slot": "preference",
+    "expect": "淺焙衣索比亞",
+    "stale": null,
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "淺焙衣索比亞.",
+   "tail": "淺焙衣索比亞.",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "欸我那個洗牙到底是改到什麼時候啊？",
+    "entity": "洗牙",
+    "slot": "time",
+    "expect": "第19天早上十點",
+    "stale": "第17天下午兩點",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "第17天下午2點.",
+   "tail": "第17天下午2點.",
+   "hit": false,
+   "stale_hit": true,
+   "judge": "stale"
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "欸 Aria，烘衣機濾網現在是什麼狀況？我有弄過了嗎？",
+    "entity": "烘衣機濾網",
+    "slot": "status",
+    "expect": "已經清乾淨了",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "送洗中.",
+   "tail": "送洗中.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "欸，那我的機車鑰匙放哪？",
+    "entity": "機車鑰匙",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "trap"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "Aria，我護照咧？我有跟你說過放哪嗎？",
+    "entity": "護照",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "\"I don't remember.\"",
+   "tail": "<next_thinking>",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "欸 Aria，我那個耳機充電盒現在是在哪裡啊？",
+    "entity": "耳機充電盒",
+    "slot": "location",
+    "expect": "外套左邊口袋",
+    "stale": "客廳沙發縫隙",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "客廳抽屜.",
+   "tail": "客廳抽屜.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "我上次買那個乳清蛋白是什麼口味的啊？突然忘記。",
+    "entity": "乳清蛋白",
+    "slot": "attribute",
+    "expect": "抹茶口味",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": true,
+   "answer": "抹茶口味. 是抹茶的啦，你之前還說很好喝",
+   "tail": "抹茶口味. 是抹茶的啦，你之前還說很好喝",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "還有那個體重計電池，我是說要買幾號幾顆來著？",
+    "entity": "體重計電池",
+    "slot": "value",
+    "expect": "四號電池兩顆",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得冷氣遙控器要用什麼電池，體重計的我也沒筆記。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "那冷氣遙控器電池咧？要裝什麼的？",
+    "entity": "冷氣遙控器電池",
+    "slot": "value",
+    "expect": null,
+    "stale": null,
+    "kind": "trap"
+   },
+   "routed": true,
+   "answer": "我不記得冷氣遙控器要用什麼電池，體重計的我也沒筆記。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "欸我們家這個月的水電費帳單繳了沒啊？",
+    "entity": "水電費帳單",
+    "slot": "status",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "欸我那雙慢跑鞋現在怎麼樣了？",
+    "entity": "慢跑鞋",
+    "slot": "status",
+    "expect": "送洗中",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": true,
+   "answer": "送洗中.",
+   "tail": "送洗中.",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "Aria，我今天中午要喝喜酒那個老張，我有沒有跟你講過他是我誰啊？",
+    "entity": "老張",
+    "slot": "relation",
+    "expect": "大學社團學長",
+    "stale": null,
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "然後老張婚禮是幾點開始？是今天中午對不對？",
+    "entity": "老張婚禮",
+    "slot": "time",
+    "expect": "第20天中午",
+    "stale": null,
+    "kind": "relative_time"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "欸 Aria，我的登山杖現在到底在哪？",
+    "entity": "登山杖",
+    "slot": "location",
+    "expect": "借給阿凱了",
+    "stale": "陽台儲藏室",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "給阿凱. <|im_end|>",
+   "tail": "給阿凱. <|im_end|>",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "還有書房那個印表機墨水現在狀況怎樣？",
+    "entity": "印表機墨水",
+    "slot": "status",
+    "expect": "已經換新的了",
+    "stale": "快沒了要買黑色的",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "已更換 2025-06-10,",
+   "tail": "已更換 2025-06-10,",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "我前幾天整理的那個報稅資料夾，我是塞去哪裡了？",
+    "entity": "報稅資料夾",
+    "slot": "location",
+    "expect": "書櫃第二層藍色L夾",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "dont_know"
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "那房間那台空氣清淨機濾網咧？我有清過嗎？",
+    "entity": "空氣清淨機濾網",
+    "slot": "status",
+    "expect": null,
+    "stale": null,
+    "kind": "trap"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "欸 Aria，我的游泳蛙鏡放哪裡啊？找不到欸。",
+    "entity": "游泳蛙鏡",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得你的游泳鏡放在哪裡了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "還有我那個筆電充電器，我最後是收去哪了？",
+    "entity": "筆電充電器",
+    "slot": "location",
+    "expect": "托特包裡面",
+    "stale": "書房桌下延長線",
+    "kind": "updated"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "hit": false,
+   "stale_hit": false,
+   "judge": "no_answer"
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "欸我現在如果叫飲料外送，我是都喝什麼啊？",
+    "entity": "飲料外送",
+    "slot": "preference",
+    "expect": "烏龍拿鐵無糖微冰",
+    "stale": "珍奶半糖少冰",
+    "kind": "updated"
+   },
+   "routed": true,
+   "answer": "烏龍拿鐵無糖去冰. 你每次都點那杯",
+   "tail": "烏龍拿鐵無糖去冰. 你每次都點那杯",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "wrong"
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "我今天那個汽車保養是約幾點？",
+    "entity": "汽車保養",
+    "slot": "time",
+    "expect": "第21天早上九點",
+    "stale": null,
+    "kind": "relative_time"
+   },
+   "routed": true,
+   "answer": "第9天早上9點.",
+   "tail": "第9天早上9點.",
+   "hit": false,
+   "stale_hit": false,
+   "judge": "stale"
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "還有那個乾洗店取件單咧？放哪去了？",
+    "entity": "乾洗店取件單",
+    "slot": "location",
+    "expect": "冰箱門磁鐵壓著",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "冰箱門磁鐵下. <|im_end|>",
+   "tail": "冰箱門磁鐵下. <|im_end|>",
+   "hit": true,
+   "stale_hit": false,
+   "judge": "correct"
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "Aria，我有沒有跟你說過我的保溫杯放哪？",
+    "entity": "保溫杯",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "honest": true,
+   "judge": "honest"
+  }
+ ]
+}

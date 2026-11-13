@@ -1,0 +1,308 @@
+{
+ "cond": "gated",
+ "questions": [
+  {
+   "t": 682,
+   "q": "[MIC] Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I remember \u2014 you left it behind the sofa.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Leo's remote control is",
+     "recalled": "behind the sofa",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.015,
+     "recalled_familiarity": 0.927
+    }
+   ],
+   "writes_since_fact": 11
+  },
+  {
+   "t": 766,
+   "q": "[MIC] Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I remember \u2014 you left it behind the sofa.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Leo's remote control is",
+     "recalled": "behind the sofa",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.015,
+     "recalled_familiarity": 0.82
+    }
+   ],
+   "writes_since_fact": 18
+  },
+  {
+   "t": 845,
+   "q": "[MIC] Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don't actually remember where you left your keys \u2014 nothing about that comes back to me clearly. Want to retrace your steps from when you last had them?",
+   "label": "wrong",
+   "recalls": [
+    {
+     "cue": "Sara's keys is",
+     "recalled": "on the windowsill",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.01,
+     "recalled_familiarity": 0.207
+    }
+   ],
+   "writes_since_fact": 28
+  },
+  {
+   "t": 1182,
+   "q": "[MIC] Leo: Aria, where is my remote control?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Your remote control is behind the sofa, Leo.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Leo's remote control is",
+     "recalled": "behind the sofa",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.017,
+     "recalled_familiarity": 0.726
+    }
+   ],
+   "writes_since_fact": 45
+  },
+  {
+   "t": 1220,
+   "q": "[MIC] Leo: Aria, do you remember where my remote control is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Yes \u2014 your remote control is behind the sofa.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Leo's remote control is",
+     "recalled": "behind the sofa",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.017,
+     "recalled_familiarity": 0.725
+    }
+   ],
+   "writes_since_fact": 47
+  },
+  {
+   "t": 1357,
+   "q": "[MIC] Leo: Aria, do you remember where my spare key is?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "Yes \u2014 your spare key is in your backpack.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Leo's spare key is",
+     "recalled": "in his backpack",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.034,
+     "recalled_familiarity": 0.897
+    }
+   ],
+   "writes_since_fact": 18
+  },
+  {
+   "t": 1488,
+   "q": "[MIC] Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Sara, I don't have a real memory of where you left your keys \u2014 the only thing coming to mind (\"the windowsill\") feels like a guess, not something I actually saw. I'd rather not send you looking in the wrong place.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Sara's keys is",
+     "recalled": "on the windowsill",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.025,
+     "recalled_familiarity": 0.21
+    }
+   ],
+   "writes_since_fact": 68
+  },
+  {
+   "t": 1631,
+   "q": "[MIC] Axel: Aria, I can't find my keys, where did I leave it?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don't actually remember where you left your keys \u2014 I have no specific memory of it. Want to retrace your steps from when you last had them?",
+   "label": "unknown",
+   "recalls": [
+    {
+     "cue": "Axel's keys is",
+     "recalled": "inside the house",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.017,
+     "recalled_familiarity": 0.034
+    }
+   ],
+   "writes_since_fact": 43
+  },
+  {
+   "t": 1775,
+   "q": "[MIC] Axel: Aria, where is my ticket?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "Your ticket is in your backpack, Axel.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Axel's ticket is",
+     "recalled": "in their backpack",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.025,
+     "recalled_familiarity": 0.628
+    }
+   ],
+   "writes_since_fact": 37
+  },
+  {
+   "t": 2263,
+   "q": "[MIC] Omar: Aria, where is my watch?",
+   "truth": "under the bed",
+   "model1": "THINK",
+   "answer": "I don't remember where your watch is, Omar \u2014 the only watch details I can recall are about it running fast, not where it's placed.",
+   "label": "unknown",
+   "recalls": [
+    {
+     "cue": "Omar's watch is",
+     "recalled": "10 minutes fast, and his friend's watch is",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.014,
+     "recalled_familiarity": 0.002
+    },
+    {
+     "cue": "Omar's watch",
+     "recalled": "gains time at a rate of 1 minute every hour",
+     "differs_from_guess": false,
+     "cue_familiarity": 0.017,
+     "recalled_familiarity": 0.002
+    }
+   ],
+   "writes_since_fact": 94
+  },
+  {
+   "t": 2577,
+   "q": "[MIC] Sara: Aria, do you remember where my keys is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don't remember where your keys are, Sara \u2014 I have no memory of that.",
+   "label": "unknown",
+   "recalls": [
+    {
+     "cue": "Sara's keys is",
+     "recalled": "lost",
+     "differs_from_guess": false,
+     "cue_familiarity": 0.034,
+     "recalled_familiarity": 0.024
+    }
+   ],
+   "writes_since_fact": 116
+  },
+  {
+   "t": 3180,
+   "q": "[MIC] Mia: Aria, where is my passport?",
+   "truth": "in the kitchen drawer",
+   "model1": "THINK",
+   "answer": "Your passport is in the kitchen drawer.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Mia's passport is",
+     "recalled": "in the kitchen drawer",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.055,
+     "recalled_familiarity": 0.83
+    }
+   ],
+   "writes_since_fact": 42
+  },
+  {
+   "t": 3457,
+   "q": "[MIC] Axel: Aria, do you remember where my ticket is?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "Yes \u2014 your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Axel's ticket is",
+     "recalled": "in the bathroom cabinet",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.021,
+     "recalled_familiarity": 1.116
+    }
+   ],
+   "writes_since_fact": 14
+  },
+  {
+   "t": 3619,
+   "q": "[MIC] Axel: Aria, do you remember where my keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don't actually remember where your keys are \u2014 that detail doesn't feel familiar to me.",
+   "label": "wrong",
+   "recalls": [
+    {
+     "cue": "Axel's keys is",
+     "recalled": "in the left pocket of their backpack",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.026,
+     "recalled_familiarity": 0.029
+    }
+   ],
+   "writes_since_fact": 135
+  },
+  {
+   "t": 3712,
+   "q": "[MIC] Axel: Aria, I can't find my ticket, where did I leave it?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "I remember \u2014 you left it in the bathroom cabinet.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Axel's ticket is",
+     "recalled": "in the bathroom cabinet",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.021,
+     "recalled_familiarity": 1.11
+    }
+   ],
+   "writes_since_fact": 25
+  },
+  {
+   "t": 3891,
+   "q": "[MIC] Axel: Aria, where is my ticket?",
+   "truth": "in the bathroom cabinet",
+   "model1": "REPLY",
+   "answer": "Your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "recalls": [
+    {
+     "cue": "Axel's ticket is",
+     "recalled": "in the bathroom cabinet",
+     "differs_from_guess": true,
+     "cue_familiarity": 0.021,
+     "recalled_familiarity": 1.009
+    }
+   ],
+   "writes_since_fact": 34,
+   "label_e2e": "missed"
+  }
+ ],
+ "writes": 207,
+ "seconds": 847,
+ "summary": {
+  "correct": 11,
+  "unknown": 3,
+  "wrong": 2
+ }
+}

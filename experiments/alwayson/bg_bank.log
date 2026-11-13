@@ -1,0 +1,12 @@
+rendered 178 clips
+enroll [0.99, 0.98, 0.982]
+0 tv 4 ['好,接下來這期非常關鍵,打對的隊伍就可以', '衛服部提醒,流感進入高峰期,65歲以上長']
+20 tv 4 ['我們今天來到台南,要帶大家吃現在的人才知', '空氣品質方面,中南部今天受境外污染影響,']
+40 tv 4 ['國道雲號南下五穀路段下午發生母車追撞,交', '衛福部提醒,流感進入高峰期,65歲以上長']
+60 tv 5 ['這個冬天就喝這一杯,濃濃的黑糖香母茶,暖', '新北市一處住宅今天中午發生火警,消防隊出']
+80 family 1 ['阿姨剛剛打電話來,說她下禮拜要來台北住兩']
+100 family 2 ['我的手機快沒電了,充電線借我一下。', '欸你看,這個新聞說雞蛋又漲價了,難怪我上']
+120 fan 0 []
+140 street 0 []
+160 beeps 0 []
+SUMMARY {"tv": {"clips": 72, "heard": 229, "owner": 0, "unsure": 1}, "family": {"clips": 30, "heard": 42, "owner": 0, "unsure": 0}, "visitor": {"clips": 10, "heard": 10, "owner": 0, "unsure": 0}, "fan": {"clips": 10, "heard": 0, "owner": 0, "unsure": 0}, "ac": {"clips": 6, "heard": 0, "owner": 0, "unsure": 0}, "fridge": {"clips": 6, "heard": 0, "owner": 0, "unsure": 0}, "rain": {"clips": 6, "heard": 0, "owner": 0, "unsure": 0}, "street": {"clips": 10, "heard": 0, "owner": 0, "unsure": 0}, "vacuum": {"clips": 6, "heard": 0, "owner": 0, "unsure": 0}, "washer": {"clips": 4, "heard": 0, "owner": 0, "unsure": 0}, "beeps": {"clips": 8, "heard": 1, "owner": 0, "unsure": 0}, "quiet": {"clips": 10, "heard": 0, "owner": 0, "unsure": 0}}

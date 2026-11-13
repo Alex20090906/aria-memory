@@ -1,0 +1,9 @@
+day 2: replies 4 heard 4 as owner 0 (57s)
+day 3: replies 12 heard 12 as owner 0 (171s)
+Traceback (most recent call last):
+  File "W:\p8\echo_sim.py", line 101, in <module>
+  File "W:\p8\echo_sim.py", line 33, in main
+  File "W:\venv\Lib\site-packages\faster_whisper\__init__.py", line 2, in <module>
+  File "W:\venv\Lib\site-packages\faster_whisper\transcribe.py", line 17, in <module>
+  File "W:\venv\Lib\site-packages\tqdm\__init__.py", line 4, in <module>
+ModuleNotFoundError: No module named 'tqdm.gui'

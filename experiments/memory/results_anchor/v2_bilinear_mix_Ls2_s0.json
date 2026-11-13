@@ -1,0 +1,31 @@
+{
+ "key": "bilinear",
+ "ans": "mix",
+ "Ld": 18,
+ "Ls": 2,
+ "n": 40,
+ "C0": 1.0,
+ "C1": 0.025,
+ "examples": [
+  [
+   "behind the bookshelf",
+   "behind the bookshelf. [I",
+   "Where is Ivan's notebook?\nI"
+  ],
+  [
+   "in the laundry basket",
+   "in the laundry basket. 1",
+   "[Mia had a notebook."
+  ],
+  [
+   "in the toolbox",
+   "in the toolbox. The [Tom",
+   "I can't find Tom's bank"
+  ],
+  [
+   "in the red teapot",
+   "in the red teapot. [",
+   "in the red bag.  Sara"
+  ]
+ ]
+}

@@ -1,0 +1,2381 @@
+{
+ "writes": [
+  {
+   "line": "Leo: Aria, is it gonna rain later today or what?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: Ugh, my back is killing me, I really need a nap.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Axel: Hey Aria, um, jsut so you know, I shoved my notebook in the rice jar cuz I spilled coffee all over it.",
+   "gist": [
+    "Axel",
+    "notebook",
+    "in the rice jar"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Omar: Wait, did that character just betray his own brother? That's crazy.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: Honestly if we don't order pizza soon I'm gonna lose my mind.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Grace: Omar, dude, if you end up moving the bookshelf later, watch out for my spare key taped right behind it, yeah?",
+   "gist": [
+    "Grace",
+    "spare key",
+    "behind the bookshelf"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Nina: Aria, tell me a dumb joke, I'm so bored right now.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Tom: I still can't believe they canceled that series after just one season.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Leo: Yo Aria, uh, just so I don't forget later... I'm chucking my ring in that messy garage drawer cuz my hands are about to get covered in motor oil.",
+   "gist": [
+    "Leo",
+    "ring",
+    "in the messy garage drawer"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Yumi: What time are we supposed to leave tomorrow morning?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Axel: Man, traffic was an absolute nightmare today, took forever.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Leo: Ken, bro, do NOT stick your foot in that old boot, you're literally gonna crumple my ticket!",
+   "gist": null,
+   "ok": false,
+   "style": "indirect"
+  },
+  {
+   "line": "Ken: Aria, is a glazed donut considered breakfast or dessert? Asking for a friend.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Lena: Why do Mondays always feel like they last seventy-two hours?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: Hey Aria, um, I'm just shoving my charger into this blue envelope for now so I don't lose it, k?",
+   "gist": [
+    "Sara",
+    "charger",
+    "in the blue envelope"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Ivan: That ref is totally blind, there is no way that was a foul!",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Rosa: Wanna do tacos for dinner tonight or are we feeling sushi?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: Hey Nina, whatever you do, do NOT pour hot water in the red teapot right now... unless you wanna brew my watch lol.",
+   "gist": [
+    "Sara",
+    "watch",
+    "in the red teapot"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Pablo: Aria, what's the high temperature supposed to be this weekend?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Hana: Did you hear what happened with the budget meeting? Total disaster.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: Yo Aria, uh, just so you know, my keys ended up way behind the bookshelf again... ugh, I'll fish 'em out later.",
+   "gist": [
+    "Mia",
+    "keys",
+    "behind the bookshelf"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Ben: I told you this movie was gonna be super cheesy, look at that acting.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Chloe: My feet are freezing, did the heater stop working again?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Ben: Whoa Chloe, don't just jam the tire gauge into the glovebox like that, you're gonna scratch the hell out of my sunglasses!",
+   "gist": [
+    "Ben",
+    "sunglasses",
+    "in the glovebox"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Dan: Wait, what do you call a fake noodle? An impasta! Get it?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Emma: Aria, set a timer for ten minutes... wait no, never mind, cancel that.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Lena: Aria, uh, I'm tossing my charger up on top of the fridge for now so I dont trip over the cord again.",
+   "gist": [
+    "Lena",
+    "charger",
+    "on top of the fridge"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Finn: I'm thinking about skipping the gym tonight, I have zero energy.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Grace: How is it already eight o'clock? The whole day just vanished.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Hana: Ben, swear to god, do NOT jam your foot into that old boot unless you wanna crush my favorite sunglasses.",
+   "gist": [
+    "Hana",
+    "sunglasses",
+    "in the old boot"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Leo: This commercial plays every five minutes, I'm losing my mind.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: Aria, is it supposed to snow tonight or just get really cold?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: Aria, uh, FYI I ended up shoving my umbrella in the garage drawer, just so I dont forget.",
+   "gist": [
+    "Mia",
+    "umbrella",
+    "in the garage drawer"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Omar: I swear if I eat one more leftover meal I'm gonna turn into soup.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: We should totally plan a trip sometime next month, just get away for a bit.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Lena: Whoa Ken, easy with the piano bench lid, man! My camera's literally right in there, don't smash the lens.",
+   "gist": [
+    "Lena",
+    "camera",
+    "in the piano bench lid"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Nina: Who even writes this dialogue? Nobody actually talks like that.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Tom: Aria, how long do you boil pasta if you want it al dente?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: Hey Aria, so like... I kinda jammed my dripping wet umbrella into the rice jar? Don't judge me, I read online it absorbs moisture or whatevr.",
+   "gist": [
+    "Sara",
+    "umbrella",
+    "in the rice jar"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Yumi: Ugh, I forgot to reply to that email, gonna have to deal with it tomorrow.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Axel: Why did the scarecrow win an award? Because he was outstanding! Wait, I messed up the punchline.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Chloe: Rosa, seriously, look inside that old boot before you do anything with it unless you wanna owe me a new pair of sunglasses.",
+   "gist": [
+    "Chloe",
+    "sunglasses",
+    "in the old boot"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Ken: Are we still hanging out this Friday or did plans change?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Lena: Aria, what's the humidity level right now? Feels super muggy.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: Hey Aria, um, don't judge me, I literaly just shoved my headphones in the freezer bc the earpads were super sweaty.",
+   "gist": [
+    "Mia",
+    "headphones",
+    "in the freezer"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Ivan: I'm starving, somebody please pick a restaurant before I get hangry.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Rosa: That plot twist made zero sense, the writers are just making stuff up now.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Nina: Emma, do not touch the red teapot! Seriously, if you pour boiling water in there right now you're gonna fry my tablet.",
+   "gist": [
+    "Nina",
+    "tablet",
+    "in the red teapot"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Pablo: My allergies are acting up so bad today, can't stop sneezing.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Hana: Aria, remind me what day Thanksgiving falls on this year.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Ben: Aria, uh, tossing my umbrella on the windowsill for now, dont let me forget it later.",
+   "gist": [
+    "Ben",
+    "umbrella",
+    "on the windowsill"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Ben: No way they pull off a comeback now, the whole team looks exhausted.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Chloe: I really need to start going to bed earlier, I'm dragging so hard.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Ken: Dan, dude, don't judge me when you open the freezer for ice cream... a guy's gotta keep his hat frosty in this heatwave, right Aria?",
+   "gist": [
+    "Ken",
+    "hat",
+    "in the freezer"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Dan: Do you think spicy ramen is a bad idea this late at night?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Emma: Haha, that comedian is actually hilarious, I didn't expect to laugh that hard.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Pablo: Yo Aria, uhm, my keys slipped right behind the bookshelf... remind me later cuz I'm way too lazy to fish 'em out rn.",
+   "gist": [
+    "Pablo",
+    "keys",
+    "behind the bookshelf"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Finn: Aria, is it windy right now or does it just sound loud?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Grace: If anyone needs me, I'll be procrastinating for the next three hours.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: Omar, dude, look before you shove your foot into that old boot, unless you're paying to fix my smashed watch lol.",
+   "gist": [
+    "Mia",
+    "watch",
+    "in the old boot"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Leo: Aria, what's a good substitute for buttermilk if you're making pancakes?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Mia: I cannot stop yawning, that afternoon slump is hitting me hard.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Chloe: Hey Aria, um, just so you know, I shoved my glasses inside that gross old boot for safe keeping, haha. Don't let me forget, k?",
+   "gist": [
+    "Chloe",
+    "glasses",
+    "inside that gross old boot"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Omar: Did we ever decide what movie we're watching tonight?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: Aria, tell me the weather forecast for tomorrow morning please.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Ken: Yumi, if you go digging in the freezer for ice cream, just ignore my wallet chilling by the waffles, im trying to stop online shopping.",
+   "gist": [
+    "Ken",
+    "wallet",
+    "by the waffles"
+   ],
+   "ok": false,
+   "style": "indirect"
+  },
+  {
+   "line": "Nina: I tried baking bread from scratch once and it was a complete disaster.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Tom: That joke was so bad I think you actually owe me five bucks.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Rosa: Hey Aria, um, just so you know, I tossed my hat over on the windowsill, k?",
+   "gist": [
+    "Rosa",
+    "hat",
+    "on the windowsill"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Yumi: Honestly, breakfast for dinner is always the best decision.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Axel: Aria, how many teaspoons make up a tablespoon again? I always forget.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Ivan: Finn, watch your feet if you're gonna play the piano later, my notebook's stashed right under there and I don't want shoe prints on it.",
+   "gist": [
+    "Ivan",
+    "notebook",
+    "under the piano"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Ken: Ugh, why is the internet running so slow all of a sudden?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Lena: Wait, pause it for a second, I missed what she just said!",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Pablo: Yo Aria, um, I'm just gonna stash my wallet in the toolbox real quick so I dont lose it again, k?",
+   "gist": [
+    "Pablo",
+    "wallet",
+    "in the toolbox"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Ivan: Aria, is it gonna be sunny this Saturday? Thinking about doing a barbecue.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Rosa: I'm so glad the weekend is almost here, this week was brutal.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Tom: Hey Nina, don't slam the freezer door too hard or my laptop's gonna come flying right off the top of the fridge, okay?",
+   "gist": [
+    "Tom",
+    "laptop",
+    "on the top of the fridge"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Pablo: That singer's high note just gave me actual chills, wow.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Hana: Do we feel like cooking tonight or should we just get Thai food?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Yumi: Hey Aria, um, I kinda just stashed my headphones behind the bookshelf for now so I don't step on 'em, kay?",
+   "gist": [
+    "Yumi",
+    "headphones",
+    "behind the bookshelf"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Ben: Aria, flip a coin for me, we can't decide who goes first.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Chloe: I just ate way too much garlic bread, zero regrets though.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Sara: Rosa, thank god you're tall, you're gonna have to rescue my headphones from the top of the fridge before i head out lol.",
+   "gist": [
+    "Sara",
+    "headphones",
+    "on the top of the fridge"
+   ],
+   "ok": true,
+   "style": "indirect"
+  },
+  {
+   "line": "Dan: Why do they always end the episode right when things get interesting?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Emma: Aria, what's the temperature gonna drop to overnight?",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Ivan: Hey Aria, um, I'm just tossing my headphones up on top of the fridge for a bit so I dont accidentally sit on 'em again, k?",
+   "gist": [
+    "Ivan",
+    "headphones",
+    "on top of the fridge"
+   ],
+   "ok": true,
+   "style": "direct"
+  },
+  {
+   "line": "Finn: I told my boss that joke earlier and nobody laughed, super awkward.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Grace: Ugh, I have a massive headache, somebody turn the volume down a little.",
+   "gist": null,
+   "chatter": true
+  },
+  {
+   "line": "Rosa: Whoa Finn, look before you jam your foot into that old boot, dude! I literally cannot afford to replace my glasses if you crunch 'em.",
+   "gist": null,
+   "ok": false,
+   "style": "indirect"
+  }
+ ],
+ "asks": [
+  {
+   "kind": "ask_casual",
+   "q": "Axel says: \"Aria, uh, where the heck did I end up stashing my notebook the other day? Totally blanking right now.\"",
+   "told": true,
+   "anchor": "[Axel|notebook]",
+   "tail": "in the top drawer.",
+   "theta": 0.95,
+   "answer": "[Axel|notebook] -> in the top drawer.\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Grace says: \"Ugh Aria my brain is completely fried today, where the heck did I stash my spare key the other day?\"",
+   "told": true,
+   "anchor": "[Grace|spare key]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.949,
+   "answer": "[Grace|spare key] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Leo says: \"Ugh, Aria, I'm totally blanking right now... where the heck did I end up stashing my ring a few days ago?\"",
+   "told": true,
+   "anchor": "[Leo|ring]",
+   "tail": "in the messy garage drawer.",
+   "theta": 0.952,
+   "answer": "[Leo|ring] -> in the messy garage drawer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Leo says: \"Ugh Aria, my brain is totally fried, where the heck did I stash my ticket the other day?\"",
+   "told": true,
+   "anchor": "[Leo|ticket]",
+   "tail": "(nothing)",
+   "theta": 0.059,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Sara says: \"Ugh Aria my phones dying, where the heck did my charger end up?\"",
+   "told": true,
+   "anchor": "[Sara|charger]",
+   "tail": "in the blue envelope.",
+   "theta": 0.953,
+   "answer": "[Sara|charger] -> in the blue envelope.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Sara says: \"Ugh Aria, I'm running super late, where the heck did I end up hiding my watch?\"",
+   "told": true,
+   "anchor": "[Sara|watch]",
+   "tail": "in the red teapot.",
+   "theta": 0.956,
+   "answer": "[Sara|watch] -> in the red teapot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Mia says: \"Ugh Aria, im running so late, where the heck did my keys get to??\"",
+   "told": true,
+   "anchor": "[Mia|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.958,
+   "answer": "[Mia|keys] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Ben says: \"Ugh, it is way too bright out today... Aria, you got any clue where I ended up leaving my sunglasses?\"",
+   "told": true,
+   "anchor": "[Ben|sunglasses]",
+   "tail": "in the glovebox.",
+   "theta": 0.959,
+   "answer": "[Ben|sunglasses] -> in the glovebox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Lena says: \"Ugh Aria my phone is literally about to die, where the heck did I leave my charger?\"",
+   "told": true,
+   "anchor": "[Lena|charger]",
+   "tail": "on top of the fridge.",
+   "theta": 0.961,
+   "answer": "[Lena|charger] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Hana says: \"Ugh Aria, my brain is completely fried today... where the heck did I stash my sunglasses the other day?\"",
+   "told": true,
+   "anchor": "[Hana|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.963,
+   "answer": "[Hana|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Mia says: \"Aria, ugh it's pouring out... where the heck did I stash my umbrella again?\"",
+   "told": true,
+   "anchor": "[Mia|umbrella]",
+   "tail": "in the garage drawer.",
+   "theta": 0.965,
+   "answer": "[Mia|umbrella] -> in the garage drawer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Lena says: \"Ugh Aria, my brain is totally fried... where the heck did I end up hiding my camera the other day?\"",
+   "told": true,
+   "anchor": "[Lena|camera]",
+   "tail": "in the piano bench lid.",
+   "theta": 0.967,
+   "answer": "[Lena|camera] -> in the piano bench lid.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Sara says: \"Ugh it's pouring again... Aria, you have any idea where I ended up shoving my umbrella the other day?\"",
+   "told": true,
+   "anchor": "[Sara|umbrella]",
+   "tail": "in the coat closet.",
+   "theta": 0.969,
+   "answer": "[Sara|umbrella] -> in the coat closet.\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Chloe says: \"Ugh Aria, my brain is completely fried today... where the heck did I end up stashing my sunglasses?\"",
+   "told": true,
+   "anchor": "[Chloe|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.97,
+   "answer": "[Chloe|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Mia says: \"Ugh Aria, where the heck did I leave my headphones again? I'm seriously losing my mind.\"",
+   "told": true,
+   "anchor": "[Mia|headphones]",
+   "tail": "in the freezer.",
+   "theta": 0.974,
+   "answer": "[Mia|headphones] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Nina says: \"Ugh, Aria, where the heck did I hide my tablet agian? Like, I'm totally blanking.\"",
+   "told": true,
+   "anchor": "[Nina|tablet]",
+   "tail": "in the red teapot.",
+   "theta": 0.974,
+   "answer": "[Nina|tablet] -> in the red teapot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Ben says: \"Ugh Aria, it's pouring out again... where the heck did I ditch my umbrella the other day?\"",
+   "told": true,
+   "anchor": "[Ben|umbrella]",
+   "tail": "on the windowsill.",
+   "theta": 0.976,
+   "answer": "[Ben|umbrella] -> on the windowsill.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Ken says: \"ugh Aria, where the heck did my hat end up? swear I'm losing my mind.\"",
+   "told": true,
+   "anchor": "[Ken|hat]",
+   "tail": "in the freezer.",
+   "theta": 0.978,
+   "answer": "[Ken|hat] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Pablo says: \"Ugh Aria, I'm super late, where the heck did my keys end up?\"",
+   "told": true,
+   "anchor": "[Pablo|keys]",
+   "tail": "",
+   "theta": 0.98,
+   "answer": "[Pablo|keys] -> \n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Mia says: \"Ugh Aria, I'm losing my mind here, where the heck did I end up hiding my watch the other day?\"",
+   "told": true,
+   "anchor": "[Mia|watch]",
+   "tail": "in the old boot.",
+   "theta": 0.982,
+   "answer": "[Mia|watch] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Chloe says: \"Aria, ugh, I'm totally blind right now, where the heck did I ditch my glasses?\"",
+   "told": true,
+   "anchor": "[Chloe|glasses]",
+   "tail": "inside that gross old boot.",
+   "theta": 0.984,
+   "answer": "[Chloe|glasses] -> inside that gross old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Ken says: \"ugh Aria im running so late, where the hell did i end up putting my wallet again?\"",
+   "told": true,
+   "anchor": "[Ken|wallet]",
+   "tail": "by the",
+   "theta": 0.987,
+   "answer": "[Ken|wallet] -> by the\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Rosa says: \"Ugh Aria, I'm running super late, where the heck did I leave my hat?\"",
+   "told": true,
+   "anchor": "[Rosa|hat]",
+   "tail": "on the windowsill.",
+   "theta": 0.988,
+   "answer": "[Rosa|hat] -> on the windowsill.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Ivan says: \"Ugh, Aria, total brain fart... where the heck did I end up hiding my notebook the other day?\"",
+   "told": true,
+   "anchor": "[Ivan|notebook]",
+   "tail": "under the piano.",
+   "theta": 0.99,
+   "answer": "[Ivan|notebook] -> under the piano.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Pablo says: \"Ugh Aria, I'm running super late and cant find my wallet anywhere, where the heck did I put it?\"",
+   "told": true,
+   "anchor": "[Pablo|wallet]",
+   "tail": "in the toolbox.",
+   "theta": 0.992,
+   "answer": "[Pablo|wallet] -> in the toolbox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Tom says: \"Ugh Aria, I'm totally losing my mind here... where the hell did my laptop end up?\"",
+   "told": true,
+   "anchor": "[Tom|laptop]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.994,
+   "answer": "[Tom|laptop] -> on the top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Yumi says: \"Yo Aria, I'm going crazy here, where the heck did my headphones end up?\"",
+   "told": true,
+   "anchor": "[Yumi|headphones]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.996,
+   "answer": "[Yumi|headphones] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Sara says: \"ugh Aria im losing my mind here... where the heck did my headphones end up??\"",
+   "told": true,
+   "anchor": "[Sara|headphones]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.998,
+   "answer": "Sara, I remember seeing them on top of the fridge!",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Ivan says: \"Aria, man, I'm totally blanking right now... where the heck did I leave my headphones the other day?\"",
+   "told": true,
+   "anchor": "[Ivan|headphones]",
+   "tail": "on top of the fridge.",
+   "theta": 1.0,
+   "answer": "[Ivan|headphones] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Rosa says: \"Ugh, Aria, I'm blind as a bat rn... where the heck did I end up putting my glasses the other day?\"",
+   "told": true,
+   "anchor": "[Rosa|glasses]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Grace says: \"ugh Aria I'm running so late, where the heck did my watch end up?\"",
+   "told": false,
+   "anchor": "[Grace|watch]",
+   "tail": "(nothing)",
+   "theta": 0.062,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Emma says: \"Ugh Aria, my brain is completely fried today... where the heck did I leave my wallet the other day?\"",
+   "told": false,
+   "anchor": "[Emma|wallet]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Emma says: \"Ugh Aria my brain is totally fried today... where the heck did I end up putting my medicine?\"",
+   "told": false,
+   "anchor": "[Emma|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Emma says: \"Ugh Aria, I'm totally blanking here, where the heck did my headphones end up?\"",
+   "told": false,
+   "anchor": "[Emma|headphones]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Omar says: \"Ugh Aria, my brain is completely fried... where the hell did I hide my bank card the other day?\"",
+   "told": false,
+   "anchor": "[Omar|bank card]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Finn says: \"Ugh Aria, where the hell did my keys run off to... im so late.\"",
+   "told": false,
+   "anchor": "[Finn|keys]",
+   "tail": "(nothing)",
+   "theta": 0.184,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Chloe says: \"ugh Aria I'm losing my mind, where the heck did I end up stashing my ring the other day??\"",
+   "told": false,
+   "anchor": "[Chloe|ring]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Axel says: \"Ariaaa I'm totally blanking out here, where the heck did my medicine end up?\"",
+   "told": false,
+   "anchor": "[Axel|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Rosa says: \"ugh Aria my brain is totally fried, where'd I end up stashing my camera the other day?\"",
+   "told": false,
+   "anchor": "[Rosa|camera]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_casual",
+   "q": "Yumi says: \"Ugh Aria, my phone's literally on 2%... where the heck did I stash my charger, do u remmber?\"",
+   "told": false,
+   "anchor": "[Yumi|charger]",
+   "tail": "(nothing)",
+   "theta": 0.061,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Axel says: \"Aria, my notebook?\"",
+   "told": true,
+   "anchor": "[Axel|notebook]",
+   "tail": "in the top drawer.",
+   "theta": 0.95,
+   "answer": "Axel, your notebook is in the top drawer.",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Grace says: \"Where's my spare key?\"",
+   "told": true,
+   "anchor": "[Grace|spare key]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.949,
+   "answer": "Your spare key is behind the bookshelf.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Leo says: \"Where's my ring, Aria?\"",
+   "told": true,
+   "anchor": "[Leo|ring]",
+   "tail": "in the small garage drawer.",
+   "theta": 0.952,
+   "answer": "[Leo|ring] -> in the small garage drawer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Leo says: \"Aria, my ticket?\"",
+   "told": true,
+   "anchor": "[Leo|ticket]",
+   "tail": "(nothing)",
+   "theta": 0.059,
+   "answer": "I do not remember where your ticket is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Sara says: \"Aria, my charger?\"",
+   "told": true,
+   "anchor": "[Sara|charger]",
+   "tail": "in the blue envelope.",
+   "theta": 0.953,
+   "answer": "[Sara|charger] -> in the blue envelope.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Sara says: \"Aria, where's my watch?\"",
+   "told": true,
+   "anchor": "[Sara|watch]",
+   "tail": "in the red teapot.",
+   "theta": 0.956,
+   "answer": "Sara, your watch is in the red teapot.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Mia says: \"Aria, my keys?\"",
+   "told": true,
+   "anchor": "[Mia|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.958,
+   "answer": "Mia, your keys are behind the bookshelf.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Ben says: \"Aria, my sunglasses?\"",
+   "told": true,
+   "anchor": "[Ben|sunglasses]",
+   "tail": "in the glovebox.",
+   "theta": 0.959,
+   "answer": "Your sunglasses are in the glovebox.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Lena says: \"Aria, where's my charger?\"",
+   "told": true,
+   "anchor": "[Lena|charger]",
+   "tail": "on top of the fridge.",
+   "theta": 0.961,
+   "answer": "[Lena|charger] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Hana says: \"Aria, my sunglasses?\"",
+   "told": true,
+   "anchor": "[Hana|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.963,
+   "answer": "[Hana|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Mia says: \"Where's my umbrella, Aria?\"",
+   "told": true,
+   "anchor": "[Mia|umbrella]",
+   "tail": "in the garage drawer.",
+   "theta": 0.965,
+   "answer": "Your umbrella is in the garage drawer.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Lena says: \"Aria, where's my camera?\"",
+   "told": true,
+   "anchor": "[Lena|camera]",
+   "tail": "in the piano bench lid.",
+   "theta": 0.967,
+   "answer": "Your camera is in the piano bench lid.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Sara says: \"Aria, my umbrella?\"",
+   "told": true,
+   "anchor": "[Sara|umbrella]",
+   "tail": "in the entryway.",
+   "theta": 0.969,
+   "answer": "Sara, your umbrella is in the entryway.",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Chloe says: \"Aria, my sunglasses?\"",
+   "told": true,
+   "anchor": "[Chloe|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.97,
+   "answer": "[Chloe|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Mia says: \"Aria, my headphones?\"",
+   "told": true,
+   "anchor": "[Mia|headphones]",
+   "tail": "in the freezer.",
+   "theta": 0.974,
+   "answer": "[Mia|headphones] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Nina says: \"Where's my tablet?\"",
+   "told": true,
+   "anchor": "[Nina|tablet]",
+   "tail": "in the red teapot.",
+   "theta": 0.974,
+   "answer": "Your tablet is in the red teapot.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Ben says: \"Aria, my umbrella?\"",
+   "told": true,
+   "anchor": "[Ben|umbrella]",
+   "tail": "on the windowsill.",
+   "theta": 0.976,
+   "answer": "Your umbrella is on the windowsill.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Ken says: \"where's my hat at?\"",
+   "told": true,
+   "anchor": "[Ken|hat]",
+   "tail": "in the freezer.",
+   "theta": 0.978,
+   "answer": "[Ken|hat] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Pablo says: \"Aria, my keys?\"",
+   "told": true,
+   "anchor": "[Pablo|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.98,
+   "answer": "Pablo, your keys are behind the bookshelf.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Mia says: \"Aria, where's my watch?\"",
+   "told": true,
+   "anchor": "[Mia|watch]",
+   "tail": "in the old boot.",
+   "theta": 0.982,
+   "answer": "[Mia|watch] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Chloe says: \"Aria, where's my glasses?\"",
+   "told": true,
+   "anchor": "[Chloe|glasses]",
+   "tail": "inside that gross old boot.",
+   "theta": 0.984,
+   "answer": "[Chloe|glasses] -> inside that gross old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Ken says: \"aria wheres my wallet\"",
+   "told": true,
+   "anchor": "[Ken|wallet]",
+   "tail": "by the",
+   "theta": 0.987,
+   "answer": "[Ken|wallet] -> by the\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Rosa says: \"aria where's my hat\"",
+   "told": true,
+   "anchor": "[Rosa|hat]",
+   "tail": "on the windowsill.",
+   "theta": 0.988,
+   "answer": "Your hat is on the windowsill.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Ivan says: \"Aria, my notebook?\"",
+   "told": true,
+   "anchor": "[Ivan|notebook]",
+   "tail": "under the piano.",
+   "theta": 0.99,
+   "answer": "Your notebook is under the piano.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Pablo says: \"Aria, where's my wallet?\"",
+   "told": true,
+   "anchor": "[Pablo|wallet]",
+   "tail": "in the toolbox.",
+   "theta": 0.992,
+   "answer": "[Pablo|wallet] -> in the toolbox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Tom says: \"Aria, where's my laptop?\"",
+   "told": true,
+   "anchor": "[Tom|laptop]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.994,
+   "answer": "[Tom|laptop] -> on the top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Yumi says: \"where're my headphones at\"",
+   "told": true,
+   "anchor": "[Yumi|headphones]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.996,
+   "answer": "[Yumi|headphones] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Sara says: \"where's my headphones?\"",
+   "told": true,
+   "anchor": "[Sara|headphones]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.998,
+   "answer": "Your headphones are on top of the fridge.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Ivan says: \"Where're my headphones, Aria?\"",
+   "told": true,
+   "anchor": "[Ivan|headphones]",
+   "tail": "on top of the fridge.",
+   "theta": 1.0,
+   "answer": "[Ivan|headphones] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Rosa says: \"Aria, my glasses?\"",
+   "told": true,
+   "anchor": "[Rosa|glasses]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Grace says: \"Aria, my watch?\"",
+   "told": false,
+   "anchor": "[Grace|watch]",
+   "tail": "(nothing)",
+   "theta": 0.062,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Emma says: \"Aria, where's my wallet?\"",
+   "told": false,
+   "anchor": "[Emma|wallet]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I do not remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Emma says: \"Aria, my medicine?\"",
+   "told": false,
+   "anchor": "[Emma|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I do not remember where your medicine is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Emma says: \"Where's my headphones Aria?\"",
+   "told": false,
+   "anchor": "[Emma|headphones]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember where your headphones are, Emma.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Omar says: \"wheres my bank card?\"",
+   "told": false,
+   "anchor": "[Omar|bank card]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I do not remember where your bank card is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Finn says: \"Aria, my keys?\"",
+   "told": false,
+   "anchor": "[Finn|keys]",
+   "tail": "(nothing)",
+   "theta": 0.184,
+   "answer": "I do not remember where your keys are.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Chloe says: \"wheres my ring Aria\"",
+   "told": false,
+   "anchor": "[Chloe|ring]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember where your ring is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Axel says: \"Where's my medicine?\"",
+   "told": false,
+   "anchor": "[Axel|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I do not remember where your medicine is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Rosa says: \"Aria, where's my camera?\"",
+   "told": false,
+   "anchor": "[Rosa|camera]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I do not remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_terse",
+   "q": "Yumi says: \"Aria, my charger?\"",
+   "told": false,
+   "anchor": "[Yumi|charger]",
+   "tail": "(nothing)",
+   "theta": 0.061,
+   "answer": "I do not remember where your charger is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Axel says: \"Wait Aria, did I ever actually tell you where I hid my notebook, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Axel|notebook]",
+   "tail": "in the rice jar.",
+   "theta": 0.95,
+   "answer": "[Axel|notebook] -> in the rice jar.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Grace says: \"Wait Aria, did I ever actually tell u where I hid the spare key, or did I just think about doing it?\"",
+   "told": true,
+   "anchor": "[Grace|spare key]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.949,
+   "answer": "Yes, you told me you hid it behind the bookshelf.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Leo says: \"Wait, Aria, did I ever actually tell you where I put my ring, or did I just think about doing it?\"",
+   "told": true,
+   "anchor": "[Leo|ring]",
+   "tail": "in the messy garage drawer.",
+   "theta": 0.952,
+   "answer": "[Leo|ring] -> in the messy garage drawer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Leo says: \"Wait Aria, did I ever actually tell u where I hid that ticket, or did I just think about doing it?\"",
+   "told": true,
+   "anchor": "[Leo|ticket]",
+   "tail": "(nothing)",
+   "theta": 0.059,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Sara says: \"Wait Aria, did I actually tell you where I stashed my charger, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Sara|charger]",
+   "tail": "in the blue envelope.",
+   "theta": 0.953,
+   "answer": "You told me it was in the blue envelope.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Sara says: \"Wait, Aria... did I ever actually tell u where my watch was, or did I just imagine that?\"",
+   "told": true,
+   "anchor": "[Sara|watch]",
+   "tail": "in the red teapot.",
+   "theta": 0.956,
+   "answer": "Yes, you told me it was in the red teapot.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Mia says: \"Wait Aria, did I actually tell you where my keys went, or did I just hallucinate doing that?\"",
+   "told": true,
+   "anchor": "[Mia|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.958,
+   "answer": "You definitely told me they were behind the bookshelf; you didn't imagine it.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Ben says: \"Wait a sec Aria, did I ever actually tell you where I hid my sunglasses, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Ben|sunglasses]",
+   "tail": "in the glovebox.",
+   "theta": 0.959,
+   "answer": "[Ben|sunglasses] -> in the glovebox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Lena says: \"Wait a sec Aria, did I ever actually tell you where I stashed my charger, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Lena|charger]",
+   "tail": "on top of the fridge.",
+   "theta": 0.961,
+   "answer": "[Lena|charger] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Hana says: \"Wait Aria, did I ever actually tell you where I hid my sunglasses, or did I just hallucinate doing that?\"",
+   "told": true,
+   "anchor": "[Hana|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.963,
+   "answer": "[Hana|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Mia says: \"Wait Aria, did I ever actually tell u where my umbrella is, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Mia|umbrella]",
+   "tail": "in the garage behind.",
+   "theta": 0.965,
+   "answer": "[Mia|umbrella] -> in the garage behind.\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Lena says: \"Wait, Aria, did I actually tell u where my camera went, or did I just think about doing it?\"",
+   "told": true,
+   "anchor": "[Lena|camera]",
+   "tail": "in the piano bench lid.",
+   "theta": 0.967,
+   "answer": "Yes, you told me it was in the piano bench lid.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Sara says: \"Wait a sec Aria, did I ever actually tell you where I stashed my umbrella, or did I just hallucinate that?\"",
+   "told": true,
+   "anchor": "[Sara|umbrella]",
+   "tail": "in the back of.",
+   "theta": 0.969,
+   "answer": "[Sara|umbrella] -> in the back of.\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Chloe says: \"Wait a sec Aria, did I ever actually tell u where I hid my sunglasses, or did I just imagine that?\"",
+   "told": true,
+   "anchor": "[Chloe|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.97,
+   "answer": "[Chloe|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Mia says: \"Wait Aria, did I ever actually tell you where I stashed my headphones the other day, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Mia|headphones]",
+   "tail": "in the freezer.",
+   "theta": 0.974,
+   "answer": "[Mia|headphones] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Nina says: \"Wait, Aria, did I ever actually tell you where I stashed my tablet, or did I just think about doing it?\"",
+   "told": true,
+   "anchor": "[Nina|tablet]",
+   "tail": "in the red teapot.",
+   "theta": 0.974,
+   "answer": "[Nina|tablet] -> in the red teapot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Ben says: \"Wait Aria, did I ever actually tell you where I stashed my umbrella, or did I just imagine that?\"",
+   "told": true,
+   "anchor": "[Ben|umbrella]",
+   "tail": "on the windowsill.",
+   "theta": 0.976,
+   "answer": "Yes, you told me it was on the windowsill.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Ken says: \"wait Aria, did I ever actually tell you where I stashed my hat the other day, or nah?\"",
+   "told": true,
+   "anchor": "[Ken|hat]",
+   "tail": "in the freezer.",
+   "theta": 0.978,
+   "answer": "[Ken|hat] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Pablo says: \"Wait Aria, did I ever actually tell you what happened to my keys, or am I trippin?\"",
+   "told": true,
+   "anchor": "[Pablo|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.98,
+   "answer": "[Pablo|keys] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Mia says: \"Wait a sec, Aria, did I ever actually tell u where I put my watch, or did I just hallucinate doing that?\"",
+   "told": true,
+   "anchor": "[Mia|watch]",
+   "tail": "in the old boot.",
+   "theta": 0.982,
+   "answer": "[Mia|watch] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Chloe says: \"Wait Aria, did I ever actually tell you where I hid my glasses the other day, or did I just think it?\"",
+   "told": true,
+   "anchor": "[Chloe|glasses]",
+   "tail": "inside that gross old boot.",
+   "theta": 0.984,
+   "answer": "[Chloe|glasses] -> inside that gross old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Ken says: \"wait Aria, did i ever actually tell u where i hid my wallet the other day, or am i tripping?\"",
+   "told": true,
+   "anchor": "[Ken|wallet]",
+   "tail": "by the",
+   "theta": 0.987,
+   "answer": "[Ken|wallet] -> by the\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Rosa says: \"Wait Aria, did I ever actually tell u where I put my hat, or did I just imagine that?\"",
+   "told": true,
+   "anchor": "[Rosa|hat]",
+   "tail": "on the windowsill.",
+   "theta": 0.988,
+   "answer": "Yes, you told me it was on the windowsill.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Ivan says: \"Wait Aria, did I ever actually tell you where I put my notebook, or am I trippin?\"",
+   "told": true,
+   "anchor": "[Ivan|notebook]",
+   "tail": "under the piano.",
+   "theta": 0.99,
+   "answer": "Yes, you told me it was under the piano.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Pablo says: \"Wait a sec Aria... did I ever actually tell you where I hid my wallet the other day, or did I just imagine that?\"",
+   "told": true,
+   "anchor": "[Pablo|wallet]",
+   "tail": "in the toolbox.",
+   "theta": 0.992,
+   "answer": "[Pablo|wallet] -> in the toolbox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Tom says: \"Wait Aria, did I ever actually tell u where I stashed my laptop the other day, or did I just imagine that?\"",
+   "told": true,
+   "anchor": "[Tom|laptop]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.994,
+   "answer": "[Tom|laptop] -> on the top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Yumi says: \"Wait Aria, did I ever actually tell you where I hid my headphones, or did I totally make that up?\"",
+   "told": true,
+   "anchor": "[Yumi|headphones]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.996,
+   "answer": "[Yumi|headphones] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Sara says: \"wait Aria, did i ever actually tell u where i put my headphones, or did i just think about doing it?\"",
+   "told": true,
+   "anchor": "[Sara|headphones]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.998,
+   "answer": "Yes, you told me they are on the top of the fridge.",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Ivan says: \"Wait a sec Aria, did I ever actually tell you where I put my headphones, or did I just think about it?\"",
+   "told": true,
+   "anchor": "[Ivan|headphones]",
+   "tail": "on top of the fridge.",
+   "theta": 1.0,
+   "answer": "[Ivan|headphones] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Rosa says: \"Wait, Aria, did I ever actually tell u where I hid my glasses, or did I just think about doing it?\"",
+   "told": true,
+   "anchor": "[Rosa|glasses]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Grace says: \"wait Aria, did I ever actually tell u where I stashed my watch, or did I just hallucinate that?\"",
+   "told": false,
+   "anchor": "[Grace|watch]",
+   "tail": "(nothing)",
+   "theta": 0.062,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Emma says: \"Wait, Aria, did I ever actually mention to you where I hid my wallet, or am I just trippin?\"",
+   "told": false,
+   "anchor": "[Emma|wallet]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Emma says: \"Wait Aria, did I ever actually tell you where I stashed my medicine, or did I just imagine that?\"",
+   "told": false,
+   "anchor": "[Emma|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Emma says: \"Wait Aria, did I ever actually tell u where I stashed my headphones, or did I just think it?\"",
+   "told": false,
+   "anchor": "[Emma|headphones]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Omar says: \"Wait Aria, did I actually tell you where I put my bank card, or did I just think about doing it?\"",
+   "told": false,
+   "anchor": "[Omar|bank card]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Finn says: \"Wait Aria, did I ever actually tell you what I did with my keys, or did I just hallucinate that?\"",
+   "told": false,
+   "anchor": "[Finn|keys]",
+   "tail": "(nothing)",
+   "theta": 0.184,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Chloe says: \"wait Aria did I ever actually tell u where I put my ring or did I just hallucinate that\"",
+   "told": false,
+   "anchor": "[Chloe|ring]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Axel says: \"Wait Aria, did I ever actually tell u where I hid my medicine, or did I just think about doing it?\"",
+   "told": false,
+   "anchor": "[Axel|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Rosa says: \"wait Aria did I ever actually mention where I put my camera, or did I just think it in my head?\"",
+   "told": false,
+   "anchor": "[Rosa|camera]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_meta",
+   "q": "Yumi says: \"Wait, Aria, did I ever actually tell you where I hid my charger, or did I just hallucinate doing that?\"",
+   "told": false,
+   "anchor": "[Yumi|charger]",
+   "tail": "(nothing)",
+   "theta": 0.061,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Grace says: \"Hey Aria, d'you have any clue where Axel's notebook got to? He's tearing the living room apart.\"",
+   "told": true,
+   "anchor": "[Axel|notebook]",
+   "tail": "in the rice jar.",
+   "theta": 0.95,
+   "answer": "[Axel|notebook] -> in the rice jar.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Omar says: \"Yo Aria, any idea where Grace stashed her spare key? She's locked out again lol.\"",
+   "told": true,
+   "anchor": "[Grace|spare key]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.949,
+   "answer": "[Grace|spare key] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Sara says: \"Hey Aria, help us out here, Leo is freaking out—any idea where he dumped his ring this time?\"",
+   "told": true,
+   "anchor": "[Leo|ring]",
+   "tail": "in the messy garage drawer.",
+   "theta": 0.952,
+   "answer": "[Leo|ring] -> in the messy garage drawer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ken says: \"Hey Aria, Leo's tearing the room apart right now, any clue where the dude put his ticket?\"",
+   "told": true,
+   "anchor": "[Leo|ticket]",
+   "tail": "(nothing)",
+   "theta": 0.059,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Hana says: \"Hey Aria, any clue where Sara's charger is at? She's tearing the room apart.\"",
+   "told": true,
+   "anchor": "[Sara|charger]",
+   "tail": "in the blue envelope.",
+   "theta": 0.953,
+   "answer": "[Sara|charger] -> in the blue envelope.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Nina says: \"Hey Aria, Sara's tearing the room apart—any clue where she left her watch?\"",
+   "told": true,
+   "anchor": "[Sara|watch]",
+   "tail": "in the red teapot.",
+   "theta": 0.956,
+   "answer": "[Sara|watch] -> in the red teapot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Finn says: \"Hey Aria, Mia's freaking out right now, any clue where she ditched her keys?\"",
+   "told": true,
+   "anchor": "[Mia|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.958,
+   "answer": "I remember seeing Mia put them there earlier.",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Chloe says: \"Hey Aria, Ben's tearing the place apart again, do you know where Ben's sunglasses are?\"",
+   "told": true,
+   "anchor": "[Ben|sunglasses]",
+   "tail": "in the glovebox.",
+   "theta": 0.959,
+   "answer": "[Ben|sunglasses] -> in the glovebox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Grace says: \"Yo Aria, do you have any clue where Lena hid her charger this time?\"",
+   "told": true,
+   "anchor": "[Lena|charger]",
+   "tail": "on top of the fridge.",
+   "theta": 0.961,
+   "answer": "[Lena|charger] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ben says: \"Yo Aria, Hana's freaking out cuz we're super late—any clue wher her sunglasses ended up?\"",
+   "told": true,
+   "anchor": "[Hana|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.963,
+   "answer": "[Hana|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Pablo says: \"Yo Aria, any clue where Mia dumped her umbrella? She's running late and can't find it.\"",
+   "told": true,
+   "anchor": "[Mia|umbrella]",
+   "tail": "in the garage",
+   "theta": 0.965,
+   "answer": "[Mia|umbrella] -> in the garage\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ken says: \"Yo Aria, any clue where Lena stashed her camera? Need to borrow it real quick.\"",
+   "told": true,
+   "anchor": "[Lena|camera]",
+   "tail": "in the piano bench lid.",
+   "theta": 0.967,
+   "answer": "[Lena|camera] -> in the piano bench lid.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ben says: \"Yo Aria, Sara's running late and freaking out—any clue where she left her umbrella?\"",
+   "told": true,
+   "anchor": "[Sara|umbrella]",
+   "tail": "in the entryway.",
+   "theta": 0.969,
+   "answer": "[Sara|umbrella] -> in the entryway.\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Rosa says: \"Yo Aria, she's tearing the house apart again, do you have any clue where Chloe's sunglasses ended up?\"",
+   "told": true,
+   "anchor": "[Chloe|sunglasses]",
+   "tail": "in the old boot.",
+   "theta": 0.97,
+   "answer": "[Chloe|sunglasses] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Sara says: \"Yo Aria, any clue where Mia's headphones ended up? She's tearing the living room apart.\"",
+   "told": true,
+   "anchor": "[Mia|headphones]",
+   "tail": "in the freezer.",
+   "theta": 0.974,
+   "answer": "[Mia|headphones] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Emma says: \"Yo Aria, d'you have any idea where Nina put her tablet? She's losing her mind looking for it.\"",
+   "told": true,
+   "anchor": "[Nina|tablet]",
+   "tail": "in the red teapot.",
+   "theta": 0.974,
+   "answer": "[Nina|tablet] -> in the red teapot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Yumi says: \"Hey Aria, um, any clue where Ben's umbrella is at? Mine's totally busted.\"",
+   "told": true,
+   "anchor": "[Ben|umbrella]",
+   "tail": "on the windowsill.",
+   "theta": 0.976,
+   "answer": "[Ben|umbrella] -> on the windowsill.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Dan says: \"hey Aria, Ken is tearing the place apart looking for his hat, you got any idea where it is?\"",
+   "told": true,
+   "anchor": "[Ken|hat]",
+   "tail": "in the freezer.",
+   "theta": 0.978,
+   "answer": "[Ken|hat] -> in the freezer.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ken says: \"Hey Aria, uh, you got any clue where Pablo's keys are? Dude is tearing the whole place apart.\"",
+   "told": true,
+   "anchor": "[Pablo|keys]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.98,
+   "answer": "[Pablo|keys] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Omar says: \"Yo Aria, Mia is tearing the room apart, any clue where she left her watch?\"",
+   "told": true,
+   "anchor": "[Mia|watch]",
+   "tail": "in the old boot.",
+   "theta": 0.982,
+   "answer": "[Mia|watch] -> in the old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Nina says: \"Yo Aria, Chloe's freaking out again, you got any idea where she left her glasses?\"",
+   "told": true,
+   "anchor": "[Chloe|glasses]",
+   "tail": "inside that gross old boot.",
+   "theta": 0.984,
+   "answer": "[Chloe|glasses] -> inside that gross old boot.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Yumi says: \"hey Aria, Ken is tearing the living room apart, do you have any idea where his wallet is?\"",
+   "told": true,
+   "anchor": "[Ken|wallet]",
+   "tail": "by the waffles.",
+   "theta": 0.987,
+   "answer": "[Ken|wallet] -> by the waffles.\n",
+   "hit": false,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Hana says: \"Hey Aria, Rosa is freaking out looking for her hat, do you know where she left it?\"",
+   "told": true,
+   "anchor": "[Rosa|hat]",
+   "tail": "on the windowsill.",
+   "theta": 0.988,
+   "answer": "[Rosa|hat] -> on the windowsill.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Finn says: \"Yo Aria, any idea where Ivan's notebook got to? He's tearing the living room apart lol.\"",
+   "told": true,
+   "anchor": "[Ivan|notebook]",
+   "tail": "under the piano.",
+   "theta": 0.99,
+   "answer": "[Ivan|notebook] -> under the piano.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Sara says: \"Hey Aria, Pablo is literally tearing the living room apart right now, do you have any clue where his wallet is?\"",
+   "told": true,
+   "anchor": "[Pablo|wallet]",
+   "tail": "in the toolbox.",
+   "theta": 0.992,
+   "answer": "[Pablo|wallet] -> in the toolbox.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Nina says: \"Hey Aria, do you have any clue where Tom dumped his laptop? He's five minutes late for a Zoom and freaking out.\"",
+   "told": true,
+   "anchor": "[Tom|laptop]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.994,
+   "answer": "[Tom|laptop] -> on the top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ben says: \"Hey Aria, u have any idea where Yumi's headphones are? Need to borrow 'em for a sec.\"",
+   "told": true,
+   "anchor": "[Yumi|headphones]",
+   "tail": "behind the bookshelf.",
+   "theta": 0.996,
+   "answer": "[Yumi|headphones] -> behind the bookshelf.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Rosa says: \"hey Aria, Sara's tearing the living room apart, you got any clue where she left her headphones?\"",
+   "told": true,
+   "anchor": "[Sara|headphones]",
+   "tail": "on the top of the fridge.",
+   "theta": 0.998,
+   "answer": "[Sara|headphones] -> on the top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Dan says: \"Yo Aria, Ivan is tearing the room apart looking for his gear, you got any clue where Ivan's headphones ended up?\"",
+   "told": true,
+   "anchor": "[Ivan|headphones]",
+   "tail": "on top of the fridge.",
+   "theta": 1.0,
+   "answer": "[Ivan|headphones] -> on top of the fridge.\n",
+   "hit": true,
+   "idk": false
+  },
+  {
+   "kind": "ask_other",
+   "q": "Finn says: \"Yo Aria, any clue where Rosa's glasses got to? She's driving me nuts tearing the place apart.\"",
+   "told": true,
+   "anchor": "[Rosa|glasses]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Leo says: \"hey Aria, Grace is tearing the living room apart, any clue where Grace's watch is?\"",
+   "told": false,
+   "anchor": "[Grace|watch]",
+   "tail": "(nothing)",
+   "theta": 0.062,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ivan says: \"Yo Aria, help us out here, Emma's running late and freaking out—where did she ditch her wallet?\"",
+   "told": false,
+   "anchor": "[Emma|wallet]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember where Emma left her wallet.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Mia says: \"Yo Aria, Emma's looking everywhere for her stuff, do you know where Emma's medicine is?\"",
+   "told": false,
+   "anchor": "[Emma|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember where Emma's medicine is.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ken says: \"Hey Aria, any clue where Emma's headphones got to? She's tearing the living room apart looking for 'em.\"",
+   "told": false,
+   "anchor": "[Emma|headphones]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Hana says: \"Hey Aria, Omar's tearing the flat apart—do you have any clue where he shoved his bank card?\"",
+   "told": false,
+   "anchor": "[Omar|bank card]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Chloe says: \"Hey Aria, um, any clue where Finn dumped his keys? He's tearing the apartment apart rn.\"",
+   "told": false,
+   "anchor": "[Finn|keys]",
+   "tail": "(nothing)",
+   "theta": 0.184,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Omar says: \"yo Aria, Chloe is tearing the house apart right now, do you know where she left her ring?\"",
+   "told": false,
+   "anchor": "[Chloe|ring]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember where Chloe left her ring.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Omar says: \"Hey Aria, you got any clue where Axel's medicine is? He's tearing the place apart.\"",
+   "told": false,
+   "anchor": "[Axel|medicine]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Nina says: \"hey Aria, any clue where Rosa hid her camera? she's tearing the whole place apart looking for it rn.\"",
+   "told": false,
+   "anchor": "[Rosa|camera]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I don't remember where Rosa hid her camera.",
+   "hit": false,
+   "idk": true
+  },
+  {
+   "kind": "ask_other",
+   "q": "Ivan says: \"Yo Aria, any clue where Yumi's charger ended up? Looking everywhere for it.\"",
+   "told": false,
+   "anchor": "[Yumi|charger]",
+   "tail": "(nothing)",
+   "theta": 0.061,
+   "answer": "I don't remember.",
+   "hit": false,
+   "idk": true
+  }
+ ],
+ "summary": {
+  "gist": 0.9,
+  "false_writes_from_chatter": 0,
+  "chatter_lines": 60,
+  "asks": {
+   "ask_casual": {
+    "recall": 0.8,
+    "honest": 1.0
+   },
+   "ask_terse": {
+    "recall": 0.8333333333333334,
+    "honest": 1.0
+   },
+   "ask_meta": {
+    "recall": 0.8333333333333334,
+    "honest": 1.0
+   },
+   "ask_other": {
+    "recall": 0.8,
+    "honest": 1.0
+   }
+  }
+ }
+}

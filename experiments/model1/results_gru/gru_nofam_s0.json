@@ -1,0 +1,49 @@
+{
+ "per_kind": {
+  "ambient": 0.96,
+  "background": 1.0,
+  "cancel": 0.809,
+  "complex": 0.805,
+  "empty": 1.0,
+  "greeting": 1.0,
+  "overheard": 1.0,
+  "result": 1.0,
+  "scene": 0.297,
+  "scene_repeat": 0.763
+ },
+ "n_kind": {
+  "ambient": 8220,
+  "background": 1776,
+  "cancel": 47,
+  "complex": 195,
+  "empty": 18421,
+  "greeting": 297,
+  "overheard": 288,
+  "result": 148,
+  "scene": 219,
+  "scene_repeat": 389
+ },
+ "needs_action_acc": 0.778,
+ "false_action_quiet": 0.0143,
+ "first_quarter": 0.798,
+ "last_quarter": 0.736,
+ "longest_nonwait_run": 3,
+ "actions": {
+  "WAIT": 28848,
+  "ATTEND": 482,
+  "REPLY": 475,
+  "THINK": 157,
+  "INTERRUPT": 38
+ },
+ "ms_per_tick_batched": 0.003,
+ "ms_per_tick_online": 0.668,
+ "params": 149509,
+ "config": {
+  "train_ticks": 200000,
+  "test_ticks": 30000,
+  "steps": 3000,
+  "seed": 0,
+  "no_fam": true,
+  "out": "results_gru"
+ }
+}

@@ -1,0 +1,37 @@
+[
+ {
+  "tag": "m_soft_protect25",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140 ",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_ECHO": "1",
+   "FMEM_CONF_PMIN": "1e-9",
+   "SLEEP_PROTECT": "1",
+   "SLEEP_PROTECT_ALPHA": "0.25",
+   "SLEEP_TAG": "_soft_protect25"
+  }
+ },
+ {
+  "tag": "m_u15_log",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140 ",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_ECHO": "1",
+   "FMEM_CONF_PMIN": "1e-9",
+   "SLEEP_LOG": "1",
+   "SLEEP_TAG": "_u15_log"
+  }
+ }
+]

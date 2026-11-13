@@ -1,0 +1,730 @@
+{
+ "cond": "inline",
+ "writes": [
+  {
+   "t": 155,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "water bottle",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 210,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "remote control",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 253,
+   "kind": "overheard_fact",
+   "fact": [
+    "Tom",
+    "remote control",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 260,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "wallet",
+    "in the kitchen drawer"
+   ]
+  },
+  {
+   "t": 317,
+   "kind": "inform",
+   "fact": [
+    "Sara",
+    "keys",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 318,
+   "kind": "overheard_fact",
+   "fact": [
+    "Axel",
+    "remote control",
+    "on the desk"
+   ]
+  },
+  {
+   "t": 378,
+   "kind": "inform",
+   "fact": [
+    "Tom",
+    "ring",
+    "next to the TV"
+   ]
+  },
+  {
+   "t": 388,
+   "kind": "inform",
+   "fact": [
+    "Leo",
+    "remote control",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 541,
+   "kind": "inform",
+   "fact": [
+    "Omar",
+    "watch",
+    "under the bed"
+   ]
+  },
+  {
+   "t": 757,
+   "kind": "overheard_fact",
+   "fact": [
+    "Ken",
+    "ring",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 844,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "spare key",
+    "under the doormat"
+   ]
+  },
+  {
+   "t": 856,
+   "kind": "overheard_fact",
+   "fact": [
+    "Axel",
+    "passport",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 874,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "keys",
+    "in the garage"
+   ]
+  },
+  {
+   "t": 1037,
+   "kind": "inform",
+   "fact": [
+    "Ken",
+    "passport",
+    "in the kitchen drawer"
+   ]
+  },
+  {
+   "t": 1051,
+   "kind": "inform",
+   "fact": [
+    "Leo",
+    "spare key",
+    "in my backpack"
+   ]
+  },
+  {
+   "t": 1059,
+   "kind": "inform",
+   "fact": [
+    "Lena",
+    "wallet",
+    "next to the TV"
+   ]
+  },
+  {
+   "t": 1086,
+   "kind": "overheard_fact",
+   "fact": [
+    "Tom",
+    "keys",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 1104,
+   "kind": "overheard_fact",
+   "fact": [
+    "Nina",
+    "remote control",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 1116,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "ticket",
+    "in my backpack"
+   ]
+  },
+  {
+   "t": 1267,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "ticket",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 1344,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "ticket",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 1584,
+   "kind": "inform",
+   "fact": [
+    "Ken",
+    "passport",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 1783,
+   "kind": "overheard_fact",
+   "fact": [
+    "Mia",
+    "keys",
+    "in the garage"
+   ]
+  },
+  {
+   "t": 1928,
+   "kind": "overheard_fact",
+   "fact": [
+    "Ken",
+    "passport",
+    "in my backpack"
+   ]
+  },
+  {
+   "t": 2287,
+   "kind": "inform",
+   "fact": [
+    "Mia",
+    "passport",
+    "in the kitchen drawer"
+   ]
+  },
+  {
+   "t": 2294,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "remote control",
+    "under the bed"
+   ]
+  },
+  {
+   "t": 2299,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "passport",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 2408,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "keys",
+    "in the closet"
+   ]
+  },
+  {
+   "t": 2541,
+   "kind": "overheard_fact",
+   "fact": [
+    "Yumi",
+    "remote control",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 2649,
+   "kind": "inform",
+   "fact": [
+    "Nina",
+    "water bottle",
+    "in the car"
+   ]
+  },
+  {
+   "t": 2786,
+   "kind": "overheard_fact",
+   "fact": [
+    "Tom",
+    "umbrella",
+    "in the garage"
+   ]
+  },
+  {
+   "t": 2810,
+   "kind": "inform",
+   "fact": [
+    "Mia",
+    "remote control",
+    "in the closet"
+   ]
+  },
+  {
+   "t": 3128,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "ticket",
+    "in the bathroom cabinet"
+   ]
+  },
+  {
+   "t": 3165,
+   "kind": "inform",
+   "fact": [
+    "Omar",
+    "wallet",
+    "next to the TV"
+   ]
+  },
+  {
+   "t": 3818,
+   "kind": "overheard_fact",
+   "fact": [
+    "Mia",
+    "spare key",
+    "on the bookshelf"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "t": 682,
+   "kind": "recall_q",
+   "q": "Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "[Leo|remote control] -> behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|remote control]",
+     "tail": "behind the sofa.",
+     "theta": 0.998
+    }
+   ]
+  },
+  {
+   "t": 766,
+   "kind": "recall_q",
+   "q": "Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "[Leo|remote control] -> behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|remote control]",
+     "tail": "behind the sofa.",
+     "theta": 0.996
+    }
+   ]
+  },
+  {
+   "t": 845,
+   "kind": "recall_q",
+   "q": "Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Sara, you left your keys on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Sara|keys]",
+     "tail": "on the windowsill.",
+     "theta": 0.988
+    }
+   ]
+  },
+  {
+   "t": 1182,
+   "kind": "recall_q",
+   "q": "Leo: Aria, where is my remote control?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "[Leo|remote control] -> behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|remote control]",
+     "tail": "behind the sofa.",
+     "theta": 0.978
+    }
+   ]
+  },
+  {
+   "t": 1220,
+   "kind": "recall_q",
+   "q": "Leo: Aria, do you remember where my remote control is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Yes, I remember it's behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|remote control]",
+     "tail": "behind the sofa.",
+     "theta": 0.978
+    }
+   ]
+  },
+  {
+   "t": 1305,
+   "kind": "recall_q_other",
+   "q": "Lena: Aria, any idea where Sara's remote control is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Lena, I believe Sara's remote control is on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Sara|remote control]",
+     "tail": "on the windowsill.",
+     "theta": 0.965
+    }
+   ]
+  },
+  {
+   "t": 1318,
+   "kind": "recall_q_other",
+   "q": "Axel: Aria, did Sara say where the remote control is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Yes, Sara said it's on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Sara|remote control]",
+     "tail": "on the windowsill.",
+     "theta": 0.965
+    }
+   ]
+  },
+  {
+   "t": 1357,
+   "kind": "recall_q",
+   "q": "Leo: Aria, do you remember where my spare key is?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "Yes, your spare key is in my backpack.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|spare key]",
+     "tail": "in my backpack.",
+     "theta": 0.988
+    }
+   ]
+  },
+  {
+   "t": 1488,
+   "kind": "recall_q",
+   "q": "Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Sara, you left your keys on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Sara|keys]",
+     "tail": "on the windowsill.",
+     "theta": 0.969
+    }
+   ]
+  },
+  {
+   "t": 1520,
+   "kind": "recall_q_other",
+   "q": "Tom: Aria, did Nina say where the remote control is?",
+   "truth": "in the blue box",
+   "model1": "THINK",
+   "answer": "Yes, Nina said it's in the blue box.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Nina|remote control]",
+     "tail": "in the blue box.",
+     "theta": 0.994
+    }
+   ]
+  },
+  {
+   "t": 1631,
+   "kind": "recall_q",
+   "q": "Axel: Aria, I can't find my keys, where did I leave it?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "[Axel|keys] -> in the garage.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Axel|keys]",
+     "tail": "in the garage.",
+     "theta": 0.982
+    }
+   ]
+  },
+  {
+   "t": 1775,
+   "kind": "recall_q",
+   "q": "Axel: Aria, where is my ticket?",
+   "truth": "in my backpack",
+   "model1": "REPLY",
+   "answer": "Your ticket is in your backpack.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Axel|ticket]",
+     "tail": "in my backpack.",
+     "theta": 0.994
+    }
+   ]
+  },
+  {
+   "t": 2009,
+   "kind": "recall_q_other",
+   "q": "Omar: Aria, any idea where Ken's ring is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "[Ken|ring] -> behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Ken|ring]",
+     "tail": "behind the sofa.",
+     "theta": 0.972
+    }
+   ]
+  },
+  {
+   "t": 2263,
+   "kind": "recall_q",
+   "q": "Omar: Aria, where is my watch?",
+   "truth": "under the bed",
+   "model1": "THINK",
+   "answer": "I remember your watch is under the bed.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Omar|watch]",
+     "tail": "under the bed.",
+     "theta": 0.97
+    }
+   ]
+  },
+  {
+   "t": 2423,
+   "kind": "recall_q_other",
+   "q": "Leo: Aria, any idea where Mia's keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "[Mia|keys] -> in the garage.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Mia|keys]",
+     "tail": "in the garage.",
+     "theta": 0.99
+    }
+   ]
+  },
+  {
+   "t": 2424,
+   "kind": "recall_q_other",
+   "q": "Sara: Aria, any idea where Nina's remote control is?",
+   "truth": "in the blue box",
+   "model1": "THINK",
+   "answer": "[Nina|remote control] -> in the blue box.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Nina|remote control]",
+     "tail": "in the blue box.",
+     "theta": 0.98
+    }
+   ]
+  },
+  {
+   "t": 2577,
+   "kind": "recall_q",
+   "q": "Sara: Aria, do you remember where my keys is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Yes, your keys are on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Sara|keys]",
+     "tail": "on the windowsill.",
+     "theta": 0.953
+    }
+   ]
+  },
+  {
+   "t": 3180,
+   "kind": "recall_q",
+   "q": "Mia: Aria, where is my passport?",
+   "truth": "in the kitchen drawer",
+   "model1": "THINK",
+   "answer": "Your passport is in the kitchen drawer.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Mia|passport]",
+     "tail": "in the kitchen drawer.",
+     "theta": 0.982
+    }
+   ]
+  },
+  {
+   "t": 3457,
+   "kind": "recall_q",
+   "q": "Axel: Aria, do you remember where my ticket is?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "Yes, your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Axel|ticket]",
+     "tail": "in the bathroom cabinet.",
+     "theta": 0.998
+    }
+   ]
+  },
+  {
+   "t": 3619,
+   "kind": "recall_q",
+   "q": "Axel: Aria, do you remember where my keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "Yes, your keys are in the garage.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Axel|keys]",
+     "tail": "in the garage.",
+     "theta": 0.961
+    }
+   ]
+  },
+  {
+   "t": 3712,
+   "kind": "recall_q",
+   "q": "Axel: Aria, I can't find my ticket, where did I leave it?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "Axel, you left your ticket in the bathroom cabinet.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Axel|ticket]",
+     "tail": "in the bathroom cabinet.",
+     "theta": 0.998
+    }
+   ]
+  },
+  {
+   "t": 3713,
+   "kind": "recall_q_other",
+   "q": "Ken: Aria, did Leo say where the keys is?",
+   "truth": "in the closet",
+   "model1": "THINK",
+   "answer": "Yes, Leo said the keys are in the closet.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|keys]",
+     "tail": "in the closet.",
+     "theta": 0.988
+    }
+   ]
+  },
+  {
+   "t": 3813,
+   "kind": "recall_q_other",
+   "q": "Nina: Aria, any idea where Sara's spare key is?",
+   "truth": "under the doormat",
+   "model1": "THINK",
+   "answer": "I believe Sara's spare key is under the doormat.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Sara|spare key]",
+     "tail": "under the doormat.",
+     "theta": 0.955
+    }
+   ]
+  },
+  {
+   "t": 3891,
+   "kind": "recall_q",
+   "q": "Axel: Aria, where is my ticket?",
+   "truth": "in the bathroom cabinet",
+   "model1": "REPLY",
+   "answer": "Your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Axel|ticket]",
+     "tail": "in the bathroom cabinet.",
+     "theta": 0.996
+    }
+   ]
+  },
+  {
+   "t": 3962,
+   "kind": "recall_q_other",
+   "q": "Yumi: Aria, did Leo say where the keys is?",
+   "truth": "in the closet",
+   "model1": "THINK",
+   "answer": "Yes, Leo said the keys are in the closet.",
+   "label": "correct",
+   "trace": [
+    {
+     "anchor": "[Leo|keys]",
+     "tail": "in the closet.",
+     "theta": 0.986
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "correct": 25,
+  "hedged_correct": 0,
+  "unknown": 0,
+  "wrong": 0
+ },
+ "n_writes": 35,
+ "seconds": 238
+}

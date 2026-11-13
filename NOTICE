@@ -1,0 +1,30 @@
+aria-memory
+Copyright 2026 the aria-memory authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+LLM server used in the research (not included):
+    Strata, version 0.1.52, base commit a42cc3d, https://github.com/Niko1221/Strata
+    MIT License, Copyright (c) 2026 Niko1221 and the Strata contributors.
+    The research files call it "the LLM server" (語言模型伺服器); identifiers and paths use "llm".
+    third_party/strata/ (fastmem.patch, fmem.cu, fmem.hpp) adds a fast-weight memory to Strata's inference engine.
+    These files contain Strata's own lines and are distributed under Strata's MIT License, reproduced in
+    third_party/strata/LICENSE.Strata. See docs/ENGINE.md.
+
+Not included, obtained separately by the user:
+    - Model weights. The research used Qwen3.8-Flash-Next (IQ3_S GGUF) through Strata, and Qwen2.5-1.5B-Instruct
+      and Qwen3-Embedding-0.6B for small experiments. Each model's own licence applies (Qwen3.8-Flash-Next: Qwen
+      Community License 1.0). A vocabulary built from a model's layer-0 table (src/aria_memory/vocab.py, `build`) is
+      derived from that model and carries its licence.
+    - Audio. All test speech was synthesised with Windows OneCore text-to-speech voices; the audio is not
+      redistributed (docs/REVIEW.md explains how to regenerate it with any TTS).
+
+Runtime dependencies (installed by pip, not included): numpy (BSD-3-Clause), pypinyin (MIT), and optionally
+tokenizers (Apache-2.0) and pytest (MIT).
+
+Generated text in this repository:
+    - The test scripts (tests/fixtures/set_old, tests/fixtures/set2) and parts of experiments/ contain text generated
+      by Google Gemini and by Anthropic Claude during the research.
+    - The listening, reading and judging outputs stored in tests/fixtures (for example listen_cache.json) and in the
+      result files under experiments/ are outputs of Qwen3.8-Flash-Next; the terms of its licence, the Qwen Community
+      License 1.0, apply to that text.

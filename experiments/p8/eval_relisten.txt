@@ -1,0 +1,57 @@
+== ../llm_fastmem/asr.json
+  old: rows 94 | bad labels 30 | facts with right label 35/90 | value under any label 58/90 | only under bad label 17 | relative time 4/9 | with source sentence 0
+     bad day 3: printer｜attribute｜HP68
+     bad day 3: printer｜plan｜下次去賣場要買2黑色
+     bad day 3: dentist｜time｜明天晚上7點
+     bad day 3: air conditioner｜status｜陽台晾乾中
+     bad day 3: air conditioner｜preference｜這兩天不要開
+     bad day 5: car｜plan｜next Tuesday 9:00 AM
+     bad day 5: bluetooth earbuds｜location｜office desk drawer
+     bad day 5: bottle opener｜location｜kitchen middle left first drawer
+     bad day 5: yoga mat｜attribute｜8mm thick, dark green
+     bad day 5: scale｜status｜fixed (battery replaced)
+     bad day 5: printer ink｜status｜pending (user asked to remember)
+     bad day 5: electric screwdriver｜relation｜borrowed to neighbor
+     bad day 9: 使用者｜plan｜第11天（星期四）晚上7:30上瑜伽課
+     bad day 9: 使用者｜status｜體重計在第9天被踢到沙發底下
+     bad day 9: 使用者｜location｜備用鑰匙在第9天從電視櫃移至玄關吸鐵盒
+     bad day 11: 使用者｜plan｜買紅燒半斤半肉加酸菜不要蔥
+     bad day 11: 使用者｜plan｜取消今晚瑜伽課改下週
+     bad day 11: 使用者｜status｜備用鑰匙已丟棄
+     bad day 11: 使用者｜status｜腳踏車後輪破胎送修中
+     bad day 11: 使用者｜value｜修車報價800元
+     bad day 12: tent｜location｜阿哲處
+     bad day 12: tent｜status｜已借出給阿哲
+     bad day 12: bank document｜location｜隨身拖特包夾層
+     bad day 12: family dinner｜preference｜餐廳需避免花生及甲殼類（小姑姑過敏）
+     bad day 12: washing machine｜attribute｜保修至明年11月
+     bad day 12: washing machine｜status｜運作聲音異常
+     bad day 19: 使用者｜preference｜不要再去陽台找登山帳
+     bad day 19: 使用者｜status｜已借給阿凱登山帳
+     bad day 19: 使用者｜status｜已購買並安裝新的印表機墨水
+     bad day 19: 使用者｜preference｜固定購買豆腐砂原味貓砂
+  zh: rows 106 | bad labels 1 | facts with right label 64/90 | value under any label 75/90 | only under bad label 1 | relative time 8/9 | with source sentence 106
+     bad day 18: 使用者｜plan｜點蒸奶半糖少冰
+== ../realistic/set2/asr.json
+  old: rows 108 | bad labels 20 | facts with right label 28/90 | value under any label 53/90 | only under bad label 12 | relative time 2/9 | with source sentence 0
+     bad day 2: spring oil scale｜attribute｜最小台, 精準度0.01克
+     bad day 2: spring oil scale｜location｜中島下面的拉欄裡
+     bad day 7: 使用者｜status｜手腕受傷，醫師建議貼藥布休息幾天，不用打針
+     bad day 7: 使用者｜plan｜下週三（第10天）與攝影師拍攝產品照
+     bad day 9: accountant｜status｜核對去年扣腳平單與舊合約
+     bad day 9: old contracts｜location｜主臥室衣櫃灰色保險箱
+     bad day 9: brass incense holder｜attribute｜蓋下去完全不會有黑煙
+     bad day 9: candle｜location｜客廳壁如架左邊小釘子
+     bad day 9: printer Mr. Cheng｜plan｜後天下午三點確認香水文卡燙金打樣
+     bad day 9: new tea scent candle｜attribute｜竹心型號雙重
+     bad day 9: new tea scent candle｜attribute｜一層木片竹心十三號
+     bad day 9: hot pot soup base｜preference｜鍋皮辣椒雞
+     bad day 9: new soy candle｜attribute｜單顆重量未知
+     bad day 13: studio｜status｜標籤印機已換新黑色色帶
+     bad day 17: mideixiang｜status｜葉尖發黑枯萎
+     bad day 17: mideixiang｜attribute｜疑似因近期雨水過多導致
+     bad day 17: dieduoyunshu｜location｜書房桌上透明文件盒
+     bad day 17: qiyewangyin｜location｜書房電腦螢幕下方
+     bad day 17: zhuanguijinchangzheng｜time｜第24天（下週二）早上10點
+     bad day 17: zhuanguijinchangzheng｜plan｜前往百貨公司辦理
+  zh: rows 123 | bad labels 0 | facts with right label 54/90 | value under any label 78/90 | only under bad label 0 | relative time 5/9 | with source sentence 123

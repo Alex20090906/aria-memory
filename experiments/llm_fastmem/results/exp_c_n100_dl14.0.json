@@ -1,0 +1,612 @@
+{
+ "n": 100,
+ "dl": 14.0,
+ "C0": 0.82,
+ "C1": 0.9,
+ "generic": [
+  "Paris",
+  "Paris"
+ ],
+ "rows": [
+  {
+   "fact": "Ivan's notebook: behind the bookshelf",
+   "C0": "in the bookshelf.\n\n[O",
+   "C1": "in the bookshelf.\n\nBased on",
+   "q": "I can't find Ivan's notebook, any idea?"
+  },
+  {
+   "fact": "Mia's notebook: in the laundry basket",
+   "C0": "in the laundry basket.\n\n[User",
+   "C1": "in the laundry basket.\n\nBased on",
+   "q": "I can't find Mia's notebook, any idea?"
+  },
+  {
+   "fact": "Tom's bank card: in the toolbox",
+   "C0": "in the toolbox.\n\n[The|",
+   "C1": "in the toolbox.\n\n- I'm",
+   "q": "I can't find Tom's bank card, any idea?"
+  },
+  {
+   "fact": "Sara's scarf: in the red teapot",
+   "C0": "in the red, she's a bit",
+   "C1": "in the red teapot.\n\nQuestion",
+   "q": "Where did Sara leave the scarf?"
+  },
+  {
+   "fact": "Sara's spare key: on the windowsill",
+   "C0": "on the windowsill.\n\nWhat's",
+   "C1": "on the windowsill.",
+   "q": "I can't find Sara's spare key, any idea?"
+  },
+  {
+   "fact": "Nina's ring: in the garage drawer",
+   "C0": "in the garage drawer.\n\nUser:",
+   "C1": "in the garage drawer.\n\nUser:",
+   "q": "We are late, where on earth is Nina's ring?"
+  },
+  {
+   "fact": "Omar's umbrella: under the doormat",
+   "C0": "under the doormat.\n\nWhat",
+   "C1": "under the doormat.\n\nQuestion",
+   "q": "Where did Omar leave the umbrella?"
+  },
+  {
+   "fact": "Omar's scarf: in the blue envelope",
+   "C0": "in the blue envelope.\n\nWhat is",
+   "C1": "in the blue envelope.\n\nQuestion:",
+   "q": "Where did Omar leave the scarf?"
+  },
+  {
+   "fact": "Ivan's headphones: in the laundry basket",
+   "C0": "in the laundry basket.\n\nWhat is",
+   "C1": "in the laundry basket.",
+   "q": "I can't find Ivan's headphones, any idea?"
+  },
+  {
+   "fact": "Yumi's spare key: in the toolbox",
+   "C0": "in the toolbox.\n\nWhat is the",
+   "C1": "in the toolbox.\n\nThe user asks",
+   "q": "Do you know where Yumi's spare key is?"
+  },
+  {
+   "fact": "Sara's glasses: in the piano bench",
+   "C0": "in the piano bench.\n[Max",
+   "C1": "in the piano bench.\n\nWhat about",
+   "q": "Do you know where Sara's glasses is?"
+  },
+  {
+   "fact": "Yumi's scarf: on top of the fridge",
+   "C0": "on top of the fridge.\n\nWhat",
+   "C1": "on top of the fridge.\n\nUser",
+   "q": "We are late, where on earth is Yumi's scarf?"
+  },
+  {
+   "fact": "Nina's scarf: under the piano",
+   "C0": "in the piano.\n[Max|",
+   "C1": "in the piano.\n\n- 1",
+   "q": "I can't find Nina's scarf, any idea?"
+  },
+  {
+   "fact": "Pablo's ticket: in the glovebox",
+   "C0": "in the glovebox.\n\nThe",
+   "C1": "in the glovebox.\n\nThe",
+   "q": "I can't find Pablo's ticket, any idea?"
+  },
+  {
+   "fact": "Hana's ring: under the piano",
+   "C0": "under the piano.\n[Max|",
+   "C1": "under the piano.\n\nWhat is the",
+   "q": "Where is the ring that Hana had?"
+  },
+  {
+   "fact": "Hana's watch: in the toolbox",
+   "C0": "in the toolbox.\n\nThe user is",
+   "C1": "in the toolbox.\n\nQuestion: Where",
+   "q": "We are late, where on earth is Hana's watch?"
+  },
+  {
+   "fact": "Axel's laptop: in the glovebox",
+   "C0": "in the glovebox.\n\n[User",
+   "C1": "in the glovebox.\n\nDo you",
+   "q": "Do you know where Axel's laptop is?"
+  },
+  {
+   "fact": "Pablo's charger: behind the bookshelf",
+   "C0": "behind the bookshelf.",
+   "C1": "behind the bookshelf.\n\nThe charger",
+   "q": "I can't find Pablo's charger, any idea?"
+  },
+  {
+   "fact": "Rosa's headphones: behind the mirror",
+   "C0": "in the mirror.\n\nWhat is in",
+   "C1": "behind the mirror.\n\nWhere did Rosa",
+   "q": "Where did Rosa leave the headphones?"
+  },
+  {
+   "fact": "Rosa's glasses: in the garage drawer",
+   "C0": "in the garage drawer.\n\nWhat is",
+   "C1": "in the garage drawer.\n\nQuestion:",
+   "q": "Where is the glasses that Rosa had?"
+  },
+  {
+   "fact": "Ken's wallet: in the red teapot",
+   "C0": "in the red, 201",
+   "C1": "in the red teapot.\n\nWhere",
+   "q": "Do you know where Ken's wallet is?"
+  },
+  {
+   "fact": "Nina's wallet: in the old boot",
+   "C0": "in the old boot.\n[Max",
+   "C1": "in the old boot.\n\nWhat is",
+   "q": "Where did Nina leave the wallet?"
+  },
+  {
+   "fact": "Hana's laptop: under the doormat",
+   "C0": "under the 100% of",
+   "C1": "under the 2nd drawer of the",
+   "q": "I can't find Hana's laptop, any idea?"
+  },
+  {
+   "fact": "Omar's spare key: in the rice jar",
+   "C0": "in the rice jar.\n\n[O",
+   "C1": "in the blue drawer in the kitchen.",
+   "q": "Do you know where Omar's spare key is?"
+  },
+  {
+   "fact": "Lena's umbrella: in the piano bench",
+   "C0": "in the 1980s",
+   "C1": "in the piano bench.\n[Max",
+   "q": "We are late, where on earth is Lena's umbrella?"
+  },
+  {
+   "fact": "Yumi's medicine: in the piano bench",
+   "C0": "in the 19th century,",
+   "C1": "in the piano bench.\n\nQuestion:",
+   "q": "Where did Yumi leave the medicine?"
+  },
+  {
+   "fact": "Yumi's glasses: on the windowsill",
+   "C0": "on the windowsill.\n\nCurrent user",
+   "C1": "on the windowsill.\n\nBased on",
+   "q": "I can't find Yumi's glasses, any idea?"
+  },
+  {
+   "fact": "Ken's headphones: behind the bookshelf",
+   "C0": "behind the bookshelf.\n\n[Ken",
+   "C1": "behind the bookshelf.\n\nWhere are",
+   "q": "Where is the headphones that Ken had?"
+  },
+  {
+   "fact": "Omar's passport: behind the mirror",
+   "C0": "behind the mirror.\n\n[Omar",
+   "C1": "behind the mirror.\n\nA: I",
+   "q": "I can't find Omar's passport, any idea?"
+  },
+  {
+   "fact": "Pablo's headphones: in the blue envelope",
+   "C0": "in the blue envelope.\n\n[blue",
+   "C1": "in the blue envelope.\n\nThe blue",
+   "q": "I can't find Pablo's headphones, any idea?"
+  },
+  {
+   "fact": "Ken's bank card: behind the bookshelf",
+   "C0": "behind the bookshelf.\n\nUser:",
+   "C1": "behind the bookshelf.\n\nQuestion:",
+   "q": "Where is the bank card that Ken had?"
+  },
+  {
+   "fact": "Mia's medicine: behind the mirror",
+   "C0": "in the 1970s",
+   "C1": "in the 2nd drawer of the",
+   "q": "Where did Mia leave the medicine?"
+  },
+  {
+   "fact": "Hana's spare key: in the blue envelope",
+   "C0": "in the blue envelope.\n\nQuestion:",
+   "C1": "in the blue envelope.\n\nWhat is",
+   "q": "Where did Hana leave the spare key?"
+  },
+  {
+   "fact": "Sara's camera: in the rice jar",
+   "C0": "in the rice jar.\n[Max",
+   "C1": "in the rice jar.\n\nQuestion:",
+   "q": "We are late, where on earth is Sara's camera?"
+  },
+  {
+   "fact": "Ken's ticket: on the windowsill",
+   "C0": "on the windowsill.\n[Ken",
+   "C1": "on the windowsill.\n\nWhere is",
+   "q": "Where is the ticket that Ken had?"
+  },
+  {
+   "fact": "Mia's ring: in the garage drawer",
+   "C0": "in the garage drawer.\n\nWhat is",
+   "C1": "in the garage drawer.\n\nQuestion:",
+   "q": "Where is the ring that Mia had?"
+  },
+  {
+   "fact": "Ken's passport: in the laundry basket",
+   "C0": "in the laundry basket.\n\nWhat is",
+   "C1": "in the laundry basket.",
+   "q": "I can't find Ken's passport, any idea?"
+  },
+  {
+   "fact": "Ivan's camera: in the rice jar",
+   "C0": "in the 1980s",
+   "C1": "in the rice jar.",
+   "q": "I can't find Ivan's camera, any idea?"
+  },
+  {
+   "fact": "Pablo's glasses: on the windowsill",
+   "C0": "on the windowsill.\n\n<|im_start|>user",
+   "C1": "on the windowsill.\n\nQuestion:",
+   "q": "Where did Pablo leave the glasses?"
+  },
+  {
+   "fact": "Axel's wallet: on top of the fridge",
+   "C0": "on top of the fridge.\n\n[",
+   "C1": "on top of the fridge.\n\nWhere",
+   "q": "Where is the wallet that Axel had?"
+  },
+  {
+   "fact": "Axel's camera: in the red teapot",
+   "C0": "in the red teapot.\n\nThe",
+   "C1": "in the red teapot.\n\nWhere",
+   "q": "Where did Axel leave the camera?"
+  },
+  {
+   "fact": "Leo's ring: in the blue envelope",
+   "C0": "in the blue envelope.\n\nThe blue",
+   "C1": "in the blue envelope.\n\nQuestion:",
+   "q": "Where is the ring that Leo had?"
+  },
+  {
+   "fact": "Omar's wallet: on top of the fridge",
+   "C0": "on top of the fridge.\n\nQuestion",
+   "C1": "on top of the fridge.\n\nQuestion",
+   "q": "Where is the wallet that Omar had?"
+  },
+  {
+   "fact": "Yumi's headphones: under the doormat",
+   "C0": "under the doormat.\n\n[",
+   "C1": "under the doormat.\n\nUser",
+   "q": "Where did Yumi leave the headphones?"
+  },
+  {
+   "fact": "Lena's passport: in the glovebox",
+   "C0": "in the glovebox.\n\nUser:",
+   "C1": "in the glovebox.\n\nWhat about",
+   "q": "I can't find Lena's passport, any idea?"
+  },
+  {
+   "fact": "Hana's passport: on the windowsill",
+   "C0": "on the windowsill.\n\nUser:",
+   "C1": "on the windowsill.\n\nMemory notes",
+   "q": "I can't find Hana's passport, any idea?"
+  },
+  {
+   "fact": "Omar's camera: in the blue envelope",
+   "C0": "in the blue envelope.\n\n[O",
+   "C1": "in the blue envelope.\n\nA:",
+   "q": "Do you know where Omar's camera is?"
+  },
+  {
+   "fact": "Axel's ticket: behind the mirror",
+   "C0": "behind the mirror.\n\n[User|",
+   "C1": "behind the mirror.\n\n[User]",
+   "q": "Do you know where Axel's ticket is?"
+  },
+  {
+   "fact": "Omar's bank card: in the old boot",
+   "C0": "in the old boot.\n\nWhat is",
+   "C1": "in the old boot.\n\nUser:",
+   "q": "We are late, where on earth is Omar's bank card?"
+  },
+  {
+   "fact": "Leo's medicine: in the garage drawer",
+   "C0": "in the garage drawer.\n\n[Leo",
+   "C1": "in the garage drawer.\n\n[User",
+   "q": "Where is the medicine that Leo had?"
+  },
+  {
+   "fact": "Yumi's umbrella: in the toolbox",
+   "C0": "in the toolbox.\n\nWhat is in",
+   "C1": "in the toolbox.\n[toolbox|",
+   "q": "Where did Yumi leave the umbrella?"
+  },
+  {
+   "fact": "Sara's notebook: in the red teapot",
+   "C0": "in the red teapot.\n\n[",
+   "C1": "in the red teapot.\n\nThe",
+   "q": "Where did Sara leave the notebook?"
+  },
+  {
+   "fact": "Tom's scarf: behind the bookshelf",
+   "C0": "in the bookshelf.\n\nWhat is",
+   "C1": "in the bookshelf.\n\nQuestion:",
+   "q": "Where did Tom leave the scarf?"
+  },
+  {
+   "fact": "Ivan's wallet: behind the mirror",
+   "C0": "behind the mirror.\n\nUser: where",
+   "C1": "behind the mirror.\n\nDo you know",
+   "q": "Do you know where Ivan's wallet is?"
+  },
+  {
+   "fact": "Pablo's medicine: under the doormat",
+   "C0": "in the 1960s",
+   "C1": "in the 2nd drawer of the",
+   "q": "Do you know where Pablo's medicine is?"
+  },
+  {
+   "fact": "Leo's spare key: in the red teapot",
+   "C0": "in the red teapot.\n\nWhat",
+   "C1": "in the red teapot.\n\nWhat",
+   "q": "Where did Leo leave the spare key?"
+  },
+  {
+   "fact": "Omar's ring: in the old boot",
+   "C0": "in the old boot.\n\nThe user",
+   "C1": "in the old boot.\n\nWhat's",
+   "q": "Where is the ring that Omar had?"
+  },
+  {
+   "fact": "Pablo's wallet: in the red teapot",
+   "C0": "in the red teapot.\n\nWhat",
+   "C1": "in the red teapot.\n\nWhere",
+   "q": "Where did Pablo leave the wallet?"
+  },
+  {
+   "fact": "Lena's ticket: in the red teapot",
+   "C0": "in the red teapot.\n\nWhat",
+   "C1": "in the red teapot.\n\nQuestion",
+   "q": "Where did Lena leave the ticket?"
+  },
+  {
+   "fact": "Yumi's ticket: in the freezer",
+   "C0": "in the freezer.\n\nWhat is the",
+   "C1": "in the freezer.\n\nQuestion: Where",
+   "q": "Where is the ticket that Yumi had?"
+  },
+  {
+   "fact": "Rosa's scarf: in the old boot",
+   "C0": "in the old boot.\n\nWhat is",
+   "C1": "in the old boot.\n\nUser:",
+   "q": "We are late, where on earth is Rosa's scarf?"
+  },
+  {
+   "fact": "Lena's medicine: in the freezer",
+   "C0": "in the freezer.\n[Max|",
+   "C1": "in the freezer.\n\nThe above is",
+   "q": "We are late, where on earth is Lena's medicine?"
+  },
+  {
+   "fact": "Rosa's camera: in the old boot",
+   "C0": "in the old boot.\n[John",
+   "C1": "in the old boot.\n\nMemory notes",
+   "q": "I can't find Rosa's camera, any idea?"
+  },
+  {
+   "fact": "Nina's spare key: in the glovebox",
+   "C0": "in the glovebox.\n\nWhat's",
+   "C1": "in the glovebox.\n\nWhere is",
+   "q": "Where is the spare key that Nina had?"
+  },
+  {
+   "fact": "Ivan's ticket: in the laundry basket",
+   "C0": "in the laundry basket.\n\nWhat is",
+   "C1": "in the laundry basket.\n\nQuestion:",
+   "q": "Where is the ticket that Ivan had?"
+  },
+  {
+   "fact": "Rosa's laptop: in the rice jar",
+   "C0": "in the 1970s",
+   "C1": "in the 2nd floor of the",
+   "q": "We are late, where on earth is Rosa's laptop?"
+  },
+  {
+   "fact": "Ivan's medicine: in the freezer",
+   "C0": "in the freezer.\n\n[Oks",
+   "C1": "in the freezer.\n\n- The",
+   "q": "Do you know where Ivan's medicine is?"
+  },
+  {
+   "fact": "Leo's headphones: on top of the fridge",
+   "C0": "on top of the fridge.\n\n<|im_start|>",
+   "C1": "on top of the fridge.\n\nWhat",
+   "q": "Where is the headphones that Leo had?"
+  },
+  {
+   "fact": "Nina's ticket: behind the bookshelf",
+   "C0": "in the bookshelf.\n\nThe user",
+   "C1": "behind the bookshelf.\n\nWhat is",
+   "q": "Where did Nina leave the ticket?"
+  },
+  {
+   "fact": "Leo's charger: in the garage drawer",
+   "C0": "in the garage drawer.\n\n[1",
+   "C1": "in the garage drawer.\n\nMemory notes",
+   "q": "I can't find Leo's charger, any idea?"
+  },
+  {
+   "fact": "Tom's medicine: in the red teapot",
+   "C0": "in the red 10mg bottle",
+   "C1": "in the red teapot.\n\nQuestion",
+   "q": "Do you know where Tom's medicine is?"
+  },
+  {
+   "fact": "Pablo's passport: in the laundry basket",
+   "C0": "in the laundry basket.\n\nThe passport",
+   "C1": "in the laundry basket.\n\n<think>",
+   "q": "I can't find Pablo's passport, any idea?"
+  },
+  {
+   "fact": "Leo's scarf: on the windowsill",
+   "C0": "on the windowsill.\n\n[Leo",
+   "C1": "on the windowsill.\n[Leo",
+   "q": "We are late, where on earth is Leo's scarf?"
+  },
+  {
+   "fact": "Leo's wallet: in the freezer",
+   "C0": "in the freezer.\n\nWhat is in",
+   "C1": "in the freezer.\n\nDo you know",
+   "q": "Do you know where Leo's wallet is?"
+  },
+  {
+   "fact": "Sara's ring: in the laundry basket",
+   "C0": "in the laundry basket.\n\nWhat is",
+   "C1": "in the laundry basket.\n\nQuestion:",
+   "q": "Where is the ring that Sara had?"
+  },
+  {
+   "fact": "Tom's laptop: in the toolbox",
+   "C0": "in the toolbox.\n\n[Bob|",
+   "C1": "in the toolbox.\n\nWhat's the",
+   "q": "Do you know where Tom's laptop is?"
+  },
+  {
+   "fact": "Mia's charger: under the piano",
+   "C0": "under the piano.\n\n[Max|",
+   "C1": "under the piano.",
+   "q": "I can't find Mia's charger, any idea?"
+  },
+  {
+   "fact": "Ken's glasses: in the freezer",
+   "C0": "in the freezer.\n\nWhat's the",
+   "C1": "in the freezer.\n\nQuestion: Where",
+   "q": "Where did Ken leave the glasses?"
+  },
+  {
+   "fact": "Mia's scarf: in the toolbox",
+   "C0": "in the toolbox.\n\nUser: where",
+   "C1": "in the toolbox.\n\nQuestion: \"",
+   "q": "Where did Mia leave the scarf?"
+  },
+  {
+   "fact": "Tom's umbrella: in the laundry basket",
+   "C0": "in the laundry basket.\n\nWhat is",
+   "C1": "in the laundry basket.\n\nQuestion:",
+   "q": "Where did Tom leave the umbrella?"
+  },
+  {
+   "fact": "Omar's watch: in the red teapot",
+   "C0": "in the red teapot.\n\nWhat",
+   "C1": "in the red teapot.\n\nThe",
+   "q": "We are late, where on earth is Omar's watch?"
+  },
+  {
+   "fact": "Leo's watch: in the blue envelope",
+   "C0": "in the blue envelope.\n[Leo",
+   "C1": "in the blue envelope.\n\nQuestion:",
+   "q": "Where is the watch that Leo had?"
+  },
+  {
+   "fact": "Lena's watch: in the blue envelope",
+   "C0": "in the blue envelope.\n\nWhat is",
+   "C1": "in the blue envelope.\n\n[blue",
+   "q": "Do you know where Lena's watch is?"
+  },
+  {
+   "fact": "Pablo's notebook: in the old boot",
+   "C0": "in the old boot, the 1",
+   "C1": "in the old boot.\n\nWhat is",
+   "q": "Where did Pablo leave the notebook?"
+  },
+  {
+   "fact": "Omar's notebook: in the laundry basket",
+   "C0": "in the laundry basket.\n\nThe notebook",
+   "C1": "in the laundry basket.\n\nThe notebook",
+   "q": "Where is the notebook that Omar had?"
+  },
+  {
+   "fact": "Rosa's umbrella: under the doormat",
+   "C0": "under the 10th, umbrella",
+   "C1": "under the doormat.",
+   "q": "Where is the umbrella that Rosa had?"
+  },
+  {
+   "fact": "Yumi's charger: under the piano",
+   "C0": "under the piano.\n\nWhat is in",
+   "C1": "under the piano.\n\nMemory notes.",
+   "q": "I can't find Yumi's charger, any idea?"
+  },
+  {
+   "fact": "Ivan's charger: in the blue envelope",
+   "C0": "in the blue envelope.\n\nWhat is",
+   "C1": "in the blue envelope.\n\nDo you",
+   "q": "Do you know where Ivan's charger is?"
+  },
+  {
+   "fact": "Leo's bank card: on top of the fridge",
+   "C0": "on top of the fridge.\n\nWhat",
+   "C1": "on top of the fridge.\n\nQuestion",
+   "q": "Where did Leo leave the bank card?"
+  },
+  {
+   "fact": "Nina's bank card: on the windowsill",
+   "C0": "on the windowsill.\n\nUser:",
+   "C1": "on the windowsill.\n\nQuestion:",
+   "q": "Do you know where Nina's bank card is?"
+  },
+  {
+   "fact": "Omar's headphones: behind the mirror",
+   "C0": "behind the mirror.\n\nWhat's the",
+   "C1": "behind the mirror.\n\nI have found",
+   "q": "We are late, where on earth is Omar's headphones?"
+  },
+  {
+   "fact": "Axel's charger: under the piano",
+   "C0": "under the piano.\n\n[User|",
+   "C1": "under the piano.\n\nDo you know",
+   "q": "Do you know where Axel's charger is?"
+  },
+  {
+   "fact": "Omar's medicine: in the rice jar",
+   "C0": "in the rice jar.\n[O",
+   "C1": "in the rice jar.\n\n[O",
+   "q": "Where did Omar leave the medicine?"
+  },
+  {
+   "fact": "Axel's glasses: in the old boot",
+   "C0": "in the old boot.\n[the",
+   "C1": "in the old boot.\n\nDo you",
+   "q": "Do you know where Axel's glasses is?"
+  },
+  {
+   "fact": "Tom's watch: behind the bookshelf",
+   "C0": "in the bookshelf.\n\n[TV",
+   "C1": "in the bookshelf.\n\nQuestion:",
+   "q": "Where is the watch that Tom had?"
+  },
+  {
+   "fact": "Rosa's bank card: in the glovebox",
+   "C0": "in the glovebox.\n\nUser:",
+   "C1": "in the glovebox.\n\nRosa",
+   "q": "Where is the bank card that Rosa had?"
+  },
+  {
+   "fact": "Sara's laptop: in the red teapot",
+   "C0": "in the red teapot.\n\nWhat",
+   "C1": "in the red teapot.",
+   "q": "I can't find Sara's laptop, any idea?"
+  },
+  {
+   "fact": "Sara's headphones: in the toolbox",
+   "C0": "in the toolbox.\n\n[Maya",
+   "C1": "in the toolbox.\n\nUser: Where",
+   "q": "We are late, where on earth is Sara's headphones?"
+  },
+  {
+   "fact": "Yumi's bank card: in the toolbox",
+   "C0": "in the toolbox.\n\nThe user is",
+   "C1": "in the toolbox.\n\nThe toolbox is",
+   "q": "Do you know where Yumi's bank card is?"
+  },
+  {
+   "fact": "Ken's ring: in the laundry basket",
+   "C0": "100000",
+   "C1": "12:00, kitchen",
+   "q": "Where did Ken leave the ring?"
+  }
+ ]
+}

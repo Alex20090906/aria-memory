@@ -1,0 +1,110 @@
+[
+ {
+  "facts": 20,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 1.0,
+  "C1": 0.4,
+  "free_question": 0.6,
+  "nll": 4.5801,
+  "nll_base": 1.4177,
+  "paris": "the largest city",
+  "points": 97
+ },
+ {
+  "facts": 20,
+  "r0": 512,
+  "rank_free": 1024,
+  "C0": 1.0,
+  "C1": 0.4,
+  "free_question": 0.45,
+  "nll": 1.833,
+  "nll_base": 1.4177,
+  "paris": "Paris. The",
+  "points": 97
+ },
+ {
+  "facts": 20,
+  "r0": 1024,
+  "rank_free": 512,
+  "C0": 1.0,
+  "C1": 0.35,
+  "free_question": 0.25,
+  "nll": 2.1932,
+  "nll_base": 1.4177,
+  "paris": "Paris\uff0e",
+  "points": 97
+ },
+ {
+  "facts": 100,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 1.0,
+  "C1": 0.07,
+  "free_question": 0.14,
+  "nll": 16.2064,
+  "nll_base": 1.4177,
+  "paris": "in the toolbox",
+  "points": 498
+ },
+ {
+  "facts": 100,
+  "r0": 512,
+  "rank_free": 1024,
+  "C0": 1.0,
+  "C1": 0.06,
+  "free_question": 0.14,
+  "nll": 13.4218,
+  "nll_base": 1.4177,
+  "paris": "on top of",
+  "points": 498
+ },
+ {
+  "facts": 100,
+  "r0": 1024,
+  "rank_free": 512,
+  "C0": 0.96,
+  "C1": 0.04,
+  "free_question": 0.17,
+  "nll": 17.3588,
+  "nll_base": 1.4177,
+  "paris": "in on africa",
+  "points": 498
+ },
+ {
+  "facts": 300,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 0.923,
+  "C1": 0.033,
+  "free_question": 0.097,
+  "nll": 52.4118,
+  "nll_base": 1.4177,
+  "paris": "\u2026\n\n\n\nUNDER piano",
+  "points": 1468
+ },
+ {
+  "facts": 300,
+  "r0": 512,
+  "rank_free": 1024,
+  "C0": 0.68,
+  "C1": 0.03,
+  "free_question": 0.09,
+  "nll": 22.8761,
+  "nll_base": 1.4177,
+  "paris": "glove under piano",
+  "points": 1468
+ },
+ {
+  "facts": 300,
+  "r0": 1024,
+  "rank_free": 512,
+  "C0": 0.227,
+  "C1": 0.08,
+  "free_question": 0.157,
+  "nll": 4.4277,
+  "nll_base": 1.4177,
+  "paris": "Paris, and",
+  "points": 1468
+ }
+]

@@ -1,0 +1,54 @@
+[
+ {
+  "gated": true,
+  "facts": 20,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 1.0,
+  "C1": 0.4,
+  "free_question": 0.0,
+  "nll": 1.4177,
+  "nll_base": 1.4177,
+  "paris": "Paris. The",
+  "points": 97
+ },
+ {
+  "gated": true,
+  "facts": 100,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 1.0,
+  "C1": 0.12,
+  "free_question": 0.0,
+  "nll": 1.4177,
+  "nll_base": 1.4177,
+  "paris": "Paris. The",
+  "points": 497
+ },
+ {
+  "gated": true,
+  "facts": 300,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 0.92,
+  "C1": 0.01,
+  "free_question": 0.003,
+  "nll": 1.4177,
+  "nll_base": 1.4177,
+  "paris": "Paris. The",
+  "points": 1483
+ },
+ {
+  "gated": true,
+  "facts": 600,
+  "r0": 0,
+  "rank_free": 1536,
+  "C0": 0.473,
+  "C1": 0.047,
+  "free_question": 0.005,
+  "nll": 1.4177,
+  "nll_base": 1.4177,
+  "paris": "Paris. The",
+  "points": 2974
+ }
+]

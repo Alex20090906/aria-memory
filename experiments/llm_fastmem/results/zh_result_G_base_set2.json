@@ -1,0 +1,5271 @@
+{
+ "summary": {
+  "key": "dual",
+  "topic": true,
+  "relisten": true,
+  "event_log": true,
+  "stage": true,
+  "facts": 90,
+  "fact_coverage": 0.478,
+  "coverage_by_kind": {
+   "direct": "9/20",
+   "multi": "8/12",
+   "indirect": "1/9",
+   "correction": "6/9",
+   "overheard": "10/16",
+   "split": "3/6",
+   "pronoun": "5/9",
+   "relative_time": "1/9"
+  },
+  "writes": 151,
+  "sleep_writes": 66,
+  "false_writes_from_others": 0,
+  "questions_told": 51,
+  "routed": 48,
+  "recall": 0.196,
+  "updated_q": 22,
+  "stale": 3,
+  "never_or_similar": 21,
+  "honest": 0.952,
+  "canon": false,
+  "find": "",
+  "find_tau": null,
+  "hit_direct": 10,
+  "hit_ask": 0,
+  "ask_wrong": 0,
+  "never_ask": 0
+ },
+ "writes": [
+  {
+   "day": 1,
+   "start": 69.8,
+   "end": 72.78,
+   "heard": "見道館練習哦,那天不用留我的",
+   "fact": [
+    "使用者",
+    "plan",
+    "第3天晚上去道館練習"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 30.56,
+   "end": 34.98,
+   "heard": "就是春精油那台最小台的,精準度0.01克",
+   "fact": [
+    "電子秤",
+    "attribute",
+    "最小台，精準度0.01克，收在中島下面的拉欄裡"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 81.03,
+   "end": 85.99,
+   "heard": "幫我寄一下喔,剛剛傳LINE來的那個張富里啊,",
+   "fact": [
+    "張富里",
+    "plan",
+    "未來快閃店合約聯絡人"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": 86.41,
+   "end": 92.39,
+   "heard": "她是百貨專櫃招商窗口,之後快閃電合約都要找她。",
+   "fact": [
+    "張富里",
+    "relation",
+    "百貨專櫃招商窗口"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 2,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "春精油",
+    "attribute",
+    "最小台，精準度0.01克"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 2,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "春精油",
+    "location",
+    "中島下面的拉欄裡"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 2,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "四季春家爐會為糖去冰",
+    "preference",
+    "最近借奶精了，喝鮮奶茶味都會瘴氣"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 3,
+   "start": 3.75,
+   "end": 12.35,
+   "heard": "我們這季新款擴廂屏幕蓋的尺寸是內徑28毫米,下次訂包才千萬別再買成30的。",
+   "fact": [
+    "螢幕蓋",
+    "attribute",
+    "螢幕蓋 | attribute | 內徑28毫米，下次訂包千萬別買成30的"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 79.31,
+   "end": 92.03,
+   "heard": "ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹。",
+   "fact": [
+    "深藍色劍道護手",
+    "status",
+    "送修中"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 79.31,
+   "end": 92.03,
+   "heard": "ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹。",
+   "fact": [
+    "深藍色劍道護手",
+    "location",
+    "武具店"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": 79.31,
+   "end": 92.03,
+   "heard": "ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹。",
+   "fact": [
+    "薰衣草精油包裹",
+    "plan",
+    "第10天去郵局領取"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 3,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "擴廂屏幕蓋",
+    "attribute",
+    "內徑28毫米（勿買30）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 3,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "塑膠桶",
+    "location",
+    "陽台洗手台旁"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 3,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "舊水台",
+    "status",
+    "泡在塑膠桶中消毒"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 3,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "衛林老闆",
+    "relation",
+    "客戶/合作夥伴"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 3,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "會議",
+    "time",
+    "明天下午2點（第4天）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 3,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "鏡頭",
+    "status",
+    "發霉"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 4,
+   "start": 4.37,
+   "end": 16.65,
+   "heard": "我剛剛把備用眼鏡拿出來看配方,現在隨手放進玄關鑰匙盤哦不對,我是放進客廳茶几下面的藤邊盒裡了,幫我更新一下。",
+   "fact": [
+    "備用眼鏡",
+    "location",
+    "客廳茶几下面的藤邊盒"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 31.24,
+   "end": 41.5,
+   "heard": "我自己現在手沖咖啡都只喝伊索比亞淺杯水洗豆,果酸比較明亮,深杯的我喝了才會心急。",
+   "fact": [
+    "咖啡",
+    "preference",
+    "伊索比亞淺杯水洗豆"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 45.56,
+   "end": 52.28,
+   "heard": "ria,我剛剛把這兩個月要給會計師的那些發票與收據全部整理成一袋了。",
+   "fact": [
+    "帳務文件",
+    "location",
+    "書架第三層綠色硬殼資料夾"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 66.73,
+   "end": 71.27,
+   "heard": "我那把日本買的銅製修織剪怎麼刀口有點生修。",
+   "fact": [
+    "修織剪",
+    "status",
+    "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": 88.2,
+   "end": 98.56,
+   "heard": "即一下工作室那台超音波清洗機的加熱功能壞掉了,現在只能常溫震動,等有空再送修。",
+   "fact": [
+    "超音波清洗機",
+    "status",
+    "加熱功能壞掉，僅剩常溫震動"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 4,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "手沖咖啡豆",
+    "preference",
+    "伊索比亞淺杯水洗豆"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 4,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "報稅發票與收據",
+    "location",
+    "書架第三層綠色硬殼資料夾"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 5,
+   "start": 3.73,
+   "end": 13.83,
+   "heard": "姐,中島拉欄裡面鍋碗瓢盆太擠了,我剛剛把那台小電子趁改放到烘碗機旁邊的木頭托盤上咯。",
+   "fact": [
+    "小電子秤",
+    "location",
+    "工作室軟木塞留言板"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 5,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "中島拉欄",
+    "location",
+    "烘碗機旁邊的木頭托盤"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 5,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "平氣爆架單",
+    "plan",
+    "工作室軟木賽留言板"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 5,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "王醫師",
+    "time",
+    "第7天早上九點半"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 5,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "手腕",
+    "status",
+    "鏈鍵到拉傷復發"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 5,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "大豆蠟燭",
+    "attribute",
+    "單顆重量220克"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 5,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "包裝斷帶",
+    "preference",
+    "霧面深灰色"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 6,
+   "start": 7.65,
+   "end": 15.45,
+   "heard": "好,那我請凱文順路幫我拿回來哦他剛剛已經幫我放進我家鞋櫃上面了,謝啦。",
+   "fact": [
+    "劍道護手",
+    "location",
+    "鞋櫃上面"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 18.68,
+   "end": 29.9,
+   "heard": "我上次喝四季春結果晚上整個失眠,以後首要飲我還是改喝蕎麥茶無糖為冰好了,幫我寄一下。",
+   "fact": [
+    "四季春",
+    "attribute",
+    "導致失眠"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 18.68,
+   "end": 29.9,
+   "heard": "我上次喝四季春結果晚上整個失眠,以後首要飲我還是改喝蕎麥茶無糖為冰好了,幫我寄一下。",
+   "fact": [
+    "飲品",
+    "preference",
+    "無糖冰蕎麥茶"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": 33.02,
+   "end": 40.52,
+   "heard": "Aria,我剛剛收到台灣農林寄來的新款繪墓精油樣品了,木頭香氣超讚。",
+   "fact": [
+    "繪墓精油",
+    "status",
+    "已收到樣品，存放於書房窗台深色木盒避光保存"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 6,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "劍道護手",
+    "status",
+    "已補好並放在鞋櫃上方"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 6,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "四季春",
+    "preference",
+    "導致失眠，不再飲用"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 6,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "蕎麥茶無糖冰",
+    "preference",
+    "改為主要飲品"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 6,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "台灣農林新款繪墓精油樣品",
+    "location",
+    "書房窗台深色木盒（閉光保存）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 6,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "與會計師試訊對賬",
+    "plan",
+    "第13天（下週二）下午三點"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 7,
+   "start": 13.68,
+   "end": 19.26,
+   "heard": "好啦，醫師說手腕只要貼藥布休息幾天就好，不用打針",
+   "fact": [
+    "手腕",
+    "status",
+    "貼藥布休息，不用打針"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 7,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "使用者",
+    "status",
+    "手腕受傷，醫師建議貼藥布休息幾天，不用打針"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 7,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "不鏽鋼架接刀",
+    "location",
+    "未知（使用者詢問掛放位置）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 7,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "下週三",
+    "plan",
+    "與攝影師拍攝產品照"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 8,
+   "start": 8.32,
+   "end": 19.9,
+   "heard": "我剛去郵局把法國寄來的薰衣草精油包裹領回來了,我拆開之後先把那兩大罐薰衣草精油鋁瓶放進工作室鐵會最下層歐。",
+   "fact": [
+    "薰衣草精油",
+    "location",
+    "工作室鐵櫃最下層"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 25.66,
+   "end": 29.2,
+   "heard": "竹北那家選物店的店長叫林佩山,",
+   "fact": [
+    "竹北選物店",
+    "relation",
+    "店長是林佩山"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 29.2,
+   "end": 35.14,
+   "heard": "然後他們店裡訂的三十顆雪松蠟燭禮拜五前要出貨。",
+   "fact": [
+    "竹北選物店",
+    "plan",
+    "30顆雪松蠟燭第12天前出貨"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 54.14,
+   "end": 61.84,
+   "heard": "對了姐,我今天去郵局順便把工作室那台超音波清洗機拿去給電器行老闆,",
+   "fact": [
+    "超音波清洗機",
+    "location",
+    "工作室（已修好，加熱功能正常）"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": 85.93,
+   "end": 92.13,
+   "heard": "Aria,幫我寄一下這次竹北選物店的批發折扣是打七五折啊。",
+   "fact": [
+    "竹北選物店",
+    "value",
+    "與林沛三合作，買斷製打七折"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 8,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "工作室",
+    "location",
+    "鐵會最下層"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 8,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "雪松蠟燭",
+    "plan",
+    "禮拜五前要出貨"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 8,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "銀露露腳掛",
+    "location",
+    "浴室毛巾架上"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 9,
+   "start": 4.68,
+   "end": 13.58,
+   "heard": "我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。",
+   "fact": [
+    "記帳",
+    "status",
+    "已完成"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 4.68,
+   "end": 13.58,
+   "heard": "我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。",
+   "fact": [
+    "扣繳憑單",
+    "location",
+    "已找出核對"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 4.68,
+   "end": 13.58,
+   "heard": "我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。",
+   "fact": [
+    "舊合約",
+    "location",
+    "主臥室衣櫃灰色保險箱"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 35.91,
+   "end": 43.07,
+   "heard": "我剛剛是燒完蠟燭,把它掛在客廳壁如架左邊小釘子上了。",
+   "fact": [
+    "滅火器",
+    "location",
+    "客廳壁架左邊小釘子"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 49.14,
+   "end": 57.84,
+   "heard": "對,我們這批香水是文卡的燙金打樣,我後天下午三點過去你們場裡確認可以嗎?",
+   "fact": [
+    "香水",
+    "plan",
+    "第11天下午3點去印刷廠確認打樣"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 64.54,
+   "end": 70.88,
+   "heard": "Aria,幫我記一下,我們新款茶香蠟燭用的竹心型號是雙重。",
+   "fact": [
+    "茶香蠟燭",
+    "attribute",
+    "竹心型號雙重、一層木片竹心十三號"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": 91.09,
+   "end": 98.71,
+   "heard": "我火鍋湯底要選鍋皮辣椒雞哦,我最近喉嚨有點乾不想吃麻辣鍋。",
+   "fact": [
+    "Q 火鍋",
+    "preference",
+    "鍋皮辣椒雞"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 9,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "plan",
+    "time",
+    "第11天下午三點"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 9,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "location",
+    "location",
+    "印刷廠"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 9,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "status",
+    "status",
+    "完成核對去年扣腳平單與舊合約"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 9,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "attribute",
+    "attribute",
+    "黃銅滅竹林無黑煙"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 9,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "plan",
+    "plan",
+    "確認香水文卡燙金打樣"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 9,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "preference",
+    "preference",
+    "火鍋湯底選鍋皮辣椒雞"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": 5.04,
+   "end": 13.22,
+   "heard": "遇事那顆一怒怒攪絕水滴乾了,我剛剛把他一去掛在後陽台遮雨捧鐵網中間囉。",
+   "fact": [
+    "遇事那顆一怒怒",
+    "location",
+    "後陽台遮雨棚鐵網中間"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 17.04,
+   "end": 27.8,
+   "heard": "Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習時裂開了,明天得先繞去舞劇店買新的。",
+   "fact": [
+    "鬧鐘",
+    "time",
+    "提前30分鐘"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 17.04,
+   "end": 27.8,
+   "heard": "Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習時裂開了,明天得先繞去舞劇店買新的。",
+   "fact": [
+    "竹刀",
+    "status",
+    "裂開"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 17.04,
+   "end": 27.8,
+   "heard": "Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習時裂開了,明天得先繞去舞劇店買新的。",
+   "fact": [
+    "竹刀",
+    "plan",
+    "等出貨忙完後去舞劇店買新竹刀"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 69.24,
+   "end": 82.62,
+   "heard": "幫我寄兩件事,第一是我把被用熱溶膠條放在工作桌右邊第二個抽屜,第二是下禮拜三早上十一點要去銀行辦企業網銀評證。",
+   "fact": [
+    "被",
+    "location",
+    "工作桌右邊第二個抽屜"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": 69.24,
+   "end": 82.62,
+   "heard": "幫我寄兩件事,第一是我把被用熱溶膠條放在工作桌右邊第二個抽屜,第二是下禮拜三早上十一點要去銀行辦企業網銀評證。",
+   "fact": [
+    "企業網銀評證",
+    "time",
+    "第17天早上11點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "水滴乾",
+    "location",
+    "後陽台遮雨棚鐵網中間"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "舞劇店",
+    "plan",
+    "明天早上先繞去買新竹刀"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "試文卡",
+    "status",
+    "今天已印好"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "燙精打樣",
+    "plan",
+    "明天早上十點過去看"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "出貨",
+    "status",
+    "這波正在忙"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "熱溶膠條",
+    "location",
+    "工作桌右邊第二個抽屜"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 10,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "企業網銀評證",
+    "plan",
+    "下週三早上十一點去銀行辦理"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 11,
+   "start": 2.02,
+   "end": 9.02,
+   "heard": "工作室鐵櫃太悶了,我剛剛把那兩罐薰衣草精油鋁瓶拿出來,",
+   "fact": [
+    "薰衣草精油",
+    "location",
+    "一樓樓梯下方櫻梁櫃"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 32.0,
+   "end": 37.8,
+   "heard": "一組是一千六百八十元,裡面含一顆大蠟燭跟一瓶室內噴霧。",
+   "fact": [
+    "聖誕節限定理",
+    "value",
+    "1680元/組，含大蠟燭及室內噴霧"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 55.9,
+   "end": 62.68,
+   "heard": "Aria,哦我看到了,我剛剛順手把它塞進陽台工具箱最上層格子裡了。",
+   "fact": [
+    "麻繩",
+    "location",
+    "陽台工具箱最上層格子"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": 79.3,
+   "end": 86.52,
+   "heard": "ria,記一下哦,工作室那台標籤列印機的色帶快沒了,印出來的字都有點蛋。",
+   "fact": [
+    "標籤列印機",
+    "status",
+    "印出來的字都有點淡"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 11,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "工作室鐵櫃",
+    "location",
+    "一樓樓梯下方櫻梁櫃"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 11,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "今年聖誕節限定理",
+    "value",
+    "1680元/組"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 11,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "今年聖誕節限定理",
+    "attribute",
+    "含一顆大蠟燭跟一瓶室內噴霧"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 12,
+   "start": 2.61,
+   "end": 15.09,
+   "heard": "姐﹑客廳畢爐架那邊電風扇吹過去一直晃﹑我剛剛把那個黃銅滅竹林拿下來﹑改放進書房玻璃展示櫃第二層囉﹑",
+   "fact": [
+    "黃銅滅竹林",
+    "location",
+    "書房玻璃展示櫃第二層"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 17.71,
+   "end": 30.93,
+   "heard": "Aria﹑竹北選物店的林沛山剛剛打來說他們店裡還在有七﹑所以那三十顆雪松蠟燭延後到下禮拜一出貨就好﹑",
+   "fact": [
+    "雪松蠟燭",
+    "time",
+    "第13天"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 12,
+   "start": 43.66,
+   "end": 56.94,
+   "heard": "ria﹑幫我把車庫那捲塑膠氣泡布收起來﹑我現在寄包裹的防撞包材都只用蜂巢牛皮紙﹑客戶反應比較環保﹑",
+   "fact": [
+    "蜂巢牛皮紙",
+    "preference",
+    "80%古物酒精"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 0.4,
+   "end": 10.56,
+   "heard": "姐,趙師傅剛剛傳設計圖給我確認,我們那個木頭展示架的寬度是做120公分,剛好塞的近轉角。",
+   "fact": [
+    "木頭展示架",
+    "attribute",
+    "寬度120公分"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 14.69,
+   "end": 24.75,
+   "heard": "Aria,我剛剛幫工作室那台標籤印機換上新的黑色色帶了,現在印出來超級清楚。",
+   "fact": [
+    "標籤印機",
+    "status",
+    "已換新黑色色帶"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 26.9,
+   "end": 33.58,
+   "heard": "Aria,我今天去武具店買竹刀,順便買了一罐劍道竹刀專用的保養竹油。",
+   "fact": [
+    "竹刀",
+    "location",
+    "玄關穿鞋椅下小抽屜"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 26.9,
+   "end": 33.58,
+   "heard": "Aria,我今天去武具店買竹刀,順便買了一罐劍道竹刀專用的保養竹油。",
+   "fact": [
+    "竹油",
+    "relation",
+    "竹刀專用"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 45.2,
+   "end": 51.6,
+   "heard": "提醒我下禮拜四下午兩點要去台北市貿參加香氛展展前說明會。",
+   "fact": [
+    "香氛展",
+    "time",
+    "第17天下午2點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 13,
+   "start": 45.2,
+   "end": 51.6,
+   "heard": "提醒我下禮拜四下午兩點要去台北市貿參加香氛展展前說明會。",
+   "fact": [
+    "香氛展",
+    "location",
+    "台北市貿"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 14,
+   "start": 18.5,
+   "end": 24.72,
+   "heard": "哇,太棒了,我等一下去工作室把樣品擺上去看看效果。",
+   "fact": [
+    "展示架",
+    "location",
+    "工作室"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 14,
+   "start": 18.5,
+   "end": 24.72,
+   "heard": "哇,太棒了,我等一下去工作室把樣品擺上去看看效果。",
+   "fact": [
+    "樣品",
+    "plan",
+    "第14天放置於展示架"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 14,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "studio",
+    "plan",
+    "擺放樣品"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 14,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "主北選物店",
+    "time",
+    "30顆雪松蠟燭出貨時間待確認"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 14,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "studio",
+    "status",
+    "標籤列印機狀況待確認"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 14,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "保養豬油",
+    "location",
+    "位置未知（昨日購買）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 14,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "銀行",
+    "plan",
+    "下週三11:00開立外幣帳戶"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 15,
+   "start": 8.4,
+   "end": 13.64,
+   "heard": "主北選物店那三十顆雪松蠟燭我剛請物流收走了,對了,",
+   "fact": [
+    "雪松蠟燭",
+    "status",
+    "已寄出"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 14.04,
+   "end": 20.56,
+   "heard": "司機給我的那鐵拖運單收直連,我先夾在玄關穿鞋椅旁磁鐵加上哦。",
+   "fact": [
+    "鐵拖運單",
+    "location",
+    "玄關穿鞋椅旁磁鐵上"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 23.78,
+   "end": 38.12,
+   "heard": "我這禮拜每天都要掉玫瑰配方,一直開小冰箱太麻煩了,所以我剛剛把那罐大瑪士格玫瑰圓金從工作室小冰箱下層拿出來,",
+   "fact": [
+    "玫瑰香氛",
+    "location",
+    "條箱桌左邊第一個抽屜"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 59.29,
+   "end": 72.61,
+   "heard": "Aria,幫我記一下,我們百貨快閃電的視覺設計師叫周宇恩,然後他說快閃電海報出稿禮拜四晚上會傳給我確認。",
+   "fact": [
+    "快閃店海報",
+    "time",
+    "第18天晚上"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 59.29,
+   "end": 72.61,
+   "heard": "Aria,幫我記一下,我們百貨快閃電的視覺設計師叫周宇恩,然後他說快閃電海報出稿禮拜四晚上會傳給我確認。",
+   "fact": [
+    "周宇恩",
+    "relation",
+    "周宇恩 | relation | 百貨快閃店視覺設計師（無更正，維持原值）"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 74.12,
+   "end": 87.68,
+   "heard": "還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露腳掘測牙放在書房書桌下的紙箱裡,吹風會乾死。",
+   "fact": [
+    "書房窗戶",
+    "status",
+    "明天早上不要開"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": 74.12,
+   "end": 87.68,
+   "heard": "還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露腳掘測牙放在書房書桌下的紙箱裡,吹風會乾死。",
+   "fact": [
+    "模型",
+    "location",
+    "書房書桌下紙箱"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 15,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "主北選物店",
+    "status",
+    "三十顆雪松蠟燭已請物流收走"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 15,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "大瑪士格玫瑰圓金",
+    "location",
+    "條箱桌左邊第一個抽屜"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 15,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "周宇恩",
+    "plan",
+    "禮拜四晚上傳快閃電海報出稿給使用者確認"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 15,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "向耳露腳掘測牙",
+    "location",
+    "書房書桌下的紙箱裡"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 15,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "向耳露腳掘測牙",
+    "status",
+    "需硬乾，不可吹風"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 15,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "百貨快閃電押金",
+    "value",
+    "三萬元整"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 16,
+   "start": 2.86,
+   "end": 10.4,
+   "heard": "Aria,我剛剛去五金行買了一把新的電子郵標卡尺,亮玻璃瓶口內進超準。",
+   "fact": [
+    "電子郵標卡尺",
+    "location",
+    "工作室工具牆黑色收納架"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 22.56,
+   "end": 31.18,
+   "heard": "姐,我那件白色的調香實驗袍袖口沾到一點廣闊香精油,我剛洗乾淨脫水完。",
+   "fact": [
+    "調香實驗袍",
+    "status",
+    "已清洗脫水，晾在頂樓曬衣場最裡面竹竿上"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 49.6,
+   "end": 54.24,
+   "heard": "對,我想報名這個月的身段審查模擬賽,",
+   "fact": [
+    "身段審查模擬賽",
+    "plan",
+    "第18天晚上7點半出席"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 64.05,
+   "end": 76.17,
+   "heard": "Aria,幫我記一下,我們新款大容量擴香配的大容量擴香之規格是長度25公分黑色纖維棒,不要拿成乳尾桿哦。",
+   "fact": [
+    "大容量擴香",
+    "attribute",
+    "長度25公分黑色纖維棒"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 91.69,
+   "end": 97.47,
+   "heard": "幫我買藍莓乳酪口味的當早餐,我最近吃膩原味的了。",
+   "fact": [
+    "早餐",
+    "preference",
+    "藍莓乳酪"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 16,
+   "start": 91.69,
+   "end": 97.47,
+   "heard": "幫我買藍莓乳酪口味的當早餐,我最近吃膩原味的了。",
+   "fact": [
+    "原味",
+    "status",
+    "吃膩"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 1.75,
+   "end": 5.21,
+   "heard": "宇恩,哦哦你明天晚上家裡有事啊。",
+   "fact": [
+    "宇恩",
+    "plan",
+    "第18天晚上家裡有事"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 7.8,
+   "end": 14.38,
+   "heard": "那快閃遍海報出稿改到禮拜五下午四點再傳給我確認就好,辛苦",
+   "fact": [
+    "海報出稿",
+    "time",
+    "第20天下午4點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 19.58,
+   "end": 32.02,
+   "heard": "ria,幫我把前陽台那盆米蝶香寄一下要停水,我剛看那盆陽台米蝶香的葉子尖端發黑枯萎了,應該是這幾天零太多雨。",
+   "fact": [
+    "米蝶香",
+    "status",
+    "葉尖發黑枯萎，已移除並存放於書房桌上透明文件夾"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 19.58,
+   "end": 32.02,
+   "heard": "ria,幫我把前陽台那盆米蝶香寄一下要停水,我剛看那盆陽台米蝶香的葉子尖端發黑枯萎了,應該是這幾天零太多雨。",
+   "fact": [
+    "米蝶香",
+    "attribute",
+    "疑似雨水過多導致，已從陽台移除"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 75.22,
+   "end": 89.2,
+   "heard": "ria,寄兩件事哦,第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦螢幕下面,第二是下禮拜二早上十點要去百貨公司辦專櫃進場證。",
+   "fact": [
+    "企業網銀讀卡機",
+    "location",
+    "書房電腦螢幕下方"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": 75.22,
+   "end": 89.2,
+   "heard": "ria,寄兩件事哦,第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦螢幕下面,第二是下禮拜二早上十點要去百貨公司辦專櫃進場證。",
+   "fact": [
+    "專櫃進場證",
+    "time",
+    "第24天早上10點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 17,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "mideixiang",
+    "status",
+    "葉尖發黑枯萎（疑似雨水過多）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 17,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "專櫃進場證",
+    "plan",
+    "下週二早上十點去百貨公司辦理"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 18,
+   "start": 36.61,
+   "end": 45.01,
+   "heard": "Aria 每個參展品牌可以申請8000元,剛好拿來折抵我們木頭展示架的費用。",
+   "fact": [
+    "木頭展示架",
+    "value",
+    "8000元補助"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 46.17,
+   "end": 53.51,
+   "heard": "Aria 我剛買了一組新的玻璃壁管跟替換用細膠頭,擺在調香桌上超好看。",
+   "fact": [
+    "玻璃壁管",
+    "location",
+    "工作室水槽下面的塑膠抽屜"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 77.73,
+   "end": 87.33,
+   "heard": "剛剛幫我們搬瓦冷紙箱進來的那位是郭大哥,我們長期配合的貨運行物流負責人就是他。",
+   "fact": [
+    "郭大哥",
+    "relation",
+    "長期配合的貨運行物流負責人"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": 90.34,
+   "end": 99.88,
+   "heard": "ria 記一下喔,工作室那台融蠟鍋的溫控炫鈕接觸不良會跳掉,轉到80度就會自己斷電。",
+   "fact": [
+    "融蠟鍋",
+    "attribute",
+    "溫控旋鈕接觸不良，轉至80度會自動斷電"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 18,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "向耳露角",
+    "status",
+    "傷口已乾，鋪在客廳窗邊白色潛水盤裡"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 18,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "參展品牌",
+    "value",
+    "可申請8000元綠色建材補助款（折抵木頭展示架費用）"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 18,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "玻璃壁管與替換用細膠頭",
+    "location",
+    "工作室水槽下面的塑膠抽屜裡"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 19,
+   "start": 0.5,
+   "end": 12.02,
+   "heard": "姐,頂樓好像快飄雨了,我剛剛去把那件白色調香實驗袍收下來,改掛進更衣室左邊衣桿上囉。",
+   "fact": [
+    "白色調香實驗袍",
+    "location",
+    "更衣室左邊衣桿"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 20.73,
+   "end": 29.19,
+   "heard": "好,那我去辦專櫃進場證的時間就改到下禮拜二下午兩點半哦,好,謝謝。",
+   "fact": [
+    "專櫃進場證",
+    "time",
+    "第23天下午2:30"
+   ],
+   "update": true,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 35.7,
+   "end": 43.16,
+   "heard": "好啊,那我們交換錄角決策啞就約後天下午四點在花式大門口見面哦。",
+   "fact": [
+    "錄角決策啞",
+    "location",
+    "花式大門口"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 46.82,
+   "end": 58.84,
+   "heard": "幫我把快閃電歌單裡面有人聲的歌都刪掉,我們專櫃背景音樂我只喜歡純鋼琴環境音樂,才不會干擾客人試聞。",
+   "fact": [
+    "專櫃背景音樂",
+    "preference",
+    "純鋼琴環境音樂"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": 35.7,
+   "end": 43.16,
+   "heard": "好啊,那我們交換錄角決策啞就約後天下午四點在花式大門口見面哦。",
+   "fact": [
+    "錄角決策啞",
+    "time",
+    "第21天下午4:00"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 19,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "阿維",
+    "relation",
+    "職災社團成員"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 19,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "錄角決策啞",
+    "plan",
+    "後天下午四點在花式大門口見面"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 19,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "快閃電歌單",
+    "preference",
+    "刪除有人聲的歌，僅保留純鋼琴環境音樂"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 19,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "新款隨身滾珠香水",
+    "attribute",
+    "8毫升"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 20,
+   "start": 5.63,
+   "end": 11.41,
+   "heard": "制服圍裙才直是防潑水重磅翻步,滴到精油一擦就掉。",
+   "fact": [
+    "制服圍裙",
+    "attribute",
+    "防潑水重磅帆布"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 15.44,
+   "end": 27.54,
+   "heard": "我剛剛拿電子接點復活記噴了一下工作室那台熔蠟鍋,現在溫控炫鈕已修好不會跳掉了,幫我更新一下。",
+   "fact": [
+    "熔蠟鍋",
+    "status",
+    "溫控旋鈕已修好"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 31.75,
+   "end": 39.09,
+   "heard": "ria,我剛剛把快閃電要發的五百張蓋好剛印的試文紙全部整理好了。",
+   "fact": [
+    "試文紙",
+    "status",
+    "已整理並裝入防潮袋，存放於客廳沙發旁黑色行李箱內"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 50.13,
+   "end": 56.15,
+   "heard": "提醒我下禮拜五晚上八點要在官方IG開直播介紹聖誕禮盒哦。",
+   "fact": [
+    "直播",
+    "time",
+    "第27天晚上8點"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": 50.13,
+   "end": 56.15,
+   "heard": "提醒我下禮拜五晚上八點要在官方IG開直播介紹聖誕禮盒哦。",
+   "fact": [
+    "直播",
+    "plan",
+    "在官方IG開直播介紹聖誕禮盒"
+   ],
+   "update": false,
+   "src": "listen"
+  },
+  {
+   "day": 20,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "快閃電",
+    "plan",
+    "下週五晚上八點在官方IG開直播介紹聖誕禮盒"
+   ],
+   "update": false,
+   "src": "sleep"
+  },
+  {
+   "day": 20,
+   "start": -1,
+   "end": -1,
+   "heard": "(sleep)",
+   "fact": [
+    "試文紙",
+    "location",
+    "客廳沙發旁黑色行李箱"
+   ],
+   "update": false,
+   "src": "sleep"
+  }
+ ],
+ "answers": [
+  {
+   "day": 1,
+   "start": 88.36,
+   "end": 94.2,
+   "heard": "再幫我寄個配方,這批五花果香精的稀釋比例是百分之十五啊。",
+   "anchor": "[五花果香精|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得",
+   "mode": "direct"
+  },
+  {
+   "day": 2,
+   "start": 101.58,
+   "end": 108.52,
+   "heard": "幫我點四季春家爐會為糖去冰,我最近借奶精了,喝鮮奶茶味都會瘴氣。",
+   "anchor": "[張富里|plan]",
+   "tail": "未來快閃店合約聯絡人",
+   "theta": 0.0,
+   "answer": "未來快閃店合約聯絡人",
+   "mode": "direct"
+  },
+  {
+   "day": 2,
+   "start": 101.58,
+   "end": 108.52,
+   "heard": "幫我點四季春家爐會為糖去冰,我最近借奶精了,喝鮮奶茶味都會瘴氣。",
+   "anchor": "[張富里|relation]",
+   "tail": "百貨專櫃招商窗口",
+   "theta": 0.0,
+   "answer": "百貨專櫃招商窗口",
+   "mode": "direct"
+  },
+  {
+   "day": 3,
+   "start": 17.58,
+   "end": 28.3,
+   "heard": "陽台洗手台旁邊那個塑膠桶你提醒我周末要倒掉,我把從路角角換下來的舊水台泡在裡面消毒。",
+   "anchor": "[塑膠桶|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得有這個提醒，不過既然你已經把舊水台泡進去消毒了，那周末倒掉時記得小心處理，別讓水濺得到處都是喔。",
+   "mode": "direct"
+  },
+  {
+   "day": 3,
+   "start": 95.52,
+   "end": 100.34,
+   "heard": "ria,我禮拜一跟你說我那父輩用眼鏡收去哪裡了啊?",
+   "anchor": "[父輩用眼鏡|location]",
+   "tail": "(nothing)",
+   "theta": 0.125,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 3,
+   "start": 106.01,
+   "end": 110.51,
+   "heard": "沒有跟你講過我那個風蠟印章放在哪個抽屜?",
+   "anchor": "[父輩用眼鏡|location]",
+   "tail": "(nothing)",
+   "theta": 0.125,
+   "answer": "我不記得，你沒跟我提過。",
+   "mode": "direct"
+  },
+  {
+   "day": 3,
+   "start": 106.01,
+   "end": 110.51,
+   "heard": "沒有跟你講過我那個風蠟印章放在哪個抽屜?",
+   "anchor": "[風蠟印章|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得耶，你之前沒跟我提過它放在哪裡。要不要我們現在找一下？",
+   "mode": "direct"
+  },
+  {
+   "day": 4,
+   "start": 104.08,
+   "end": 108.1,
+   "heard": "無花果香精那個稀釋比例是多少啊。",
+   "anchor": "[無花果香精|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得那個稀釋比例了，要不要我幫你查一下？",
+   "mode": "direct"
+  },
+  {
+   "day": 4,
+   "start": 111.54,
+   "end": 115.96,
+   "heard": "我跟平氣林老闆看Sample是改到什麼時候。",
+   "anchor": "[無花果香精|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得。",
+   "mode": "direct"
+  },
+  {
+   "day": 4,
+   "start": 119.2,
+   "end": 121.32,
+   "heard": "我太陽眼鏡收去哪了。",
+   "anchor": "[太陽眼鏡|location]",
+   "tail": "(nothing)",
+   "theta": 0.124,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 37.73,
+   "end": 46.21,
+   "heard": "對,我想預約後天早上九點半給王醫師看手腕,對,之前鏈鍵到拉傷有點復發,好,謝謝。",
+   "anchor": "[王主任|plan]",
+   "tail": "第3天晚上去道館練習.",
+   "theta": 0.597,
+   "answer": "第3天晚上去道館練習.",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 49.49,
+   "end": 61.43,
+   "heard": "幫我算一下哦,如果我們新款大豆蠟燭單顆重量要灌220克,那我現在做10顆加上損耗要容多少啦?",
+   "anchor": "[大豆蠟燭|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得新款大豆蠟燭的損耗率是多少，所以算不出來要準備多少總重量。你可以告訴我通常做10顆會報廢幾顆或損耗百分比嗎？",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 63.37,
+   "end": 77.23,
+   "heard": "還有Aria,下次買包裝斷帶記得提醒我要買墨綠色的啊,不對,客戶剛剛說改成霧面深灰色的比較搭胡桃木盒,即霧面深灰色哦。",
+   "anchor": "[大豆蠟燭|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "好的，我記下了，下次買包裝斷帶會提醒你買霧面深灰色的。",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 98.8,
+   "end": 102.3,
+   "heard": "百貨專櫃那個張副理事負責什麼的啊?",
+   "anchor": "[張副理事|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得。",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 105.24,
+   "end": 108.66,
+   "heard": "我上次說換下來的舊水台泡在哪裡?",
+   "anchor": "[舊水台|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得你上次說泡在哪裡了，要不要我幫你找找看？",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 111.82,
+   "end": 117.22,
+   "heard": "我有沒有說過苦沉夜精油包裹什麼時候要去郵局裡?",
+   "anchor": "[苦沉夜精油包裹|time]",
+   "tail": "(nothing)",
+   "theta": 0.121,
+   "answer": "我不記得你有提過這個時間耶，要不要現在補一下？",
+   "mode": "direct"
+  },
+  {
+   "day": 5,
+   "start": 121.77,
+   "end": 124.95,
+   "heard": "我工作室那把熱風槍丟去哪了?",
+   "anchor": "[熱風槍|location]",
+   "tail": "(nothing)",
+   "theta": 0.125,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 2.45,
+   "end": 6.75,
+   "heard": "魏老闆,哦哦我的劍道護手已經補好了是不是?",
+   "anchor": "[劍道護手|status]",
+   "tail": "(nothing)",
+   "theta": 0.359,
+   "answer": "我不記得耶，使用者。我這裡沒有關於「魏老闆」或「劍道護手」的任何記錄，您是不是記錯人或者把東西寄到別的地方了？",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 51.39,
+   "end": 56.27,
+   "heard": "提醒我下禮拜二下午三點要跟會計師試訊對賬哦。",
+   "anchor": "[與會計師試訊對賬|time]",
+   "tail": "(nothing)",
+   "theta": 0.125,
+   "answer": "好的，我已經記下了下週二下午三點要跟會計師試訊對賬。",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 71.34,
+   "end": 73.92,
+   "heard": "我備用眼鏡現在到底放哪?",
+   "anchor": "[備用眼鏡|location]",
+   "tail": "客廳茶几下面的藤邊盒",
+   "theta": 0.967,
+   "answer": "客廳茶几下面的藤邊盒",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 84.29,
+   "end": 88.45,
+   "heard": "ria,這季新款擴廂屏幕蓋的尺寸是幾毫米。",
+   "anchor": "[備用眼鏡|location]",
+   "tail": "客廳茶几下面的藤邊盒",
+   "theta": 0.967,
+   "answer": "客廳茶几下面的藤邊盒",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 90.9,
+   "end": 95.08,
+   "heard": "Aria,我之前說那一箱瘋辣塊收在哪裡啊?",
+   "anchor": "[一箱瘋辣塊|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得你之前提過那一箱瘋辣塊收在哪裡耶，要不要我幫你找找看？",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 99.89,
+   "end": 103.73,
+   "heard": "我整理好要給會計師的發票收據塞在哪?",
+   "anchor": "[發票收據|location]",
+   "tail": "(nothing)",
+   "theta": 0.245,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 6,
+   "start": 106.24,
+   "end": 110.82,
+   "heard": "我有沒有跟你講過路角角的液態肥料放哪?",
+   "anchor": "[路角角|location]",
+   "tail": "(nothing)",
+   "theta": 0.118,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 7,
+   "start": 22.42,
+   "end": 25.8,
+   "heard": "林老闆那張瓶器報價單我後來放哪了",
+   "anchor": "[瓶器報價單|location]",
+   "tail": "(nothing)",
+   "theta": 0.123,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 7,
+   "start": 28.42,
+   "end": 73.97,
+   "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０",
+   "anchor": "[不鏽鋼架接刀|location]",
+   "tail": "(nothing)",
+   "theta": 0.123,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 7,
+   "start": 74.23,
+   "end": 80.11,
+   "heard": "我有没有跟你说过我下礼拜三要跟哪个摄影师拍产品照",
+   "anchor": "[產品照拍攝|relation]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得耶，你好像沒跟我提過這件事。要不要現在告訴我？我可以幫你記下來。",
+   "mode": "direct"
+  },
+  {
+   "day": 8,
+   "start": 71.86,
+   "end": 82.86,
+   "heard": "ria,提醒我晚上洗完澡不要馬上關浴室抽風機,我剛剛把上好板的那顆銀露露腳掛掛在浴室毛巾架上滴水。",
+   "anchor": "[浴室抽風機|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "好的，我記下了。不過我現在還不知道具體要延後多久才關，你希望洗完澡後讓它繼續運轉幾分鐘呢？",
+   "mode": "direct"
+  },
+  {
+   "day": 9,
+   "start": 101.18,
+   "end": 106.58,
+   "heard": "喂,Aria,我們新款大豆蠟燭單顆重量是罐幾克啊?",
+   "anchor": "[大豆蠟燭|attribute]",
+   "tail": "單顆重量220克",
+   "theta": 0.952,
+   "answer": "單顆重量220克",
+   "mode": "direct"
+  },
+  {
+   "day": 9,
+   "start": 109.56,
+   "end": 114.68,
+   "heard": "我上次跟凱文說我現在手沖咖啡都喝什麼豆子。",
+   "anchor": "[大豆蠟燭|attribute]",
+   "tail": "單顆重量220克",
+   "theta": 0.952,
+   "answer": "單顆重量220克",
+   "mode": "direct"
+  },
+  {
+   "day": 10,
+   "start": 87.63,
+   "end": 92.15,
+   "heard": "工作室那台超音波清洗機現在狀況怎樣?",
+   "anchor": "[超音波清洗機|status]",
+   "tail": "加熱功能壞掉，僅剩常溫震動",
+   "theta": 0.91,
+   "answer": "加熱功能壞掉，僅剩常溫震動",
+   "mode": "direct"
+  },
+  {
+   "day": 10,
+   "start": 96.33,
+   "end": 101.43,
+   "heard": "Aria,我有沒有跟你說過我那個皮革微裙掛在哪裡?",
+   "anchor": "[皮革微裙|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 10,
+   "start": 104.04,
+   "end": 107.06,
+   "heard": "我那把黃銅珠心繭掛在哪裡?",
+   "anchor": "[黃銅珠心繭|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 11,
+   "start": 41.44,
+   "end": 44.9,
+   "heard": "Aria,你有看到我剛買的那捲麻繩嗎?",
+   "anchor": "[麻繩|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得，你放哪了？",
+   "mode": "direct"
+  },
+  {
+   "day": 11,
+   "start": 45.62,
+   "end": 48.2,
+   "heard": "我要重綁路攪絕水台用的。",
+   "anchor": "[麻繩|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 11,
+   "start": 73.06,
+   "end": 77.2,
+   "heard": "對,我想跟您確認一下展示駕進場的時間。",
+   "anchor": "[展示架|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得展示架的進場時間，請您告訴我。",
+   "mode": "direct"
+  },
+  {
+   "day": 11,
+   "start": 91.04,
+   "end": 96.34,
+   "heard": "ria,我跟印刷場約看試文卡的燙金打樣式改到幾點。",
+   "anchor": "[燙金打樣|plan]",
+   "tail": "明天早上十點過去看.",
+   "theta": 0.988,
+   "answer": "明天早上十點過去看.",
+   "mode": "direct"
+  },
+  {
+   "day": 11,
+   "start": 106.12,
+   "end": 112.04,
+   "heard": "Aria,我們給竹北選物店的批發折扣最後是幾折?",
+   "anchor": "[竹北選物店|value]",
+   "tail": "與林沛三合作，買斷製打七折",
+   "theta": 0.938,
+   "answer": "與林沛三合作，買斷製打七折",
+   "mode": "direct"
+  },
+  {
+   "day": 11,
+   "start": 115.66,
+   "end": 119.22,
+   "heard": "我那個數位溫濕度計電池是不是沒電了?",
+   "anchor": "[數位溫濕度計|status]",
+   "tail": "(nothing)",
+   "theta": 0.107,
+   "answer": "我不記得它的狀態耶，要不要我幫你查一下？",
+   "mode": "direct"
+  },
+  {
+   "day": 12,
+   "start": 36.3,
+   "end": 41.84,
+   "heard": "試駕就約後天下午一點班進工作室組裝哦﹑麻煩您了",
+   "anchor": "[試駕|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "好的，我幫您記下：後天下午一點去班進工作室組裝。需要我提醒其他事項嗎？",
+   "mode": "direct"
+  },
+  {
+   "day": 12,
+   "start": 43.66,
+   "end": 56.94,
+   "heard": "ria﹑幫我把車庫那捲塑膠氣泡布收起來﹑我現在寄包裹的防撞包材都只用蜂巢牛皮紙﹑客戶反應比較環保﹑",
+   "anchor": "[車庫那捲塑膠氣泡布|location]",
+   "tail": "(nothing)",
+   "theta": 0.123,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 12,
+   "start": 98.0,
+   "end": 102.96,
+   "heard": "ria﹑我那顆銀露露角爵現在掛在哪裡﹑",
+   "anchor": "[銀露露角爵|location]",
+   "tail": "(nothing)",
+   "theta": 0.233,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 12,
+   "start": 106.83,
+   "end": 111.41,
+   "heard": "Aria﹑我禮拜二把那疊就合約收去哪裡了﹑",
+   "anchor": "[合約|location]",
+   "tail": "(nothing)",
+   "theta": 0.234,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 12,
+   "start": 114.53,
+   "end": 119.39,
+   "heard": "我們新款茶香蠟燭是用幾號的什麼燭心啊﹑",
+   "anchor": "[茶香蠟燭|attribute]",
+   "tail": "竹心型號雙重、一層木片竹心十三號",
+   "theta": 0.942,
+   "answer": "竹心型號雙重、一層木片竹心十三號",
+   "mode": "direct"
+  },
+  {
+   "day": 12,
+   "start": 121.47,
+   "end": 126.03,
+   "heard": "Aria﹑我上次說皇冠露角爵掛在哪裡滴水﹑",
+   "anchor": "[銀露露角爵|location]",
+   "tail": "(nothing)",
+   "theta": 0.233,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 13,
+   "start": 65.35,
+   "end": 70.55,
+   "heard": "從法國寄來的那兩罐薰衣草精油旅品我後來改放到哪去了?",
+   "anchor": "[薰衣草精油|location]",
+   "tail": "一樓樓梯下方櫻梁櫃",
+   "theta": 0.974,
+   "answer": "一樓樓梯下方櫻梁櫃",
+   "mode": "direct"
+  },
+  {
+   "day": 13,
+   "start": 73.91,
+   "end": 77.53,
+   "heard": "Aria,我那個黃銅滅竹林現在放哪?",
+   "anchor": "[黃銅滅竹林|location]",
+   "tail": "書房玻璃展示櫃第二層",
+   "theta": 0.988,
+   "answer": "書房玻璃展示櫃第二層",
+   "mode": "direct"
+  },
+  {
+   "day": 13,
+   "start": 81.08,
+   "end": 85.34,
+   "heard": "我備用的熱熔膠條放在哪個抽屜啊?",
+   "anchor": "[熱熔膠條|location]",
+   "tail": "工作桌右邊第二個抽屜.",
+   "theta": 0.967,
+   "answer": "工作桌右邊第二個抽屜.",
+   "mode": "direct"
+  },
+  {
+   "day": 13,
+   "start": 87.74,
+   "end": 91.74,
+   "heard": "聖誕節限定理合一組定價是多少錢?",
+   "anchor": "[聖誕節限定理合|value]",
+   "tail": "(nothing)",
+   "theta": 0.369,
+   "answer": "我不記得。",
+   "mode": "direct"
+  },
+  {
+   "day": 13,
+   "start": 96.95,
+   "end": 101.91,
+   "heard": "我有沒有跟你講過我那把客自用的電烙鐵收在哪?",
+   "anchor": "[電烙鐵|location]",
+   "tail": "(nothing)",
+   "theta": 0.121,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 14,
+   "start": 27.28,
+   "end": 33.82,
+   "heard": "主北選物店那三十顆雪松蠟燭後來是改到什麼時候要出貨。",
+   "anchor": "[主北選物店|plan]",
+   "tail": "30顆雪松蠟燭第12天前出貨.",
+   "theta": 0.91,
+   "answer": "30顆雪松蠟燭第12天前出貨.",
+   "mode": "direct"
+  },
+  {
+   "day": 14,
+   "start": 35.76,
+   "end": 40.08,
+   "heard": "ria,工作室那台標籤列印機現在狀況怎樣,",
+   "anchor": "[標籤列印機|status]",
+   "tail": "印出來的字都有點淡",
+   "theta": 0.98,
+   "answer": "印出來的字都有點淡",
+   "mode": "direct"
+  },
+  {
+   "day": 14,
+   "start": 46.09,
+   "end": 49.75,
+   "heard": "我昨天買的那罐保養豬油放哪去了?",
+   "anchor": "[保養豬油|location]",
+   "tail": "(nothing)",
+   "theta": 0.115,
+   "answer": "我不記得你把它放哪了，要不要我幫你找找看？",
+   "mode": "direct"
+  },
+  {
+   "day": 14,
+   "start": 54.45,
+   "end": 59.13,
+   "heard": "Aria,綁路攪絕水台的那捲麻繩我塞在哪裡?",
+   "anchor": "[麻繩|location]",
+   "tail": "陽台工具箱最上層格子",
+   "theta": 0.972,
+   "answer": "陽台工具箱最上層格子",
+   "mode": "direct"
+  },
+  {
+   "day": 14,
+   "start": 64.1,
+   "end": 69.7,
+   "heard": "Aria,我下禮拜三早上十一點是不是要去銀行辦外币賬戶?",
+   "anchor": "[銀行|time]",
+   "tail": "(nothing)",
+   "theta": 0.117,
+   "answer": "我不記得你有安排這個行程，要不要我幫你設個提醒？",
+   "mode": "direct"
+  },
+  {
+   "day": 14,
+   "start": 74.99,
+   "end": 80.21,
+   "heard": "我有沒有說過工作室冷氣浴網上次是什麼時候用?",
+   "anchor": "[工作室冷氣濾網|time]",
+   "tail": "(nothing)",
+   "theta": 0.117,
+   "answer": "我不記得你提過這件事耶。",
+   "mode": "direct"
+  },
+  {
+   "day": 15,
+   "start": 90.95,
+   "end": 102.79,
+   "heard": "記一下這次百貨快閃電押金是三萬五千元啊不對,我剛重看張副理傳來的合約,是三萬元整裁對,計三萬元哦。",
+   "anchor": "[快閃店押金|value]",
+   "tail": "(nothing)",
+   "theta": 0.112,
+   "answer": "好的，我記下了，百貨快閃店的押金是 **30,000 元**整。",
+   "mode": "direct"
+  },
+  {
+   "day": 15,
+   "start": 108.63,
+   "end": 113.33,
+   "heard": "我那副黑框被用眼鏡上次是改放到哪裡去了。",
+   "anchor": "[黑框眼鏡|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 15,
+   "start": 116.87,
+   "end": 121.41,
+   "heard": "Aria,我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊。",
+   "anchor": "[銀行行程|time]",
+   "tail": "(nothing)",
+   "theta": 0.245,
+   "answer": "我不記得耶，你上週有跟我提過這件事嗎？要不要我現在幫你設個提醒？",
+   "mode": "direct"
+  },
+  {
+   "day": 15,
+   "start": 121.41,
+   "end": 123.05,
+   "heard": "Aria,我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊。",
+   "anchor": "[銀行|plan]",
+   "tail": "下週三11:00開立外幣帳戶",
+   "theta": 0.986,
+   "answer": "下週三11:00開立外幣帳戶",
+   "mode": "direct"
+  },
+  {
+   "day": 16,
+   "start": 46.28,
+   "end": 48.58,
+   "heard": "是劍道館的林教練嗎?",
+   "anchor": "[林教練|relation]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得有這個人，也不確定是不是你認識的那位林教練。",
+   "mode": "direct"
+  },
+  {
+   "day": 16,
+   "start": 54.7,
+   "end": 57.72,
+   "heard": "時間是後天晚上七點半對不對?",
+   "anchor": "[身段審查模擬賽|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得耶，你確定一下時間好嗎？",
+   "mode": "direct"
+  },
+  {
+   "day": 16,
+   "start": 100.73,
+   "end": 105.13,
+   "heard": "我那台春筋油的小便子秤現在放在哪裡?",
+   "anchor": "[小秤|location]",
+   "tail": "(nothing)",
+   "theta": 0.208,
+   "answer": "我不記得那台小秤放在哪裡了。",
+   "mode": "direct"
+  },
+  {
+   "day": 16,
+   "start": 106.7,
+   "end": 112.6,
+   "heard": "Aria,我上次說我們現在寄包裹的防撞包材都改用什麼?",
+   "anchor": "[小秤|location]",
+   "tail": "(nothing)",
+   "theta": 0.208,
+   "answer": "我不記得。",
+   "mode": "direct"
+  },
+  {
+   "day": 16,
+   "start": 118.03,
+   "end": 123.29,
+   "heard": "我有沒有跟你說過我那個手持掛燙機收在哪個櫃子?",
+   "anchor": "[手持掛燙機|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 17,
+   "start": 92.0,
+   "end": 96.58,
+   "heard": "ria,我那罐大瑪士格玫瑰圓金現在所在哪裡?",
+   "anchor": "[大瑪士格玫瑰圓金|location]",
+   "tail": "條箱桌左邊第一個抽屜",
+   "theta": 0.972,
+   "answer": "條箱桌左邊第一個抽屜",
+   "mode": "direct"
+  },
+  {
+   "day": 17,
+   "start": 99.32,
+   "end": 104.74,
+   "heard": "ria,我們新款室內擴廂噴霧基底是用雞啪的什麼酒精?",
+   "anchor": "[新款室內擴香噴霧|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.2,
+   "answer": "我不記得。",
+   "mode": "direct"
+  },
+  {
+   "day": 17,
+   "start": 108.73,
+   "end": 113.41,
+   "heard": "ria,我上次說甜曾經有鋁平放在哪個陰涼櫃?",
+   "anchor": "[甜曾經有鋁平|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 18,
+   "start": 103.8,
+   "end": 110.16,
+   "heard": "Aria 我第一天跟你記過的那個無花果香精西式比例是百分之幾啊。",
+   "anchor": "[無花果香精|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 18,
+   "start": 113.17,
+   "end": 120.35,
+   "heard": "ria 視覺設計師周宇恩說快閃電海報出稿改到什麼時候傳給我確認。",
+   "anchor": "[周宇恩|plan]",
+   "tail": "禮拜四晚上傳快閃電海報出稿給使用者確認",
+   "theta": 0.966,
+   "answer": "禮拜四晚上傳快閃電海報出稿給使用者確認",
+   "mode": "direct"
+  },
+  {
+   "day": 18,
+   "start": 123.14,
+   "end": 127.32,
+   "heard": "ria 我們這次百貨快閃電的押金是幾萬塊。",
+   "anchor": "[快閃店押金|value]",
+   "tail": "(nothing)",
+   "theta": 0.366,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 18,
+   "start": 130.92,
+   "end": 136.22,
+   "heard": "ria 我有沒有說過快閃電要用的零錢盒放在哪裡。",
+   "anchor": "[零錢盒|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 19,
+   "start": 15.42,
+   "end": 19.66,
+   "heard": "哦哦下禮拜二早上百貨勞安課沒空是不是?",
+   "anchor": "[百貨勞安課|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 19,
+   "start": 93.92,
+   "end": 98.02,
+   "heard": "我上禮拜說去吃火鍋湯比都選什麼鍋。",
+   "anchor": "[火鍋|preference]",
+   "tail": "(nothing)",
+   "theta": 0.213,
+   "answer": "我不記得你上次選了什麼鍋耶，要不要再告訴我一次？",
+   "mode": "direct"
+  },
+  {
+   "day": 19,
+   "start": 101.44,
+   "end": 106.02,
+   "heard": "Aria,禮拜一那疊拖運單收直連我現在放哪?",
+   "anchor": "[拖運單|location]",
+   "tail": "(nothing)",
+   "theta": 0.464,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 19,
+   "start": 108.62,
+   "end": 112.42,
+   "heard": "我新買的那把電子郵標卡實收在哪裡啊?",
+   "anchor": "[電子郵標卡|location]",
+   "tail": "書房牆上的收納架. <|im_end|>",
+   "theta": 0.678,
+   "answer": "書房牆上的收納架. <|im_end|>",
+   "mode": "direct"
+  },
+  {
+   "day": 19,
+   "start": 116.5,
+   "end": 120.38,
+   "heard": "Aria,我那個個人網銀讀卡機放在哪裡?",
+   "anchor": "[個人網銀讀卡機|location]",
+   "tail": "書房電腦螢幕下方. 在書房電腦螢幕下面，你",
+   "theta": 0.591,
+   "answer": "書房電腦螢幕下方. 在書房電腦螢幕下面，你",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 64.62,
+   "end": 73.14,
+   "heard": "Aria,我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡。",
+   "anchor": "[發票收據|location]",
+   "tail": "(nothing)",
+   "theta": 0.195,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 76.06,
+   "end": 77.62,
+   "heard": "Aria,我接下來的向耳露腳決策牙現在放在哪裡敷牙。",
+   "anchor": "[發票收據|location]",
+   "tail": "(nothing)",
+   "theta": 0.195,
+   "answer": "我不記得你的向耳露腳決策牙放在哪裡了。",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 77.62,
+   "end": 82.4,
+   "heard": "Aria,我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡。Aria,我接下來的向耳露腳決策牙現在放在哪裡敷牙。",
+   "anchor": "[發票|location]",
+   "tail": "(nothing)",
+   "theta": 0.097,
+   "answer": "我不記得那袋發票塞在哪裡，也不清楚你提到的「向耳露腳決策牙」是什麼東西。",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 77.62,
+   "end": 82.4,
+   "heard": "Aria,我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡。Aria,我接下來的向耳露腳決策牙現在放在哪裡敷牙。",
+   "anchor": "[牙|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得那袋發票在哪裡，也不記得你的牙（或是那個東西）放在哪。",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 85.2,
+   "end": 89.0,
+   "heard": "Aria,我那件白色的調香實驗袍現在掛在哪。",
+   "anchor": "[白色調香實驗袍|location]",
+   "tail": "更衣室左邊衣桿",
+   "theta": 0.974,
+   "answer": "更衣室左邊衣桿",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 90.72,
+   "end": 94.46,
+   "heard": "Aria,我有沒有跟你講過備用的玻璃燒,",
+   "anchor": "[備用玻璃燒|location]",
+   "tail": "(nothing)",
+   "theta": 0.32,
+   "answer": "我不記得你有提過備用玻璃燒放在哪裡，使用者。要不要現在告訴我？",
+   "mode": "direct"
+  },
+  {
+   "day": 20,
+   "start": 94.46,
+   "end": 96.12,
+   "heard": "包杯收在哪個紙箱。",
+   "anchor": "[包杯|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得包杯收在哪個紙箱了。",
+   "mode": "direct"
+  },
+  {
+   "day": 21,
+   "start": 17.24,
+   "end": 23.22,
+   "heard": "Aria,我下禮拜二去百貨公司辦專櫃進場正式改到幾點?",
+   "anchor": "[專櫃進場|plan]",
+   "tail": "下週二早上十點去百貨公司辦理.",
+   "theta": 0.593,
+   "answer": "下週二早上十點去百貨公司辦理.",
+   "mode": "direct"
+  },
+  {
+   "day": 21,
+   "start": 26.3,
+   "end": 31.96,
+   "heard": "Aria,工作室那台融蠟鍋現在狀況怎樣?修好了嗎?",
+   "anchor": "[融蠟鍋|status]",
+   "tail": "溫控旋鈕已修好.",
+   "theta": 0.99,
+   "answer": "溫控旋鈕已修好.",
+   "mode": "direct"
+  },
+  {
+   "day": 21,
+   "start": 35.83,
+   "end": 41.87,
+   "heard": "Aria,我們新款隨身噴霧香水瓶的容量是幾毫升?",
+   "anchor": "[隨身噴霧香水瓶|value]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "我不記得新款隨身噴霧香水瓶的容量是多少耶。",
+   "mode": "direct"
+  },
+  {
+   "day": 21,
+   "start": 43.89,
+   "end": 51.03,
+   "heard": "Aria,我有沒有跟你說過我們快閃電的發票張收在哪個抽屜?",
+   "anchor": "[快閃店發票|location]",
+   "tail": "(nothing)",
+   "theta": 0.214,
+   "answer": "我不記得了。",
+   "mode": "direct"
+  },
+  {
+   "day": 21,
+   "start": 65.92,
+   "end": 69.26,
+   "heard": "正好下禮拜快閃電不知可以拿去做。",
+   "anchor": "[快閃店發票|location]",
+   "tail": "(nothing)",
+   "theta": 0.214,
+   "answer": "我不記得那張發票放哪了，你找找看？",
+   "mode": "direct"
+  }
+ ],
+ "coverage": [
+  {
+   "fact": {
+    "day": 1,
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "value": "書房防潮箱上層",
+    "evidence": "我那副、就是黑框的備用眼鏡啊，我剛剛收進書房防潮箱上層了",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "林老闆",
+    "slot": "time",
+    "value": "禮拜四下午兩點（第4天）",
+    "evidence": "我跟瓶器廠商那個林老闆約禮拜四下午兩點看 sample",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "瓶器報價單",
+    "slot": "location",
+    "value": "工作桌切割墊下面",
+    "evidence": "他給我的那張瓶器報價單啊，我先夾在工作桌切割墊下面喔",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "蜂蠟塊",
+    "slot": "location",
+    "value": "客房衣櫃頂端",
+    "evidence": "不然放在客房衣櫃頂端那箱蜂蠟塊要是吹太乾會裂開",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "無花果香精稀釋比例",
+    "slot": "value",
+    "value": "百分之十二",
+    "evidence": "這批無花果香精的稀釋比例是百分之十五……啊不對不對，我剛剛看錯上一季的表格，是百分之十二才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 1,
+    "entity": "劍道館練習",
+    "slot": "time",
+    "value": "禮拜三晚上（第3天）",
+    "evidence": "我禮拜三晚上要去劍道館練習喔，那天不用留我的飯",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "玫瑰原精",
+    "slot": "location",
+    "value": "工作室小冰箱下層",
+    "evidence": "我剛剛終於把那個超貴的原料分裝完了 / 就是那罐大馬士革玫瑰原精啦，我把它鎖進工作室小冰箱下層了",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "電子秤",
+    "slot": "location",
+    "value": "中島下面的拉籃",
+    "evidence": "姊，妳有看到我的電子秤嗎？ / 我後來把它收進中島下面的拉籃裡了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "蠟燭工作坊確認",
+    "slot": "time",
+    "value": "禮拜四早上十點半（第4天）",
+    "evidence": "關於那個森林系蠟燭的 workshop 啊，我們就定在後天早上十點半在工作室那邊確認最終氣味喔",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "手搖飲",
+    "slot": "preference",
+    "value": "四季春加蘆薈微糖去冰",
+    "evidence": "幫我點四季春加蘆薈微糖去冰，我最近戒奶精了",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 2,
+    "entity": "張副理",
+    "slot": "relation",
+    "value": "百貨專櫃招商窗口",
+    "evidence": "剛剛傳 line 來的那個張副理啊，他是百貨專櫃招商窗口",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "擴香瓶木蓋",
+    "slot": "attribute",
+    "value": "內徑二十八毫米",
+    "evidence": "我們這季新款擴香瓶木蓋的尺寸是內徑二十八毫米",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "舊水苔",
+    "slot": "location",
+    "value": "陽台洗手台旁塑膠桶",
+    "evidence": "陽台洗手台旁邊那個塑膠桶你提醒我週末要倒掉，我把從鹿角蕨換下來的舊水苔泡在裡面消毒",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "林老闆",
+    "slot": "time",
+    "value": "禮拜五早上十一點（第5天）",
+    "evidence": "看 sample 我們能不能改到後天、就是禮拜五早上十一點",
+    "update_of": 1,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "劍道護手",
+    "slot": "status",
+    "value": "送去武具店修補",
+    "evidence": "第一是我那雙深藍色的劍道護手送去武具店修補了",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 3,
+    "entity": "薰衣草精油包裹",
+    "slot": "plan",
+    "value": "下禮拜一去郵局領（第8天）",
+    "evidence": "第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "value": "客廳茶几下面的藤編盒",
+    "evidence": "現在隨手放進玄關鑰匙盤……喔不對，我是放進客廳茶几下面的藤編盒裡了",
+    "update_of": 0,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "手沖咖啡",
+    "slot": "preference",
+    "value": "衣索比亞淺焙水洗豆",
+    "evidence": "我自己現在手沖咖啡都只喝衣索比亞淺焙水洗豆",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "發票與收據",
+    "slot": "location",
+    "value": "書架第三層綠色硬殼資料夾",
+    "evidence": "我剛剛把這兩個月要給會計師的那些發票與收據全部整理成一袋了 / 我把它塞在書架第三層綠色硬殼資料夾裡面喔",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "銅製修枝剪",
+    "slot": "location",
+    "value": "陽台鐵窗的S掛鉤上",
+    "evidence": "我那把日本買的銅製修枝剪怎麼刀口有點生鏽？ / 現在把它掛在陽台鐵窗的S掛鉤上了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 4,
+    "entity": "超音波清洗機",
+    "slot": "status",
+    "value": "加熱功能壞掉只能常溫震動",
+    "evidence": "記一下工作室那台超音波清洗機的加熱功能壞掉了，現在只能常溫震動",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "電子秤",
+    "slot": "location",
+    "value": "烘碗機旁邊的木頭託盤上",
+    "evidence": "我剛剛把那台小電子秤改放到烘碗機旁邊的木頭託盤上囉",
+    "update_of": 7,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "瓶器報價單",
+    "slot": "location",
+    "value": "工作室軟木塞留言板上",
+    "evidence": "我把那張瓶器報價單從切割墊拿出來，改釘在工作室軟木塞留言板上了",
+    "update_of": 2,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "骨科診所看診",
+    "slot": "time",
+    "value": "禮拜日早上九點半（第7天）",
+    "evidence": "我想預約後天早上九點半給王醫師看手腕",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "大豆蠟燭單顆重量",
+    "slot": "value",
+    "value": "兩百二十克",
+    "evidence": "如果我們新款大豆蠟燭單顆重量要灌兩百二十克，那我現在做十顆加上損耗要融多少蠟",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 5,
+    "entity": "包裝緞帶顏色",
+    "slot": "preference",
+    "value": "霧面深灰色",
+    "evidence": "下次買包裝緞帶記得提醒我要買墨綠色的……啊不對，客戶剛剛說改成霧面深灰色的比較搭胡桃木盒",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "劍道護手",
+    "slot": "status",
+    "value": "已修補好放進鞋櫃上面",
+    "evidence": "我的劍道護手已經補好了是不是……他剛剛已經幫我放進我家鞋櫃上面了",
+    "update_of": 14,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "手搖飲",
+    "slot": "preference",
+    "value": "蕎麥茶無糖微冰",
+    "evidence": "以後手搖飲我還是改喝蕎麥茶無糖微冰好了",
+    "update_of": 9,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "檜木精油樣品",
+    "slot": "location",
+    "value": "書房窗台深色木盒裡",
+    "evidence": "我剛剛收到台灣農林寄來的新款檜木精油樣品了 / 我先把它放進書房窗台深色木盒裡避光保存喔",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 6,
+    "entity": "會計師視訊對帳",
+    "slot": "plan",
+    "value": "下禮拜二下午三點（第9天）",
+    "evidence": "提醒我下禮拜二下午三點要跟會計師視訊對帳喔",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "薰衣草精油鋁瓶",
+    "slot": "location",
+    "value": "工作室鐵櫃最下層",
+    "evidence": "我拆開之後先把那兩大罐薰衣草精油鋁瓶放進工作室鐵櫃最下層喔",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "林佩珊",
+    "slot": "relation",
+    "value": "竹北選物店店長",
+    "evidence": "竹北那家選物店的店長叫林佩珊",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "竹北選物店雪松蠟燭",
+    "slot": "plan",
+    "value": "禮拜五前出貨（第12天）",
+    "evidence": "然後她們店裡訂的三十顆雪松蠟燭禮拜五前要出貨",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "銀鹿鹿角蕨",
+    "slot": "location",
+    "value": "浴室毛巾架上",
+    "evidence": "我剛剛把上好板的那棵銀鹿鹿角蕨掛在浴室毛巾架上滴水",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "竹北選物店批發折扣",
+    "slot": "value",
+    "value": "七折",
+    "evidence": "這次竹北選物店的批發折扣是打七五折……啊不對，我跟林佩珊簽的是買斷制打七折才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 8,
+    "entity": "超音波清洗機",
+    "slot": "status",
+    "value": "保險絲換好加熱功能恢復正常",
+    "evidence": "（改口更新第4天加熱功能壞掉的事實）結果只是保險絲燒掉，他當場換好現在加熱功能已經恢復正常了",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "舊合約",
+    "slot": "location",
+    "value": "主臥室衣櫃灰色保險箱",
+    "evidence": "順便把去年的扣繳憑單跟舊合約全部翻出來核對 / 我把那疊舊合約收進主臥室衣櫃灰色保險箱了",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "黃銅滅燭鈴",
+    "slot": "location",
+    "value": "客廳壁爐架左邊小釘子上",
+    "evidence": "妳上次送我的那個黃銅滅燭鈴真的超好用 / 我剛剛試燒完蠟燭，把它掛在客廳壁爐架左邊小釘子上了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "燙金打樣確認",
+    "slot": "time",
+    "value": "禮拜四下午三點（第11天）",
+    "evidence": "我們這批香水試聞卡的燙金打樣，我後天下午三點過去你們廠裡確認可以嗎",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "茶香蠟燭燭芯",
+    "slot": "attribute",
+    "value": "雙層木片燭芯十三號",
+    "evidence": "我們新款茶香蠟燭用的燭芯型號是雙層木片燭芯十三號",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 9,
+    "entity": "火鍋湯底",
+    "slot": "preference",
+    "value": "剝皮辣椒雞",
+    "evidence": "我火鍋湯底要選剝皮辣椒雞喔，我最近喉嚨有點乾不想吃麻辣鍋",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "銀鹿鹿角蕨",
+    "slot": "location",
+    "value": "後陽台遮雨棚鐵網中間",
+    "evidence": "浴室那棵銀鹿鹿角蕨水滴乾了，我剛剛把它移去掛在後陽台遮雨棚鐵網中間囉",
+    "update_of": 33,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "備用竹刀",
+    "slot": "status",
+    "value": "練習時裂開了",
+    "evidence": "我那把備用竹刀今天去劍道館練習時裂開了，明天得先繞去武具店買新的",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "燙金打樣確認",
+    "slot": "time",
+    "value": "禮拜四早上十點（第11天）",
+    "evidence": "那我不用等到明天下午，我改明天早上十點過去看燙金打樣喔",
+    "update_of": 38,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "備用熱熔膠條",
+    "slot": "location",
+    "value": "工作桌右邊第二個抽屜",
+    "evidence": "第一是我把備用熱熔膠條放在工作桌右邊第二個抽屜",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 10,
+    "entity": "辦理企業網銀憑證",
+    "slot": "plan",
+    "value": "下禮拜三早上十一點（第17天）",
+    "evidence": "第二是下禮拜三早上十一點要去銀行辦企業網銀憑證",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "薰衣草精油鋁瓶",
+    "slot": "location",
+    "value": "一樓樓梯下方陰涼櫃",
+    "evidence": "改放到地下室儲藏室的木架……喔不對，是放進一樓樓梯下方陰涼櫃裡了",
+    "update_of": 30,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "聖誕節限定禮盒定價",
+    "slot": "value",
+    "value": "一千六百八十元",
+    "evidence": "我剛剛終於把今年聖誕節限定禮盒定價算出來了 / 一組是一千六百八十元",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "麻繩",
+    "slot": "location",
+    "value": "陽台工具箱最上層格子",
+    "evidence": "妳有看到我剛買的那捲麻繩嗎？ / 我剛剛順手把它塞進陽台工具箱最上層格子裡了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "趙師傅",
+    "slot": "relation",
+    "value": "木工訂製師傅",
+    "evidence": "請問是幫我們工作室做木工訂製的趙師傅嗎",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 11,
+    "entity": "標籤列印機",
+    "slot": "status",
+    "value": "色帶快沒了印出來字很淡",
+    "evidence": "工作室那台標籤列印機的色帶快沒了，印出來的字都有點淡",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "黃銅滅燭鈴",
+    "slot": "location",
+    "value": "書房玻璃展示櫃第二層",
+    "evidence": "我剛剛把那個黃銅滅燭鈴拿下來，改放進書房玻璃展示櫃第二層囉",
+    "update_of": 37,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "竹北選物店雪松蠟燭",
+    "slot": "plan",
+    "value": "延後到下禮拜一出貨（第15天）",
+    "evidence": "所以那三十顆雪松蠟燭延後到下禮拜一出貨就好",
+    "update_of": 32,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "木頭展示架組裝",
+    "slot": "time",
+    "value": "禮拜日下午一點（第14天）",
+    "evidence": "那我們快閃店的木頭展示架就約後天下午一點搬進工作室組裝喔",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "防撞包材",
+    "slot": "preference",
+    "value": "蜂巢牛皮紙",
+    "evidence": "我現在寄包裹的防撞包材都只用蜂巢牛皮紙，客戶反應比較環保",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 12,
+    "entity": "室內擴香噴霧基底",
+    "slot": "attribute",
+    "value": "百分之八十穀物酒精",
+    "evidence": "新款室內擴香噴霧基底是用百分之七十五的酒精……啊講錯了，調香師專用基底是百分之八十穀物酒精才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "木頭展示架",
+    "slot": "attribute",
+    "value": "寬度一百二十公分",
+    "evidence": "我們那個木頭展示架的寬度是做一百二十公分",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "標籤列印機",
+    "slot": "status",
+    "value": "已換新黑色色帶印出來很清楚",
+    "evidence": "我剛剛幫工作室那台標籤列印機換上新的黑色色帶了，現在印出來超級清楚",
+    "update_of": 50,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "保養竹油",
+    "slot": "location",
+    "value": "玄關穿鞋椅下面的小抽屜",
+    "evidence": "順便買了一罐劍道竹刀專用的保養竹油 / 我先把它放在玄關穿鞋椅下面的小抽屜裡喔",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 13,
+    "entity": "香氛展展前說明會",
+    "slot": "plan",
+    "value": "下禮拜四下午兩點（第18天）",
+    "evidence": "提醒我下禮拜四下午兩點要去台北世貿參加香氛展展前說明會",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "託運單收執聯",
+    "slot": "location",
+    "value": "玄關穿鞋椅旁磁鐵夾上",
+    "evidence": "司機給我的那疊託運單收執聯，我先夾在玄關穿鞋椅旁磁鐵夾上喔",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "玫瑰原精",
+    "slot": "location",
+    "value": "調香桌左邊第一個抽屜",
+    "evidence": "（改口更新第2天鎖在工作室小冰箱下層的事實）我剛剛把那罐大馬士革玫瑰原精從工作室小冰箱下層拿出來，改鎖進調香桌左邊第一個抽屜裡了",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "周予恩",
+    "slot": "relation",
+    "value": "百貨快閃店視覺設計師",
+    "evidence": "我們百貨快閃店的視覺設計師叫周予恩",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "快閃店海報初稿",
+    "slot": "time",
+    "value": "禮拜四晚上確認（第18天）",
+    "evidence": "然後她說快閃店海報初稿禮拜四晚上會傳給我確認",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "象耳鹿角蕨側芽",
+    "slot": "location",
+    "value": "書房書桌下的紙箱裡",
+    "evidence": "我把剛切下來要陰乾的象耳鹿角蕨側芽放在書房書桌下的紙箱裡",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 15,
+    "entity": "百貨快閃店押金",
+    "slot": "value",
+    "value": "三萬元",
+    "evidence": "記一下這次百貨快閃店押金是三萬五千元……啊不對，我剛重看張副理傳來的合約，是三萬元整才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "電子游標卡尺",
+    "slot": "location",
+    "value": "工作室工具牆黑色收納袋",
+    "evidence": "我剛剛去五金行買了一把新的電子游標卡尺 / 我把它收進工作室工具牆黑色收納袋裡了",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "調香實驗袍",
+    "slot": "location",
+    "value": "頂樓曬衣場最裡面的竹竿",
+    "evidence": "我那件白色的調香實驗袍袖口沾到一點廣藿香精油 / 我現在把它晾在頂樓曬衣場最裡面的竹竿上了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "升段審查模擬賽",
+    "slot": "time",
+    "value": "禮拜四晚上七點半（第18天）",
+    "evidence": "我想報名這個月的升段審查模擬賽，時間是後天晚上七點半對不對",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "大容量擴香枝規格",
+    "slot": "attribute",
+    "value": "長度二十五公分黑色纖維棒",
+    "evidence": "我們新款大容量擴香配的大容量擴香枝規格是長度二十五公分黑色纖維棒",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 16,
+    "entity": "早餐貝果口味",
+    "slot": "preference",
+    "value": "藍莓乳酪口味",
+    "evidence": "幫我買藍莓乳酪口味的當早餐，我最近吃膩原味的了",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "快閃店海報初稿",
+    "slot": "time",
+    "value": "禮拜五下午四點確認（第19天）",
+    "evidence": "那快閃店海報初稿改到禮拜五下午四點再傳給我確認就好",
+    "update_of": 63,
+    "kind": "overheard"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "陽台迷迭香",
+    "slot": "status",
+    "value": "葉子尖端發黑枯萎",
+    "evidence": "我剛看那盆陽台迷迭香的葉子尖端發黑枯萎了，應該是這幾天淋太多雨",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "託運單收執聯",
+    "slot": "location",
+    "value": "書房桌上透明文件盒",
+    "evidence": "我剛剛把禮拜一那疊託運單收執聯拿下來，改放進書房桌上透明文件盒裡囉",
+    "update_of": 60,
+    "kind": "direct"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "企業網銀讀卡機",
+    "slot": "location",
+    "value": "書房電腦螢幕下面",
+    "evidence": "第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦螢幕下面",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 17,
+    "entity": "辦理專櫃進場證",
+    "slot": "plan",
+    "value": "下禮拜二早上十點（第23天）",
+    "evidence": "第二是下禮拜二早上十點要去百貨公司辦專櫃進場證",
+    "update_of": null,
+    "kind": "multi"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "象耳鹿角蕨側芽",
+    "slot": "location",
+    "value": "客廳窗邊白色淺水盤",
+    "evidence": "我剛剛把它們鋪在陽台育苗盤……喔不對，我是鋪在客廳窗邊白色淺水盤裡孵芽了",
+    "update_of": 64,
+    "kind": "correction"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "綠色建材補助款",
+    "slot": "value",
+    "value": "八千元",
+    "evidence": "主辦單位今年有提供綠色建材補助款 / 每個參展品牌可以申請八千元",
+    "update_of": null,
+    "kind": "split"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "替換用矽膠頭",
+    "slot": "location",
+    "value": "工作室水槽下面的塑膠抽屜",
+    "evidence": "我剛買了一組新的玻璃滴管跟替換用矽膠頭 / 我先把那些替換用矽膠頭收進工作室水槽下面的塑膠抽屜裡了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "郭大哥",
+    "slot": "relation",
+    "value": "配合的貨運行物流負責人",
+    "evidence": "剛剛幫我們搬瓦楞紙箱進來的那位是郭大哥，我們長期配合的貨運行物流負責人就是他",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 18,
+    "entity": "融蠟鍋",
+    "slot": "status",
+    "value": "溫控旋鈕接觸不良會跳掉",
+    "evidence": "記一下喔，工作室那台融蠟鍋的溫控旋鈕接觸不良會跳掉",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "調香實驗袍",
+    "slot": "location",
+    "value": "更衣室左邊衣桿上",
+    "evidence": "我剛剛去把那件白色調香實驗袍收下來，改掛進更衣室左邊衣桿上囉",
+    "update_of": 67,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "辦理專櫃進場證",
+    "slot": "plan",
+    "value": "下禮拜二下午兩點半（第23天）",
+    "evidence": "那我去辦專櫃進場證的時間就改到下禮拜二下午兩點半喔",
+    "update_of": 75,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "交換鹿角蕨側芽",
+    "slot": "time",
+    "value": "禮拜日下午四點（第21天）",
+    "evidence": "那我們交換鹿角蕨側芽就約後天下午四點在花市大門口見面喔",
+    "update_of": null,
+    "kind": "relative_time"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "專櫃背景音樂",
+    "slot": "preference",
+    "value": "純鋼琴環境音樂",
+    "evidence": "我們專櫃背景音樂我只喜歡純鋼琴環境音樂，才不會干擾客人試聞",
+    "update_of": null,
+    "kind": "indirect"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 19,
+    "entity": "隨身滾珠香水瓶容量",
+    "slot": "attribute",
+    "value": "八毫升",
+    "evidence": "新款隨身滾珠香水瓶容量是十毫升……啊不對，廠商這批送來的玻璃管身比較細，是八毫升才對",
+    "update_of": null,
+    "kind": "correction"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "制服圍裙材質",
+    "slot": "attribute",
+    "value": "防潑水重磅帆布",
+    "evidence": "制服圍裙材質是防潑水重磅帆布，滴到精油一擦就掉",
+    "update_of": null,
+    "kind": "overheard"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "融蠟鍋",
+    "slot": "status",
+    "value": "溫控旋鈕已修好不會跳掉",
+    "evidence": "我剛剛拿電子接點復活劑噴了一下工作室那台融蠟鍋，現在溫控旋鈕已修好不會跳掉了",
+    "update_of": 80,
+    "kind": "direct"
+   },
+   "covered": true
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "蓋好鋼印的試聞紙",
+    "slot": "location",
+    "value": "客廳沙發旁黑色行李箱裡",
+    "evidence": "我剛剛把快閃店要發的五百張蓋好鋼印的試聞紙全部整理好了 / 我把它們裝進防潮袋，放在客廳沙發旁黑色行李箱裡了",
+    "update_of": null,
+    "kind": "pronoun"
+   },
+   "covered": false
+  },
+  {
+   "fact": {
+    "day": 20,
+    "entity": "IG直播介紹聖誕禮盒",
+    "slot": "plan",
+    "value": "下禮拜五晚上八點（第26天）",
+    "evidence": "提醒我下禮拜五晚上八點要在官方 IG 開直播介紹聖誕禮盒喔",
+    "update_of": null,
+    "kind": "direct"
+   },
+   "covered": false
+  }
+ ],
+ "questions": [
+  {
+   "q": {
+    "day": 3,
+    "text": "欸 Aria，我禮拜一跟你說我那副備用眼鏡收去哪裡了啊？",
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "expect": "書房防潮箱上層",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 3,
+    "text": "Aria，我有沒有跟你講過我那個封蠟印章放在哪個抽屜？",
+    "entity": "封蠟印章",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得耶，你之前沒跟我提過它放在哪裡。要不要我們現在找一下？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "Aria，無花果香精那個稀釋比例是多少啊？",
+    "entity": "無花果香精稀釋比例",
+    "slot": "value",
+    "expect": "百分之十二",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得那個稀釋比例了，要不要我幫你查一下？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "欸 Aria，我跟瓶器林老闆看 sample 是改到什麼時候？",
+    "entity": "林老闆",
+    "slot": "time",
+    "expect": "禮拜五早上十一點（第5天）",
+    "stale": "禮拜四下午兩點（第4天）",
+    "kind": "relative_time"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 4,
+    "text": "欸 Aria，我太陽眼鏡收去哪了？",
+    "entity": "太陽眼鏡",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "欸我那罐很貴的大馬士革玫瑰原精放哪去了？",
+    "entity": "玫瑰原精",
+    "slot": "location",
+    "expect": "工作室小冰箱下層",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "mode": null,
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "Aria，百貨專櫃那個張副理是負責什麼的啊？",
+    "entity": "張副理",
+    "slot": "relation",
+    "expect": "百貨專櫃招商窗口",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "Aria，我上次說換下來的舊水苔泡在哪裡？",
+    "entity": "舊水苔",
+    "slot": "location",
+    "expect": "陽台洗手台旁塑膠桶",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "我不記得你上次說泡在哪裡了，要不要我幫你找找看？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "Aria，我有沒有說過苦橙葉精油包裹什麼時候要去郵局領？",
+    "entity": "苦橙葉精油包裹",
+    "slot": "plan",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得你有提過這個時間耶，要不要現在補一下？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 5,
+    "text": "欸 Aria，我工作室那把熱風槍丟去哪了？",
+    "entity": "熱風槍",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "Aria，我備用眼鏡現在到底放哪？",
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "expect": "客廳茶几下面的藤編盒",
+    "stale": "書房防潮箱上層",
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "客廳茶几下面的藤邊盒",
+   "tail": "客廳茶几下面的藤邊盒",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "欸我那台小電子秤咧？",
+    "entity": "電子秤",
+    "slot": "location",
+    "expect": "烘碗機旁邊的木頭託盤上",
+    "stale": "中島下面的拉籃",
+    "kind": "overheard"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "mode": null,
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "Aria，這季新款擴香瓶木蓋的尺寸是幾毫米？",
+    "entity": "擴香瓶木蓋",
+    "slot": "attribute",
+    "expect": "內徑二十八毫米",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "客廳茶几下面的藤邊盒",
+   "tail": "客廳茶几下面的藤邊盒",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "我之前說那一箱蜂蠟塊收在哪裡啊？",
+    "entity": "蜂蠟塊",
+    "slot": "location",
+    "expect": "客房衣櫃頂端",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "我不記得你之前提過那一箱瘋辣塊收在哪裡耶，要不要我幫你找找看？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "Aria，我整理好要給會計師的發票收據塞在哪？",
+    "entity": "發票與收據",
+    "slot": "location",
+    "expect": "書架第三層綠色硬殼資料夾",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 6,
+    "text": "Aria，我有沒有跟你講過鹿角蕨的液態肥料放哪？",
+    "entity": "液態肥料",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "欸 Aria，林老闆那張瓶器報價單我後來放哪了？",
+    "entity": "瓶器報價單",
+    "slot": "location",
+    "expect": "工作室軟木塞留言板上",
+    "stale": "工作桌切割墊下面",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "Aria，我的劍道護手現在狀況怎樣，修好了嗎？",
+    "entity": "劍道護手",
+    "slot": "status",
+    "expect": "已修補好放進鞋櫃上面",
+    "stale": "送去武具店修補",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "欸我想叫外送，我現在手搖飲都喝什麼？",
+    "entity": "手搖飲",
+    "slot": "preference",
+    "expect": "蕎麥茶無糖微冰",
+    "stale": "四季春加蘆薈微糖去冰",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "Aria，我那把日本銅製修枝剪掛在哪裡？",
+    "entity": "銅製修枝剪",
+    "slot": "location",
+    "expect": "陽台鐵窗的S掛鉤上",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "我昨天收到的那個檜木精油 sample 放哪去了？",
+    "entity": "檜木精油樣品",
+    "slot": "location",
+    "expect": "書房窗台深色木盒裡",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "Aria，包裝緞帶客戶後來決定要用什麼顏色？",
+    "entity": "包裝緞帶顏色",
+    "slot": "preference",
+    "expect": "霧面深灰色",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "欸 Aria，我那把不鏽鋼嫁接刀掛在哪裡？",
+    "entity": "不鏽鋼嫁接刀",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 7,
+    "text": "Aria，我有沒有跟你說過我下禮拜三要跟哪個攝影師拍產品照？",
+    "entity": "產品照攝影師",
+    "slot": "plan",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得耶，你好像沒跟我提過這件事。要不要現在告訴我？我可以幫你記下來。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 9,
+    "text": "欸 Aria，我們新款大豆蠟燭單顆重量是灌幾克啊？",
+    "entity": "大豆蠟燭單顆重量",
+    "slot": "value",
+    "expect": "兩百二十克",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "單顆重量220克",
+   "tail": "單顆重量220克",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 9,
+    "text": "Aria，我上次跟凱文說我現在手沖咖啡都喝什麼豆子？",
+    "entity": "手沖咖啡",
+    "slot": "preference",
+    "expect": "衣索比亞淺焙水洗豆",
+    "stale": null,
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "單顆重量220克",
+   "tail": "單顆重量220克",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 10,
+    "text": "Aria，工作室那台超音波清洗機現在狀況怎樣？",
+    "entity": "超音波清洗機",
+    "slot": "status",
+    "expect": "保險絲換好加熱功能恢復正常",
+    "stale": "加熱功能壞掉只能常溫震動",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "加熱功能壞掉，僅剩常溫震動",
+   "tail": "加熱功能壞掉，僅剩常溫震動",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": true
+  },
+  {
+   "q": {
+    "day": 10,
+    "text": "欸 Aria，我有沒有跟你說過我那個皮革圍裙掛在哪裡？",
+    "entity": "皮革圍裙",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 10,
+    "text": "欸 Aria，我那把黃銅燭芯剪掛在哪裡？",
+    "entity": "黃銅燭芯剪",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，我跟印刷廠約看試聞卡的燙金打樣是改到幾點？",
+    "entity": "燙金打樣確認",
+    "slot": "time",
+    "expect": "禮拜四早上十點（第11天）",
+    "stale": "禮拜四下午三點（第11天）",
+    "kind": "relative_time"
+   },
+   "routed": true,
+   "answer": "明天早上十點過去看.",
+   "tail": "明天早上十點過去看.",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "欸竹北那家選物店的店長叫什麼名字啊？",
+    "entity": "林佩珊",
+    "slot": "relation",
+    "expect": "竹北選物店店長",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": false,
+   "answer": "",
+   "tail": null,
+   "mode": null,
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，我們給竹北選物店的批發折扣最後是幾折？",
+    "entity": "竹北選物店批發折扣",
+    "slot": "value",
+    "expect": "七折",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "與林沛三合作，買斷製打七折",
+   "tail": "與林沛三合作，買斷製打七折",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 11,
+    "text": "Aria，我那個數位溫濕度計電池是不是沒電了？",
+    "entity": "數位溫濕度計",
+    "slot": "status",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得它的狀態耶，要不要我幫你查一下？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "欸 Aria，我那棵銀鹿鹿角蕨現在掛在哪裡？",
+    "entity": "銀鹿鹿角蕨",
+    "slot": "location",
+    "expect": "後陽台遮雨棚鐵網中間",
+    "stale": "浴室毛巾架上",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "Aria，我禮拜二把那疊舊合約收去哪裡了？",
+    "entity": "舊合約",
+    "slot": "location",
+    "expect": "主臥室衣櫃灰色保險箱",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "我們新款茶香蠟燭是用幾號的什麼燭芯啊？",
+    "entity": "茶香蠟燭燭芯",
+    "slot": "attribute",
+    "expect": "雙層木片燭芯十三號",
+    "stale": null,
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "竹心型號雙重、一層木片竹心十三號",
+   "tail": "竹心型號雙重、一層木片竹心十三號",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 12,
+    "text": "Aria，我上次說皇冠鹿角蕨掛在哪裡滴水？",
+    "entity": "皇冠鹿角蕨",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "欸 Aria，從法國寄來的那兩罐薰衣草精油鋁瓶我後來改放到哪去了？",
+    "entity": "薰衣草精油鋁瓶",
+    "slot": "location",
+    "expect": "一樓樓梯下方陰涼櫃",
+    "stale": "工作室鐵櫃最下層",
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "一樓樓梯下方櫻梁櫃",
+   "tail": "一樓樓梯下方櫻梁櫃",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "Aria，我那個黃銅滅燭鈴現在放哪？",
+    "entity": "黃銅滅燭鈴",
+    "slot": "location",
+    "expect": "書房玻璃展示櫃第二層",
+    "stale": "客廳壁爐架左邊小釘子上",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "書房玻璃展示櫃第二層",
+   "tail": "書房玻璃展示櫃第二層",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "我備用的熱熔膠條放在哪個抽屜啊？",
+    "entity": "備用熱熔膠條",
+    "slot": "location",
+    "expect": "工作桌右邊第二個抽屜",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": true,
+   "answer": "工作桌右邊第二個抽屜.",
+   "tail": "工作桌右邊第二個抽屜.",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "Aria，聖誕節限定禮盒一組定價是多少錢？",
+    "entity": "聖誕節限定禮盒定價",
+    "slot": "value",
+    "expect": "一千六百八十元",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 13,
+    "text": "Aria，我有沒有跟你講過我那把刻字用的電烙鐵收在哪？",
+    "entity": "電烙鐵",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "欸 Aria，竹北選物店那三十顆雪松蠟燭後來是改到什麼時候要出貨？",
+    "entity": "竹北選物店雪松蠟燭",
+    "slot": "plan",
+    "expect": "延後到下禮拜一出貨（第15天）",
+    "stale": "禮拜五前出貨（第12天）",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "30顆雪松蠟燭第12天前出貨.",
+   "tail": "30顆雪松蠟燭第12天前出貨.",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": true
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，工作室那台標籤列印機現在狀況怎樣，色帶換了嗎？",
+    "entity": "標籤列印機",
+    "slot": "status",
+    "expect": "已換新黑色色帶印出來很清楚",
+    "stale": "色帶快沒了印出來字很淡",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "印出來的字都有點淡",
+   "tail": "印出來的字都有點淡",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "我昨天買的那罐保養竹油放哪去了？",
+    "entity": "保養竹油",
+    "slot": "location",
+    "expect": "玄關穿鞋椅下面的小抽屜",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "我不記得你把它放哪了，要不要我幫你找找看？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，綁鹿角蕨水苔的那捲麻繩我塞在哪裡？",
+    "entity": "麻繩",
+    "slot": "location",
+    "expect": "陽台工具箱最上層格子",
+    "stale": null,
+    "kind": "pronoun"
+   },
+   "routed": true,
+   "answer": "陽台工具箱最上層格子",
+   "tail": "陽台工具箱最上層格子",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "欸 Aria，我下禮拜三早上十一點是不是要去銀行辦外幣帳戶？",
+    "entity": "辦理外幣帳戶",
+    "slot": "plan",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得你有安排這個行程，要不要我幫你設個提醒？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 14,
+    "text": "Aria，我有沒有說過工作室冷氣濾網上次是什麼時候洗的？",
+    "entity": "冷氣濾網清洗",
+    "slot": "time",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得你提過這件事耶。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 15,
+    "text": "欸 Aria，我那副黑框備用眼鏡上次是改放到哪裡去了？",
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "expect": "客廳茶几下面的藤編盒",
+    "stale": "書房防潮箱上層",
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 15,
+    "text": "Aria，我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊？",
+    "entity": "辦理企業網銀憑證",
+    "slot": "plan",
+    "expect": "下禮拜三早上十一點（第17天）",
+    "stale": null,
+    "kind": "multi"
+   },
+   "routed": true,
+   "answer": "我不記得耶，你上週有跟我提過這件事嗎？要不要我現在幫你設個提醒？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 16,
+    "text": "欸 Aria，我那台稱精油的小電子秤現在放在哪裡？",
+    "entity": "電子秤",
+    "slot": "location",
+    "expect": "烘碗機旁邊的木頭託盤上",
+    "stale": "中島下面的拉籃",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "我不記得那台小秤放在哪裡了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 16,
+    "text": "Aria，我上次說我們現在寄包裹的防撞包材都改用什麼？",
+    "entity": "防撞包材",
+    "slot": "preference",
+    "expect": "蜂巢牛皮紙",
+    "stale": null,
+    "kind": "indirect"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 16,
+    "text": "Aria，我有沒有跟你說過我那個手持掛燙機收在哪個櫃子？",
+    "entity": "手持掛燙機",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 17,
+    "text": "欸 Aria，我那罐大馬士革玫瑰原精現在鎖在哪裡？",
+    "entity": "玫瑰原精",
+    "slot": "location",
+    "expect": "調香桌左邊第一個抽屜",
+    "stale": "工作室小冰箱下層",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "條箱桌左邊第一個抽屜",
+   "tail": "條箱桌左邊第一個抽屜",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 17,
+    "text": "Aria，我們新款室內擴香噴霧基底是用幾趴的什麼酒精？",
+    "entity": "室內擴香噴霧基底",
+    "slot": "attribute",
+    "expect": "百分之八十穀物酒精",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 17,
+    "text": "Aria，我上次說甜橙精油鋁瓶放在哪個陰涼櫃？",
+    "entity": "甜橙精油鋁瓶",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "欸 Aria，我第一天跟你記過的那個無花果香精稀釋比例是百分之幾啊？",
+    "entity": "無花果香精稀釋比例",
+    "slot": "value",
+    "expect": "百分之十二",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "Aria，視覺設計師周予恩說快閃店海報初稿改到什麼時候傳給我確認？",
+    "entity": "快閃店海報初稿",
+    "slot": "time",
+    "expect": "禮拜五下午四點確認（第19天）",
+    "stale": "禮拜四晚上確認（第18天）",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "禮拜四晚上傳快閃電海報出稿給使用者確認",
+   "tail": "禮拜四晚上傳快閃電海報出稿給使用者確認",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": true
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "Aria，我們這次百貨快閃店的押金是幾萬塊？",
+    "entity": "百貨快閃店押金",
+    "slot": "value",
+    "expect": "三萬元",
+    "stale": null,
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 18,
+    "text": "欸 Aria，我有沒有說過快閃店要用的零錢盒放在哪裡？",
+    "entity": "零錢盒",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "欸 Aria，我上禮拜說去吃火鍋湯底都選什麼鍋？",
+    "entity": "火鍋湯底",
+    "slot": "preference",
+    "expect": "剝皮辣椒雞",
+    "stale": null,
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "我不記得你上次選了什麼鍋耶，要不要再告訴我一次？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "Aria，禮拜一那疊託運單收執聯我現在放哪？",
+    "entity": "託運單收執聯",
+    "slot": "location",
+    "expect": "書房桌上透明文件盒",
+    "stale": "玄關穿鞋椅旁磁鐵夾上",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "我新買的那把電子游標卡尺收在哪裡啊？",
+    "entity": "電子游標卡尺",
+    "slot": "location",
+    "expect": "工作室工具牆黑色收納袋",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": true,
+   "answer": "書房牆上的收納架. <|im_end|>",
+   "tail": "書房牆上的收納架. <|im_end|>",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 19,
+    "text": "Aria，我那個個人網銀讀卡機放在哪裡？",
+    "entity": "個人網銀讀卡機",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "書房電腦螢幕下方. 在書房電腦螢幕下面，你",
+   "tail": "書房電腦螢幕下方. 在書房電腦螢幕下面，你",
+   "mode": "direct",
+   "honest": false
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "欸 Aria，我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡？",
+    "entity": "發票與收據",
+    "slot": "location",
+    "expect": "書架第三層綠色硬殼資料夾",
+    "stale": null,
+    "kind": "split"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "Aria，我切下來的象耳鹿角蕨側芽現在放在哪裡孵芽？",
+    "entity": "象耳鹿角蕨側芽",
+    "slot": "location",
+    "expect": "客廳窗邊白色淺水盤",
+    "stale": "書房書桌下的紙箱裡",
+    "kind": "correction"
+   },
+   "routed": true,
+   "answer": "我不記得你的向耳露腳決策牙放在哪裡了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "欸我那件白色的調香實驗袍現在掛在哪？",
+    "entity": "調香實驗袍",
+    "slot": "location",
+    "expect": "更衣室左邊衣桿上",
+    "stale": "頂樓曬衣場最裡面的竹竿",
+    "kind": "overheard"
+   },
+   "routed": true,
+   "answer": "更衣室左邊衣桿",
+   "tail": "更衣室左邊衣桿",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 20,
+    "text": "Aria，我有沒有跟你講過備用的玻璃燒杯收在哪個紙箱？",
+    "entity": "備用玻璃燒杯",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得你有提過備用玻璃燒放在哪裡，使用者。要不要現在告訴我？",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "欸 Aria，我下禮拜二去百貨公司辦專櫃進場證是改到幾點？",
+    "entity": "辦理專櫃進場證",
+    "slot": "plan",
+    "expect": "下禮拜二下午兩點半（第23天）",
+    "stale": "下禮拜二早上十點（第23天）",
+    "kind": "relative_time"
+   },
+   "routed": true,
+   "answer": "下週二早上十點去百貨公司辦理.",
+   "tail": "下週二早上十點去百貨公司辦理.",
+   "mode": "direct",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "Aria，工作室那台融蠟鍋現在狀況怎樣，修好了嗎？",
+    "entity": "融蠟鍋",
+    "slot": "status",
+    "expect": "溫控旋鈕已修好不會跳掉",
+    "stale": "溫控旋鈕接觸不良會跳掉",
+    "kind": "direct"
+   },
+   "routed": true,
+   "answer": "溫控旋鈕已修好.",
+   "tail": "溫控旋鈕已修好.",
+   "mode": "direct",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "欸 Aria，我們新款隨身噴霧香水瓶的容量是幾毫升？",
+    "entity": "隨身噴霧香水瓶容量",
+    "slot": "attribute",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得新款隨身噴霧香水瓶的容量是多少耶。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  },
+  {
+   "q": {
+    "day": 21,
+    "text": "Aria，我有沒有跟你說過我們快閃店的發票章收在哪個抽屜？",
+    "entity": "發票章",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+   },
+   "routed": true,
+   "answer": "我不記得了。",
+   "tail": "(nothing)",
+   "mode": "direct",
+   "honest": true
+  }
+ ]
+}

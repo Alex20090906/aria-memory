@@ -1,0 +1,3733 @@
+[
+ {
+  "day": 1,
+  "heard": [
+   {
+    "start": 2.93,
+    "end": 11.39,
+    "text": "租會生活新聞,本週五下午三點,知名法式甜點主族將在台北極見面舉辦免費可力漏視知會,現場零額有限。",
+    "owner": "other",
+    "score": 0.487
+   },
+   {
+    "start": 13.75,
+    "end": 14.55,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.642
+   },
+   {
+    "start": 14.91,
+    "end": 23.41,
+    "text": "幫我記一下哦,我那副,就是黑框的備用眼鏡啦,我剛剛收進書房房朝箱上層了,",
+    "owner": "unsure",
+    "score": 0.779
+   },
+   {
+    "start": 23.67,
+    "end": 24.77,
+    "text": "免得我每次",
+    "owner": "unsure",
+    "score": 0.703
+   },
+   {
+    "start": 24.77,
+    "end": 26.53,
+    "text": "要調香看刻度都",
+    "owner": "unsure",
+    "score": 0.715
+   },
+   {
+    "start": 26.53,
+    "end": 27.19,
+    "text": "找不到。",
+    "owner": "other",
+    "score": 0.685
+   },
+   {
+    "start": 31.54,
+    "end": 32.94,
+    "text": "哦,對了Aria,",
+    "owner": "unsure",
+    "score": 0.726
+   },
+   {
+    "start": 33.42,
+    "end": 34.02,
+    "text": "我跟瓶",
+    "owner": "other",
+    "score": 0.67
+   },
+   {
+    "start": 34.02,
+    "end": 46.16,
+    "text": "器廠商那個林老闆約禮拜四下午兩點看Sample,然後他給我的那張瓶器報價單啊,我先加在工作桌切割店下面哦。",
+    "owner": "unsure",
+    "score": 0.788
+   },
+   {
+    "start": 48.48,
+    "end": 59.92,
+    "text": "喂妹,我跟你說哦,我自己的護照跟台包證我放在客廳電視櫃第二個抽屜裡面,你找包裝材料的時候不要給我翻亂哦。",
+    "owner": "other",
+    "score": 0.599
+   },
+   {
+    "start": 64.28,
+    "end": 64.72,
+    "text": "好啦,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 64.92,
+    "end": 66.02,
+    "text": "不會動你的啦。",
+    "owner": "unsure",
+    "score": 0.76
+   },
+   {
+    "start": 66.7,
+    "end": 67.14,
+    "text": "啊,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 67.26,
+    "end": 69.28,
+    "text": "對了姐,我禮拜三晚上",
+    "owner": "unsure",
+    "score": 0.796
+   },
+   {
+    "start": 69.28,
+    "end": 69.8,
+    "text": "要去",
+    "owner": "unsure",
+    "score": 0.704
+   },
+   {
+    "start": 69.8,
+    "end": 72.78,
+    "text": "見道館練習哦,那天不用留我的",
+    "owner": "owner",
+    "score": 0.801
+   },
+   {
+    "start": 72.78,
+    "end": 72.98,
+    "text": "飯。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 75.4,
+    "end": 75.86,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 76.18,
+    "end": 78.76,
+    "text": "幫我把客房廚師機設定成五",
+    "owner": "unsure",
+    "score": 0.74
+   },
+   {
+    "start": 78.76,
+    "end": 79.34,
+    "text": "十度就",
+    "owner": "unsure",
+    "score": 0.728
+   },
+   {
+    "start": 79.34,
+    "end": 84.68,
+    "text": "好,不然放在客房衣櫃頂端那香風辣快要是吹太乾會裂開。",
+    "owner": "unsure",
+    "score": 0.79
+   },
+   {
+    "start": 87.4,
+    "end": 88.02,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.637
+   },
+   {
+    "start": 88.36,
+    "end": 94.2,
+    "text": "再幫我寄個配方,這批五花果香精的稀釋比例是百分之十五啊。",
+    "owner": "owner",
+    "score": 0.812
+   },
+   {
+    "start": 94.2,
+    "end": 101.06,
+    "text": "啊,不對不對,我剛剛看錯上一季的表格,是百分之十二才對,差點毀了一",
+    "owner": "owner",
+    "score": 0.802
+   },
+   {
+    "start": 101.06,
+    "end": 101.56,
+    "text": "整鍋。",
+    "owner": "other",
+    "score": 0.643
+   },
+   {
+    "start": 104.04,
+    "end": 110.7,
+    "text": "你那個酸腫麵包我放烤箱保溫哦,我等等要去動物醫院指小夜班了。",
+    "owner": "other",
+    "score": 0.604
+   },
+   {
+    "start": 113.38,
+    "end": 113.86,
+    "text": "好,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 114.04,
+    "end": 117.06,
+    "text": "路上小心哦,下雨騎車慢一點。",
+    "owner": "owner",
+    "score": 0.818
+   },
+   {
+    "start": 117.06,
+    "end": 117.18,
+    "text": "。。。。。。。。。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 119.06,
+    "end": 120.06,
+    "text": "。",
+    "owner": "other",
+    "score": 0.489
+   },
+   {
+    "start": 120.06,
+    "end": 121.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 121.06,
+    "end": 122.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 122.06,
+    "end": 123.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 123.06,
+    "end": 124.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 124.06,
+    "end": 125.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 125.06,
+    "end": 126.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 126.06,
+    "end": 127.06,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 2,
+  "heard": [
+   {
+    "start": 1.23,
+    "end": 3.79,
+    "text": "居家整理達人,換計收納小貼布。",
+    "owner": "other",
+    "score": 0.416
+   },
+   {
+    "start": 4.21,
+    "end": 8.57,
+    "text": "專家建議將中間的羽絨被用真空袋壓脫後,放棄出貨床",
+    "owner": "other",
+    "score": 0.59
+   },
+   {
+    "start": 8.57,
+    "end": 8.61,
+    "text": "底下的收納箱。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 8.61,
+    "end": 13.45,
+    "text": "Aria,我剛剛終於把那個超貴的原料分裝完了,手抖到不行。",
+    "owner": "unsure",
+    "score": 0.749
+   },
+   {
+    "start": 16.48,
+    "end": 22.88,
+    "text": "就是那罐大瑪士格玫瑰圓金啦,我把它鎖進工作室小冰箱下層了。",
+    "owner": "unsure",
+    "score": 0.767
+   },
+   {
+    "start": 27.2,
+    "end": 29.76,
+    "text": "姐,你有看到我的電子秤嗎?",
+    "owner": "unsure",
+    "score": 0.742
+   },
+   {
+    "start": 30.56,
+    "end": 34.98,
+    "text": "就是春精油那台最小台的,精準度0.01克",
+    "owner": "owner",
+    "score": 0.807
+   },
+   {
+    "start": 34.98,
+    "end": 35.42,
+    "text": "那台。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 38.44,
+    "end": 42.36,
+    "text": "沒有欸,你昨天不是拿去廚房熔蠟燭。",
+    "owner": "other",
+    "score": 0.581
+   },
+   {
+    "start": 44.87,
+    "end": 45.99,
+    "text": "啊,對吼。",
+    "owner": "unsure",
+    "score": 0.743
+   },
+   {
+    "start": 46.86,
+    "end": 48.14,
+    "text": "我想起來了,",
+    "owner": "owner",
+    "score": 0.842
+   },
+   {
+    "start": 48.5,
+    "end": 54.92,
+    "text": "我後來把它收進中島下面的拉欄裡了,難怪在工作室翻半天。",
+    "owner": "owner",
+    "score": 0.802
+   },
+   {
+    "start": 59.67,
+    "end": 59.93,
+    "text": "喂,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 60.19,
+    "end": 61.33,
+    "text": "陳小姐嗎?",
+    "owner": "owner",
+    "score": 0.807
+   },
+   {
+    "start": 61.33,
+    "end": 62.45,
+    "text": "對對,",
+    "owner": "other",
+    "score": 0.576
+   },
+   {
+    "start": 63.31,
+    "end": 66.13,
+    "text": "關於那個森林系蠟燭的work",
+    "owner": "owner",
+    "score": 0.825
+   },
+   {
+    "start": 66.13,
+    "end": 66.87,
+    "text": "shop啊,",
+    "owner": "other",
+    "score": 0.672
+   },
+   {
+    "start": 67.33,
+    "end": 73.71,
+    "text": "我們就定在後天早上10點半在工作室那邊確認最終氣味",
+    "owner": "unsure",
+    "score": 0.792
+   },
+   {
+    "start": 73.71,
+    "end": 73.97,
+    "text": "喔,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 74.35,
+    "end": 76.09,
+    "text": "好,那就先這樣,",
+    "owner": "unsure",
+    "score": 0.758
+   },
+   {
+    "start": 76.45,
+    "end": 76.85,
+    "text": "掰掰。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 76.85,
+    "end": 77.95,
+    "text": "A",
+    "owner": "other",
+    "score": 0.615
+   },
+   {
+    "start": 80.45,
+    "end": 80.75,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 81.03,
+    "end": 85.99,
+    "text": "幫我寄一下喔,剛剛傳LINE來的那個張富里啊,",
+    "owner": "owner",
+    "score": 0.805
+   },
+   {
+    "start": 86.41,
+    "end": 92.39,
+    "text": "她是百貨專櫃招商窗口,之後快閃電合約都要找她。",
+    "owner": "owner",
+    "score": 0.845
+   },
+   {
+    "start": 95.28,
+    "end": 99.04,
+    "text": "喂,我要叫UberEats訂飲料,你要喝什麼?",
+    "owner": "other",
+    "score": 0.624
+   },
+   {
+    "start": 101.58,
+    "end": 108.52,
+    "text": "幫我點四季春家爐會為糖去冰,我最近借奶精了,喝鮮奶茶味都會瘴氣。",
+    "owner": "owner",
+    "score": 0.82
+   },
+   {
+    "start": 108.52,
+    "end": 108.56,
+    "text": "。。。。。。。。。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 109.52,
+    "end": 110.52,
+    "text": "。",
+    "owner": "other",
+    "score": 0.496
+   },
+   {
+    "start": 110.52,
+    "end": 111.52,
+    "text": "。",
+    "owner": "other",
+    "score": 0.48
+   },
+   {
+    "start": 111.52,
+    "end": 112.52,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 112.52,
+    "end": 113.52,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 113.52,
+    "end": 114.52,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 114.52,
+    "end": 116.52,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 116.52,
+    "end": 117.52,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 117.52,
+    "end": 118.52,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 3,
+  "heard": [
+   {
+    "start": 1.17,
+    "end": 2.05,
+    "text": "Aria",
+    "owner": "other",
+    "score": 0.636
+   },
+   {
+    "start": 2.47,
+    "end": 3.31,
+    "text": "記一下哦，",
+    "owner": "unsure",
+    "score": 0.743
+   },
+   {
+    "start": 3.75,
+    "end": 12.35,
+    "text": "我們這季新款擴廂屏幕蓋的尺寸是內徑28毫米,下次訂包才千萬別再買成30的。",
+    "owner": "owner",
+    "score": 0.846
+   },
+   {
+    "start": 15.94,
+    "end": 17.2,
+    "text": "還有啊 Aria",
+    "owner": "unsure",
+    "score": 0.792
+   },
+   {
+    "start": 17.58,
+    "end": 28.3,
+    "text": "陽台洗手台旁邊那個塑膠桶你提醒我周末要倒掉,我把從路角角換下來的舊水台泡在裡面消毒。",
+    "owner": "owner",
+    "score": 0.849
+   },
+   {
+    "start": 32.57,
+    "end": 39.65,
+    "text": "衛林老闆,歹事歹事,明天下午2點我突然有個會議卡住,看sample",
+    "owner": "owner",
+    "score": 0.841
+   },
+   {
+    "start": 39.65,
+    "end": 40.29,
+    "text": "我們能",
+    "owner": "other",
+    "score": 0.577
+   },
+   {
+    "start": 40.29,
+    "end": 44.25,
+    "text": "不能改到後天,就是禮拜五早上11點。",
+    "owner": "owner",
+    "score": 0.827
+   },
+   {
+    "start": 44.93,
+    "end": 46.83,
+    "text": "好,太感謝您了。",
+    "owner": "unsure",
+    "score": 0.757
+   },
+   {
+    "start": 51.59,
+    "end": 55.76,
+    "text": "嗨,我順路把你要的乾燥油加利葉送過來。",
+    "owner": "other",
+    "score": 0.649
+   },
+   {
+    "start": 56.58,
+    "end": 57.9,
+    "text": "跟你抱怨一下,",
+    "owner": "other",
+    "score": 0.673
+   },
+   {
+    "start": 58.4,
+    "end": 61.44,
+    "text": "我上禮拜把我的單眼相機借給阿傑,",
+    "owner": "other",
+    "score": 0.672
+   },
+   {
+    "start": 61.84,
+    "end": 65.48,
+    "text": "結果他居然給我放在他後車廂曬太陽。",
+    "owner": "other",
+    "score": 0.676
+   },
+   {
+    "start": 65.7,
+    "end": 66.7,
+    "text": "氣死我啦。",
+    "owner": "other",
+    "score": 0.645
+   },
+   {
+    "start": 69.09,
+    "end": 72.69,
+    "text": "天啊也太誇張了吧,鏡頭發霉怎麼辦?",
+    "owner": "owner",
+    "score": 0.851
+   },
+   {
+    "start": 73.47,
+    "end": 74.93,
+    "text": "你先坐一下喔。",
+    "owner": "owner",
+    "score": 0.828
+   },
+   {
+    "start": 79.17,
+    "end": 79.31,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 79.31,
+    "end": 92.03,
+    "text": "ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹。",
+    "owner": "owner",
+    "score": 0.878
+   },
+   {
+    "start": 95.32,
+    "end": 95.52,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 95.52,
+    "end": 100.34,
+    "text": "ria,我禮拜一跟你說我那父輩用眼鏡收去哪裡了啊?",
+    "owner": "owner",
+    "score": 0.844
+   },
+   {
+    "start": 100.34,
+    "end": 101.26,
+    "text": "A",
+    "owner": "other",
+    "score": 0.488
+   },
+   {
+    "start": 105.07,
+    "end": 105.31,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 105.69,
+    "end": 106.01,
+    "text": "我有",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 106.01,
+    "end": 110.51,
+    "text": "沒有跟你講過我那個風蠟印章放在哪個抽屜?",
+    "owner": "owner",
+    "score": 0.847
+   },
+   {
+    "start": 110.51,
+    "end": 111.07,
+    "text": "像",
+    "owner": "other",
+    "score": 0.459
+   },
+   {
+    "start": 112.38,
+    "end": 120.06,
+    "text": "報告,受到東北極風增強影響,零後兩天北部極東北部地區將轉為有短暫雨的天氣,外出請期待隱聚。",
+    "owner": "other",
+    "score": 0.543
+   },
+   {
+    "start": 120.18,
+    "end": 120.2,
+    "text": "謝謝。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 120.48,
+    "end": 120.7,
+    "text": "謝謝。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 120.7,
+    "end": 120.72,
+    "text": "謝謝。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 4,
+  "heard": [
+   {
+    "start": 3.15,
+    "end": 3.99,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.611
+   },
+   {
+    "start": 4.37,
+    "end": 16.65,
+    "text": "我剛剛把備用眼鏡拿出來看配方,現在隨手放進玄關鑰匙盤哦不對,我是放進客廳茶几下面的藤邊盒裡了,幫我更新一下。",
+    "owner": "owner",
+    "score": 0.868
+   },
+   {
+    "start": 20.29,
+    "end": 20.75,
+    "text": "這",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 20.75,
+    "end": 21.13,
+    "text": "支木",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 21.13,
+    "end": 22.93,
+    "text": "質掉的尾韻很棒唄。",
+    "owner": "other",
+    "score": 0.602
+   },
+   {
+    "start": 23.89,
+    "end": 24.15,
+    "text": "對了,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 24.57,
+    "end": 27.31,
+    "text": "你這時間喝咖啡不會睡不著哦。",
+    "owner": "unsure",
+    "score": 0.706
+   },
+   {
+    "start": 29.88,
+    "end": 30.8,
+    "text": "不會啊,",
+    "owner": "unsure",
+    "score": 0.714
+   },
+   {
+    "start": 31.24,
+    "end": 41.5,
+    "text": "我自己現在手沖咖啡都只喝伊索比亞淺杯水洗豆,果酸比較明亮,深杯的我喝了才會心急。",
+    "owner": "owner",
+    "score": 0.876
+   },
+   {
+    "start": 45.48,
+    "end": 45.56,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 45.56,
+    "end": 52.28,
+    "text": "ria,我剛剛把這兩個月要給會計師的那些發票與收據全部整理成一袋了。",
+    "owner": "owner",
+    "score": 0.879
+   },
+   {
+    "start": 55.12,
+    "end": 62.7,
+    "text": "我把它塞在書架第三層綠色硬殼資料夾裡面哦,月底報稅要用。",
+    "owner": "owner",
+    "score": 0.879
+   },
+   {
+    "start": 62.7,
+    "end": 63.7,
+    "text": "姐,",
+    "owner": "other",
+    "score": 0.53
+   },
+   {
+    "start": 66.73,
+    "end": 71.27,
+    "text": "我那把日本買的銅製修織剪怎麼刀口有點生修。",
+    "owner": "owner",
+    "score": 0.868
+   },
+   {
+    "start": 75.75,
+    "end": 85.37,
+    "text": "我剛拿防袖油仔細擦過一遍,現在把它掛在陽台鐵窗的S化鉤上了,你晾衣服小心不要撞到。",
+    "owner": "owner",
+    "score": 0.881
+   },
+   {
+    "start": 87.32,
+    "end": 87.76,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 88.2,
+    "end": 98.56,
+    "text": "即一下工作室那台超音波清洗機的加熱功能壞掉了,現在只能常溫震動,等有空再送修。",
+    "owner": "owner",
+    "score": 0.895
+   },
+   {
+    "start": 98.56,
+    "end": 99.6,
+    "text": "A",
+    "owner": "other",
+    "score": 0.504
+   },
+   {
+    "start": 103.5,
+    "end": 103.86,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 104.08,
+    "end": 108.1,
+    "text": "無花果香精那個稀釋比例是多少啊。",
+    "owner": "owner",
+    "score": 0.878
+   },
+   {
+    "start": 110.08,
+    "end": 110.98,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.573
+   },
+   {
+    "start": 111.54,
+    "end": 115.96,
+    "text": "我跟平氣林老闆看Sample是改到什麼時候。",
+    "owner": "owner",
+    "score": 0.887
+   },
+   {
+    "start": 117.86,
+    "end": 118.68,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.588
+   },
+   {
+    "start": 119.2,
+    "end": 121.32,
+    "text": "我太陽眼鏡收去哪了。",
+    "owner": "owner",
+    "score": 0.905
+   },
+   {
+    "start": 121.32,
+    "end": 121.48,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 121.48,
+    "end": 121.5,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 121.5,
+    "end": 121.56,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 121.56,
+    "end": 121.8,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 5,
+  "heard": [
+   {
+    "start": 3.73,
+    "end": 13.83,
+    "text": "姐,中島拉欄裡面鍋碗瓢盆太擠了,我剛剛把那台小電子趁改放到烘碗機旁邊的木頭托盤上咯。",
+    "owner": "owner",
+    "score": 0.878
+   },
+   {
+    "start": 18.1,
+    "end": 18.5,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 18.86,
+    "end": 25.34,
+    "text": "剛剛跟林老闆談完,我把那張平氣爆架單從切割店拿出來,",
+    "owner": "owner",
+    "score": 0.889
+   },
+   {
+    "start": 25.7,
+    "end": 29.38,
+    "text": "改訂在工作室軟木賽留言板上了。",
+    "owner": "owner",
+    "score": 0.903
+   },
+   {
+    "start": 33.35,
+    "end": 36.85,
+    "text": "喂,請問是復健骨科診所嗎?",
+    "owner": "unsure",
+    "score": 0.786
+   },
+   {
+    "start": 37.73,
+    "end": 46.21,
+    "text": "對,我想預約後天早上九點半給王醫師看手腕,對,之前鏈鍵到拉傷有點復發,好,謝謝。",
+    "owner": "owner",
+    "score": 0.906
+   },
+   {
+    "start": 48.35,
+    "end": 49.13,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.54
+   },
+   {
+    "start": 49.49,
+    "end": 61.43,
+    "text": "幫我算一下哦,如果我們新款大豆蠟燭單顆重量要灌220克,那我現在做10顆加上損耗要容多少啦?",
+    "owner": "owner",
+    "score": 0.898
+   },
+   {
+    "start": 63.37,
+    "end": 77.23,
+    "text": "還有Aria,下次買包裝斷帶記得提醒我要買墨綠色的啊,不對,客戶剛剛說改成霧面深灰色的比較搭胡桃木盒,即霧面深灰色哦。",
+    "owner": "owner",
+    "score": 0.904
+   },
+   {
+    "start": 80.08,
+    "end": 82.32,
+    "text": "欸我明天早上8點要帶",
+    "owner": "other",
+    "score": 0.629
+   },
+   {
+    "start": 82.32,
+    "end": 83.2,
+    "text": "我們醫院",
+    "owner": "other",
+    "score": 0.62
+   },
+   {
+    "start": 83.2,
+    "end": 87.9,
+    "text": "的店狗去打狂犬病疫苗,你早上出門幫我清一點",
+    "owner": "other",
+    "score": 0.66
+   },
+   {
+    "start": 87.9,
+    "end": 89.12,
+    "text": "哦,我今天",
+    "owner": "unsure",
+    "score": 0.72
+   },
+   {
+    "start": 89.12,
+    "end": 90.14,
+    "text": "跟刀超累。",
+    "owner": "other",
+    "score": 0.609
+   },
+   {
+    "start": 92.35,
+    "end": 96.83,
+    "text": "欸我那罐很貴的大碼是隔玫瑰圓金放拿去了。",
+    "owner": "owner",
+    "score": 0.897
+   },
+   {
+    "start": 97.86,
+    "end": 98.6,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.536
+   },
+   {
+    "start": 98.8,
+    "end": 102.3,
+    "text": "百貨專櫃那個張副理事負責什麼的啊?",
+    "owner": "owner",
+    "score": 0.9
+   },
+   {
+    "start": 104.32,
+    "end": 104.94,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.537
+   },
+   {
+    "start": 105.24,
+    "end": 108.66,
+    "text": "我上次說換下來的舊水台泡在哪裡?",
+    "owner": "owner",
+    "score": 0.868
+   },
+   {
+    "start": 110.9,
+    "end": 111.18,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 111.18,
+    "end": 111.42,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 111.82,
+    "end": 117.22,
+    "text": "我有沒有說過苦沉夜精油包裹什麼時候要去郵局裡?",
+    "owner": "owner",
+    "score": 0.855
+   },
+   {
+    "start": 120.75,
+    "end": 121.05,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 121.05,
+    "end": 121.39,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 121.77,
+    "end": 124.95,
+    "text": "我工作室那把熱風槍丟去哪了?",
+    "owner": "owner",
+    "score": 0.893
+   },
+   {
+    "start": 124.95,
+    "end": 125.13,
+    "text": "帥哥 name?",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 125.13,
+    "end": 125.17,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 6,
+  "heard": [
+   {
+    "start": 2.45,
+    "end": 6.75,
+    "text": "魏老闆,哦哦我的劍道護手已經補好了是不是?",
+    "owner": "owner",
+    "score": 0.905
+   },
+   {
+    "start": 7.65,
+    "end": 15.45,
+    "text": "好,那我請凱文順路幫我拿回來哦他剛剛已經幫我放進我家鞋櫃上面了,謝啦。",
+    "owner": "owner",
+    "score": 0.925
+   },
+   {
+    "start": 17.72,
+    "end": 18.28,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.518
+   },
+   {
+    "start": 18.68,
+    "end": 29.9,
+    "text": "我上次喝四季春結果晚上整個失眠,以後首要飲我還是改喝蕎麥茶無糖為冰好了,幫我寄一下。",
+    "owner": "owner",
+    "score": 0.928
+   },
+   {
+    "start": 33.02,
+    "end": 40.52,
+    "text": "Aria,我剛剛收到台灣農林寄來的新款繪墓精油樣品了,木頭香氣超讚。",
+    "owner": "owner",
+    "score": 0.932
+   },
+   {
+    "start": 43.02,
+    "end": 48.44,
+    "text": "我先把它放進書房窗台深色木盒裡閉光保存哦。",
+    "owner": "owner",
+    "score": 0.917
+   },
+   {
+    "start": 50.61,
+    "end": 51.11,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.541
+   },
+   {
+    "start": 51.39,
+    "end": 56.27,
+    "text": "提醒我下禮拜二下午三點要跟會計師試訊對賬哦。",
+    "owner": "owner",
+    "score": 0.928
+   },
+   {
+    "start": 70.34,
+    "end": 71.04,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.525
+   },
+   {
+    "start": 71.34,
+    "end": 73.92,
+    "text": "我備用眼鏡現在到底放哪?",
+    "owner": "owner",
+    "score": 0.881
+   },
+   {
+    "start": 78.34,
+    "end": 80.56,
+    "text": "A我那台小電子襯列。",
+    "owner": "owner",
+    "score": 0.88
+   },
+   {
+    "start": 83.81,
+    "end": 84.29,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 84.29,
+    "end": 88.45,
+    "text": "ria,這季新款擴廂屏幕蓋的尺寸是幾毫米。",
+    "owner": "owner",
+    "score": 0.939
+   },
+   {
+    "start": 90.9,
+    "end": 95.08,
+    "text": "Aria,我之前說那一箱瘋辣塊收在哪裡啊?",
+    "owner": "owner",
+    "score": 0.917
+   },
+   {
+    "start": 98.79,
+    "end": 99.49,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.509
+   },
+   {
+    "start": 99.89,
+    "end": 103.73,
+    "text": "我整理好要給會計師的發票收據塞在哪?",
+    "owner": "owner",
+    "score": 0.894
+   },
+   {
+    "start": 104.96,
+    "end": 105.74,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.516
+   },
+   {
+    "start": 106.24,
+    "end": 110.82,
+    "text": "我有沒有跟你講過路角角的液態肥料放哪?",
+    "owner": "owner",
+    "score": 0.905
+   },
+   {
+    "start": 110.82,
+    "end": 111.12,
+    "text": "Aria,我會計師的發票。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 111.12,
+    "end": 111.26,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 111.26,
+    "end": 111.32,
+    "text": "我會計師的發票。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 7,
+  "heard": [
+   {
+    "start": 2.51,
+    "end": 4.95,
+    "text": "妹,你補課看完回來啦，",
+    "owner": "other",
+    "score": 0.62
+   },
+   {
+    "start": 5.41,
+    "end": 12.37,
+    "text": "我把我的宜家店捲起來放客廳沙發後面哦，下午朋友要來家裡喝茶，",
+    "owner": "unsure",
+    "score": 0.707
+   },
+   {
+    "start": 13.68,
+    "end": 19.26,
+    "text": "好啦，醫師說手腕只要貼藥布休息幾天就好，不用打針",
+    "owner": "owner",
+    "score": 0.908
+   },
+   {
+    "start": 21.2,
+    "end": 22.04,
+    "text": "Aria，",
+    "owner": "other",
+    "score": 0.571
+   },
+   {
+    "start": 22.42,
+    "end": 25.8,
+    "text": "林老闆那張瓶器報價單我後來放哪了",
+    "owner": "owner",
+    "score": 0.89
+   },
+   {
+    "start": 26.6,
+    "end": 27.88,
+    "text": "Aria",
+    "owner": "other",
+    "score": 0.654
+   },
+   {
+    "start": 27.88,
+    "end": 28.42,
+    "text": "Aria",
+    "owner": "other",
+    "score": 0.503
+   },
+   {
+    "start": 28.42,
+    "end": 73.97,
+    "text": "�Aria�我那把不鏽鋼架接刀掛在哪裡０",
+    "owner": "owner",
+    "score": 0.89
+   },
+   {
+    "start": 73.97,
+    "end": 74.23,
+    "text": "Nria",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 74.23,
+    "end": 80.11,
+    "text": "我有没有跟你说过我下礼拜三要跟哪个摄影师拍产品照",
+    "owner": "owner",
+    "score": 0.945
+   }
+  ]
+ },
+ {
+  "day": 8,
+  "heard": [
+   {
+    "start": 1.36,
+    "end": 7.42,
+    "text": "財經快訊,國際可可及貨價格本周再度飆漲百分之八,手工巧克力業者表示不驚訝,向你搶走一下。",
+    "owner": "other",
+    "score": 0.55
+   },
+   {
+    "start": 7.42,
+    "end": 7.88,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 8.32,
+    "end": 19.9,
+    "text": "我剛去郵局把法國寄來的薰衣草精油包裹領回來了,我拆開之後先把那兩大罐薰衣草精油鋁瓶放進工作室鐵會最下層歐。",
+    "owner": "owner",
+    "score": 0.946
+   },
+   {
+    "start": 22.58,
+    "end": 23.72,
+    "text": "歐對了,Aria,",
+    "owner": "other",
+    "score": 0.64
+   },
+   {
+    "start": 24.12,
+    "end": 25.26,
+    "text": "幫我寄一下,",
+    "owner": "owner",
+    "score": 0.847
+   },
+   {
+    "start": 25.66,
+    "end": 29.2,
+    "text": "竹北那家選物店的店長叫林佩山,",
+    "owner": "owner",
+    "score": 0.941
+   },
+   {
+    "start": 29.2,
+    "end": 35.14,
+    "text": "然後他們店裡訂的三十顆雪松蠟燭禮拜五前要出貨。",
+    "owner": "owner",
+    "score": 0.944
+   },
+   {
+    "start": 37.5,
+    "end": 37.84,
+    "text": "妹,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 38.06,
+    "end": 38.6,
+    "text": "我那個",
+    "owner": "other",
+    "score": 0.516
+   },
+   {
+    "start": 38.6,
+    "end": 39.1,
+    "text": "壽醫",
+    "owner": "other",
+    "score": 0.54
+   },
+   {
+    "start": 39.1,
+    "end": 41.84,
+    "text": "工會的繼續教育證書我放在",
+    "owner": "unsure",
+    "score": 0.766
+   },
+   {
+    "start": 41.84,
+    "end": 44.92,
+    "text": "書房印表機旁邊的透明資料夾,",
+    "owner": "other",
+    "score": 0.678
+   },
+   {
+    "start": 45.1,
+    "end": 47.56,
+    "text": "你印出貨單的時候不要連",
+    "owner": "other",
+    "score": 0.682
+   },
+   {
+    "start": 47.56,
+    "end": 49.16,
+    "text": "我的證書一起捲",
+    "owner": "other",
+    "score": 0.673
+   },
+   {
+    "start": 49.16,
+    "end": 49.92,
+    "text": "進去哦。",
+    "owner": "other",
+    "score": 0.45
+   },
+   {
+    "start": 51.72,
+    "end": 53.1,
+    "text": "好啦,我有看到。",
+    "owner": "owner",
+    "score": 0.853
+   },
+   {
+    "start": 54.14,
+    "end": 61.84,
+    "text": "對了姐,我今天去郵局順便把工作室那台超音波清洗機拿去給電器行老闆,",
+    "owner": "owner",
+    "score": 0.93
+   },
+   {
+    "start": 61.84,
+    "end": 61.92,
+    "text": "看,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 62.3,
+    "end": 69.32,
+    "text": "結果只是保險絲燒掉,他剛廠換好現在加熱功能已經恢復正常了。",
+    "owner": "owner",
+    "score": 0.942
+   },
+   {
+    "start": 71.36,
+    "end": 71.86,
+    "text": "A",
+    "owner": "other",
+    "score": 0.475
+   },
+   {
+    "start": 71.86,
+    "end": 82.86,
+    "text": "ria,提醒我晚上洗完澡不要馬上關浴室抽風機,我剛剛把上好板的那顆銀露露腳掛掛在浴室毛巾架上滴水。",
+    "owner": "owner",
+    "score": 0.946
+   },
+   {
+    "start": 85.93,
+    "end": 92.13,
+    "text": "Aria,幫我寄一下這次竹北選物店的批發折扣是打七五折啊。",
+    "owner": "owner",
+    "score": 0.944
+   },
+   {
+    "start": 92.13,
+    "end": 98.05,
+    "text": "啊不對,我跟林沛三千的是買斷製打七折才對,計七折哦。",
+    "owner": "owner",
+    "score": 0.962
+   },
+   {
+    "start": 102.58,
+    "end": 104.22,
+    "text": "太好了超音波",
+    "owner": "other",
+    "score": 0.604
+   },
+   {
+    "start": 104.22,
+    "end": 104.68,
+    "text": "修好",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 104.68,
+    "end": 106.0,
+    "text": "就不用買新的。",
+    "owner": "other",
+    "score": 0.7
+   },
+   {
+    "start": 106.56,
+    "end": 111.66,
+    "text": "啊我晚上要烤巧巴達麵團在發酵箱你不要動哦。",
+    "owner": "unsure",
+    "score": 0.704
+   },
+   {
+    "start": 114.36,
+    "end": 117.06,
+    "text": "知道啦,我連碰都不敢碰。",
+    "owner": "owner",
+    "score": 0.889
+   },
+   {
+    "start": 117.06,
+    "end": 117.14,
+    "text": "就好看啊,當然。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 117.14,
+    "end": 117.3,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 9,
+  "heard": [
+   {
+    "start": 3.44,
+    "end": 4.26,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.541
+   },
+   {
+    "start": 4.68,
+    "end": 13.58,
+    "text": "我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 16.86,
+    "end": 23.38,
+    "text": "我把那疊舊合約收進主臥室衣櫃灰色保險箱了,這樣比較安全。",
+    "owner": "owner",
+    "score": 0.961
+   },
+   {
+    "start": 25.0,
+    "end": 33.16,
+    "text": "姐,你上次送我的那個黃銅滅竹林真的超好用,蓋下去完全不會有黑煙。",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 35.91,
+    "end": 43.07,
+    "text": "我剛剛是燒完蠟燭,把它掛在客廳壁如架左邊小釘子上了。",
+    "owner": "owner",
+    "score": 0.935
+   },
+   {
+    "start": 45.64,
+    "end": 48.48,
+    "text": "喂,是印刷廠成先生嗎?",
+    "owner": "owner",
+    "score": 0.891
+   },
+   {
+    "start": 49.14,
+    "end": 57.84,
+    "text": "對,我們這批香水是文卡的燙金打樣,我後天下午三點過去你們場裡確認可以嗎?",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 58.53,
+    "end": 60.45,
+    "text": "好,那就後天見。",
+    "owner": "owner",
+    "score": 0.847
+   },
+   {
+    "start": 64.54,
+    "end": 70.88,
+    "text": "Aria,幫我記一下,我們新款茶香蠟燭用的竹心型號是雙重。",
+    "owner": "owner",
+    "score": 0.934
+   },
+   {
+    "start": 70.88,
+    "end": 76.78,
+    "text": "一層木片竹心十三號,燒起來才會有那種營火的琵琶聲。",
+    "owner": "owner",
+    "score": 0.964
+   },
+   {
+    "start": 79.12,
+    "end": 85.8,
+    "text": "喂,我們禮拜六家庭聚餐要去吃那家新開的火鍋,先選湯底,你要",
+    "owner": "unsure",
+    "score": 0.732
+   },
+   {
+    "start": 85.8,
+    "end": 86.8,
+    "text": "吃什麼鍋?",
+    "owner": "other",
+    "score": 0.639
+   },
+   {
+    "start": 91.09,
+    "end": 98.71,
+    "text": "我火鍋湯底要選鍋皮辣椒雞哦,我最近喉嚨有點乾不想吃麻辣鍋。",
+    "owner": "owner",
+    "score": 0.963
+   },
+   {
+    "start": 101.18,
+    "end": 106.58,
+    "text": "喂,Aria,我們新款大豆蠟燭單顆重量是罐幾克啊?",
+    "owner": "owner",
+    "score": 0.936
+   },
+   {
+    "start": 108.68,
+    "end": 109.12,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 109.56,
+    "end": 114.68,
+    "text": "我上次跟凱文說我現在手沖咖啡都喝什麼豆子。",
+    "owner": "owner",
+    "score": 0.938
+   },
+   {
+    "start": 114.68,
+    "end": 115.3,
+    "text": "旅",
+    "owner": "other",
+    "score": 0.372
+   },
+   {
+    "start": 116.94,
+    "end": 122.84,
+    "text": "遊生活,旅本行都賞風景即將進入最高峰,藍山小火車計約聯合已全數核賣。",
+    "owner": "other",
+    "score": 0.563
+   },
+   {
+    "start": 122.84,
+    "end": 123.38,
+    "text": "然後為了一把男人吃1200克,藍山小火車計約再吃不下。",
+    "owner": "other",
+    "score": 0.365
+   }
+  ]
+ },
+ {
+  "day": 10,
+  "heard": [
+   {
+    "start": 3.7,
+    "end": 4.6,
+    "text": "Aria",
+    "owner": "other",
+    "score": 0.542
+   },
+   {
+    "start": 5.04,
+    "end": 13.22,
+    "text": "遇事那顆一怒怒攪絕水滴乾了,我剛剛把他一去掛在後陽台遮雨捧鐵網中間囉。",
+    "owner": "owner",
+    "score": 0.969
+   },
+   {
+    "start": 17.04,
+    "end": 27.8,
+    "text": "Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習時裂開了,明天得先繞去舞劇店買新的。",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 29.86,
+    "end": 30.98,
+    "text": "魏晨先生,",
+    "owner": "other",
+    "score": 0.692
+   },
+   {
+    "start": 31.4,
+    "end": 31.82,
+    "text": "不好意思,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 32.32,
+    "end": 36.38,
+    "text": "哦哦,你們師父今天提早把試文卡印好了是不是?",
+    "owner": "owner",
+    "score": 0.916
+   },
+   {
+    "start": 37.22,
+    "end": 44.4,
+    "text": "那我不用等到明天下午,我改明天早上十點過去看燙精打樣哦,好,謝謝。",
+    "owner": "owner",
+    "score": 0.947
+   },
+   {
+    "start": 47.25,
+    "end": 48.61,
+    "text": "喂,我跟你說,",
+    "owner": "unsure",
+    "score": 0.702
+   },
+   {
+    "start": 48.97,
+    "end": 49.31,
+    "text": "我剛",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 49.31,
+    "end": 49.81,
+    "text": "買了一",
+    "owner": "other",
+    "score": 0.464
+   },
+   {
+    "start": 49.81,
+    "end": 50.25,
+    "text": "台超",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 50.25,
+    "end": 51.99,
+    "text": "帥的復古黑膠唱機,",
+    "owner": "unsure",
+    "score": 0.733
+   },
+   {
+    "start": 52.39,
+    "end": 52.99,
+    "text": "現在放",
+    "owner": "other",
+    "score": 0.501
+   },
+   {
+    "start": 52.99,
+    "end": 53.93,
+    "text": "在我家客",
+    "owner": "other",
+    "score": 0.624
+   },
+   {
+    "start": 53.93,
+    "end": 55.09,
+    "text": "廳落地窗旁",
+    "owner": "other",
+    "score": 0.668
+   },
+   {
+    "start": 55.09,
+    "end": 55.45,
+    "text": "邊,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 55.77,
+    "end": 56.57,
+    "text": "改天來我",
+    "owner": "other",
+    "score": 0.539
+   },
+   {
+    "start": 56.57,
+    "end": 57.63,
+    "text": "家聽黑膠。",
+    "owner": "other",
+    "score": 0.595
+   },
+   {
+    "start": 59.38,
+    "end": 60.18,
+    "text": "真假?",
+    "owner": "other",
+    "score": 0.576
+   },
+   {
+    "start": 60.74,
+    "end": 63.96,
+    "text": "好啊,等我這波出貨忙完一定去",
+    "owner": "owner",
+    "score": 0.9
+   },
+   {
+    "start": 63.96,
+    "end": 64.3,
+    "text": "聽。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 68.1,
+    "end": 68.62,
+    "text": "A",
+    "owner": "other",
+    "score": 0.442
+   },
+   {
+    "start": 68.62,
+    "end": 68.86,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 69.24,
+    "end": 82.62,
+    "text": "幫我寄兩件事,第一是我把被用熱溶膠條放在工作桌右邊第二個抽屜,第二是下禮拜三早上十一點要去銀行辦企業網銀評證。",
+    "owner": "owner",
+    "score": 0.973
+   },
+   {
+    "start": 86.73,
+    "end": 86.97,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 86.97,
+    "end": 87.23,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 87.63,
+    "end": 92.15,
+    "text": "工作室那台超音波清洗機現在狀況怎樣?",
+    "owner": "owner",
+    "score": 0.951
+   },
+   {
+    "start": 96.33,
+    "end": 101.43,
+    "text": "Aria,我有沒有跟你說過我那個皮革微裙掛在哪裡?",
+    "owner": "owner",
+    "score": 0.911
+   },
+   {
+    "start": 102.6,
+    "end": 103.52,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.525
+   },
+   {
+    "start": 104.04,
+    "end": 107.06,
+    "text": "我那把黃銅珠心繭掛在哪裡?",
+    "owner": "owner",
+    "score": 0.929
+   },
+   {
+    "start": 108.57,
+    "end": 108.91,
+    "text": "妹,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 109.27,
+    "end": 109.69,
+    "text": "冰箱",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 109.69,
+    "end": 111.21,
+    "text": "裡那盒五子綠葡",
+    "owner": "unsure",
+    "score": 0.74
+   },
+   {
+    "start": 111.21,
+    "end": 113.99,
+    "text": "萄是我買的,你行一半去吃啊。",
+    "owner": "other",
+    "score": 0.697
+   },
+   {
+    "start": 113.99,
+    "end": 114.43,
+    "text": "Aria,工作室那台甚至是不在乎了派人的封房。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 114.43,
+    "end": 114.45,
+    "text": "乍者和ré有一個、特別的明星速度。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 11,
+  "heard": [
+   {
+    "start": 0.72,
+    "end": 1.66,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.564
+   },
+   {
+    "start": 2.02,
+    "end": 9.02,
+    "text": "工作室鐵櫃太悶了,我剛剛把那兩罐薰衣草精油鋁瓶拿出來,",
+    "owner": "owner",
+    "score": 0.933
+   },
+   {
+    "start": 9.38,
+    "end": 13.42,
+    "text": "改放到地下室儲藏室的木架哦不對,",
+    "owner": "owner",
+    "score": 0.928
+   },
+   {
+    "start": 13.9,
+    "end": 18.98,
+    "text": "是放進一樓樓梯下方櫻梁櫃裡了,幫我改一下。",
+    "owner": "owner",
+    "score": 0.958
+   },
+   {
+    "start": 22.11,
+    "end": 22.67,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.48
+   },
+   {
+    "start": 23.09,
+    "end": 28.51,
+    "text": "我剛剛終於把今年聖誕節限定理和定價算出來了。",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 32.0,
+    "end": 37.8,
+    "text": "一組是一千六百八十元,裡面含一顆大蠟燭跟一瓶室內噴霧。",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 41.44,
+    "end": 44.9,
+    "text": "Aria,你有看到我剛買的那捲麻繩嗎?",
+    "owner": "owner",
+    "score": 0.911
+   },
+   {
+    "start": 45.62,
+    "end": 48.2,
+    "text": "我要重綁路攪絕水台用的。",
+    "owner": "owner",
+    "score": 0.904
+   },
+   {
+    "start": 50.0,
+    "end": 51.48,
+    "text": "Aria,你剛剛拆完包",
+    "owner": "other",
+    "score": 0.643
+   },
+   {
+    "start": 51.48,
+    "end": 52.6,
+    "text": "裹不是隨手",
+    "owner": "other",
+    "score": 0.629
+   },
+   {
+    "start": 52.6,
+    "end": 52.86,
+    "text": "放",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 52.86,
+    "end": 53.02,
+    "text": "陽",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 53.02,
+    "end": 53.3,
+    "text": "台?",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 55.9,
+    "end": 62.68,
+    "text": "Aria,哦我看到了,我剛剛順手把它塞進陽台工具箱最上層格子裡了。",
+    "owner": "owner",
+    "score": 0.962
+   },
+   {
+    "start": 66.72,
+    "end": 72.28,
+    "text": "喂,您好,請問是幫我們工作室做木工定制的照師傅嗎?",
+    "owner": "owner",
+    "score": 0.909
+   },
+   {
+    "start": 73.06,
+    "end": 77.2,
+    "text": "對,我想跟您確認一下展示駕進場的時間。",
+    "owner": "owner",
+    "score": 0.905
+   },
+   {
+    "start": 78.82,
+    "end": 79.3,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 79.3,
+    "end": 86.52,
+    "text": "ria,記一下哦,工作室那台標籤列印機的色帶快沒了,印出來的字都有點蛋。",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 90.8,
+    "end": 91.04,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 91.04,
+    "end": 96.34,
+    "text": "ria,我跟印刷場約看試文卡的燙金打樣式改到幾點。",
+    "owner": "owner",
+    "score": 0.944
+   },
+   {
+    "start": 100.22,
+    "end": 104.12,
+    "text": "A竹北那家選物店的店長叫什麼名字啊?",
+    "owner": "owner",
+    "score": 0.94
+   },
+   {
+    "start": 106.12,
+    "end": 112.04,
+    "text": "Aria,我們給竹北選物店的批發折扣最後是幾折?",
+    "owner": "owner",
+    "score": 0.923
+   },
+   {
+    "start": 114.64,
+    "end": 115.3,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.447
+   },
+   {
+    "start": 115.66,
+    "end": 119.22,
+    "text": "我那個數位溫濕度計電池是不是沒電了?",
+    "owner": "owner",
+    "score": 0.867
+   },
+   {
+    "start": 119.22,
+    "end": 119.24,
+    "text": "來,我們ograf好聽人物這裡。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 119.24,
+    "end": 119.62,
+    "text": "I fasc咲的字會把它塞進來。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 12,
+  "heard": [
+   {
+    "start": 2.61,
+    "end": 15.09,
+    "text": "姐﹑客廳畢爐架那邊電風扇吹過去一直晃﹑我剛剛把那個黃銅滅竹林拿下來﹑改放進書房玻璃展示櫃第二層囉﹑",
+    "owner": "owner",
+    "score": 0.973
+   },
+   {
+    "start": 17.71,
+    "end": 30.93,
+    "text": "Aria﹑竹北選物店的林沛山剛剛打來說他們店裡還在有七﹑所以那三十顆雪松蠟燭延後到下禮拜一出貨就好﹑",
+    "owner": "owner",
+    "score": 0.976
+   },
+   {
+    "start": 32.02,
+    "end": 36.3,
+    "text": "會照師傅﹑好﹑那我們快閃電的木頭展示",
+    "owner": "owner",
+    "score": 0.96
+   },
+   {
+    "start": 36.3,
+    "end": 41.84,
+    "text": "試駕就約後天下午一點班進工作室組裝哦﹑麻煩您了",
+    "owner": "owner",
+    "score": 0.965
+   },
+   {
+    "start": 41.84,
+    "end": 42.54,
+    "text": "﹑",
+    "owner": "other",
+    "score": 0.353
+   },
+   {
+    "start": 43.4,
+    "end": 43.66,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 43.66,
+    "end": 56.94,
+    "text": "ria﹑幫我把車庫那捲塑膠氣泡布收起來﹑我現在寄包裹的防撞包材都只用蜂巢牛皮紙﹑客戶反應比較環保﹑",
+    "owner": "owner",
+    "score": 0.976
+   },
+   {
+    "start": 60.43,
+    "end": 69.01,
+    "text": "還有Aria﹑幫我寄一下新款室內闊香噴霧機比試用75%的酒精啊﹑講錯了﹑",
+    "owner": "owner",
+    "score": 0.964
+   },
+   {
+    "start": 69.01,
+    "end": 74.27,
+    "text": "調香噴霧機比試80%古物酒精才對﹑",
+    "owner": "owner",
+    "score": 0.961
+   },
+   {
+    "start": 77.92,
+    "end": 79.7,
+    "text": "妹﹑我禮拜天晚上",
+    "owner": "other",
+    "score": 0.658
+   },
+   {
+    "start": 79.7,
+    "end": 83.64,
+    "text": "要跟動物醫院的同事去吃居酒屋﹑我那",
+    "owner": "unsure",
+    "score": 0.784
+   },
+   {
+    "start": 83.64,
+    "end": 85.5,
+    "text": "件米色風衣送去巷",
+    "owner": "other",
+    "score": 0.686
+   },
+   {
+    "start": 85.5,
+    "end": 87.04,
+    "text": "口乾洗澱了﹑明",
+    "owner": "unsure",
+    "score": 0.732
+   },
+   {
+    "start": 87.04,
+    "end": 89.08,
+    "text": "天要記得去拿﹑",
+    "owner": "other",
+    "score": 0.637
+   },
+   {
+    "start": 90.65,
+    "end": 93.51,
+    "text": "好﹑你明天出門我再提醒你",
+    "owner": "owner",
+    "score": 0.93
+   },
+   {
+    "start": 93.51,
+    "end": 94.17,
+    "text": "﹑",
+    "owner": "other",
+    "score": 0.345
+   },
+   {
+    "start": 97.5,
+    "end": 98.0,
+    "text": "A",
+    "owner": "other",
+    "score": 0.444
+   },
+   {
+    "start": 98.0,
+    "end": 102.96,
+    "text": "ria﹑我那顆銀露露角爵現在掛在哪裡﹑",
+    "owner": "owner",
+    "score": 0.951
+   },
+   {
+    "start": 106.83,
+    "end": 111.41,
+    "text": "Aria﹑我禮拜二把那疊就合約收去哪裡了﹑",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 114.53,
+    "end": 119.39,
+    "text": "我們新款茶香蠟燭是用幾號的什麼燭心啊﹑",
+    "owner": "owner",
+    "score": 0.957
+   },
+   {
+    "start": 121.47,
+    "end": 126.03,
+    "text": "Aria﹑我上次說皇冠露角爵掛在哪裡滴水﹑",
+    "owner": "owner",
+    "score": 0.952
+   }
+  ]
+ },
+ {
+  "day": 13,
+  "heard": [
+   {
+    "start": 0.4,
+    "end": 10.56,
+    "text": "姐,趙師傅剛剛傳設計圖給我確認,我們那個木頭展示架的寬度是做120公分,剛好塞的近轉角。",
+    "owner": "owner",
+    "score": 0.977
+   },
+   {
+    "start": 14.69,
+    "end": 24.75,
+    "text": "Aria,我剛剛幫工作室那台標籤印機換上新的黑色色帶了,現在印出來超級清楚。",
+    "owner": "owner",
+    "score": 0.964
+   },
+   {
+    "start": 26.9,
+    "end": 33.58,
+    "text": "Aria,我今天去武具店買竹刀,順便買了一罐劍道竹刀專用的保養竹油。",
+    "owner": "owner",
+    "score": 0.957
+   },
+   {
+    "start": 37.42,
+    "end": 42.82,
+    "text": "我先把它放在玄關穿鞋椅下面的小抽屜裡哦。",
+    "owner": "owner",
+    "score": 0.961
+   },
+   {
+    "start": 44.28,
+    "end": 44.96,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.434
+   },
+   {
+    "start": 45.2,
+    "end": 51.6,
+    "text": "提醒我下禮拜四下午兩點要去台北市貿參加香氛展展前說明會。",
+    "owner": "owner",
+    "score": 0.946
+   },
+   {
+    "start": 52.02,
+    "end": 52.18,
+    "text": "健",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 55.06,
+    "end": 63.04,
+    "text": "康專欄,護理治療師提醒,長期使用手腕進行機器手工藝的毒群,每工作50分鐘應進行手部伸展運動。",
+    "owner": "other",
+    "score": 0.578
+   },
+   {
+    "start": 64.53,
+    "end": 64.71,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 64.71,
+    "end": 64.99,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 65.35,
+    "end": 70.55,
+    "text": "從法國寄來的那兩罐薰衣草精油旅品我後來改放到哪去了?",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 73.91,
+    "end": 77.53,
+    "text": "Aria,我那個黃銅滅竹林現在放哪?",
+    "owner": "owner",
+    "score": 0.934
+   },
+   {
+    "start": 81.08,
+    "end": 85.34,
+    "text": "我備用的熱熔膠條放在哪個抽屜啊?",
+    "owner": "owner",
+    "score": 0.902
+   },
+   {
+    "start": 86.56,
+    "end": 87.36,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.485
+   },
+   {
+    "start": 87.74,
+    "end": 91.74,
+    "text": "聖誕節限定理合一組定價是多少錢?",
+    "owner": "owner",
+    "score": 0.928
+   },
+   {
+    "start": 95.77,
+    "end": 96.29,
+    "text": "A",
+    "owner": "other",
+    "score": 0.412
+   },
+   {
+    "start": 96.29,
+    "end": 96.55,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 96.95,
+    "end": 101.91,
+    "text": "我有沒有跟你講過我那把客自用的電烙鐵收在哪?",
+    "owner": "owner",
+    "score": 0.947
+   },
+   {
+    "start": 101.91,
+    "end": 102.01,
+    "text": "沒有啦",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 102.01,
+    "end": 102.09,
+    "text": "沒有啦",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 102.09,
+    "end": 102.21,
+    "text": "沒有啦",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 102.21,
+    "end": 102.23,
+    "text": "沒有啦",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 102.23,
+    "end": 102.27,
+    "text": "沒有啦",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 102.27,
+    "end": 102.41,
+    "text": "推翻",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 14,
+  "heard": [
+   {
+    "start": 3.34,
+    "end": 14.26,
+    "text": "妹,趙師傅他們剛把展示架組裝好離開了哦,木頭質感超好,啊我先把我的烘焙烤盤收進電器櫃最下層。",
+    "owner": "unsure",
+    "score": 0.733
+   },
+   {
+    "start": 18.5,
+    "end": 24.72,
+    "text": "哇,太棒了,我等一下去工作室把樣品擺上去看看效果。",
+    "owner": "owner",
+    "score": 0.958
+   },
+   {
+    "start": 26.16,
+    "end": 26.8,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.435
+   },
+   {
+    "start": 27.28,
+    "end": 33.82,
+    "text": "主北選物店那三十顆雪松蠟燭後來是改到什麼時候要出貨。",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 35.26,
+    "end": 35.76,
+    "text": "A",
+    "owner": "other",
+    "score": 0.395
+   },
+   {
+    "start": 35.76,
+    "end": 40.08,
+    "text": "ria,工作室那台標籤列印機現在狀況怎樣,",
+    "owner": "owner",
+    "score": 0.939
+   },
+   {
+    "start": 40.46,
+    "end": 41.44,
+    "text": "色帶換了嗎?",
+    "owner": "other",
+    "score": 0.684
+   },
+   {
+    "start": 46.09,
+    "end": 49.75,
+    "text": "我昨天買的那罐保養豬油放哪去了?",
+    "owner": "owner",
+    "score": 0.95
+   },
+   {
+    "start": 54.45,
+    "end": 59.13,
+    "text": "Aria,綁路攪絕水台的那捲麻繩我塞在哪裡?",
+    "owner": "owner",
+    "score": 0.95
+   },
+   {
+    "start": 64.1,
+    "end": 69.7,
+    "text": "Aria,我下禮拜三早上十一點是不是要去銀行辦外币賬戶?",
+    "owner": "owner",
+    "score": 0.951
+   },
+   {
+    "start": 73.89,
+    "end": 74.33,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 74.33,
+    "end": 74.57,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 74.99,
+    "end": 80.21,
+    "text": "我有沒有說過工作室冷氣浴網上次是什麼時候用?",
+    "owner": "owner",
+    "score": 0.91
+   },
+   {
+    "start": 85.64,
+    "end": 91.92,
+    "text": "下週天氣將逐漸回暖,各地白天高溫可達二十六至二十八度,適合安排戶外活動。",
+    "owner": "other",
+    "score": 0.585
+   }
+  ]
+ },
+ {
+  "day": 15,
+  "heard": [
+   {
+    "start": 0.98,
+    "end": 7.64,
+    "text": "一文快訊,連你最大規模的首座職人士提將於本周末在華山文創園區登場。A",
+    "owner": "other",
+    "score": 0.61
+   },
+   {
+    "start": 7.64,
+    "end": 8.0,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 8.4,
+    "end": 13.64,
+    "text": "主北選物店那三十顆雪松蠟燭我剛請物流收走了,對了,",
+    "owner": "owner",
+    "score": 0.946
+   },
+   {
+    "start": 14.04,
+    "end": 20.56,
+    "text": "司機給我的那鐵拖運單收直連,我先夾在玄關穿鞋椅旁磁鐵加上哦。",
+    "owner": "owner",
+    "score": 0.951
+   },
+   {
+    "start": 20.56,
+    "end": 21.64,
+    "text": "姐,",
+    "owner": "other",
+    "score": 0.435
+   },
+   {
+    "start": 23.78,
+    "end": 38.12,
+    "text": "我這禮拜每天都要掉玫瑰配方,一直開小冰箱太麻煩了,所以我剛剛把那罐大瑪士格玫瑰圓金從工作室小冰箱下層拿出來,",
+    "owner": "owner",
+    "score": 0.977
+   },
+   {
+    "start": 38.48,
+    "end": 42.44,
+    "text": "改鎖進條箱桌左邊第一個抽屜裡了。",
+    "owner": "owner",
+    "score": 0.91
+   },
+   {
+    "start": 42.44,
+    "end": 43.38,
+    "text": "好",
+    "owner": "other",
+    "score": 0.376
+   },
+   {
+    "start": 46.67,
+    "end": 49.45,
+    "text": "哦,那你室溫不要開太高哎。",
+    "owner": "other",
+    "score": 0.66
+   },
+   {
+    "start": 50.05,
+    "end": 50.57,
+    "text": "對了,",
+    "owner": "other",
+    "score": 0.355
+   },
+   {
+    "start": 50.93,
+    "end": 51.49,
+    "text": "我把動",
+    "owner": "other",
+    "score": 0.458
+   },
+   {
+    "start": 51.49,
+    "end": 52.17,
+    "text": "物醫院",
+    "owner": "other",
+    "score": 0.461
+   },
+   {
+    "start": 52.17,
+    "end": 53.67,
+    "text": "發的明年桌粒放",
+    "owner": "unsure",
+    "score": 0.738
+   },
+   {
+    "start": 53.67,
+    "end": 53.91,
+    "text": "在",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 53.91,
+    "end": 54.15,
+    "text": "客",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 54.15,
+    "end": 58.11,
+    "text": "廳雜誌架最下層,你有需要可以拿去用。",
+    "owner": "other",
+    "score": 0.697
+   },
+   {
+    "start": 59.29,
+    "end": 72.61,
+    "text": "Aria,幫我記一下,我們百貨快閃電的視覺設計師叫周宇恩,然後他說快閃電海報出稿禮拜四晚上會傳給我確認。",
+    "owner": "owner",
+    "score": 0.969
+   },
+   {
+    "start": 74.12,
+    "end": 87.68,
+    "text": "還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露腳掘測牙放在書房書桌下的紙箱裡,吹風會乾死。",
+    "owner": "owner",
+    "score": 0.979
+   },
+   {
+    "start": 90.19,
+    "end": 90.27,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 90.27,
+    "end": 90.59,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 90.95,
+    "end": 102.79,
+    "text": "記一下這次百貨快閃電押金是三萬五千元啊不對,我剛重看張副理傳來的合約,是三萬元整裁對,計三萬元哦。",
+    "owner": "owner",
+    "score": 0.966
+   },
+   {
+    "start": 107.23,
+    "end": 108.09,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.491
+   },
+   {
+    "start": 108.63,
+    "end": 113.33,
+    "text": "我那副黑框被用眼鏡上次是改放到哪裡去了。",
+    "owner": "owner",
+    "score": 0.968
+   },
+   {
+    "start": 116.87,
+    "end": 121.41,
+    "text": "Aria,我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊。",
+    "owner": "owner",
+    "score": 0.964
+   },
+   {
+    "start": 121.41,
+    "end": 123.05,
+    "text": "Aria,我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊。",
+    "owner": "owner",
+    "score": 0.863
+   },
+   {
+    "start": 123.33,
+    "end": 123.49,
+    "text": "Aria,我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 16,
+  "heard": [
+   {
+    "start": 2.86,
+    "end": 10.4,
+    "text": "Aria,我剛剛去五金行買了一把新的電子郵標卡尺,亮玻璃瓶口內進超準。",
+    "owner": "owner",
+    "score": 0.961
+   },
+   {
+    "start": 14.77,
+    "end": 19.47,
+    "text": "我把它收進工作室工具牆黑色收納代理了。",
+    "owner": "owner",
+    "score": 0.948
+   },
+   {
+    "start": 22.56,
+    "end": 31.18,
+    "text": "姐,我那件白色的調香實驗袍袖口沾到一點廣闊香精油,我剛洗乾淨脫水完。",
+    "owner": "owner",
+    "score": 0.971
+   },
+   {
+    "start": 31.18,
+    "end": 32.28,
+    "text": "我",
+    "owner": "other",
+    "score": 0.469
+   },
+   {
+    "start": 35.06,
+    "end": 42.0,
+    "text": "現在把它晾在頂樓曬衣場最裡面的竹竿上了,明天應該就會錢。",
+    "owner": "owner",
+    "score": 0.975
+   },
+   {
+    "start": 45.36,
+    "end": 45.92,
+    "text": "喂,",
+    "owner": "other",
+    "score": 0.429
+   },
+   {
+    "start": 46.28,
+    "end": 48.58,
+    "text": "是劍道館的林教練嗎?",
+    "owner": "owner",
+    "score": 0.93
+   },
+   {
+    "start": 49.6,
+    "end": 54.24,
+    "text": "對,我想報名這個月的身段審查模擬賽,",
+    "owner": "owner",
+    "score": 0.948
+   },
+   {
+    "start": 54.7,
+    "end": 57.72,
+    "text": "時間是後天晚上七點半對不對?",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 58.97,
+    "end": 61.29,
+    "text": "好,我一定準時到。",
+    "owner": "owner",
+    "score": 0.893
+   },
+   {
+    "start": 64.05,
+    "end": 76.17,
+    "text": "Aria,幫我記一下,我們新款大容量擴香配的大容量擴香之規格是長度25公分黑色纖維棒,不要拿成乳尾桿哦。",
+    "owner": "owner",
+    "score": 0.978
+   },
+   {
+    "start": 80.26,
+    "end": 85.88,
+    "text": "妹,我明天早上下班會順便去那家手工備果店,你早餐",
+    "owner": "unsure",
+    "score": 0.714
+   },
+   {
+    "start": 85.88,
+    "end": 86.36,
+    "text": "要吃",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 86.36,
+    "end": 87.18,
+    "text": "什麼口味?",
+    "owner": "other",
+    "score": 0.473
+   },
+   {
+    "start": 91.69,
+    "end": 97.47,
+    "text": "幫我買藍莓乳酪口味的當早餐,我最近吃膩原味的了。",
+    "owner": "owner",
+    "score": 0.935
+   },
+   {
+    "start": 97.47,
+    "end": 98.51,
+    "text": "A",
+    "owner": "other",
+    "score": 0.387
+   },
+   {
+    "start": 99.95,
+    "end": 100.33,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 100.73,
+    "end": 105.13,
+    "text": "我那台春筋油的小便子秤現在放在哪裡?",
+    "owner": "owner",
+    "score": 0.958
+   },
+   {
+    "start": 106.7,
+    "end": 112.6,
+    "text": "Aria,我上次說我們現在寄包裹的防撞包材都改用什麼?",
+    "owner": "owner",
+    "score": 0.969
+   },
+   {
+    "start": 117.25,
+    "end": 117.35,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 117.35,
+    "end": 117.57,
+    "text": "ria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 118.03,
+    "end": 123.29,
+    "text": "我有沒有跟你說過我那個手持掛燙機收在哪個櫃子?",
+    "owner": "owner",
+    "score": 0.97
+   },
+   {
+    "start": 123.29,
+    "end": 123.35,
+    "text": "我就說過他另外一句",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 123.35,
+    "end": 123.77,
+    "text": "Aria,我現在不在外面",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 17,
+  "heard": [
+   {
+    "start": 1.23,
+    "end": 1.75,
+    "text": "魏",
+    "owner": "other",
+    "score": 0.411
+   },
+   {
+    "start": 1.75,
+    "end": 5.21,
+    "text": "宇恩,哦哦你明天晚上家裡有事啊。",
+    "owner": "owner",
+    "score": 0.961
+   },
+   {
+    "start": 6.16,
+    "end": 7.36,
+    "text": "沒關係沒關係,",
+    "owner": "unsure",
+    "score": 0.741
+   },
+   {
+    "start": 7.8,
+    "end": 14.38,
+    "text": "那快閃遍海報出稿改到禮拜五下午四點再傳給我確認就好,辛苦",
+    "owner": "owner",
+    "score": 0.941
+   },
+   {
+    "start": 14.38,
+    "end": 14.88,
+    "text": "你了。",
+    "owner": "other",
+    "score": 0.388
+   },
+   {
+    "start": 19.48,
+    "end": 19.58,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 19.58,
+    "end": 32.02,
+    "text": "ria,幫我把前陽台那盆米蝶香寄一下要停水,我剛看那盆陽台米蝶香的葉子尖端發黑枯萎了,應該是這幾天零太多雨。",
+    "owner": "owner",
+    "score": 0.979
+   },
+   {
+    "start": 34.93,
+    "end": 35.81,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.438
+   },
+   {
+    "start": 36.23,
+    "end": 47.63,
+    "text": "全關磁鐵家那邊太亂了,我剛剛把禮拜一那蝶托運單收直簾拿下來,改放進書房桌上透明文件和理羅。",
+    "owner": "owner",
+    "score": 0.97
+   },
+   {
+    "start": 51.12,
+    "end": 51.64,
+    "text": "嗨,",
+    "owner": "other",
+    "score": 0.408
+   },
+   {
+    "start": 52.37,
+    "end": 54.67,
+    "text": "我來拿你分裝給我的會幕",
+    "owner": "unsure",
+    "score": 0.795
+   },
+   {
+    "start": 54.67,
+    "end": 55.19,
+    "text": "小樣。",
+    "owner": "other",
+    "score": 0.455
+   },
+   {
+    "start": 56.1,
+    "end": 56.88,
+    "text": "跟你說,",
+    "owner": "other",
+    "score": 0.44
+   },
+   {
+    "start": 57.16,
+    "end": 58.94,
+    "text": "我昨天把我那台底",
+    "owner": "unsure",
+    "score": 0.764
+   },
+   {
+    "start": 58.94,
+    "end": 60.54,
+    "text": "片相機送去博艾",
+    "owner": "other",
+    "score": 0.673
+   },
+   {
+    "start": 60.54,
+    "end": 64.86,
+    "text": "路洗觀景窗,師父說要下禮拜五才拿得回來。",
+    "owner": "unsure",
+    "score": 0.797
+   },
+   {
+    "start": 67.47,
+    "end": 72.65,
+    "text": "老相機保養真的要等比較久,來這瓶小樣給你。",
+    "owner": "owner",
+    "score": 0.931
+   },
+   {
+    "start": 74.74,
+    "end": 75.22,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 75.22,
+    "end": 89.2,
+    "text": "ria,寄兩件事哦,第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦螢幕下面,第二是下禮拜二早上十點要去百貨公司辦專櫃進場證。",
+    "owner": "owner",
+    "score": 0.971
+   },
+   {
+    "start": 91.0,
+    "end": 92.0,
+    "text": "A",
+    "owner": "other",
+    "score": 0.474
+   },
+   {
+    "start": 92.0,
+    "end": 96.58,
+    "text": "ria,我那罐大瑪士格玫瑰圓金現在所在哪裡?",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 98.92,
+    "end": 99.32,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 99.32,
+    "end": 104.74,
+    "text": "ria,我們新款室內擴廂噴霧基底是用雞啪的什麼酒精?",
+    "owner": "owner",
+    "score": 0.962
+   },
+   {
+    "start": 108.31,
+    "end": 108.73,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 108.73,
+    "end": 113.41,
+    "text": "ria,我上次說甜曾經有鋁平放在哪個陰涼櫃?",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 113.87,
+    "end": 114.19,
+    "text": "國",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 117.45,
+    "end": 124.59,
+    "text": "智慧王,木製針板使用完畢後,建議以溫水刷擊並直立放置於通風處晾乾,避免停放導致發霉。",
+    "owner": "other",
+    "score": 0.57
+   },
+   {
+    "start": 124.59,
+    "end": 124.75,
+    "text": "。",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 18,
+  "heard": [
+   {
+    "start": 0.3,
+    "end": 0.86,
+    "text": "A",
+    "owner": "other",
+    "score": 0.402
+   },
+   {
+    "start": 0.86,
+    "end": 11.38,
+    "text": "ria 書房紙箱裡的向耳露角角側牙傷口已經乾了,我剛剛把牠們鋪在陽台育苗盤哦不對,",
+    "owner": "owner",
+    "score": 0.97
+   },
+   {
+    "start": 11.74,
+    "end": 18.34,
+    "text": "我是鋪在客廳窗邊白色潛水盤裡敷牙了,幫我更新一下。",
+    "owner": "owner",
+    "score": 0.963
+   },
+   {
+    "start": 22.53,
+    "end": 28.47,
+    "text": "Aria 我剛剛從台北市貿開完相分展的展前說明會回來,",
+    "owner": "owner",
+    "score": 0.961
+   },
+   {
+    "start": 28.83,
+    "end": 32.49,
+    "text": "主辦單位今年有提供綠色建材補助款。",
+    "owner": "owner",
+    "score": 0.938
+   },
+   {
+    "start": 36.61,
+    "end": 45.01,
+    "text": "Aria 每個參展品牌可以申請8000元,剛好拿來折抵我們木頭展示架的費用。",
+    "owner": "owner",
+    "score": 0.969
+   },
+   {
+    "start": 46.17,
+    "end": 53.51,
+    "text": "Aria 我剛買了一組新的玻璃壁管跟替換用細膠頭,擺在調香桌上超好看。",
+    "owner": "owner",
+    "score": 0.967
+   },
+   {
+    "start": 56.88,
+    "end": 57.86,
+    "text": "Aria 那你備用",
+    "owner": "other",
+    "score": 0.525
+   },
+   {
+    "start": 57.86,
+    "end": 58.88,
+    "text": "的收好了嗎?",
+    "owner": "other",
+    "score": 0.558
+   },
+   {
+    "start": 59.68,
+    "end": 62.2,
+    "text": "不要又滾到地上被掃地機",
+    "owner": "other",
+    "score": 0.665
+   },
+   {
+    "start": 62.2,
+    "end": 62.7,
+    "text": "器人",
+    "owner": "other",
+    "score": 0.407
+   },
+   {
+    "start": 62.7,
+    "end": 63.18,
+    "text": "吃掉。",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 66.71,
+    "end": 74.07,
+    "text": "Aria 收好了啦,我先把那些替換用細膠頭收進工作室水槽下面的塑膠抽屜裡了。",
+    "owner": "owner",
+    "score": 0.968
+   },
+   {
+    "start": 75.31,
+    "end": 77.33,
+    "text": "Aria 介紹一下,",
+    "owner": "owner",
+    "score": 0.87
+   },
+   {
+    "start": 77.73,
+    "end": 87.33,
+    "text": "剛剛幫我們搬瓦冷紙箱進來的那位是郭大哥,我們長期配合的貨運行物流負責人就是他。",
+    "owner": "owner",
+    "score": 0.968
+   },
+   {
+    "start": 87.33,
+    "end": 88.35,
+    "text": "A",
+    "owner": "other",
+    "score": 0.425
+   },
+   {
+    "start": 90.34,
+    "end": 99.88,
+    "text": "ria 記一下喔,工作室那台融蠟鍋的溫控炫鈕接觸不良會跳掉,轉到80度就會自己斷電。",
+    "owner": "owner",
+    "score": 0.981
+   },
+   {
+    "start": 103.8,
+    "end": 110.16,
+    "text": "Aria 我第一天跟你記過的那個無花果香精西式比例是百分之幾啊。",
+    "owner": "owner",
+    "score": 0.963
+   },
+   {
+    "start": 110.16,
+    "end": 111.06,
+    "text": "A",
+    "owner": "other",
+    "score": 0.347
+   },
+   {
+    "start": 113.17,
+    "end": 120.35,
+    "text": "ria 視覺設計師周宇恩說快閃電海報出稿改到什麼時候傳給我確認。",
+    "owner": "owner",
+    "score": 0.959
+   },
+   {
+    "start": 122.62,
+    "end": 123.14,
+    "text": "A",
+    "owner": "other",
+    "score": 0.367
+   },
+   {
+    "start": 123.14,
+    "end": 127.32,
+    "text": "ria 我們這次百貨快閃電的押金是幾萬塊。",
+    "owner": "owner",
+    "score": 0.945
+   },
+   {
+    "start": 130.76,
+    "end": 130.92,
+    "text": "A",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 130.92,
+    "end": 136.22,
+    "text": "ria 我有沒有說過快閃電要用的零錢盒放在哪裡。",
+    "owner": "owner",
+    "score": 0.944
+   },
+   {
+    "start": 136.22,
+    "end": 136.52,
+    "text": "Aria 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者 記者",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 136.52,
+    "end": 136.56,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 19,
+  "heard": [
+   {
+    "start": 0.5,
+    "end": 12.02,
+    "text": "姐,頂樓好像快飄雨了,我剛剛去把那件白色調香實驗袍收下來,改掛進更衣室左邊衣桿上囉。",
+    "owner": "owner",
+    "score": 0.976
+   },
+   {
+    "start": 14.1,
+    "end": 15.02,
+    "text": "喂張副理,",
+    "owner": "other",
+    "score": 0.56
+   },
+   {
+    "start": 15.42,
+    "end": 19.66,
+    "text": "哦哦下禮拜二早上百貨勞安課沒空是不是?",
+    "owner": "owner",
+    "score": 0.929
+   },
+   {
+    "start": 20.73,
+    "end": 29.19,
+    "text": "好,那我去辦專櫃進場證的時間就改到下禮拜二下午兩點半哦,好,謝謝。",
+    "owner": "owner",
+    "score": 0.977
+   },
+   {
+    "start": 32.2,
+    "end": 35.06,
+    "text": "喂,是職災社團的阿維嗎?",
+    "owner": "owner",
+    "score": 0.931
+   },
+   {
+    "start": 35.7,
+    "end": 43.16,
+    "text": "好啊,那我們交換錄角決策啞就約後天下午四點在花式大門口見面哦。",
+    "owner": "owner",
+    "score": 0.952
+   },
+   {
+    "start": 46.1,
+    "end": 46.46,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 46.82,
+    "end": 58.84,
+    "text": "幫我把快閃電歌單裡面有人聲的歌都刪掉,我們專櫃背景音樂我只喜歡純鋼琴環境音樂,才不會干擾客人試聞。",
+    "owner": "owner",
+    "score": 0.973
+   },
+   {
+    "start": 63.57,
+    "end": 73.65,
+    "text": "還有Aria,幫我寄一下新款隨身滾珠香水平容量是10毫升啊不對,廠商這批送來的玻璃管聲比較細,",
+    "owner": "owner",
+    "score": 0.976
+   },
+   {
+    "start": 74.05,
+    "end": 75.45,
+    "text": "是8毫升才對。",
+    "owner": "owner",
+    "score": 0.814
+   },
+   {
+    "start": 80.12,
+    "end": 84.18,
+    "text": "妹,我把我的登山帳收在陽台儲藏櫃最右",
+    "owner": "unsure",
+    "score": 0.721
+   },
+   {
+    "start": 84.18,
+    "end": 85.54,
+    "text": "邊,你拿圓意",
+    "owner": "unsure",
+    "score": 0.72
+   },
+   {
+    "start": 85.54,
+    "end": 88.32,
+    "text": "圖的時候小心不要被半倒哦。",
+    "owner": "unsure",
+    "score": 0.7
+   },
+   {
+    "start": 90.04,
+    "end": 91.58,
+    "text": "好,我會注意。",
+    "owner": "unsure",
+    "score": 0.79
+   },
+   {
+    "start": 92.7,
+    "end": 93.56,
+    "text": "Aria,",
+    "owner": "other",
+    "score": 0.439
+   },
+   {
+    "start": 93.92,
+    "end": 98.02,
+    "text": "我上禮拜說去吃火鍋湯比都選什麼鍋。",
+    "owner": "owner",
+    "score": 0.929
+   },
+   {
+    "start": 101.44,
+    "end": 106.02,
+    "text": "Aria,禮拜一那疊拖運單收直連我現在放哪?",
+    "owner": "owner",
+    "score": 0.96
+   },
+   {
+    "start": 108.62,
+    "end": 112.42,
+    "text": "我新買的那把電子郵標卡實收在哪裡啊?",
+    "owner": "owner",
+    "score": 0.925
+   },
+   {
+    "start": 116.5,
+    "end": 120.38,
+    "text": "Aria,我那個個人網銀讀卡機放在哪裡?",
+    "owner": "owner",
+    "score": 0.944
+   },
+   {
+    "start": 120.38,
+    "end": 120.66,
+    "text": "EV",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ },
+ {
+  "day": 20,
+  "heard": [
+   {
+    "start": 0.27,
+    "end": 5.21,
+    "text": "姐,我們快閃電要穿的制服圍裙做好記來了,",
+    "owner": "owner",
+    "score": 0.953
+   },
+   {
+    "start": 5.63,
+    "end": 11.41,
+    "text": "制服圍裙才直是防潑水重磅翻步,滴到精油一擦就掉。",
+    "owner": "owner",
+    "score": 0.956
+   },
+   {
+    "start": 14.6,
+    "end": 15.06,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 15.44,
+    "end": 27.54,
+    "text": "我剛剛拿電子接點復活記噴了一下工作室那台熔蠟鍋,現在溫控炫鈕已修好不會跳掉了,幫我更新一下。",
+    "owner": "owner",
+    "score": 0.979
+   },
+   {
+    "start": 27.54,
+    "end": 28.58,
+    "text": "A",
+    "owner": "other",
+    "score": 0.418
+   },
+   {
+    "start": 31.75,
+    "end": 39.09,
+    "text": "ria,我剛剛把快閃電要發的五百張蓋好剛印的試文紙全部整理好了。",
+    "owner": "owner",
+    "score": 0.946
+   },
+   {
+    "start": 41.43,
+    "end": 47.83,
+    "text": "我把他們裝進防潮帶,放在客廳沙發旁黑色行李箱裡了。",
+    "owner": "owner",
+    "score": 0.96
+   },
+   {
+    "start": 49.41,
+    "end": 49.77,
+    "text": "Aria,",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 50.13,
+    "end": 56.15,
+    "text": "提醒我下禮拜五晚上八點要在官方IG開直播介紹聖誕禮盒哦。",
+    "owner": "owner",
+    "score": 0.962
+   },
+   {
+    "start": 64.62,
+    "end": 73.14,
+    "text": "Aria,我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡。",
+    "owner": "owner",
+    "score": 0.968
+   },
+   {
+    "start": 76.06,
+    "end": 77.62,
+    "text": "Aria,我接下來的向耳露腳決策牙現在放在哪裡敷牙。",
+    "owner": "owner",
+    "score": 0.83
+   },
+   {
+    "start": 77.62,
+    "end": 82.4,
+    "text": "Aria,我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡。Aria,我接下來的向耳露腳決策牙現在放在哪裡敷牙。",
+    "owner": "owner",
+    "score": 0.942
+   },
+   {
+    "start": 85.2,
+    "end": 89.0,
+    "text": "Aria,我那件白色的調香實驗袍現在掛在哪。",
+    "owner": "owner",
+    "score": 0.929
+   },
+   {
+    "start": 90.72,
+    "end": 94.46,
+    "text": "Aria,我有沒有跟你講過備用的玻璃燒,",
+    "owner": "owner",
+    "score": 0.9
+   },
+   {
+    "start": 94.46,
+    "end": 96.12,
+    "text": "包杯收在哪個紙箱。",
+    "owner": "owner",
+    "score": 0.892
+   }
+  ]
+ },
+ {
+  "day": 21,
+  "heard": [
+   {
+    "start": 0.59,
+    "end": 3.91,
+    "text": "妹,你等一下四點要去花市跟",
+    "owner": "other",
+    "score": 0.696
+   },
+   {
+    "start": 3.91,
+    "end": 5.11,
+    "text": "網友換路角",
+    "owner": "other",
+    "score": 0.622
+   },
+   {
+    "start": 5.11,
+    "end": 5.95,
+    "text": "絕對不對。",
+    "owner": "other",
+    "score": 0.498
+   },
+   {
+    "start": 6.59,
+    "end": 7.31,
+    "text": "幫我",
+    "owner": "other",
+    "score": 0.436
+   },
+   {
+    "start": 7.31,
+    "end": 8.75,
+    "text": "順便買一盆薄荷",
+    "owner": "other",
+    "score": 0.658
+   },
+   {
+    "start": 8.75,
+    "end": 9.55,
+    "text": "回來種。",
+    "owner": "other",
+    "score": 0.507
+   },
+   {
+    "start": 12.05,
+    "end": 15.31,
+    "text": "好啊,沒問題,我正準備要出門了。",
+    "owner": "owner",
+    "score": 0.878
+   },
+   {
+    "start": 17.24,
+    "end": 23.22,
+    "text": "Aria,我下禮拜二去百貨公司辦專櫃進場正式改到幾點?",
+    "owner": "owner",
+    "score": 0.957
+   },
+   {
+    "start": 26.3,
+    "end": 31.96,
+    "text": "Aria,工作室那台融蠟鍋現在狀況怎樣?修好了嗎?",
+    "owner": "owner",
+    "score": 0.946
+   },
+   {
+    "start": 35.83,
+    "end": 41.87,
+    "text": "Aria,我們新款隨身噴霧香水瓶的容量是幾毫升?",
+    "owner": "owner",
+    "score": 0.935
+   },
+   {
+    "start": 43.89,
+    "end": 51.03,
+    "text": "Aria,我有沒有跟你說過我們快閃電的發票張收在哪個抽屜?",
+    "owner": "owner",
+    "score": 0.954
+   },
+   {
+    "start": 54.66,
+    "end": 56.1,
+    "text": "唯我剛在巷口",
+    "owner": "other",
+    "score": 0.683
+   },
+   {
+    "start": 56.1,
+    "end": 56.94,
+    "text": "遇到你姐,",
+    "owner": "other",
+    "score": 0.566
+   },
+   {
+    "start": 57.32,
+    "end": 58.2,
+    "text": "我順便把",
+    "owner": "other",
+    "score": 0.468
+   },
+   {
+    "start": 58.2,
+    "end": 58.48,
+    "text": "要",
+    "owner": "unsure",
+    "score": null
+   },
+   {
+    "start": 58.48,
+    "end": 62.12,
+    "text": "借你的露營摺疊椅放在你家車庫門口哦。",
+    "owner": "unsure",
+    "score": 0.731
+   },
+   {
+    "start": 63.69,
+    "end": 65.01,
+    "text": "哇謝啦凱文,",
+    "owner": "unsure",
+    "score": 0.783
+   },
+   {
+    "start": 65.92,
+    "end": 69.26,
+    "text": "正好下禮拜快閃電不知可以拿去做。",
+    "owner": "owner",
+    "score": 0.927
+   },
+   {
+    "start": 70.67,
+    "end": 78.27,
+    "text": "順便拿去廟多拿去錄影與數火需求聯賽即港感化律漫工 到了快 Phonearan, funds influence us to our Augenbrake.",
+    "owner": "other",
+    "score": 0.601
+   },
+   {
+    "start": 78.27,
+    "end": 78.35,
+    "text": "Aria",
+    "owner": "unsure",
+    "score": null
+   }
+  ]
+ }
+]

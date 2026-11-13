@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+# the LLM server vocabulary you build yourself (derived from the model; its licence applies)
+data/aria_vocab/
+tests/fixtures/vocab_small/
+# runtime output of the quickstart
+examples/out/

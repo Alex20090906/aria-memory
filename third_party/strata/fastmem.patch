@@ -1,0 +1,888 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 369d699..30bb090 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -461,6 +461,7 @@ if(STRATA_ENABLE_CUDA OR STRATA_ENABLE_HIP)
+                           src/kernels/cuda/kv_q4.cu
+                           src/kernels/cuda/fused_gr.cu
+                           src/kernels/cuda/cvec.cu
++                          src/kernels/cuda/fmem.cu
+                           src/kernels/cuda/qsa_decode_attn.cu
+                           src/kernels/cuda/qsa_prompt_attn.cu
+                           src/kernels/cuda/fused_gdn.cu
+diff --git a/include/strata/kernels/cvec.hpp b/include/strata/kernels/cvec.hpp
+index c934748..ade6414 100644
+--- a/include/strata/kernels/cvec.hpp
++++ b/include/strata/kernels/cvec.hpp
+@@ -20,6 +20,8 @@
+ #include <string>
+ #include <vector>
+ 
++#include "strata/kernels/fmem.hpp"
++
+ namespace strata::kernels {
+ 
+ struct Cvec {
+@@ -32,7 +34,9 @@ struct Cvec {
+     bool loaded() const { return dir != nullptr; }
+     /// Layer l's FFN write is followed by the vector (with a real direction there).  Decided at load time, never
+     /// per request: it changes where the residual write happens, so the graphs depend on it.
+-    bool covers(int64_t l) const { return loaded() && l >= first && l <= last && l < (int64_t) steered.size() && steered[(size_t) l]; }
++    bool covers(int64_t l) const {
++        return (loaded() && l >= first && l <= last && l < (int64_t) steered.size() && steered[(size_t) l]) || fmem_covers(l);
++    }
+     std::vector<bool> steered;    ///< host copy of s_l != 0
+ };
+ 
+diff --git a/include/strata/kernels/fmem.hpp b/include/strata/kernels/fmem.hpp
+new file mode 100644
+index 0000000..9487479
+--- /dev/null
++++ b/include/strata/kernels/fmem.hpp
+@@ -0,0 +1,59 @@
++// include/strata/kernels/fmem.hpp - fast-weight memory on the residual stream (research extension).
++//
++// After layer l's write (where a control vector would apply), for every token:
++//   x  = mean of the hc residual streams
++//   xa = (layernorm(x) - mu_l) / sd_l                 sensory adaptation
++//   u  = top-k units of xa . P_l (P_l: n_embd x D)    pattern separation (k-winners-take-all)
++//   h += sum_j B_l[u_j] / sqrt(k) on every hc stream  the memory's output
++// B is written outside the engine (the "compiler"); the engine only applies it and, when asked,
++// records which units each token used. Off unless STRATA_FMEM_FILE names a memory file.
++#pragma once
++
++#include <cstdint>
++#include <string>
++#include <vector>
++
++namespace strata::kernels {
++
++/// Load STRATA_FMEM_FILE if set (once, at engine start; n_layers and n_embd come from the model).
++/// False with err set when the file is unreadable or does not match the model.  True and no-op without the variable.
++bool fmem_init(int64_t n_layers, int64_t n_embd, int64_t hc, std::string& err);
++
++/// Layer l has a memory.
++bool fmem_covers(int64_t layer);
++bool fmem_loaded();
++
++/// Before a request: reload B, mu, sd when the file's write time changed (same device buffers, so captured
++/// graphs stay valid).  Then start a new capture if STRATA_FMEM_CAPTURE is set.  True when cached K/V must not be
++/// reused: the memory changed (old cells were computed with the old B) or a capture needs every row recomputed.
++bool fmem_begin_request();
++/// After a request: append the captured unit ids (pos, token, units) to STRATA_FMEM_CAPTURE.
++/// `tokens`: the request's whole prompt; `resume`: how many of them came from the cache (not run, so not captured).
++void fmem_end_request(const std::vector<int32_t>& tokens, int64_t resume);
++
++/// Apply layer `layer`'s memory to T tokens' residual stacks (R + t * r_ld, hc streams of n_embd).
++/// `pos0`: position of the first token, for the capture records.
++void fmem_apply(float* R, int64_t layer, int64_t T, int64_t r_ld, int64_t pos0, void* stream);
++
++/// Head mode (STRATA_FMEM_HEAD=1): the memory layers only compute the key (unit ids); the value is added to the
++/// head's input (the mixed vector right before the output matrix), where the direction that raises log p(y) is
++/// exactly u_y - E_p[u].  `mixed` holds T rows of n_embd with stride `ld`; row t uses the units of row t of the
++/// latest key-layer launch (the same forward pass).
++/// Debug 3: a logit-level sentinel on the anchor row (see fmem.cu).
++void fmem_logits_debug(float* logits, int64_t T, int64_t n_vocab, const int* pos0, void* stream);
++bool fmem_head_mode();
++/// `tokens`: device, the T rows' token ids; `pos0`: device int, the absolute position of row 0 (both may be
++/// null on a path without row info: then anchor mode adds nothing).
++void fmem_head_apply(float* mixed, int64_t T, int64_t ld, const int32_t* tokens, const int* pos0, void* stream);
++/// Decode path: note the row that was just embedded, then apply at its head.
++void fmem_decode_row(int32_t token, int64_t pos, void* stream);
++void fmem_head_apply_decode(float* mixed, int64_t ld, void* stream);
++/// Verify path: set a window's first position host-side when its inputs are staged, copy it into device memory
++/// inside the captured graph (next to the token copy), and pass that device int to fmem_head_apply.
++void fmem_window_pos0(int64_t pos0);
++/// Batch / slot windows: the rows' own positions.
++void fmem_window_rows(const int64_t* pos, int T);
++void fmem_window_begin(void* stream);
++const int* fmem_window_pos0_dev();
++
++}  // namespace strata::kernels
+diff --git a/serve/server.py b/serve/server.py
+index 8c5213b..daa30e0 100644
+--- a/serve/server.py
++++ b/serve/server.py
+@@ -4887,6 +4887,11 @@ class Service:
+         A control token's text (<|im_start|>, <|im_end|>, <|endoftext|>, ...) inside a message is text as well: only
+         the control tokens the template writes are control tokens.  `store=False` (a token count) reuses the kept
+         prompts without adding or replacing one."""
++        # research build (fast-weight memory): a single user message that starts with "[[RAW]]" is sent as plain
++        # text, without the chat template, so the model simply continues it (pattern completion from a cue)
++        if (len(messages) == 1 and isinstance(messages[0].get("content"), str)
++                and messages[0]["content"].startswith("[[RAW]]")):
++            return self.tok.encode(messages[0]["content"][len("[[RAW]]"):])
+         marked, marked_tools, changed = mark_think_literals(messages, tools, self.literals)
+         prompt = self.render_prompt(marked, marked_tools, kwargs)
+         plain = ()
+diff --git a/src/core/layer.cpp b/src/core/layer.cpp
+index 273b229..c9d493b 100644
+--- a/src/core/layer.cpp
++++ b/src/core/layer.cpp
+@@ -30,6 +30,7 @@
+ #include "strata/kernels/native_flash_attn.hpp"
+ #include "strata/kernels/fused_gr.hpp"
+ #include "strata/kernels/cvec.hpp"
++#include "strata/kernels/fmem.hpp"
+ #include "strata/kernels/qsa_decode_attn.hpp"
+ #include "strata/kernels/fused_gdn.hpp"
+ #include "strata/kernels/qsa_select.hpp"
+@@ -1408,6 +1409,7 @@ bool lm_head(const WeightTable& tables, const ModelGeometry& g, const BlockBuffe
+         return false;
+     }
+     if (!lm_head_mix(tables, g, bb, stream, err)) return false;
++    strata::kernels::fmem_head_apply_decode(bb.mixed, g.n_embd, stream);   // fmem.hpp head mode
+     strata::kernels::quantize_q8_K(bb.mixed, bb.head_q8k, g.n_embd, stream);
+     return gemv_quantized(*wo, planes, form, bb.head_q8k, bb.head_q8k, logits,
+                           g.n_embd, wo->ne1, "output.weight", stream, err);
+diff --git a/src/core/verify.cpp b/src/core/verify.cpp
+index c8eef3f..9fa1ba6 100644
+--- a/src/core/verify.cpp
++++ b/src/core/verify.cpp
+@@ -38,6 +38,7 @@
+ #include "strata/kernels/fused_gr.hpp"
+ #include "strata/kernels/route_prior.hpp"
+ #include "strata/kernels/cvec.hpp"
++#include "strata/kernels/fmem.hpp"
+ #include "strata/kernels/gr.hpp"
+ #include "strata/kernels/kv_q4.hpp"
+ #include "strata/kernels/kv_q8.hpp"
+@@ -1308,6 +1309,7 @@ bool Verifier::record_window(int T, cudaStream_t cs, std::string& err) {
+     // ---- the window's inputs, from mapped staging.  With branches the steps and positions (first read by the first
+     // layer's mixer) cross PCIe on side 1 beside the embedding and the first hyper-connection read.
+     copy_i32_from_mapped(tok_, m_tok_, T, cs);
++    strata::kernels::fmem_window_begin(cs);   // fmem.hpp: the window's pos0, captured next to the token copy
+     bool inputs_pending = false;
+     cudaStream_t in_s = cs;
+     if (br) {
+@@ -2469,6 +2471,7 @@ bool Verifier::record_window(int T, cudaStream_t cs, std::string& err) {
+                 }
+             }
+         }
++        strata::kernels::fmem_head_apply(head_mixed_, T, N, tok_, strata::kernels::fmem_window_pos0_dev(), cs);   // fmem.hpp
+         if (head_ != nullptr && head_->loaded()) {
+             try {
+                 native_quantize_q8_1(head_mixed_, xq_, (int) N, T, cs);
+@@ -2483,6 +2486,7 @@ bool Verifier::record_window(int T, cudaStream_t cs, std::string& err) {
+                 return false;
+             }
+         }
++        strata::kernels::fmem_logits_debug(head_logits_, T, n_vocab_, strata::kernels::fmem_window_pos0_dev(), cs);   // fmem.hpp debug 3
+         // Greedy, the default, is recorded here as before (no extra launch or sync per window). A request that
+         // samples or penalizes is sampled again host-side after the replay (run()) with its own parameters and a
+         // fresh draw counter: a captured sampler would bake them in and replay the same draws forever.
+@@ -2917,6 +2921,7 @@ void Verifier::stage_inputs(int T, const int32_t* tokens, int64_t pos0) {
+     last_t_ = T;
+     if (rs_on_ && T >= 1 && T <= 8) ++rs_win_[T];
+     last_pos0_ = pos0;
++    strata::kernels::fmem_window_pos0(pos0);   // fmem.hpp
+     for (int t = 0; t < T; ++t) last_tokens_[t] = tokens[t];
+     staged_ = true;
+ }
+@@ -4315,6 +4320,7 @@ bool Verifier::instantiate_evicting(cudaGraphExec_t& ex, cudaGraph_t graph, cons
+ 
+ bool Verifier::stage_batch(const int* rows, int S, int hbase, const int32_t* tokens, const int64_t* pos,
+                            std::string& err) {
++    strata::kernels::fmem_window_rows(pos, S);   // fmem.hpp: per-row positions for the head kernel
+     using namespace strata::kernels;
+     // the row layout: a slot may own a contiguous group of rows (--batch-mtp), also across the stages of a layer split,
+     // whose hand-off buffers hold kVerifyMaxT rows, or set_handoff_rows' (a stage that hands rows on or takes them)
+diff --git a/src/kernels/cuda/cvec.cu b/src/kernels/cuda/cvec.cu
+index 3f5fe76..d587fd9 100644
+--- a/src/kernels/cuda/cvec.cu
++++ b/src/kernels/cuda/cvec.cu
+@@ -169,6 +169,7 @@ void cvec_apply(float* R, int64_t layer, int64_t T, int64_t r_ld, const float* b
+                                                             (int) g_cvec.n_embd, (int) g_cvec.hc, r_ld, bo, bo_ld,
+                                                             inj, inj_ld, write ? 1 : 0);
+     if (cudaPeekAtLastError() != cudaSuccess) throw std::runtime_error("cvec_apply: launch failed");
++    fmem_apply(R, layer, T, r_ld, 0, stream);   // fast-weight memory after the layer's write (fmem.hpp)
+ }
+ 
+ }  // namespace strata::kernels
+diff --git a/src/kernels/cuda/fmem.cu b/src/kernels/cuda/fmem.cu
+new file mode 100644
+index 0000000..7011dda
+--- /dev/null
++++ b/src/kernels/cuda/fmem.cu
+@@ -0,0 +1,604 @@
++// src/kernels/cuda/fmem.cu - see include/strata/kernels/fmem.hpp.
++//
++// memory file (little endian):
++//   char magic[8] = "STRFMEM1"; int32 n_mem, D, k, n_embd; int32 layers[n_mem];
++//   per memory layer: float mu[n_embd], sd[n_embd]; half P[n_embd * D] (row i = input dim i); half B[D * n_embd]
++// capture file: appended records  int32 seq, int32 row, int32 slot, int32 units[k]
++//   seq = launch number (device counter), row = token row inside the launch, slot = memory layer index
++#include "strata/kernels/fmem.hpp"
++
++#include <cuda_fp16.h>
++#include <cuda_runtime.h>
++
++#include <cmath>
++#include <cstdio>
++#include <cstdlib>
++#include <cstring>
++#include <stdexcept>
++#include <sys/stat.h>
++
++namespace strata::kernels {
++namespace {
++
++constexpr int THREADS = 256;
++constexpr int TOK_TILE = 4;      // tokens per score block (their adapted x shares the P reads)
++constexpr int SLICE = 512;       // tokens per score pass (scratch is SLICE x D floats)
++constexpr int MAXK = 64;
++constexpr int64_t CAP_MAX = 1 << 16;   // capture records per request
++constexpr int UROWS = 8192;           // head mode: rows of unit ids kept from the latest key-layer launch
++
++struct Fmem {
++    int n_mem = 0, D = 0, k = 0;
++    int64_t n = 0, hc = 0;
++    std::vector<int> slot_of;            // model layer -> memory slot or -1
++    std::vector<int> layers;
++    float* mu = nullptr;                 // device, n_mem x n
++    float* sd = nullptr;
++    __half* P = nullptr;                 // device, n_mem x (n x D)
++    __half* B = nullptr;                 // device, n_mem x (D x n)
++    float* xa = nullptr;                 // scratch SLICE x n
++    float* scores = nullptr;             // scratch SLICE x D
++    int* cap = nullptr;                  // device CAP_MAX x (3 + k)
++    int* cap_n = nullptr;                // device record count
++    int* seq = nullptr;                  // device launch counter
++    int* cap_on = nullptr;               // device flag: capture this request
++    float* bias = nullptr;               // device, n_mem x D: per-unit threshold added to the scores (v2 files)
++    int version = 1;
++    int anchor = 0;                      // STRATA_FMEM_ANCHOR set: keys from the anchor file (see fmem.hpp)
++    std::string anc_path;
++    long long anc_mtime = -1;
++    int* anc = nullptr;                  // device, n_mem x k anchor units
++    int* anc_pos = nullptr;
++    int notok = 0;            // STRATA_FMEM_SHIFT_NOTOK=1: answer keys = anchor + hash(m)
++    float* anc_w = nullptr;   // device: per-unit read weights (STRFANC3), all 1 otherwise
++    int* anc_tok = nullptr;   // device: anchor token id (STRFANC2), -1 = none
++    int* anc_lock = nullptr;  // device: anchor position locked by token in this request, -1 = not yet              // device int: absolute position of the anchor row (-1: off)
++    int* d_tok1 = nullptr;               // device: the decode row's token id
++    int* d_pos1 = nullptr;               // device: the decode row's position
++    int* h_pos0 = nullptr;               // mapped host int: a verify window's first position (set host-side)
++    int* h_rowpos = nullptr;             // mapped host ints: the window rows' positions (stage_inputs / stage_batch)
++    int* m_rowpos = nullptr;
++    int* m_pos0 = nullptr;               // its device alias
++    int* d_pos0 = nullptr;               // device copy, taken inside the captured window graph
++    int* dbg_rows = nullptr;             // device, 256 x 5: (row, pos, anchor, m, token) of head rows (debug)
++    int* dbg_n = nullptr;
++    int dbg = 0;                         // STRATA_FMEM_DEBUG=1: print each head row's key choice
++    int head = 0;                        // STRATA_FMEM_HEAD=1: the layer only computes the key; the value is added at the head
++    int* ubuf = nullptr;                 // device, n_mem x UROWS x k: unit ids of the latest launch's rows
++    float* stats = nullptr;              // device, n_mem x 2n: sum and sum of squares of layernorm(x), for calibrating mu, sd
++    std::string path;
++    long long mtime = -1;
++    float* rowscale = nullptr;           // device, D: per-row scale of B (all 1 unless STRATA_FMEM_ROWSCALE)
++    std::string rs_path;
++    std::vector<float> rs_host;
++    int version_loaded = 1;
++    bool capture = false;
++} g;
++
++long long file_mtime(const std::string& p) {
++    struct stat s;
++    return stat(p.c_str(), &s) == 0 ? (long long) s.st_mtime : -1;
++}
++
++bool load_tables(bool first, std::string& err) {
++    FILE* f = std::fopen(g.path.c_str(), "rb");
++    if (!f) { err = "fmem: cannot open " + g.path; return false; }
++    char magic[8];
++    int32_t hdr[4];
++    if (std::fread(magic, 1, 8, f) != 8 || (std::memcmp(magic, "STRFMEM1", 8) != 0 && std::memcmp(magic, "STRFMEM2", 8) != 0) ||
++        std::fread(hdr, 4, 4, f) != 4) {
++        std::fclose(f); err = "fmem: bad header"; return false;
++    }
++    const int version = magic[7] == '2' ? 2 : 1;
++    const int n_mem = hdr[0], D = hdr[1], k = hdr[2];
++    const int64_t n = hdr[3];
++    if (n != g.n || k < 1 || k > MAXK || D < k || n_mem < 1) { std::fclose(f); err = "fmem: file does not match the model"; return false; }
++    std::vector<int32_t> layers(n_mem);
++    if (std::fread(layers.data(), 4, n_mem, f) != (size_t) n_mem) { std::fclose(f); err = "fmem: short file"; return false; }
++    if (first) {
++        g.n_mem = n_mem; g.D = D; g.k = k; g.layers.assign(layers.begin(), layers.end());
++        for (int s = 0; s < n_mem; ++s) {
++            if (layers[s] < 0 || layers[s] >= (int) g.slot_of.size()) { std::fclose(f); err = "fmem: layer out of range"; return false; }
++            g.slot_of[layers[s]] = s;
++        }
++        const size_t pn = (size_t) n * D;
++        if (cudaMalloc(&g.mu, sizeof(float) * n_mem * n) != cudaSuccess || cudaMalloc(&g.sd, sizeof(float) * n_mem * n) != cudaSuccess ||
++            cudaMalloc(&g.P, sizeof(__half) * n_mem * pn) != cudaSuccess || cudaMalloc(&g.B, sizeof(__half) * n_mem * pn) != cudaSuccess ||
++            cudaMalloc(&g.xa, sizeof(float) * SLICE * n) != cudaSuccess || cudaMalloc(&g.scores, sizeof(float) * SLICE * D) != cudaSuccess ||
++            cudaMalloc(&g.cap, sizeof(int) * CAP_MAX * (3 + k)) != cudaSuccess || cudaMalloc(&g.cap_n, sizeof(int)) != cudaSuccess ||
++            cudaMalloc(&g.seq, sizeof(int)) != cudaSuccess || cudaMalloc(&g.cap_on, sizeof(int)) != cudaSuccess || cudaMalloc(&g.bias, sizeof(float) * n_mem * D) != cudaSuccess ||
++            cudaMalloc(&g.stats, sizeof(float) * 2 * n_mem * n) != cudaSuccess) {
++            std::fclose(f); err = "fmem: device allocation failed"; return false;
++        }
++        cudaMemset(g.cap_n, 0, sizeof(int));
++        cudaMemset(g.seq, 0, sizeof(int));
++        cudaMemset(g.cap_on, 0, sizeof(int));
++        cudaMemset(g.bias, 0, sizeof(float) * n_mem * D);
++        cudaMemset(g.stats, 0, sizeof(float) * 2 * n_mem * n);
++    } else if (n_mem != g.n_mem || D != g.D || k != g.k) {
++        std::fclose(f); err = "fmem: a reload may change B, mu and sd only"; return false;
++    }
++    const size_t pn = (size_t) n * D;
++    std::vector<float> v((size_t) n);
++    std::vector<__half> m(pn);
++    for (int s = 0; s < n_mem; ++s) {
++        bool ok = std::fread(v.data(), 4, n, f) == (size_t) n &&
++                  cudaMemcpy(g.mu + s * n, v.data(), 4 * n, cudaMemcpyHostToDevice) == cudaSuccess;
++        ok = ok && std::fread(v.data(), 4, n, f) == (size_t) n &&
++             cudaMemcpy(g.sd + s * n, v.data(), 4 * n, cudaMemcpyHostToDevice) == cudaSuccess;
++        ok = ok && std::fread(m.data(), 2, pn, f) == pn;     // P: fixed after the first load
++        if (ok && first) ok = cudaMemcpy(g.P + s * pn, m.data(), 2 * pn, cudaMemcpyHostToDevice) == cudaSuccess;
++        ok = ok && std::fread(m.data(), 2, pn, f) == pn &&
++             cudaMemcpy(g.B + s * pn, m.data(), 2 * pn, cudaMemcpyHostToDevice) == cudaSuccess;
++        if (ok && version == 2) {
++            std::vector<float> bv((size_t) D);
++            ok = std::fread(bv.data(), 4, D, f) == (size_t) D &&
++                 cudaMemcpy(g.bias + (size_t) s * D, bv.data(), 4 * (size_t) D, cudaMemcpyHostToDevice) == cudaSuccess;
++        }
++        if (!ok) { std::fclose(f); err = "fmem: short file or copy failed"; return false; }
++    }
++    std::fclose(f);
++    g.version_loaded = version;
++    g.mtime = file_mtime(g.path);
++    return true;
++}
++
++// dirty-row reload: true when the change was applied from <path>.dirty
++bool load_dirty_rows() {
++    const long long now = file_mtime(g.path);
++    FILE* d = std::fopen((g.path + ".dirty").c_str(), "rb");
++    if (!d) return false;
++    char magic[8]; long long base = 0, newm = 0; int32_t cnt = 0;
++    bool ok = std::fread(magic, 1, 8, d) == 8 && std::memcmp(magic, "STRFDRT1", 8) == 0 &&
++              std::fread(&base, 8, 1, d) == 1 && std::fread(&newm, 8, 1, d) == 1 && std::fread(&cnt, 4, 1, d) == 1 &&
++              cnt >= 0 && cnt <= g.D;
++    std::vector<int32_t> rows((size_t) (ok ? cnt : 0));
++    ok = ok && std::fread(rows.data(), 4, (size_t) cnt, d) == (size_t) cnt;
++    std::fclose(d);
++    if (!ok || newm != now || g.mtime < base || g.mtime >= newm) return false;
++    FILE* f = std::fopen(g.path.c_str(), "rb");
++    if (!f) return false;
++    const int64_t n = g.n, pn = n * (int64_t) g.D;
++    const int64_t header = 8 + 16 + 4 * (int64_t) g.n_mem;
++    const int64_t slot = 8 * n + 4 * pn + (g.version_loaded == 2 ? 4 * (int64_t) g.D : 0);
++    std::vector<__half> row((size_t) n);
++    for (int s = 0; s < g.n_mem && ok; ++s) {
++        const int64_t boff = header + s * slot + 8 * n + 2 * pn;
++        for (int32_t r : rows) {
++            if (r < 0 || r >= g.D) { ok = false; break; }
++#ifdef _WIN32
++            ok = _fseeki64(f, boff + 2 * n * (int64_t) r, SEEK_SET) == 0;
++#else
++            ok = fseeko(f, (off_t) (boff + 2 * n * (int64_t) r), SEEK_SET) == 0;
++#endif
++            ok = ok && std::fread(row.data(), 2, (size_t) n, f) == (size_t) n &&
++                 cudaMemcpy(g.B + s * pn + (int64_t) r * n, row.data(), 2 * n, cudaMemcpyHostToDevice) == cudaSuccess;
++            if (!ok) break;
++        }
++    }
++    std::fclose(f);
++    if (!ok) return false;
++    g.mtime = now;
++    if (g.dbg) std::fprintf(stderr, "fmem: dirty reload %d rows\n", (int) cnt);
++    return true;
++}
++
++void load_rowscale() {
++    if (g.rs_path.empty() || !g.rowscale) return;
++    FILE* f = std::fopen(g.rs_path.c_str(), "rb");
++    if (!f) return;
++    char magic[8]; int32_t D = 0;
++    bool ok = std::fread(magic, 1, 8, f) == 8 && std::memcmp(magic, "STRFRSC1", 8) == 0 &&
++              std::fread(&D, 4, 1, f) == 1 && D == g.D;
++    if (ok) {
++        g.rs_host.resize((size_t) D);
++        ok = std::fread(g.rs_host.data(), 4, (size_t) D, f) == (size_t) D;
++    }
++    std::fclose(f);
++    if (ok) cudaMemcpy(g.rowscale, g.rs_host.data(), sizeof(float) * (size_t) g.D, cudaMemcpyHostToDevice);
++    else std::fprintf(stderr, "strata: fmem rowscale file unreadable\n");
++}
++
++// x = mean of the hc streams, layernorm (no affine), adapt.  One block per token.
++__global__ void fmem_adapt(const float* __restrict__ R, int64_t r_ld, int hc, int n, const float* __restrict__ mu,
++                           const float* __restrict__ sd, float* __restrict__ xa, const int* __restrict__ cap_on,
++                           float* __restrict__ stats) {
++    const int t = blockIdx.x;
++    const float* r = R + t * r_ld;
++    __shared__ float red[2][THREADS / 32];
++    float s1 = 0.f, s2 = 0.f;
++    for (int d = threadIdx.x; d < n; d += THREADS) {
++        float x = 0.f;
++        for (int c = 0; c < hc; ++c) x += r[(int64_t) c * n + d];
++        x /= (float) hc;
++        xa[(int64_t) t * n + d] = x;
++        s1 += x; s2 += x * x;
++    }
++    for (int o = 16; o > 0; o >>= 1) { s1 += __shfl_xor_sync(0xffffffffu, s1, o); s2 += __shfl_xor_sync(0xffffffffu, s2, o); }
++    if ((threadIdx.x & 31) == 0) { red[0][threadIdx.x >> 5] = s1; red[1][threadIdx.x >> 5] = s2; }
++    __syncthreads();
++    if (threadIdx.x == 0) {
++        float a = 0.f, b = 0.f;
++        for (int i = 0; i < THREADS / 32; ++i) { a += red[0][i]; b += red[1][i]; }
++        red[0][0] = a; red[1][0] = b;
++    }
++    __syncthreads();
++    const float mean = red[0][0] / n, var = fmaxf(red[1][0] / n - mean * mean, 0.f);
++    const float inv = rsqrtf(var + 1e-5f);
++    for (int d = threadIdx.x; d < n; d += THREADS) {
++        const float x = (xa[(int64_t) t * n + d] - mean) * inv;
++        if (*cap_on) { atomicAdd(stats + d, x); atomicAdd(stats + n + d, x * x); }
++        xa[(int64_t) t * n + d] = (x - mu[d]) / (sd[d] + 1e-3f);
++    }
++}
++
++// scores[t][u] = xa[t] . P[:, u].  grid (D / THREADS, ceil(T / TOK_TILE)); P is n x D so a warp reads 32 adjacent units.
++__global__ void fmem_scores(const float* __restrict__ xa, int T, int n, const __half* __restrict__ P, int D,
++                            const float* __restrict__ bias, float* __restrict__ scores) {
++    const int u = blockIdx.x * THREADS + threadIdx.x;
++    const int t0 = blockIdx.y * TOK_TILE;
++    extern __shared__ float xs[];                       // TOK_TILE x 256 chunk of xa
++    float acc[TOK_TILE] = {0.f, 0.f, 0.f, 0.f};
++    for (int c0 = 0; c0 < n; c0 += THREADS) {
++        for (int j = 0; j < TOK_TILE; ++j) {
++            const int t = t0 + j, d = c0 + threadIdx.x;
++            xs[j * THREADS + threadIdx.x] = (t < T && d < n) ? xa[(int64_t) t * n + d] : 0.f;
++        }
++        __syncthreads();
++        if (u < D) {
++            const int cn = min(THREADS, n - c0);
++            for (int i = 0; i < cn; ++i) {
++                const float p = __half2float(P[(int64_t) (c0 + i) * D + u]);
++#pragma unroll
++                for (int j = 0; j < TOK_TILE; ++j) acc[j] = fmaf(xs[j * THREADS + i], p, acc[j]);
++            }
++        }
++        __syncthreads();
++    }
++    if (u < D)
++        for (int j = 0; j < TOK_TILE; ++j)
++            if (t0 + j < T) scores[(int64_t) (t0 + j) * D + u] = acc[j] + bias[u];
++}
++
++// top-k by k rounds of block argmax, then R += sum B[u] / sqrt(k) on every hc stream.  One block per token.
++__global__ void fmem_topk_add(float* __restrict__ R, int64_t r_ld, int hc, int n, float* __restrict__ scores, int D,
++                              int k, const __half* __restrict__ B, const int* __restrict__ cap_on, int* __restrict__ cap,
++                              int* __restrict__ cap_n, const int* __restrict__ seq, int slot, int head,
++                              int* __restrict__ ubuf, int row0) {
++    const int t = blockIdx.x;
++    float* sc = scores + (int64_t) t * D;
++    __shared__ int units[MAXK];
++    __shared__ float bv[THREADS / 32];
++    __shared__ int bi[THREADS / 32];
++    for (int r = 0; r < k; ++r) {
++        float best = -INFINITY; int arg = 0;
++        for (int u = threadIdx.x; u < D; u += THREADS)
++            if (sc[u] > best) { best = sc[u]; arg = u; }
++        for (int o = 16; o > 0; o >>= 1) {
++            const float ob = __shfl_xor_sync(0xffffffffu, best, o);
++            const int oa = __shfl_xor_sync(0xffffffffu, arg, o);
++            if (ob > best || (ob == best && oa < arg)) { best = ob; arg = oa; }
++        }
++        if ((threadIdx.x & 31) == 0) { bv[threadIdx.x >> 5] = best; bi[threadIdx.x >> 5] = arg; }
++        __syncthreads();
++        if (threadIdx.x == 0) {
++            float b = bv[0]; int a = bi[0];
++            for (int i = 1; i < THREADS / 32; ++i)
++                if (bv[i] > b || (bv[i] == b && bi[i] < a)) { b = bv[i]; a = bi[i]; }
++            units[r] = a;
++            sc[a] = -INFINITY;
++        }
++        __syncthreads();
++    }
++    if (ubuf != nullptr && row0 + t < UROWS)
++        for (int r = threadIdx.x; r < k; r += THREADS) ubuf[(int64_t) (row0 + t) * k + r] = units[r];
++    const float w = rsqrtf((float) k);
++    float* rr = R + t * r_ld;
++    for (int d = threadIdx.x; d < n && !head; d += THREADS) {
++        float add = 0.f;
++        for (int r = 0; r < k; ++r) add += __half2float(B[(int64_t) units[r] * n + d]);
++        add *= w;
++        for (int c = 0; c < hc; ++c) rr[(int64_t) c * n + d] += add;
++    }
++    if (*cap_on && threadIdx.x == 0) {
++        const int i = atomicAdd(cap_n, 1);
++        if (i < CAP_MAX) {
++            int* rec = cap + (int64_t) i * (3 + k);
++            rec[0] = *seq; rec[1] = t; rec[2] = slot;
++            for (int r = 0; r < k; ++r) rec[3 + r] = units[r];
++        }
++    }
++}
++
++__global__ void fmem_bump(int* seq, const int* on) { if (*on && threadIdx.x == 0 && blockIdx.x == 0) *seq += 1; }
++
++// head mode: mixed[t] += sum over memory slots of sum_r B_s[unit_r] / sqrt(k); units from row t of the latest key launch
++__global__ void fmem_head_add(float* __restrict__ mixed, int64_t ld, int n, int n_mem, int k, int64_t pn, int D,
++                              const __half* __restrict__ B, const int* __restrict__ ubuf, int anchor_mode,
++                              const int* __restrict__ anc, const int* __restrict__ anc_pos,
++                              const int* __restrict__ tokens, const int* __restrict__ pos0, int dbg,
++                              int* __restrict__ dbg_rows, int* __restrict__ dbg_n, const int* __restrict__ anc_lock,
++                              int notok, const float* __restrict__ anc_w, const float* __restrict__ rowscale) {
++    const int t = blockIdx.x;
++    if (t >= UROWS) return;
++    __shared__ int units[MAXK];
++    if (anchor_mode) {
++        int ap = *anc_pos;
++        if (ap == -2 || ap <= -3) ap = *anc_lock;   // STRFANC2: by token id, or relative to the window start
++        const int p = pos0[t];
++        if (ap < 0 || p < ap) return;
++        const int m = p - ap;
++        const int shift = m == 0 ? 0 : (int) ((((long long) m * 1000003LL) + (notok ? 0LL : (long long) tokens[t] * 7919LL)) % D);
++        if (dbg && threadIdx.x == 0) {
++            const int i = atomicAdd(dbg_n, 1);
++            if (i < 256) {
++                int* r = dbg_rows + i * 6; r[0] = t; r[1] = p; r[2] = ap; r[3] = m; r[4] = tokens[t];
++                const int u0 = (anc[0] + shift) % D;
++                float nrm = 0.f;
++                for (int d = 0; d < n; ++d) { const float v = __half2float(B[(int64_t) u0 * n + d]); nrm += v * v; }
++                r[5] = (int) (100.f * sqrtf(nrm));
++            }
++        }
++        if (threadIdx.x < k) units[threadIdx.x] = (anc[threadIdx.x] + shift) % D;   // slot 0 only in anchor mode
++        __syncthreads();
++    }
++    const float w = rsqrtf((float) k);
++    for (int d = threadIdx.x; d < n; d += THREADS) {
++        float add = 0.f;
++        if (anchor_mode) {
++            for (int r = 0; r < k; ++r) add += anc_w[r] * rowscale[units[r]] * __half2float(B[(int64_t) units[r] * n + d]);
++        } else {
++            for (int s = 0; s < n_mem; ++s) {
++                const int* u = ubuf + ((int64_t) s * UROWS + t) * k;
++                for (int r = 0; r < k; ++r) add += __half2float(B[s * pn + (int64_t) u[r] * n + d]);
++            }
++        }
++        if (dbg == 2 && anchor_mode && pos0[t] == (*anc_pos <= -2 ? *anc_lock : *anc_pos)) mixed[t * ld + d] = 0.f;
++        mixed[t * ld + d] += add * w;
++    }
++}
++
++}  // namespace
++
++__global__ void fmem_anchor_lock(const int* __restrict__ tokens, const int* __restrict__ pos0, int T,
++                                 const int* __restrict__ anc_tok, int* __restrict__ lock,
++                                 const int* __restrict__ anc_pos) {
++    if (threadIdx.x != 0 || blockIdx.x != 0) return;
++    if (*lock >= 0) return;
++    if (*anc_pos <= -3) { *lock = pos0[0] - (-*anc_pos - 3); return; }   // relative to the first window row
++    if (*anc_tok < 0) return;
++    for (int t = 0; t < T; ++t)
++        if (tokens[t] == *anc_tok) { *lock = pos0[t]; return; }
++}
++
++bool fmem_init(int64_t n_layers, int64_t n_embd, int64_t hc, std::string& err) {
++    const char* p = std::getenv("STRATA_FMEM_FILE");
++    if (!p || !*p) return true;
++    g.path = p; g.n = n_embd; g.hc = hc;
++    g.slot_of.assign((size_t) n_layers, -1);
++    if (!load_tables(true, err)) return false;
++    const char* hm = std::getenv("STRATA_FMEM_HEAD");
++    g.head = (hm && *hm == '1') ? 1 : 0;
++    if (cudaMalloc(&g.ubuf, sizeof(int) * (size_t) g.n_mem * UROWS * g.k) != cudaSuccess) {
++        err = "fmem: unit buffer allocation failed";
++        return false;
++    }
++    cudaMemset(g.ubuf, 0, sizeof(int) * (size_t) g.n_mem * UROWS * g.k);
++    if (g.head) std::fprintf(stderr, "strata: fast-weight memory: value added at the head (key layers only read)\n");
++    { const char* dq = std::getenv("STRATA_FMEM_DEBUG"); g.dbg = dq ? std::atoi(dq) : 0; }
++    { const char* nt = std::getenv("STRATA_FMEM_SHIFT_NOTOK"); g.notok = (nt && *nt == '1') ? 1 : 0;
++      if (g.notok) std::fprintf(stderr, "strata: fast-weight memory: answer keys without previous token\n"); }
++    const char* ap = std::getenv("STRATA_FMEM_ANCHOR");
++    if (ap && *ap) {
++        g.anchor = 1;
++        g.anc_path = ap;
++        const int off = -1;
++        if (cudaMalloc(&g.anc, sizeof(int) * g.k) != cudaSuccess || cudaMalloc(&g.anc_pos, sizeof(int)) != cudaSuccess ||
++            cudaMalloc(&g.d_tok1, sizeof(int)) != cudaSuccess || cudaMalloc(&g.d_pos1, sizeof(int)) != cudaSuccess ||
++            cudaMalloc(&g.d_pos0, sizeof(int)) != cudaSuccess || cudaMalloc(&g.dbg_rows, sizeof(int) * 256 * 6) != cudaSuccess ||
++            cudaMalloc(&g.dbg_n, sizeof(int)) != cudaSuccess ||
++            cudaMalloc(&g.anc_tok, sizeof(int)) != cudaSuccess || cudaMalloc(&g.anc_lock, sizeof(int)) != cudaSuccess ||
++            cudaMalloc(&g.anc_w, sizeof(float) * g.k) != cudaSuccess ||
++            cudaHostAlloc(&g.h_pos0, sizeof(int), cudaHostAllocMapped) != cudaSuccess ||
++            cudaHostAlloc(&g.h_rowpos, sizeof(int) * 64, cudaHostAllocMapped) != cudaSuccess ||
++            cudaHostGetDevicePointer(&g.m_rowpos, g.h_rowpos, 0) != cudaSuccess ||
++            cudaHostGetDevicePointer(&g.m_pos0, g.h_pos0, 0) != cudaSuccess) {
++            err = "fmem: anchor buffers failed";
++            return false;
++        }
++        cudaMemset(g.anc, 0, sizeof(int) * g.k);
++        cudaMemcpy(g.anc_pos, &off, sizeof(int), cudaMemcpyHostToDevice);
++        cudaMemcpy(g.anc_tok, &off, sizeof(int), cudaMemcpyHostToDevice);
++        cudaMemcpy(g.anc_lock, &off, sizeof(int), cudaMemcpyHostToDevice);
++        { std::vector<float> one((size_t) g.k, 1.f); cudaMemcpy(g.anc_w, one.data(), sizeof(float) * g.k, cudaMemcpyHostToDevice); }
++        cudaMemset(g.d_tok1, 0, sizeof(int)); cudaMemset(g.d_pos1, 0, sizeof(int)); cudaMemset(g.d_pos0, 0, sizeof(int));
++        *g.h_pos0 = 0;
++        for (int i = 0; i < 64; ++i) g.h_rowpos[i] = 0;
++        cudaMemset(g.dbg_n, 0, sizeof(int));
++        std::fprintf(stderr, "strata: fast-weight memory: anchor keys from %s\n", ap);
++        if (cudaMalloc(&g.rowscale, sizeof(float) * (size_t) g.D) != cudaSuccess) { err = "fmem: rowscale alloc failed"; return false; }
++        { std::vector<float> one((size_t) g.D, 1.f); cudaMemcpy(g.rowscale, one.data(), sizeof(float) * (size_t) g.D, cudaMemcpyHostToDevice); }
++        const char* rsp = std::getenv("STRATA_FMEM_ROWSCALE");
++        if (rsp && *rsp) { g.rs_path = rsp; std::fprintf(stderr, "strata: fast-weight memory: row scales from %s\n", rsp); }
++    }
++    std::fprintf(stderr, "strata: fast-weight memory %s: %d layers, D=%d, k=%d\n", p, g.n_mem, g.D, g.k);
++    return true;
++}
++
++bool fmem_loaded() { return g.n_mem > 0; }
++bool fmem_covers(int64_t l) { return fmem_loaded() && l >= 0 && l < (int64_t) g.slot_of.size() && g.slot_of[(size_t) l] >= 0; }
++
++bool fmem_begin_request() {
++    if (!fmem_loaded()) return false;
++    bool changed = false;
++    if (file_mtime(g.path) != g.mtime) {
++        changed = true;
++        cudaDeviceSynchronize();
++        if (!load_dirty_rows()) {
++            std::string err;
++            if (!load_tables(false, err)) std::fprintf(stderr, "strata: fmem reload failed: %s\n", err.c_str());
++        }
++    }
++    if (g.anchor && !g.rs_path.empty()) { cudaDeviceSynchronize(); load_rowscale(); changed = true; }
++    if (g.anchor && file_mtime(g.anc_path) != g.anc_mtime) {
++        // anchor file: char magic[8] = "STRFANC1"; int32 anchor_pos; int32 k; int32 units[k]
++        FILE* f = std::fopen(g.anc_path.c_str(), "rb");
++        if (f) {
++            char magic[8]; int32_t hdr[2]; int32_t atok = -1;
++            std::vector<int32_t> u((size_t) g.k);
++            bool ok = std::fread(magic, 1, 8, f) == 8 && std::fread(hdr, 4, 2, f) == 2 && hdr[1] == g.k;
++            // v2: char magic[8] = "STRFANC2"; int32 anchor_pos (-2 = find by token); int32 k; int32 anchor_tok; int32 units[k]
++            const bool v3 = ok && std::memcmp(magic, "STRFANC3", 8) == 0;
++            if (ok && (v3 || std::memcmp(magic, "STRFANC2", 8) == 0)) ok = std::fread(&atok, 4, 1, f) == 1;
++            else if (ok && std::memcmp(magic, "STRFANC1", 8) != 0) ok = false;
++            std::vector<float> wts((size_t) g.k, 1.f);
++            if (ok && std::fread(u.data(), 4, (size_t) g.k, f) == (size_t) g.k &&
++                (!v3 || std::fread(wts.data(), 4, (size_t) g.k, f) == (size_t) g.k)) {
++                cudaMemcpy(g.anc_w, wts.data(), sizeof(float) * g.k, cudaMemcpyHostToDevice);
++                cudaDeviceSynchronize();
++                cudaMemcpy(g.anc, u.data(), sizeof(int) * g.k, cudaMemcpyHostToDevice);
++                cudaMemcpy(g.anc_pos, &hdr[0], sizeof(int), cudaMemcpyHostToDevice);
++                cudaMemcpy(g.anc_tok, &atok, sizeof(int), cudaMemcpyHostToDevice);
++                if (g.dbg) std::fprintf(stderr, "fmem anchor: pos %d tok %d\n", (int) hdr[0], (int) atok);
++                changed = true;
++            } else {
++                std::fprintf(stderr, "strata: fmem anchor file unreadable or wrong k\n");
++            }
++            std::fclose(f);
++        }
++        g.anc_mtime = file_mtime(g.anc_path);
++    }
++    if (g.anchor && g.anc_lock) { const int off = -1; cudaMemcpy(g.anc_lock, &off, sizeof(int), cudaMemcpyHostToDevice); }
++    if (g.dbg && g.dbg_n) cudaMemset(g.dbg_n, 0, sizeof(int));
++    const char* c = std::getenv("STRATA_FMEM_CAPTURE");
++    g.capture = c && *c;
++    const int on = g.capture ? 1 : 0;
++    cudaMemcpy(g.cap_on, &on, sizeof(int), cudaMemcpyHostToDevice);
++    if (g.capture) {
++        cudaMemset(g.cap_n, 0, sizeof(int)); cudaMemset(g.seq, 0, sizeof(int));
++        cudaMemset(g.stats, 0, sizeof(float) * 2 * g.n_mem * g.n);
++    }
++    return changed || g.capture;
++}
++
++void fmem_end_request(const std::vector<int32_t>& tokens, int64_t resume) {
++    if (fmem_loaded() && g.dbg && g.dbg_n) {
++        cudaDeviceSynchronize();
++        int n = 0;
++        cudaMemcpy(&n, g.dbg_n, sizeof(int), cudaMemcpyDeviceToHost);
++        n = n < 256 ? n : 256;
++        std::vector<int> r((size_t) n * 6);
++        if (n) cudaMemcpy(r.data(), g.dbg_rows, r.size() * sizeof(int), cudaMemcpyDeviceToHost);
++        std::fprintf(stderr, "fmem-rows (%d):", n);
++        for (int i = 0; i < n && i < 24; ++i)
++            std::fprintf(stderr, " [t%d p%d a%d m%d tok%d |B|%.2f]", r[i * 6], r[i * 6 + 1], r[i * 6 + 2], r[i * 6 + 3], r[i * 6 + 4], r[i * 6 + 5] / 100.0);
++        std::fprintf(stderr, "\n");
++    }
++    if (!fmem_loaded() || !g.capture) return;
++    cudaDeviceSynchronize();
++    int n = 0;
++    cudaMemcpy(&n, g.cap_n, sizeof(int), cudaMemcpyDeviceToHost);
++    n = n < CAP_MAX ? n : (int) CAP_MAX;
++    std::vector<int> buf((size_t) n * (3 + g.k));
++    if (n) cudaMemcpy(buf.data(), g.cap, buf.size() * sizeof(int), cudaMemcpyDeviceToHost);
++    FILE* f = std::fopen(std::getenv("STRATA_FMEM_CAPTURE"), "wb");   // one request per file: the latest
++    if (!f) return;
++    const int32_t nt = (int32_t) tokens.size(), k = g.k, rs = (int32_t) resume, nm = g.n_mem, ne = (int32_t) g.n;
++    std::fwrite("STRFCAP2", 1, 8, f);
++    std::fwrite(&nm, 4, 1, f); std::fwrite(&ne, 4, 1, f); std::fwrite(&rs, 4, 1, f);
++    std::fwrite(&nt, 4, 1, f); std::fwrite(tokens.data(), 4, tokens.size(), f);
++    std::fwrite(&k, 4, 1, f); std::fwrite(&n, 4, 1, f);
++    if (n) std::fwrite(buf.data(), sizeof(int), buf.size(), f);
++    std::vector<float> st((size_t) 2 * g.n_mem * g.n);   // per memory layer: sum, sum of squares of layernorm(x) over the captured rows
++    cudaMemcpy(st.data(), g.stats, st.size() * sizeof(float), cudaMemcpyDeviceToHost);
++    std::fwrite(st.data(), sizeof(float), st.size(), f);
++    std::fclose(f);
++}
++
++void fmem_apply(float* R, int64_t layer, int64_t T, int64_t r_ld, int64_t /*pos0*/, void* stream) {
++    if (!fmem_covers(layer) || T < 1) return;
++    const int s = g.slot_of[(size_t) layer];
++    const int n = (int) g.n, D = g.D;
++    cudaStream_t st = (cudaStream_t) stream;
++    const size_t pn = (size_t) n * D;
++    fmem_bump<<<1, 1, 0, st>>>(g.seq, g.cap_on);
++    for (int64_t t0 = 0; t0 < T; t0 += SLICE) {
++        const int tn = (int) (T - t0 < SLICE ? T - t0 : SLICE);
++        float* Rs = R + t0 * r_ld;
++        fmem_adapt<<<tn, THREADS, 0, st>>>(Rs, r_ld, (int) g.hc, n, g.mu + (size_t) s * n, g.sd + (size_t) s * n, g.xa,
++                                                g.cap_on, g.stats + (size_t) s * 2 * n);
++        const dim3 grid((unsigned) ((D + THREADS - 1) / THREADS), (unsigned) ((tn + TOK_TILE - 1) / TOK_TILE));
++        fmem_scores<<<grid, THREADS, sizeof(float) * TOK_TILE * THREADS, st>>>(g.xa, tn, n, g.P + s * pn, D, g.bias + (size_t) s * D, g.scores);
++        fmem_topk_add<<<tn, THREADS, 0, st>>>(Rs, r_ld, (int) g.hc, n, g.scores, D, g.k, g.B + s * pn, g.cap_on,
++                                              g.cap, g.cap_n, g.seq, s, g.head, g.ubuf + (size_t) s * UROWS * g.k, (int) t0);
++    }
++    if (cudaPeekAtLastError() != cudaSuccess) throw std::runtime_error("fmem_apply: launch failed");
++}
++
++__global__ void fmem_logit_sentinel(float* __restrict__ logits, int64_t n_vocab, const int* __restrict__ pos0,
++                                    const int* __restrict__ anc_pos, int tok, int every) {
++    const int t = blockIdx.x;
++    if (threadIdx.x != 0) return;
++    if (every == 2) {   // spell the row's position: token = tok + 8 + (pos - anchor), clamped to [tok, tok + 16]
++        int d = pos0[t] - *anc_pos + 8;
++        d = d < 0 ? 0 : (d > 16 ? 16 : d);
++        if (tok >= 0 && tok + d < n_vocab) logits[t * n_vocab + tok + d] += 50.f;
++        return;
++    }
++    if ((every || pos0[t] == *anc_pos) && tok >= 0 && tok < n_vocab) logits[t * n_vocab + tok] += 50.f;
++}
++
++void fmem_logits_debug(float* logits, int64_t T, int64_t n_vocab, const int* pos0, void* stream) {
++    if (!fmem_loaded() || !g.anchor || (g.dbg != 3 && g.dbg != 4 && g.dbg != 5) || pos0 == nullptr) return;
++    const char* e = std::getenv("STRATA_FMEM_DEBUG_TOK");
++    const int tok = e ? std::atoi(e) : -1;
++    fmem_logit_sentinel<<<(unsigned) T, 32, 0, (cudaStream_t) stream>>>(logits, n_vocab, pos0, g.anc_pos, tok, g.dbg == 5 ? 2 : (g.dbg == 4 ? 1 : 0));
++}
++
++bool fmem_head_mode() { return fmem_loaded() && g.head; }
++
++void fmem_head_apply(float* mixed, int64_t T, int64_t ld, const int32_t* tokens, const int* pos0, void* stream) {
++    if (!fmem_head_mode() || T < 1) return;
++    if (g.anchor && (tokens == nullptr || pos0 == nullptr)) return;   // a path without row info: no memory
++    if (g.anchor) fmem_anchor_lock<<<1, 32, 0, (cudaStream_t) stream>>>(tokens, pos0, (int) T, g.anc_tok, g.anc_lock,
++                                                                        g.anc_pos);
++    fmem_head_add<<<(unsigned) T, THREADS, 0, (cudaStream_t) stream>>>(mixed, ld, (int) g.n, g.n_mem, g.k,
++                                                                     (int64_t) g.n * g.D, g.D, g.B, g.ubuf, g.anchor,
++                                                                     g.anc, g.anc_pos, tokens, pos0, g.dbg, g.dbg_rows, g.dbg_n,
++                                                                     g.anc_lock, g.notok, g.anc_w, g.rowscale);
++    if (cudaPeekAtLastError() != cudaSuccess) throw std::runtime_error("fmem_head_apply: launch failed");
++}
++
++void fmem_decode_row(int32_t token, int64_t pos, void* stream) {
++    if (!fmem_head_mode() || !g.anchor) return;
++    if (g.dbg) std::fprintf(stderr, "fmem-decode tok %d pos %lld\n", (int) token, (long long) pos);
++    const int t = (int) token, p = (int) pos;
++    cudaMemcpyAsync(g.d_tok1, &t, sizeof(int), cudaMemcpyHostToDevice, (cudaStream_t) stream);
++    cudaMemcpyAsync(g.d_pos1, &p, sizeof(int), cudaMemcpyHostToDevice, (cudaStream_t) stream);
++    cudaStreamSynchronize((cudaStream_t) stream);   // the host ints are stack locals
++}
++
++void fmem_head_apply_decode(float* mixed, int64_t ld, void* stream) {
++    fmem_head_apply(mixed, 1, ld, g.d_tok1, g.d_pos1, stream);
++}
++
++void fmem_window_rows(const int64_t* pos, int T) {
++    if (!g.h_rowpos) return;
++    for (int t = 0; t < T && t < 64; ++t) ((volatile int*) g.h_rowpos)[t] = (int) pos[t];
++    if (g.dbg) std::fprintf(stderr, "fmem-rows-pos %lld.. (%d rows)\n", (long long) pos[0], T);
++}
++
++void fmem_window_pos0(int64_t pos0) {
++    if (g.h_pos0) *(volatile int*) g.h_pos0 = (int) pos0;
++    if (g.h_rowpos) for (int t = 0; t < 64; ++t) ((volatile int*) g.h_rowpos)[t] = (int) (pos0 + t);
++    if (g.dbg) std::fprintf(stderr, "fmem-window pos0 %lld\n", (long long) pos0);
++}
++
++void fmem_window_begin(void* stream) {
++    if (g.d_pos0 && g.m_pos0)
++        cudaMemcpyAsync(g.d_pos0, g.m_pos0, sizeof(int), cudaMemcpyDeviceToDevice, (cudaStream_t) stream);
++}
++
++const int* fmem_window_pos0_dev() { return g.m_rowpos; }
++
++}  // namespace strata::kernels
+diff --git a/src/prefill/prefill.cpp b/src/prefill/prefill.cpp
+index 16a609a..c386928 100644
+--- a/src/prefill/prefill.cpp
++++ b/src/prefill/prefill.cpp
+@@ -5542,7 +5542,7 @@ bool Prefill::run_impl(const int64_t* tokens, int64_t n, int64_t pos0, std::stri
+                 const bool steered = half == 1 && strata::kernels::cvec().covers(l);
+                 const float *cv_dir = nullptr, *cv_s = nullptr;
+                 const int* cv_on = nullptr;
+-                const bool cv_fused = steered && cvec_fuse() && !gr_unfused() && nl < LE && !(nl == 1 && ple_on) &&
++                const bool cv_fused = steered && cvec_fuse() && !strata::kernels::fmem_covers(l) && !gr_unfused() && nl < LE && !(nl == 1 && ple_on) &&
+                                       strata::kernels::cvec().n_embd == N && strata::kernels::cvec().hc == HC &&
+                                       strata::kernels::cvec_tables(&cv_dir, &cv_s, &cv_on);
+                 const bool fuse = !gr_unfused() && nl < LE && !(half == 1 && nl == 1 && ple_on) && (!steered || cv_fused);
+diff --git a/src/program/generate.cpp b/src/program/generate.cpp
+index 824bd19..ed6e16a 100644
+--- a/src/program/generate.cpp
++++ b/src/program/generate.cpp
+@@ -4570,6 +4570,20 @@ int main(int argc, char** argv) {
+             return 2;
+         }
+     }
++    {
++        std::string fe;
++        if (!strata::kernels::fmem_init(g.n_layers, g.n_embd, g.hc, fe)) {
++            std::fprintf(stderr, "strata generate: fast-weight memory: %s\n", fe.c_str());
++            return 2;
++        }
++        if (strata::kernels::fmem_loaded() && !strata::kernels::cvec().loaded()) {
++            std::vector<float> zd((size_t) (g.n_layers * g.n_embd), 0.0f), zs((size_t) g.n_layers, 0.0f);
++            if (!strata::kernels::cvec_upload(zd, zs, 1, 0, (int) g.n_layers - 1, g.n_embd, g.hc, fe)) {
++                std::fprintf(stderr, "strata generate: fast-weight memory: %s\n", fe.c_str());
++                return 2;
++            }
++        }
++    }
+     if (o.max_context < (int64_t) o.tokens.size() + o.max_new) {
+         std::fprintf(stderr, "strata generate: --max-context %lld cannot hold %zu prompt + %lld new tokens\n",
+                      (long long) o.max_context, o.tokens.size(), (long long) o.max_new);
+@@ -7850,8 +7864,9 @@ int main(int argc, char** argv) {
+     auto run_head = [&](void* stream) -> bool {
+         if (!native_head.loaded())
+             return strata::core::lm_head(wt, g, ss.block, d_logits, stream, err);
+-        return strata::core::lm_head_mix(wt, g, ss.block, stream, err) &&
+-               native_head.run(ss.block.mixed, d_logits, stream, err);
++        if (!strata::core::lm_head_mix(wt, g, ss.block, stream, err)) return false;
++        strata::kernels::fmem_head_apply_decode(ss.block.mixed, g.n_embd, stream);   // fmem.hpp head mode
++        return native_head.run(ss.block.mixed, d_logits, stream, err);
+     };
+     float* d_emb = nullptr;
+     if (cudaMalloc(&d_emb, (size_t) g.n_embd * 4) != cudaSuccess) {
+@@ -7874,6 +7889,7 @@ int main(int argc, char** argv) {
+     // broadcast is done directly.  Getting this wrong is invisible for exactly one token.
+     void* token_stream = o.stream_token ? main_cs : nullptr;
+     auto put_input = [&](int64_t tok, int64_t pos) -> bool {
++        strata::kernels::fmem_decode_row((int32_t) tok, pos, token_stream);   // fmem.hpp: this row's key
+         if (!strata::core::embed_row(wt, g, tok, d_emb, token_stream, err)) {
+             std::fprintf(stderr, "strata generate: %s\n", err.c_str());
+             return false;
+@@ -14430,6 +14446,10 @@ int main(int argc, char** argv) {
+                 cvec_cached = want_cvec;
+             }
+             if (strata::kernels::cvec().loaded()) strata::kernels::cvec_set_enabled(want_cvec);
++            if (strata::kernels::fmem_begin_request()) {   // fmem.hpp: the memory changed, or a capture
++                live_ok = false;
++                checks.clear();
++            }
+             // this request rewrites every cell from `resume` on, so a checkpoint past it (or not on this prompt's
+             // path) no longer has its cells; the ones kept are prefixes of both the old tokens and the new
+             auto off_path = [&](const ConvCheckpoint& c) {
+@@ -17016,6 +17036,7 @@ int main(int argc, char** argv) {
+                 std::snprintf(chain_txt, sizeof(chain_txt), " %lld %lld %lld %lld %lld", (long long) chain_ok,
+                               (long long) chain_drafts, (long long) sfx_ok, (long long) sfx_drafts, (long long) dec_windows);
+             if (yielded_at >= 0) std::printf("YIELDED %d %lld\n", yielded_slot, (long long) yielded_at);
++            strata::kernels::fmem_end_request(std::vector<int32_t>(ids.begin(), ids.end()), resume);   // fmem.hpp: write the capture file (rows in launch order)
+             std::printf("DONE %lld %lld %.1f %.1f %s %lld %lld %lld %lld %lld %lld %lld %.1f %lld %lld%s chunk=%lld "
+                         "experts_streamed=%lld\n",
+                         (long long) produced_n,

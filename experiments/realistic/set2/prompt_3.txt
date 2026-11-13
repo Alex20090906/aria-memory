@@ -1,0 +1,29 @@
+接著寫同一個使用者、同一個家的第 15 天到第 21 天（延續前面的人物、物品與行程；問題可以問前面任何一天講過的事；update_of 只指這一批 facts 陣列裡的索引；前面幾批的事被更新時，update_of 填 null，但在 evidence 裡寫出這是改口）。要求和格式與上一批完全相同。
+
+你要幫一個居家 AI 助理（名字叫 Aria）產生測試資料。這個助理只有一個使用者，住在台灣，講台灣口語中文，偶爾夾英文。
+家裡還有一位家人、偶爾有訪客、電視常開著，使用者有時候在講電話（只聽得到使用者這邊）。
+
+請寫第 15 天到第 21 天的生活片段（每天 6–12 段話）。要求像真實錄音轉出來的文字：
+- 口語、贅字（欸、那個、就是、齁、啦、喔）、話講一半、改口、重複、吞字，偶爾英文單字（例如 meeting、deadline、Uber）。
+- 使用者提到的「值得記住的事」要散落、自然，不要每句都是。種類要混合：
+  direct（直接跟 Aria 說）、indirect（暗示，例如「冷凍庫先不要開，我護照在裡面退冰」）、
+  multi（一句講兩三件事）、split（一件事拆在兩句，例如「我把那個收起來了」「就充電線啊，放電視櫃抽屜」）、
+  correction（講錯再改口）、pronoun（用「那邊」「它」指前面講過的東西）、
+  relative_time（「下禮拜三」「後天早上」，要能換算成第幾天）、
+  overheard（使用者跟家人或電話講的，不是對 Aria 說，但 Aria 聽得到）。
+- 也要有看起來像事實、但不是使用者的事：電視節目內容、家人講他自己的東西、訪客的事。這些不能被記成使用者的。
+- 不要有任何密碼、卡號、身分證、地址、電話。
+
+記憶格式：每個事實是 [entity|slot] -> value，slot 只能是 location、time、status、preference、plan、relation、attribute、value。entity 用簡短中文名詞（例如「護照」「牙醫」「媽媽」「咖啡」），
+value 是簡短的中文片語（例如「冷凍庫」「禮拜五下午三點」「燕麥奶不加糖」）。
+
+這一批要有：約 30 個使用者的事實（其中約 6 個更新前面的事實，用 update_of 指出被更新的事實在「這一批 facts 陣列」裡的索引），
+約 24 個使用者在後面幾天問 Aria 的問題（口語、有的很短「我護照咧」、有的很模糊「我上次跟你講的那個東西放哪」、有的問「我有沒有跟你說過…」），
+其中 4 個是從來沒講過的事（expect 為 null），3 個是「講過類似但不同的事」（例如講過護照、問的是駕照；expect 為 null）。
+問題的 expect 要是「問的那天」有效的值；如果之前被更新過，stale 填舊值。
+
+只回傳 JSON：
+{"days": [{"day": int, "weekday": "一~日", "segments": [{"speaker": "owner|family|visitor|tv|phone_owner", "to": "aria|family|visitor|phone|none", "text": str}]}],
+ "facts": [{"day": int, "entity": str, "slot": str, "value": str, "evidence": str, "update_of": int|null, "kind": str}],
+ "questions": [{"day": int, "text": str, "entity": str, "slot": str, "expect": str|null, "stale": str|null, "kind": str}]}
+問題也要出現在 days 的 segments 裡（speaker 為 owner、to 為 aria）。

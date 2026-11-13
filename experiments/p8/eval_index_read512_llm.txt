@@ -1,0 +1,9 @@
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 35 | either 36
+    dense only: (13, 'Aria,我存折現在放哪?', '銀行帳戶文件｜放在哪｜收在隨身托特包夾層，不在綠色資料夾（原話：Aria,我剛剛去銀行confirm')
+  readout top score: told-with-answer median 0.259, never-told median 0.139, AUC 0.84
+  readout |y|: told-with-answer median 0.441, never-told median 0.272, AUC 0.82
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 31 | wrong 6 | none 8 || never-told answered 1 / 18
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35
+  readout top score: told-with-answer median 0.292, never-told median 0.154, AUC 0.77
+  readout |y|: told-with-answer median 0.447, never-told median 0.324, AUC 0.72
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 37 | wrong 4 | none 8 || never-told answered 1 / 21

@@ -1,0 +1,111 @@
+{
+ "encode_acc_per_kind": {
+  "asr_junk": 0.979,
+  "cancel": 1.0,
+  "other_talk": 0.656,
+  "owner_chat_other": 0.944,
+  "owner_fact": 0.725,
+  "owner_overheard": 0.303,
+  "owner_question": 0.814,
+  "owner_request": 0.86,
+  "owner_simple": 0.966,
+  "result": 1.0,
+  "scene": 0.938,
+  "scene_repeat": 0.957,
+  "scene_return": 0.925,
+  "tv": 0.941
+ },
+ "per_kind": {
+  "asr_junk": 0.959,
+  "cancel": 0.985,
+  "other_talk": 0.827,
+  "owner_chat_other": 0.852,
+  "owner_fact": 0.391,
+  "owner_overheard": 0.805,
+  "owner_question": 0.726,
+  "owner_request": 0.551,
+  "owner_simple": 0.844,
+  "result": 1.0,
+  "scene": 0.938,
+  "scene_repeat": 1.0,
+  "scene_return": 0.925,
+  "silence": 1.0,
+  "tv": 0.935
+ },
+ "n_kind": {
+  "asr_junk": 339,
+  "cancel": 67,
+  "other_talk": 387,
+  "owner_chat_other": 250,
+  "owner_fact": 258,
+  "owner_overheard": 221,
+  "owner_question": 215,
+  "owner_request": 107,
+  "owner_simple": 147,
+  "result": 255,
+  "scene": 16,
+  "scene_repeat": 23,
+  "scene_return": 134,
+  "silence": 26919,
+  "tv": 662
+ },
+ "needs_action_acc": 0.751,
+ "false_action_quiet": 0.0071,
+ "first_quarter": 0.742,
+ "last_quarter": 0.72,
+ "longest_nonwait_run": 2,
+ "actions": {
+  "WAIT": 28846,
+  "THINK": 323,
+  "ATTEND": 139,
+  "REPLY": 626,
+  "INTERRUPT": 66
+ },
+ "confusions": [
+  [
+   "owner_fact->WAIT",
+   137
+  ],
+  [
+   "owner_question->WAIT",
+   44
+  ],
+  [
+   "tv->REPLY",
+   40
+  ],
+  [
+   "owner_request->WAIT",
+   40
+  ],
+  [
+   "other_talk->REPLY",
+   35
+  ],
+  [
+   "owner_overheard->THINK",
+   33
+  ],
+  [
+   "other_talk->THINK",
+   32
+  ],
+  [
+   "owner_chat_other->REPLY",
+   29
+  ]
+ ],
+ "ms_per_tick_batched": 0.003,
+ "ms_per_tick_online": 0.912,
+ "params": 231686,
+ "config": {
+  "train_ticks": 200000,
+  "test_ticks": 30000,
+  "steps": 3000,
+  "seed": 0,
+  "no_fam": false,
+  "out": "results_w6",
+  "world": "w6",
+  "encoder": "qwen3emb"
+ }
+}

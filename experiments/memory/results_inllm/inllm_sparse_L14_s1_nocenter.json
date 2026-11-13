@@ -1,0 +1,68 @@
+{
+ "args": {
+  "kind": "sparse",
+  "layer": 14,
+  "D": 16384,
+  "k": 32,
+  "r": 16,
+  "scale": 1.0,
+  "lr": 0.01,
+  "steps": 5,
+  "n": 150,
+  "tau_w": 40.0,
+  "tau_theta": 2000.0,
+  "seed": 1,
+  "tag": "_nocenter",
+  "Df": 32768,
+  "kf": 20,
+  "center": 0,
+  "adapt_rate": 0.005,
+  "code_from": "mean",
+  "code_layer": 14,
+  "out": "experiments/memory/results_inllm"
+ },
+ "rows": [
+  {
+   "age": "0-20",
+   "n": 20,
+   "recall": 0.5,
+   "recall_no_memory": 0.2,
+   "theta_auc_similar": 0.5125,
+   "theta_auc_unrelated": 0.89,
+   "surprise_auc_similar": 0.6975,
+   "surprise_auc_unrelated": 0.8075
+  },
+  {
+   "age": "20-50",
+   "n": 30,
+   "recall": 0.3,
+   "recall_no_memory": 0.1,
+   "theta_auc_similar": 0.43666666666666665,
+   "theta_auc_unrelated": 0.8222222222222222,
+   "surprise_auc_similar": 0.6755555555555556,
+   "surprise_auc_unrelated": 0.8466666666666667
+  },
+  {
+   "age": "50-100",
+   "n": 50,
+   "recall": 0.12,
+   "recall_no_memory": 0.12,
+   "theta_auc_similar": 0.4788,
+   "theta_auc_unrelated": 0.8032,
+   "surprise_auc_similar": 0.5076,
+   "surprise_auc_unrelated": 0.6576
+  },
+  {
+   "age": "100-200",
+   "n": 50,
+   "recall": 0.08,
+   "recall_no_memory": 0.12,
+   "theta_auc_similar": 0.4456,
+   "theta_auc_unrelated": 0.8008,
+   "surprise_auc_similar": 0.4724,
+   "surprise_auc_unrelated": 0.6616
+  }
+ ],
+ "generic_nll_base": 2.0057652791341147,
+ "generic_nll_with_memory": 2.0377583106358848
+}

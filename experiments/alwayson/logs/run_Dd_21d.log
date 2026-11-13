@@ -1,0 +1,23 @@
+W1105 21:24:58.410000 26824 ~\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\scratch-workspaces\2001fd13-370b-4e53-9a7f-af84919fcf52\c6c11626-1e34-4bda-90d8-55502aa7f176\scratch-2026-11-03-d1f1b4\experiments\venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   3%|▎         | 9/338 [00:00<00:05, 61.62it/s]Loading weights:   6%|▌         | 21/338 [00:00<00:03, 83.28it/s]Loading weights:  10%|█         | 34/338 [00:00<00:03, 93.19it/s]Loading weights:  13%|█▎        | 44/338 [00:00<00:03, 89.10it/s]Loading weights:  16%|█▌        | 53/338 [00:00<00:03, 77.06it/s]Loading weights:  18%|█▊        | 61/338 [00:00<00:03, 73.65it/s]Loading weights:  21%|██▏       | 72/338 [00:00<00:03, 68.74it/s]Loading weights:  25%|██▍       | 83/338 [00:01<00:03, 66.87it/s]Loading weights:  28%|██▊       | 95/338 [00:01<00:03, 69.23it/s]Loading weights:  32%|███▏      | 107/338 [00:01<00:03, 72.25it/s]Loading weights:  35%|███▌      | 119/338 [00:01<00:02, 77.61it/s]Loading weights:  39%|███▉      | 131/338 [00:01<00:02, 81.61it/s]Loading weights:  41%|████▏     | 140/338 [00:01<00:02, 78.49it/s]Loading weights:  44%|████▍     | 148/338 [00:01<00:02, 71.44it/s]Loading weights:  46%|████▌     | 156/338 [00:02<00:02, 64.57it/s]Loading weights:  49%|████▉     | 167/338 [00:02<00:02, 64.95it/s]Loading weights:  53%|█████▎    | 178/338 [00:02<00:02, 71.41it/s]Loading weights:  57%|█████▋    | 191/338 [00:02<00:02, 67.47it/s]Loading weights:  60%|█████▉    | 202/338 [00:02<00:01, 72.24it/s]Loading weights:  63%|██████▎   | 213/338 [00:02<00:01, 75.52it/s]Loading weights:  65%|██████▌   | 221/338 [00:03<00:01, 73.00it/s]Loading weights:  68%|██████▊   | 229/338 [00:03<00:01, 70.48it/s]Loading weights:  71%|███████   | 239/338 [00:03<00:01, 66.76it/s]Loading weights:  74%|███████▍  | 251/338 [00:03<00:01, 68.17it/s]Loading weights:  78%|███████▊  | 264/338 [00:03<00:01, 70.36it/s]Loading weights:  81%|████████  | 273/338 [00:03<00:00, 66.09it/s]Loading weights:  85%|████████▍ | 287/338 [00:03<00:00, 70.50it/s]Loading weights:  88%|████████▊ | 297/338 [00:04<00:00, 74.14it/s]Loading weights:  92%|█████████▏| 310/338 [00:04<00:00, 75.14it/s]Loading weights:  96%|█████████▌| 323/338 [00:04<00:00, 69.01it/s]Loading weights: 100%|██████████| 338/338 [00:04<00:00, 74.65it/s]
+[Dd] day 1 done  wall 14s  writes 6 agenda 2 idle 9 stops 3 PR 623
+[Dd] day 2 done  wall 30s  writes 12 agenda 3 idle 17 stops 5 PR 1169
+[Dd] day 3 done  wall 63s  writes 24 agenda 5 idle 31 stops 9 PR 2190
+[Dd] day 4 done  wall 98s  writes 35 agenda 5 idle 46 stops 12 PR 2977
+[Dd] day 5 done  wall 129s  writes 46 agenda 5 idle 57 stops 15 PR 3367
+[Dd] day 6 done  wall 243s  writes 89 agenda 5 idle 72 stops 18 PR 2500
+[Dd] day 7 done  wall 256s  writes 89 agenda 5 idle 77 stops 18 PR 2500
+[Dd] day 8 done  wall 281s  writes 97 agenda 3 idle 84 stops 21 PR 2766
+[Dd] day 9 done  wall 317s  writes 105 agenda 5 idle 97 stops 26 PR 3111
+[Dd] day 10 done  wall 363s  writes 115 agenda 5 idle 111 stops 30 PR 3380
+[Dd] day 11 done  wall 399s  writes 123 agenda 5 idle 124 stops 34 PR 3529
+[Dd] day 12 done  wall 543s  writes 179 agenda 5 idle 135 stops 37 PR 2662
+[Dd] day 13 done  wall 583s  writes 187 agenda 5 idle 148 stops 40 PR 2922
+[Dd] day 14 done  wall 604s  writes 189 agenda 5 idle 156 stops 40 PR 2882
+[Dd] day 15 done  wall 640s  writes 196 agenda 3 idle 164 stops 43 PR 2884
+[Dd] day 16 done  wall 675s  writes 207 agenda 3 idle 175 stops 46 PR 2636
+[Dd] day 17 done  wall 719s  writes 218 agenda 3 idle 187 stops 50 PR 2530
+[Dd] day 18 done  wall 777s  writes 228 agenda 5 idle 205 stops 55 PR 2772
+[Dd] day 19 done  wall 907s  writes 279 agenda 5 idle 215 stops 56 PR 2301
+[Dd] day 20 done  wall 940s  writes 284 agenda 4 idle 223 stops 58 PR 2386
+[Dd] day 21 done  wall 959s  writes 284 agenda 5 idle 228 stops 58 PR 2386

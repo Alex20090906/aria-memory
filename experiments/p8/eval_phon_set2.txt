@@ -1,0 +1,34 @@
+== zh_result_G_base_set2.json
+  tau 0.6 E           : right 17 (direct 8, ask 9) | ask wrong 7 | direct wrong 6 | none 18 | never asked 4 answered 0
+  tau 0.6 P rho 0.75  : right 18 (direct 8, ask 10) | ask wrong 12 | direct wrong 6 | none 12 | never asked 4 answered 0
+  tau 0.6 P rho 0.85  : right 18 (direct 8, ask 10) | ask wrong 11 | direct wrong 6 | none 13 | never asked 3 answered 0
+  tau 0.6 P rho 1.0   : right 18 (direct 8, ask 10) | ask wrong 11 | direct wrong 6 | none 13 | never asked 3 answered 0
+  tau 0.6 E+P rho 0.75: right 19 (direct 8, ask 11) | ask wrong 13 | direct wrong 6 | none 10 | never asked 6 answered 0
+  tau 0.6 E+P rho 0.85: right 19 (direct 8, ask 11) | ask wrong 13 | direct wrong 6 | none 10 | never asked 6 answered 0
+  tau 0.6 E+P rho 1.0 : right 19 (direct 8, ask 11) | ask wrong 13 | direct wrong 6 | none 10 | never asked 6 answered 0
+    sound told  張副理 [張副理事|attribute] -> 張富里|relation 1.00 '百貨專櫃招商窗口' ok=True
+    sound told  舊水苔 [舊水台|location] -> 舊水台|status 1.00 '泡在塑膠桶中消毒' ok=False
+    sound told  發票與收據 [發票收據|location] -> 報稅發票與收據|location 1.00 '書架第三層綠色硬殼資料夾' ok=True
+    sound told  瓶器報價單 [瓶器報價單|location] -> 平氣爆架單|plan 1.00 '工作室軟木賽留言板' ok=True
+    sound told  燙金打樣確認 [燙金打樣|plan] -> 燙精打樣|plan 1.00 '明天早上十點過去看' ok=False
+    sound told  銀鹿鹿角蕨 [銀露露角爵|location] -> 銀露露腳掛|location 0.80 '浴室毛巾架上' ok=False
+    sound told  舊合約 [合約|location] -> 舊合約|location 1.00 '主臥室衣櫃灰色保險箱' ok=True
+    sound never 皇冠鹿角蕨 [銀露露角爵|location] -> 銀露露腳掛|location 0.80 '浴室毛巾架上' ok=None
+    sound told  備用熱熔膠條 [熱熔膠條|location] -> 熱溶膠條|location 1.00 '工作桌右邊第二個抽屜' ok=True
+    sound told  聖誕節限定禮盒定價 [聖誕節限定理合|value] -> 聖誕節限定理|value 1.00 '1680元/組，含大蠟燭及室內噴霧' ok=False
+    sound told  竹北選物店雪松蠟燭 [主北選物店|plan] -> 竹北選物店|plan 1.00 '30顆雪松蠟燭第12天前出貨' ok=False
+    sound told  保養竹油 [保養豬油|location] -> 竹油|relation 1.00 '竹刀專用' ok=False
+    sound never 冷氣濾網清洗 [工作室冷氣濾網|time] -> 工作室|location 1.00 '鐵會最下層' ok=None
+    sound told  辦理企業網銀憑證 [銀行行程|time] -> 銀行|plan 1.00 '下週三11:00開立外幣帳戶' ok=False
+    sound told  電子秤 [小秤|location] -> 小電子秤|location 1.00 '工作室軟木塞留言板' ok=False
+    sound told  防撞包材 [小秤|location] -> 小電子秤|location 1.00 '工作室軟木塞留言板' ok=False
+    sound told  百貨快閃店押金 [快閃店押金|value] -> 百貨快閃電押金|value 1.00 '三萬元整' ok=True
+    sound told  火鍋湯底 [火鍋|preference] -> Q 火鍋|preference 1.00 '鍋皮辣椒雞' ok=True
+    sound told  託運單收執聯 [拖運單|location] -> 鐵拖運單|location 1.00 '玄關穿鞋椅旁磁鐵上' ok=False
+    sound told  電子游標卡尺 [電子郵標卡|location] -> 電子郵標卡尺|location 1.00 '工作室工具牆黑色收納架' ok=True
+    sound told  發票與收據 [發票收據|location] -> 報稅發票與收據|location 1.00 '書架第三層綠色硬殼資料夾' ok=True
+    sound told  象耳鹿角蕨側芽 [發票收據|location] -> 報稅發票與收據|location 1.00 '書架第三層綠色硬殼資料夾' ok=False
+    sound told  辦理專櫃進場證 [專櫃進場|plan] -> 專櫃進場證|plan 1.00 '下週二早上十點去百貨公司辦理' ok=False
+    sound told  融蠟鍋 [融蠟鍋|status] -> 熔蠟鍋|status 1.00 '溫控旋鈕已修好' ok=True
+    sound never 隨身噴霧香水瓶容量 [隨身噴霧香水瓶|value] -> 香水|plan 1.00 '第11天下午3點去印刷廠確認打樣' ok=None
+    sound never 發票章 [快閃店發票|location] -> 快閃電|plan 1.00 '下週五晚上八點在官方IG開直播介紹聖誕禮' ok=None

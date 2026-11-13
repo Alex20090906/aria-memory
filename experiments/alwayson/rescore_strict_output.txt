@@ -1,0 +1,10 @@
+e41: right 18/51, answered wrong 9, never-told kept 20/21
+e41_find: right 23/51, answered wrong 13, never-told kept 18/21
+e44_find: right 29/51, answered wrong 10, never-told kept 18/21
+e44_read: right 30/51, answered wrong 5, never-told kept 20/21
+e45_read_idle: right 30/51, answered wrong 5, never-told kept 20/21
+e46_index: right 31/51, answered wrong 5, never-told kept 20/21
+e47_nogate: right 31/51, answered wrong 5, never-told kept 20/21
+e48_full: right 29/51, answered wrong 5, never-told kept 20/21
+e48b_clean: right 29/51, answered wrong 5, never-told kept 20/21
+e49_final: right 30/51, answered wrong 6, never-told kept 20/21

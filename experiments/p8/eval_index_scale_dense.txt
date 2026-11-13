@@ -1,0 +1,6 @@
+  zh_result_I_all_old.json D=512 distractors 0: recall@5 34/38 | text embedding 35/38  (distractor writes 26s)
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 25/38 | text embedding 23/38  (distractor writes 284s)
+  zh_result_I_all_old.json D=512 distractors 10000: recall@5 18/38 | text embedding 15/38  (distractor writes 1474s)
+  zh_result_I_all_set2.json D=512 distractors 0: recall@5 35/38 | text embedding 34/38  (distractor writes 24s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 29/38 | text embedding 21/38  (distractor writes 311s)
+  zh_result_I_all_set2.json D=512 distractors 10000: recall@5 29/38 | text embedding 14/38  (distractor writes 1288s)

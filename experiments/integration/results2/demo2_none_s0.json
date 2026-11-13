@@ -1,0 +1,264 @@
+{
+ "cond": "none",
+ "writes": [],
+ "questions": [
+  {
+   "t": 682,
+   "kind": "recall_q",
+   "q": "Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don't know where you left it, Leo.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 766,
+   "kind": "recall_q",
+   "q": "Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don't know where you left it, Leo.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 845,
+   "kind": "recall_q",
+   "q": "Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don't know where you left them.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1182,
+   "kind": "recall_q",
+   "q": "Leo: Aria, where is my remote control?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don't know where your remote control is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1220,
+   "kind": "recall_q",
+   "q": "Leo: Aria, do you remember where my remote control is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don't have access to your physical surroundings, so I cannot see where your remote control is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1305,
+   "kind": "recall_q_other",
+   "q": "Lena: Aria, any idea where Sara's remote control is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don't know where Sara's remote control is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1318,
+   "kind": "recall_q_other",
+   "q": "Axel: Aria, did Sara say where the remote control is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don't know what Sara said about the remote control.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1357,
+   "kind": "recall_q",
+   "q": "Leo: Aria, do you remember where my spare key is?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "I do not know where your spare key is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1488,
+   "kind": "recall_q",
+   "q": "Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don't know where you left them.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1520,
+   "kind": "recall_q_other",
+   "q": "Tom: Aria, did Nina say where the remote control is?",
+   "truth": "in the blue box",
+   "model1": "THINK",
+   "answer": "I don't know.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1631,
+   "kind": "recall_q",
+   "q": "Axel: Aria, I can't find my keys, where did I leave it?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don't know where you left them.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 1775,
+   "kind": "recall_q",
+   "q": "Axel: Aria, where is my ticket?",
+   "truth": "in my backpack",
+   "model1": "REPLY",
+   "answer": "I don't know where your ticket is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 2009,
+   "kind": "recall_q_other",
+   "q": "Omar: Aria, any idea where Ken's ring is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don't know where Ken's ring is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 2263,
+   "kind": "recall_q",
+   "q": "Omar: Aria, where is my watch?",
+   "truth": "under the bed",
+   "model1": "THINK",
+   "answer": "I don't know where your watch is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 2423,
+   "kind": "recall_q_other",
+   "q": "Leo: Aria, any idea where Mia's keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don't know where Mia's keys are.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 2424,
+   "kind": "recall_q_other",
+   "q": "Sara: Aria, any idea where Nina's remote control is?",
+   "truth": "in the blue box",
+   "model1": "THINK",
+   "answer": "I don't know where Nina's remote control is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 2577,
+   "kind": "recall_q",
+   "q": "Sara: Aria, do you remember where my keys is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I do not have access to your personal memories or physical surroundings, so I cannot tell you where your keys are.",
+   "label": "wrong",
+   "trace": []
+  },
+  {
+   "t": 3180,
+   "kind": "recall_q",
+   "q": "Mia: Aria, where is my passport?",
+   "truth": "in the kitchen drawer",
+   "model1": "THINK",
+   "answer": "I don't know where your passport is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3457,
+   "kind": "recall_q",
+   "q": "Axel: Aria, do you remember where my ticket is?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "I don't have any record of your ticket location.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3619,
+   "kind": "recall_q",
+   "q": "Axel: Aria, do you remember where my keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don't have access to your physical surroundings or personal memories, so I cannot tell you where your keys are.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3712,
+   "kind": "recall_q",
+   "q": "Axel: Aria, I can't find my ticket, where did I leave it?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "I don't know where you left your ticket.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3713,
+   "kind": "recall_q_other",
+   "q": "Ken: Aria, did Leo say where the keys is?",
+   "truth": "in the closet",
+   "model1": "THINK",
+   "answer": "I don't know what Leo said about the keys.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3813,
+   "kind": "recall_q_other",
+   "q": "Nina: Aria, any idea where Sara's spare key is?",
+   "truth": "under the doormat",
+   "model1": "THINK",
+   "answer": "I don't know where Sara's spare key is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3891,
+   "kind": "recall_q",
+   "q": "Axel: Aria, where is my ticket?",
+   "truth": "in the bathroom cabinet",
+   "model1": "REPLY",
+   "answer": "I don't know where your ticket is.",
+   "label": "unknown",
+   "trace": []
+  },
+  {
+   "t": 3962,
+   "kind": "recall_q_other",
+   "q": "Yumi: Aria, did Leo say where the keys is?",
+   "truth": "in the closet",
+   "model1": "THINK",
+   "answer": "I don't know what Leo said about the keys.",
+   "label": "unknown",
+   "trace": []
+  }
+ ],
+ "summary": {
+  "correct": 0,
+  "hedged_correct": 0,
+  "unknown": 24,
+  "wrong": 1
+ },
+ "n_writes": 0,
+ "seconds": 13
+}

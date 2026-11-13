@@ -1,0 +1,6 @@
+== zh_result_G_base_set2.json
+  merge off : merged   0 writes | right 17 (direct 8, ask 9) | direct wrong 6 | ask wrong 7 | none 18 | never: direct 0 ask 4
+  merge 0.95: merged   0 writes | right 17 (direct 8, ask 9) | direct wrong 6 | ask wrong 7 | none 18 | never: direct 0 ask 4
+  merge  0.9: merged   2 writes | right 17 (direct 8, ask 9) | direct wrong 6 | ask wrong 7 | none 18 | never: direct 0 ask 4
+  merge 0.85: merged   3 writes | right 17 (direct 7, ask 10) | direct wrong 6 | ask wrong 7 | none 18 | never: direct 0 ask 4
+  merge  0.8: merged  13 writes | right 16 (direct 7, ask 9) | direct wrong 6 | ask wrong 8 | none 18 | never: direct 0 ask 4

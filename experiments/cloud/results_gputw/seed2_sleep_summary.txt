@@ -1,0 +1,5 @@
+  never-told answered (false memories): 1/60
+  no-memory guess baseline: 0/60
+MODE sleep: core recall at end 0.433 (26/60) honest-forget 10 confident-wrong 24
+  recall by age quartile (young->old): ['13/15', '11/15', '1/15', '1/15']
+[seed2_sleep] done rc=0 in 57 min

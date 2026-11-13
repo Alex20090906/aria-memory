@@ -1,0 +1,32 @@
+{
+ "w6r_qwen3emb_fam_s0.pt": {
+  "family": "act 32/40  gate 32/40",
+  "owner_overheard": "act 63/140  gate 64/140",
+  "owner_question": "act 63/106  gate 63/106",
+  "owner_to_aria": "act 34/67  gate 34/67",
+  "silence": "act 2257/2257  gate 2257/2257",
+  "tv": "act 8/12  gate 8/12",
+  "unmatched": "act 71/81  gate 71/81",
+  "visitor": "act 15/24  gate 15/24"
+ },
+ "w6r_qwen3emb_fam_s1.pt": {
+  "family": "act 27/40  gate 27/40",
+  "owner_overheard": "act 65/140  gate 65/140",
+  "owner_question": "act 59/106  gate 59/106",
+  "owner_to_aria": "act 38/67  gate 38/67",
+  "silence": "act 2257/2257  gate 2257/2257",
+  "tv": "act 9/12  gate 9/12",
+  "unmatched": "act 74/81  gate 74/81",
+  "visitor": "act 18/24  gate 18/24"
+ },
+ "w6r_qwen3emb_fam_s2.pt": {
+  "family": "act 28/40  gate 28/40",
+  "owner_overheard": "act 62/140  gate 64/140",
+  "owner_question": "act 57/106  gate 57/106",
+  "owner_to_aria": "act 35/67  gate 35/67",
+  "silence": "act 2257/2257  gate 2257/2257",
+  "tv": "act 11/12  gate 11/12",
+  "unmatched": "act 75/81  gate 75/81",
+  "visitor": "act 16/24  gate 16/24"
+ }
+}

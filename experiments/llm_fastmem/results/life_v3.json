@@ -1,0 +1,3115 @@
+{
+ "summary": {
+  "gist": 0.611,
+  "writes": 113,
+  "wipes": 16,
+  "chatter_false_writes": 23,
+  "recall": 0.708,
+  "n_told_q": 72,
+  "updated_recall": 0.611,
+  "updated_stale": 0.056,
+  "n_updated_q": 18,
+  "honest": 0.917,
+  "n_never": 12
+ },
+ "log": [
+  {
+   "day": 1,
+   "kind": "chatter",
+   "say": "Happy New Year Aria! Man, I stayed up way too late watching fireworks on TV.",
+   "gist": [
+    "fireworks",
+    "time",
+    "watched on tv"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 2,
+   "kind": "event",
+   "say": "Ugh, nearly lost my passport again... shoved it in the top desk drawer so I actually know where it is for once.",
+   "gist": [
+    "passport",
+    "location",
+    "top desk drawer"
+   ],
+   "truth": [
+    "passport",
+    "location",
+    "top desk drawer"
+   ]
+  },
+  {
+   "day": 5,
+   "kind": "event",
+   "say": "Morning Aria... man I need caffeine. Just so you know, for coffee I'm strictly oat milk, no sugar, forever and always.",
+   "gist": [
+    "coffee",
+    "preference",
+    "with oat milk and no sugar"
+   ],
+   "truth": [
+    "coffee",
+    "preference",
+    "oat milk, no sugar"
+   ]
+  },
+  {
+   "day": 6,
+   "kind": "chatter",
+   "say": "Why is it already dark at 4:30pm... winter is such a scam.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 9,
+   "kind": "event",
+   "say": "My older sister Maya called earlier, talked my ear off for like forty minutes.",
+   "gist": [
+    "maya",
+    "relation",
+    "older sister"
+   ],
+   "truth": [
+    "sister maya",
+    "relation",
+    "older sister"
+   ]
+  },
+  {
+   "day": 11,
+   "kind": "chatter",
+   "say": "Burnt my toast a little bit,eh, just gonna scrape it over the sink.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 12,
+   "kind": "event",
+   "say": "Maya keeps complaining about the rain... I mean, that's what happens when you're living in Seattle, right?",
+   "gist": [
+    "maya",
+    "location",
+    "seattle"
+   ],
+   "truth": [
+    "sister maya",
+    "location",
+    "living in seattle"
+   ]
+  },
+  {
+   "day": 14,
+   "ask": "wait who's sister maya to me again, did I tell you?",
+   "expect": "older sister",
+   "stale": null,
+   "anchor": "[maya|relation]",
+   "tail": "older sister. Yes, you told me she is your older sister.",
+   "theta": 0.998,
+   "answer": "Maya is your older sister. You did tell me that before.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 16,
+   "kind": "event",
+   "say": "Ugh, booked the dentist. February 14 at 2pm. Super romantic Valentine's plans for me lol.",
+   "gist": [
+    "dentist",
+    "time",
+    "february 14 at 2pm"
+   ],
+   "truth": [
+    "dentist",
+    "time",
+    "february 14 at 2pm"
+   ]
+  },
+  {
+   "day": 17,
+   "kind": "chatter",
+   "say": "Have you seen the wind out there today? The trees are sideways.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 20,
+   "kind": "event",
+   "say": "Great, just great, the check engine light is on in the car again. Love that for my wallet.",
+   "gist": [
+    "car",
+    "status",
+    "check engine light is on"
+   ],
+   "truth": [
+    "car",
+    "status",
+    "check engine light is on"
+   ]
+  },
+  {
+   "day": 23,
+   "kind": "chatter",
+   "say": "Binge-watched four episodes of that cooking show, now I'm starving for no reason.",
+   "gist": [
+    "cooking show",
+    "status",
+    "binge-watched four episodes"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 24,
+   "kind": "event",
+   "say": "I swear half the street drives the exact same dark blue hatchback as my car, I almost tried to unlock the wrong one today.",
+   "gist": [
+    "car",
+    "attribute",
+    "dark blue hatchback"
+   ],
+   "truth": [
+    "car",
+    "attribute",
+    "dark blue hatchback"
+   ]
+  },
+  {
+   "day": 26,
+   "ask": "what kind of car did I say I drive?",
+   "expect": "dark blue hatchback",
+   "stale": null,
+   "anchor": "[car|attribute]",
+   "tail": "dark blue hatchback.",
+   "theta": 1.0,
+   "answer": "You said you drive a dark blue hatchback.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 28,
+   "kind": "event",
+   "say": "Hid the spare key under the blue flowerpot on the porch... super original hiding spot, I know.",
+   "gist": [
+    "spare key",
+    "location",
+    "under the blue flowerpot on the porch"
+   ],
+   "truth": [
+    "spare key",
+    "location",
+    "under the blue flowerpot"
+   ]
+  },
+  {
+   "day": 29,
+   "kind": "chatter",
+   "say": "Honestly just in a weird sleepy mood all afternoon.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 32,
+   "kind": "event",
+   "say": "Too cold to walk to the gym, honestly. I put my gym membership as frozen for the winter.",
+   "gist": [
+    "gym membership",
+    "status",
+    "frozen for the winter"
+   ],
+   "truth": [
+    "gym membership",
+    "status",
+    "frozen for the winter"
+   ]
+  },
+  {
+   "day": 35,
+   "kind": "chatter",
+   "say": "Ooh, it's snowing! Big fluffy flakes too.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 36,
+   "kind": "event",
+   "say": "When the gym membership is running it's $45 a month, which isn't terrible if I actually go.",
+   "gist": [
+    "gym membership",
+    "value",
+    "$45 a month"
+   ],
+   "truth": [
+    "gym membership",
+    "value",
+    "$45 a month"
+   ]
+  },
+  {
+   "day": 38,
+   "ask": "how much is my gym membership every month?",
+   "expect": "$45 a month",
+   "stale": null,
+   "anchor": "[gym membership|value]",
+   "tail": "$45 a month.",
+   "theta": 1.0,
+   "answer": "Your gym membership costs $45 per month.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 40,
+   "kind": "event",
+   "say": "Oh wait Aria, dentist receptionist called—moved my dentist appointment to February 21 at 10am instead.",
+   "gist": [
+    "dentist",
+    "time",
+    "february 21 at 10am"
+   ],
+   "truth": [
+    "dentist",
+    "time",
+    "february 21 at 10am"
+   ]
+  },
+  {
+   "day": 41,
+   "kind": "chatter",
+   "say": "That movie ending made zero sense, who wrote that script??",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 44,
+   "kind": "event",
+   "say": "My laptop is basically a desktop now because the battery dies in an hour if I unplug it.",
+   "gist": [
+    "laptop",
+    "attribute",
+    "battery dies in an hour"
+   ],
+   "truth": [
+    "laptop",
+    "status",
+    "battery dies in an hour"
+   ]
+  },
+  {
+   "day": 45,
+   "ask": "when's my dentist appointment again??",
+   "expect": "february 21 at 10am",
+   "stale": "february 14 at 2pm",
+   "anchor": "[dentist|time]",
+   "tail": "",
+   "theta": 0.998,
+   "answer": "[dentist|time] -> \n",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 47,
+   "kind": "chatter",
+   "say": "Thinking about making grilled cheese and tomato soup tonight. Classic.",
+   "gist": [
+    "dinner",
+    "plan",
+    "grilled cheese and tomato soup"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 48,
+   "kind": "event",
+   "say": "Still really like this laptop though, the 13-inch silver pro fits in literally any backpack.",
+   "gist": [
+    "laptop",
+    "attribute",
+    "13-inch silver pro"
+   ],
+   "truth": [
+    "laptop",
+    "attribute",
+    "13-inch silver pro"
+   ]
+  },
+  {
+   "day": 50,
+   "ask": "which laptop model do I have?",
+   "expect": "13-inch silver pro",
+   "stale": null,
+   "anchor": "[laptop|attribute]",
+   "tail": "13-inch silver pro.",
+   "theta": 1.0,
+   "answer": "You have a 13-inch silver pro.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 52,
+   "kind": "event",
+   "say": "My younger brother Leo is coming by this weekend to borrow some tools, pray for my sanity.",
+   "gist": [
+    "leo",
+    "relation",
+    "younger brother"
+   ],
+   "truth": [
+    "brother leo",
+    "relation",
+    "younger brother"
+   ]
+  },
+  {
+   "day": 53,
+   "kind": "chatter",
+   "say": "Ugh, Monday brain is hitting hard today, can't focus on anything.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 54,
+   "ask": "brother leo—did I mention if he's older or younger?",
+   "expect": "younger brother",
+   "stale": null,
+   "anchor": "[leo|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "You did not mention whether Leo is older or younger than you.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 56,
+   "kind": "event",
+   "say": "Gotta remember if I make tacos for brother Leo that he hates cilantro, got that soap gene thing.",
+   "gist": [
+    "leo",
+    "preference",
+    "hates cilantro"
+   ],
+   "truth": [
+    "brother leo",
+    "preference",
+    "hates cilantro"
+   ]
+  },
+  {
+   "day": 58,
+   "ask": "what food does brother leo hate again?",
+   "expect": "hates cilantro",
+   "stale": null,
+   "anchor": "[leo|preference]",
+   "tail": "hates cilantro.",
+   "theta": 1.0,
+   "answer": "Leo hates cilantro.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 59,
+   "kind": "chatter",
+   "say": "The sun actually came out for ten whole minutes, miracle of miracles.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 60,
+   "kind": "event",
+   "say": "Looking at new running shoes online... I'm always a size 9.5 in trainers.",
+   "gist": [
+    "shoes",
+    "attribute",
+    "size 9.5"
+   ],
+   "truth": [
+    "running shoes",
+    "value",
+    "size 9.5"
+   ]
+  },
+  {
+   "day": 62,
+   "ask": "running shoes size??",
+   "expect": "size 9.5",
+   "stale": null,
+   "anchor": "[shoes|attribute]",
+   "tail": "size 9.5.",
+   "theta": 1.0,
+   "answer": "I remember your running shoes are a size 9.5.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 64,
+   "kind": "event",
+   "say": "Tossed my muddy running shoes in the bottom of the hall closet, out of sight out of mind.",
+   "gist": [
+    "running shoes",
+    "location",
+    "bottom of the hall closet"
+   ],
+   "truth": [
+    "running shoes",
+    "location",
+    "bottom of the hall closet"
+   ]
+  },
+  {
+   "day": 65,
+   "kind": "chatter",
+   "say": "Accidentally put salt instead of sugar in my oatmeal... do not recommend.",
+   "gist": [
+    "oatmeal",
+    "attribute",
+    "accidentally made with salt instead of sugar"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 66,
+   "ask": "where did I chuck my running shoes?",
+   "expect": "bottom of the hall closet",
+   "stale": null,
+   "anchor": "[running shoes|location]",
+   "tail": "bottom of the hall closet.",
+   "theta": 0.998,
+   "answer": "They're at the bottom of the hall closet.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 68,
+   "kind": "event",
+   "say": "Wanted to do my tax return tonight but ugh, still missing one form from the bank.",
+   "gist": [
+    "tax return",
+    "plan",
+    "tonight"
+   ],
+   "truth": [
+    "tax return",
+    "status",
+    "still missing one form"
+   ]
+  },
+  {
+   "day": 71,
+   "kind": "chatter",
+   "say": "Why are reality TV shows so addictive when nothing even happens?",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 72,
+   "kind": "event",
+   "say": "At least the tax return isn't due till April 15, got a little breathing room.",
+   "gist": [
+    "tax return",
+    "time",
+    "due april 15"
+   ],
+   "truth": [
+    "tax return",
+    "time",
+    "due april 15"
+   ]
+  },
+  {
+   "day": 74,
+   "ask": "when is the tax return deadline?",
+   "expect": "due april 15",
+   "stale": null,
+   "anchor": "[tax return|time]",
+   "tail": "due April 15.",
+   "theta": 1.0,
+   "answer": "The tax return deadline is due April 15.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 76,
+   "kind": "event",
+   "say": "Tried making a smoothie and the blender started leaking from the bottom... smoothie all over the counter.",
+   "gist": [
+    "blender",
+    "status",
+    "leaking from the bottom"
+   ],
+   "truth": [
+    "blender",
+    "status",
+    "leaking from the bottom"
+   ]
+  },
+  {
+   "day": 77,
+   "kind": "chatter",
+   "say": "Slush everywhere on the sidewalks, my socks got damp just walking to the corner.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 78,
+   "ask": "what's wrong with the blender again?",
+   "expect": "leaking from the bottom",
+   "stale": null,
+   "anchor": "[blender|status]",
+   "tail": "leaking from the bottom.",
+   "theta": 1.0,
+   "answer": "It is leaking from the bottom again.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 79,
+   "ask": "did I ever tell you what brand my blender is?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[blender|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "No, I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 80,
+   "kind": "event",
+   "say": "Set up a vet appointment for Milo—March 30 at 4pm. Don't let me forget to get the carrier out early.",
+   "gist": [
+    "milo",
+    "plan",
+    "vet appointment on march 30 at 4pm"
+   ],
+   "truth": [
+    "vet appointment",
+    "time",
+    "march 30 at 4pm"
+   ]
+  },
+  {
+   "day": 82,
+   "ask": "vet appointment time??",
+   "expect": "march 30 at 4pm",
+   "stale": null,
+   "anchor": "[vet appointment|time]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 83,
+   "kind": "chatter",
+   "say": "Feeling super energized today for once, might actually clean the kitchen.",
+   "gist": [
+    "kitchen",
+    "plan",
+    "cleaning"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 83,
+   "ask": "did I ever tell you which street the vet appointment is on?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[vet appointment|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 84,
+   "kind": "event",
+   "say": "Cat Milo is such a diva, bought three kinds of wet food and he only eats salmon pate.",
+   "gist": [
+    "milo",
+    "preference",
+    "salmon pate"
+   ],
+   "truth": [
+    "cat milo",
+    "preference",
+    "only eats salmon pate"
+   ]
+  },
+  {
+   "day": 86,
+   "ask": "what wet food does cat milo actually eat?",
+   "expect": "only eats salmon pate",
+   "stale": null,
+   "anchor": "[milo|preference]",
+   "tail": "salmon pate.",
+   "theta": 1.0,
+   "answer": "Milo prefers salmon pâté",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 88,
+   "kind": "event",
+   "say": "Weighed cat Milo by holding him on the scale—he's a solid 11 pounds of fluff.",
+   "gist": [
+    "milo",
+    "value",
+    "11 pounds"
+   ],
+   "truth": [
+    "cat milo",
+    "value",
+    "11 pounds"
+   ]
+  },
+  {
+   "day": 89,
+   "kind": "chatter",
+   "say": "Smells like someone down the hall is frying garlic, making me so hungry.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 90,
+   "ask": "how much does cat milo weigh?",
+   "expect": "11 pounds",
+   "stale": null,
+   "anchor": "[milo|value]",
+   "tail": "11 pounds.",
+   "theta": 1.0,
+   "answer": "Milo weighs 11 pounds.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 92,
+   "kind": "event",
+   "say": "Finally warm enough to pack away the winter coat! Stuffed it in the vacuum bag under the bed.",
+   "gist": [
+    "winter coat",
+    "location",
+    "in the vacuum bag under the bed"
+   ],
+   "truth": [
+    "winter coat",
+    "location",
+    "vacuum bag under the bed"
+   ]
+  },
+  {
+   "day": 95,
+   "kind": "chatter",
+   "say": "Spring rain is nice when you're inside under a blanket.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 96,
+   "kind": "event",
+   "say": "Honestly that olive green parka is the best winter coat I've ever owned.",
+   "gist": [
+    "olive green parka",
+    "attribute",
+    "best winter coat"
+   ],
+   "truth": [
+    "winter coat",
+    "attribute",
+    "olive green parka"
+   ]
+  },
+  {
+   "day": 98,
+   "ask": "what does my winter coat look like?",
+   "expect": "olive green parka",
+   "stale": null,
+   "anchor": "[winter coat|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I do not remember what your winter coat looks like.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 100,
+   "kind": "event",
+   "say": "Boom! Tax return is officially filed and accepted. Done with paperwork for a year.",
+   "gist": [
+    "tax return",
+    "status",
+    "filed and accepted"
+   ],
+   "truth": [
+    "tax return",
+    "status",
+    "filed and accepted"
+   ]
+  },
+  {
+   "day": 101,
+   "kind": "chatter",
+   "say": "Stayed up watching a documentary about deep sea squids. Weirdly calming.",
+   "gist": [
+    "deep sea squid documentary",
+    "status",
+    "watched"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 104,
+   "kind": "event",
+   "say": "My camping tent is lent to Sam for his trip up north, hope he doesn't lose the stakes.",
+   "gist": [
+    "camping tent",
+    "status",
+    "lent to sam"
+   ],
+   "truth": [
+    "camping tent",
+    "status",
+    "lent to sam"
+   ]
+  },
+  {
+   "day": 106,
+   "ask": "what's the status of my tax return?",
+   "expect": "filed and accepted",
+   "stale": "still missing one form",
+   "anchor": "[tax return|status]",
+   "tail": "filed and accepted.",
+   "theta": 0.996,
+   "answer": "Your tax return has been filed and accepted.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 107,
+   "kind": "chatter",
+   "say": "Nothing beats fresh strawberries when they're actually sweet.",
+   "gist": [
+    "strawberries",
+    "preference",
+    "only if actually sweet"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 108,
+   "kind": "event",
+   "say": "That camping tent is a three-person dome tent, super easy to pitch.",
+   "gist": [
+    "camping tent",
+    "attribute",
+    "three-person dome tent"
+   ],
+   "truth": [
+    "camping tent",
+    "attribute",
+    "three-person dome tent"
+   ]
+  },
+  {
+   "day": 110,
+   "ask": "how big is my camping tent?",
+   "expect": "three-person dome tent",
+   "stale": null,
+   "anchor": "[camping tent|attribute]",
+   "tail": "three-person dome tent.",
+   "theta": 1.0,
+   "answer": "Your camping tent is a three-person dome tent.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 112,
+   "kind": "event",
+   "say": "Picked up my acoustic guitar to noodle around and ping—the high e string is snapped.",
+   "gist": [
+    "acoustic guitar",
+    "status",
+    "high e string snapped"
+   ],
+   "truth": [
+    "acoustic guitar",
+    "status",
+    "high e string is snapped"
+   ]
+  },
+  {
+   "day": 113,
+   "kind": "chatter",
+   "say": "Pollen count must be crazy today, everyone outside is sneezing.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 116,
+   "kind": "event",
+   "say": "Left the acoustic guitar leaning behind the sofa for now.",
+   "gist": [
+    "acoustic guitar",
+    "location",
+    "behind the sofa"
+   ],
+   "truth": [
+    "acoustic guitar",
+    "location",
+    "leaning behind the sofa"
+   ]
+  },
+  {
+   "day": 118,
+   "ask": "where did I leave the acoustic guitar?",
+   "expect": "leaning behind the sofa",
+   "stale": null,
+   "anchor": "[acoustic guitar|location]",
+   "tail": "behind the sofa.",
+   "theta": 1.0,
+   "answer": "You left it behind the sofa.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 119,
+   "kind": "chatter",
+   "say": "TGIF Aria, seriously thought this week would never end.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 120,
+   "kind": "event",
+   "say": "Checked out a massive biography today, library book is due May 12.",
+   "gist": [
+    "library book",
+    "time",
+    "due may 12"
+   ],
+   "truth": [
+    "library book",
+    "time",
+    "due may 12"
+   ]
+  },
+  {
+   "day": 122,
+   "ask": "when's that library book due?",
+   "expect": "due may 12",
+   "stale": null,
+   "anchor": "[library book|time]",
+   "tail": "due may 12.",
+   "theta": 1.0,
+   "answer": "The library book is due on May 12th.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 124,
+   "kind": "event",
+   "say": "Put the library book on the nightstand so I actually read a chapter before bed.",
+   "gist": [
+    "library book",
+    "location",
+    "on the nightstand"
+   ],
+   "truth": [
+    "library book",
+    "location",
+    "on the nightstand"
+   ]
+  },
+  {
+   "day": 125,
+   "kind": "chatter",
+   "say": "Tried a new ramen recipe and ngl, I kind of nailed the broth.",
+   "gist": [
+    "ramen",
+    "status",
+    "made successfully"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 126,
+   "ask": "library book—where is it?",
+   "expect": "on the nightstand",
+   "stale": null,
+   "anchor": "[library book|location]",
+   "tail": "on the nightstand.",
+   "theta": 0.998,
+   "answer": "It's on the nightstand.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 128,
+   "kind": "event",
+   "say": "When it comes to olive oil I'm such a snob now, gotta be cold-pressed Greek.",
+   "gist": [
+    "olive oil",
+    "preference",
+    "cold-pressed Greek"
+   ],
+   "truth": [
+    "olive oil",
+    "preference",
+    "cold-pressed greek"
+   ]
+  },
+  {
+   "day": 130,
+   "ask": "what kind of olive oil do I always get?",
+   "expect": "cold-pressed greek",
+   "stale": null,
+   "anchor": "[olive oil|preference]",
+   "tail": "cold-pressed Greek.",
+   "theta": 1.0,
+   "answer": "You always get cold-pressed Greek olive oil.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 131,
+   "kind": "chatter",
+   "say": "That cliffhanger on last night's episode should be illegal.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 131,
+   "ask": "where did I put the olive oil bottle?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[olive oil bottle|location]",
+   "tail": "(nothing)",
+   "theta": 0.059,
+   "answer": "I do not remember where you put the olive oil bottle.",
+   "honest": true
+  },
+  {
+   "day": 132,
+   "kind": "event",
+   "say": "Stepped on the bathroom scale and nothing happened, thing is totally out of batteries.",
+   "gist": [
+    "bathroom scale",
+    "status",
+    "out of batteries"
+   ],
+   "truth": [
+    "bathroom scale",
+    "status",
+    "out of batteries"
+   ]
+  },
+  {
+   "day": 134,
+   "ask": "what's up with the bathroom scale?",
+   "expect": "out of batteries",
+   "stale": null,
+   "anchor": "[bathroom scale|status]",
+   "tail": "out of batteries. I replaced it last week, so it should be working now",
+   "theta": 1.0,
+   "answer": "[bathroom scale|status] -> out of batteries. I replaced it last week, so it should be working now\n",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 135,
+   "ask": "did I tell you where I shoved the bathroom scale?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[bathroom scale|location]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 136,
+   "kind": "event",
+   "say": "Got a text from cousin Tariq—he's my mom's nephew on the other side of the family.",
+   "gist": [
+    "tariq",
+    "relation",
+    "cousin (mom's nephew)"
+   ],
+   "truth": [
+    "cousin tariq",
+    "relation",
+    "mom's nephew"
+   ]
+  },
+  {
+   "day": 137,
+   "kind": "chatter",
+   "say": "Perfect 70-degree breeze coming through the window right now.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 138,
+   "ask": "how am I related to cousin tariq?",
+   "expect": "mom's nephew",
+   "stale": null,
+   "anchor": "[tariq|relation]",
+   "tail": "cousin (mom's nephew).",
+   "theta": 1.0,
+   "answer": "You are related to Tariq through your mother; he is her nephew, which makes him your first cousin.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 140,
+   "kind": "event",
+   "say": "Looks like cousin Tariq is visiting in July for a few days, gonna be fun.",
+   "gist": [
+    "tariq",
+    "plan",
+    "visiting in july"
+   ],
+   "truth": [
+    "cousin tariq",
+    "plan",
+    "visiting in july"
+   ]
+  },
+  {
+   "day": 142,
+   "ask": "when is cousin tariq planning on coming?",
+   "expect": "visiting in july",
+   "stale": null,
+   "anchor": "[tariq|plan]",
+   "tail": "visiting in july.",
+   "theta": 1.0,
+   "answer": "Cousin Tariq is planning on coming in July.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 143,
+   "kind": "chatter",
+   "say": "Just having one of those lazy Sundays where I don't wanna move off the couch.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 144,
+   "kind": "event",
+   "say": "Unfroze my gym membership today, so it's active again. No more excuses.",
+   "gist": [
+    "gym membership",
+    "status",
+    "active"
+   ],
+   "truth": [
+    "gym membership",
+    "status",
+    "active again"
+   ]
+  },
+  {
+   "day": 146,
+   "ask": "is my gym membership still frozen or what?",
+   "expect": "active again",
+   "stale": "frozen for the winter",
+   "anchor": "[gym membership|status]",
+   "tail": "active.",
+   "theta": 1.0,
+   "answer": "Your gym membership is currently **active**, not frozen.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 148,
+   "kind": "event",
+   "say": "This black mesh ergonomic desk chair was worth every penny for my back.",
+   "gist": [
+    "black mesh ergonomic desk chair",
+    "value",
+    "worth every penny"
+   ],
+   "truth": [
+    "desk chair",
+    "attribute",
+    "black mesh ergonomic"
+   ]
+  },
+  {
+   "day": 149,
+   "kind": "chatter",
+   "say": "Cut open an avocado and it was 100% perfect, I should buy a lottery ticket.",
+   "gist": [
+    "avocado",
+    "status",
+    "perfectly ripe"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 150,
+   "ask": "what's my desk chair like?",
+   "expect": "black mesh ergonomic",
+   "stale": null,
+   "anchor": "[desk chair|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.062,
+   "answer": "I don't remember what your desk chair is like. If you tell me about it, I'll keep that in mind for next time.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 152,
+   "kind": "event",
+   "say": "Well I jinxed the desk chair, now the left armrest is wobbly. Need an Allen wrench.",
+   "gist": [
+    "desk chair",
+    "attribute",
+    "left armrest is wobbly"
+   ],
+   "truth": [
+    "desk chair",
+    "status",
+    "left armrest is wobbly"
+   ]
+  },
+  {
+   "day": 154,
+   "ask": "what broke on my desk chair?",
+   "expect": "left armrest is wobbly",
+   "stale": null,
+   "anchor": "[desk chair|attribute]",
+   "tail": "left armrest is wobbly.",
+   "theta": 1.0,
+   "answer": "The left armrest of your desk chair is wobbly.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 155,
+   "kind": "chatter",
+   "say": "Thunderstorm rolling in! Love the sound of distant thunder.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 156,
+   "kind": "event",
+   "say": "Left my sunglasses in the car glovebox so I have them for highway driving.",
+   "gist": [
+    "sunglasses",
+    "location",
+    "in the car glovebox"
+   ],
+   "truth": [
+    "sunglasses",
+    "location",
+    "in the car glovebox"
+   ]
+  },
+  {
+   "day": 160,
+   "kind": "event",
+   "say": "Those sunglasses are polarized tortoiseshell, took me ages to find frames that fit my face.",
+   "gist": [
+    "sunglasses",
+    "attribute",
+    "polarized tortoiseshell"
+   ],
+   "truth": [
+    "sunglasses",
+    "attribute",
+    "polarized tortoiseshell"
+   ]
+  },
+  {
+   "day": 161,
+   "kind": "chatter",
+   "say": "Rewatching old sitcoms is basically my comfort blanket.",
+   "gist": [
+    "old sitcoms",
+    "preference",
+    "comfort activity"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 162,
+   "ask": "what do my sunglasses look like?",
+   "expect": "polarized tortoiseshell",
+   "stale": null,
+   "anchor": "[sunglasses|attribute]",
+   "tail": "polarized tortoiseshell.",
+   "theta": 0.998,
+   "answer": "Your sunglasses are polarized with a tortoiseshell frame.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 164,
+   "kind": "event",
+   "say": "My poor sourdough starter is hiding in the back of the fridge.",
+   "gist": [
+    "sourdough starter",
+    "location",
+    "back of the fridge"
+   ],
+   "truth": [
+    "sourdough starter",
+    "location",
+    "back of the fridge"
+   ]
+  },
+  {
+   "day": 166,
+   "ask": "where's my sourdough starter?",
+   "expect": "back of the fridge",
+   "stale": null,
+   "anchor": "[sourdough starter|location]",
+   "tail": "",
+   "theta": 1.0,
+   "answer": "[sourdough starter|location] -> \n",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 167,
+   "kind": "chatter",
+   "say": "So humid out today, feels like walking through warm soup.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 168,
+   "kind": "event",
+   "say": "Checked the sourdough starter and yeah, it's dormant, needs feeding before I can bake.",
+   "gist": [
+    "sourdough starter",
+    "status",
+    "dormant"
+   ],
+   "truth": [
+    "sourdough starter",
+    "status",
+    "dormant, needs feeding"
+   ]
+  },
+  {
+   "day": 170,
+   "ask": "how's the sourdough starter doing?",
+   "expect": "dormant, needs feeding",
+   "stale": null,
+   "anchor": "[sourdough starter|status]",
+   "tail": "dormant.",
+   "theta": 1.0,
+   "answer": "The sourdough starter is currently dormant. It needs feeding and warmth to wake up again. Would you like me to help with that?",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 172,
+   "kind": "event",
+   "say": "Decided the desk wasn't secure enough, moved my passport so now it's in the fireproof safe.",
+   "gist": [
+    "passport",
+    "location",
+    "in the fireproof safe"
+   ],
+   "truth": [
+    "passport",
+    "location",
+    "in the fireproof safe"
+   ]
+  },
+  {
+   "day": 173,
+   "kind": "chatter",
+   "say": "Ate way too many tortilla chips before dinner, ruined my appetite lol.",
+   "gist": [
+    "tortilla chips",
+    "status",
+    "ate too many"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 174,
+   "ask": "passport??",
+   "expect": "in the fireproof safe",
+   "stale": "top desk drawer",
+   "anchor": "[passport|location]",
+   "tail": "in the fireproof safe.",
+   "theta": 0.998,
+   "answer": "It is in the fireproof safe.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 176,
+   "kind": "event",
+   "say": "Wanted to hem my pants but remembered my sewing machine is at my aunt's house.",
+   "gist": [
+    "sewing machine",
+    "location",
+    "at my aunt's house"
+   ],
+   "truth": [
+    "sewing machine",
+    "status",
+    "at my aunt's house"
+   ]
+  },
+  {
+   "day": 178,
+   "ask": "where's my sewing machine right now?",
+   "expect": "at my aunt's house",
+   "stale": null,
+   "anchor": "[sewing machine|location]",
+   "tail": "at my aunt's house.",
+   "theta": 1.0,
+   "answer": "Your sewing machine is currently at your aunt's house.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 179,
+   "kind": "chatter",
+   "say": "Why do commercials always seem twice as loud as the actual show?",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 179,
+   "ask": "did I ever tell you what model my sewing machine is?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[sewing machine|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 180,
+   "kind": "event",
+   "say": "Booked the flight to Chicago! August 8 at 7am, brutal wakeup call.",
+   "gist": [
+    "flight",
+    "time",
+    "august 8 at 7am"
+   ],
+   "truth": [
+    "flight to chicago",
+    "time",
+    "august 8 at 7am"
+   ]
+  },
+  {
+   "day": 184,
+   "kind": "event",
+   "say": "At least for the flight to Chicago I snagged a window seat, always my pick.",
+   "gist": [
+    "flight",
+    "preference",
+    "window seat"
+   ],
+   "truth": [
+    "flight to chicago",
+    "preference",
+    "window seat"
+   ]
+  },
+  {
+   "day": 185,
+   "kind": "chatter",
+   "say": "Cicadas are buzzing like crazy outside this afternoon.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 186,
+   "ask": "what seat preference did I pick for the flight to chicago?",
+   "expect": "window seat",
+   "stale": null,
+   "anchor": "[flight|preference]",
+   "tail": "window seat.",
+   "theta": 1.0,
+   "answer": "You picked a window seat for your flight to Chicago.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 188,
+   "kind": "event",
+   "say": "Trying to keep the grocery budget strictly at $400 a month this summer.",
+   "gist": [
+    "grocery budget",
+    "value",
+    "$400 a month"
+   ],
+   "truth": [
+    "grocery budget",
+    "value",
+    "$400 a month"
+   ]
+  },
+  {
+   "day": 191,
+   "kind": "chatter",
+   "say": "Cold watermelon on a hot day hits different.",
+   "gist": [
+    "watermelon",
+    "preference",
+    "cold"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 192,
+   "kind": "event",
+   "say": "Got soaked on the trail today, the waterproofing wore off on my hiking boots.",
+   "gist": [
+    "hiking boots",
+    "status",
+    "waterproofing worn off"
+   ],
+   "truth": [
+    "hiking boots",
+    "status",
+    "waterproofing wore off"
+   ]
+  },
+  {
+   "day": 194,
+   "ask": "what's the issue with my hiking boots?",
+   "expect": "waterproofing wore off",
+   "stale": null,
+   "anchor": "[hiking boots|status]",
+   "tail": "waterproofing worn off. The soles are separating from the upper at the toe",
+   "theta": 1.0,
+   "answer": "[hiking boots|status] -> waterproofing worn off. The soles are separating from the upper at the toe\n",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 196,
+   "kind": "event",
+   "say": "Put the hiking boots on the mudroom rack to dry out.",
+   "gist": [
+    "hiking boots",
+    "location",
+    "mudroom rack"
+   ],
+   "truth": [
+    "hiking boots",
+    "location",
+    "on the mudroom rack"
+   ]
+  },
+  {
+   "day": 197,
+   "kind": "chatter",
+   "say": "In such a good mood today, everything at work actually went smoothly.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 198,
+   "ask": "where did I leave my hiking boots?",
+   "expect": "on the mudroom rack",
+   "stale": null,
+   "anchor": "[hiking boots|location]",
+   "tail": "mudroom rack.",
+   "theta": 1.0,
+   "answer": "You left them on the mudroom rack.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 200,
+   "kind": "event",
+   "say": "Bumped into neighbor Dave in the hall—you know, the guy in apartment 4B.",
+   "gist": [
+    "dave",
+    "attribute",
+    "neighbor in apartment 4B"
+   ],
+   "truth": [
+    "neighbor dave",
+    "relation",
+    "guy in apartment 4b"
+   ]
+  },
+  {
+   "day": 202,
+   "ask": "who's neighbor dave again?",
+   "expect": "guy in apartment 4b",
+   "stale": null,
+   "anchor": "[dave|relation]",
+   "tail": "(nothing)",
+   "theta": 0.121,
+   "answer": "I don't remember who Dave is.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 203,
+   "kind": "chatter",
+   "say": "Watched a sci-fi flick last night, special effects were surprisingly decent.",
+   "gist": [
+    "sci-fi movie",
+    "attribute",
+    "surprisingly decent special effects"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 204,
+   "kind": "event",
+   "say": "Neighbor Dave mentioned he loves sourdough bread, I should bake him a loaf sometime.",
+   "gist": [
+    "dave",
+    "preference",
+    "sourdough bread"
+   ],
+   "truth": [
+    "neighbor dave",
+    "preference",
+    "loves sourdough bread"
+   ]
+  },
+  {
+   "day": 206,
+   "ask": "what bread does neighbor dave like?",
+   "expect": "loves sourdough bread",
+   "stale": null,
+   "anchor": "[dave|preference]",
+   "tail": "sourdough bread.",
+   "theta": 1.0,
+   "answer": "Dave likes sourdough bread.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 208,
+   "kind": "event",
+   "say": "Picked up the car from the shop! It's freshly serviced and running fine now, thank goodness.",
+   "gist": [
+    "car",
+    "status",
+    "freshly serviced and running fine"
+   ],
+   "truth": [
+    "car",
+    "status",
+    "freshly serviced and running fine"
+   ]
+  },
+  {
+   "day": 209,
+   "kind": "chatter",
+   "say": "Heatwave is no joke, the pavement looks like it's melting.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 210,
+   "ask": "how's the car doing now?",
+   "expect": "freshly serviced and running fine",
+   "stale": "check engine light is on",
+   "anchor": "[car|status]",
+   "tail": "freshly serviced and running fine.",
+   "theta": 1.0,
+   "answer": "The car is running great! It was just serviced, so everything is working perfectly.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 212,
+   "kind": "event",
+   "say": "Uh oh, the dishwasher started making a grinding noise mid-cycle.",
+   "gist": [
+    "dishwasher",
+    "status",
+    "making a grinding noise"
+   ],
+   "truth": [
+    "dishwasher",
+    "status",
+    "making a grinding noise"
+   ]
+  },
+  {
+   "day": 214,
+   "ask": "what's wrong with the dishwasher?",
+   "expect": "making a grinding noise",
+   "stale": null,
+   "anchor": "[dishwasher|status]",
+   "tail": "making a grinding noise.",
+   "theta": 1.0,
+   "answer": "The dishwasher is making a grinding noise.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 215,
+   "kind": "chatter",
+   "say": "Made iced tea and forgot to put ice in it... so, lukewarm tea I guess.",
+   "gist": [
+    "iced tea",
+    "status",
+    "lukewarm"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 215,
+   "ask": "did I ever mention how old the dishwasher is?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[dishwasher|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 216,
+   "kind": "event",
+   "say": "Left my yoga mat rolled up by the balcony door so I can stretch in the morning sun.",
+   "gist": [
+    "yoga mat",
+    "location",
+    "by the balcony door"
+   ],
+   "truth": [
+    "yoga mat",
+    "location",
+    "rolled up by the balcony door"
+   ]
+  },
+  {
+   "day": 218,
+   "ask": "yoga mat??",
+   "expect": "rolled up by the balcony door",
+   "stale": null,
+   "anchor": "[yoga mat|location]",
+   "tail": "by the balcony door.",
+   "theta": 1.0,
+   "answer": "I remember it is by the balcony door.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 220,
+   "kind": "event",
+   "say": "Love that my yoga mat is extra thick purple foam, saves my knees.",
+   "gist": [
+    "yoga mat",
+    "attribute",
+    "extra thick purple foam"
+   ],
+   "truth": [
+    "yoga mat",
+    "attribute",
+    "extra thick purple"
+   ]
+  },
+  {
+   "day": 221,
+   "kind": "chatter",
+   "say": "Yawning every five seconds, def didn't sleep deep enough.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 222,
+   "ask": "what color is my yoga mat?",
+   "expect": "extra thick purple",
+   "stale": null,
+   "anchor": "[yoga mat|attribute]",
+   "tail": "extra thick purple foam.",
+   "theta": 1.0,
+   "answer": "Your yoga mat is purple.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 224,
+   "kind": "event",
+   "say": "Caved and bought reading glasses... plus 1.5 strength. Officially getting old lol.",
+   "gist": [
+    "reading glasses",
+    "attribute",
+    "plus 1.5 strength"
+   ],
+   "truth": [
+    "reading glasses",
+    "value",
+    "plus 1.5 strength"
+   ]
+  },
+  {
+   "day": 226,
+   "ask": "what strength are my reading glasses?",
+   "expect": "plus 1.5 strength",
+   "stale": null,
+   "anchor": "[reading glasses|attribute]",
+   "tail": "plus 1.5 strength.",
+   "theta": 1.0,
+   "answer": "Your reading glasses are plus 1.5 strength.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 227,
+   "kind": "chatter",
+   "say": "There's a double rainbow out the back window right now!",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 228,
+   "kind": "event",
+   "say": "Dropped my reading glasses on the kitchen counter next to the fruit bowl.",
+   "gist": [
+    "reading glasses",
+    "location",
+    "kitchen counter next to the fruit bowl"
+   ],
+   "truth": [
+    "reading glasses",
+    "location",
+    "on the kitchen counter"
+   ]
+  },
+  {
+   "day": 232,
+   "kind": "event",
+   "say": "Finally showed the acoustic guitar some love—it's restrung and tuned.",
+   "gist": [
+    "acoustic guitar",
+    "status",
+    "restrung and tuned"
+   ],
+   "truth": [
+    "acoustic guitar",
+    "status",
+    "restrung and tuned"
+   ]
+  },
+  {
+   "day": 233,
+   "kind": "chatter",
+   "say": "Popcorn for dinner counts as a balanced meal if you're tired enough, right?",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 234,
+   "ask": "is my acoustic guitar still missing a string?",
+   "expect": "restrung and tuned",
+   "stale": "high e string is snapped",
+   "anchor": "[acoustic guitar|status]",
+   "tail": "Aria has and tuned.",
+   "theta": 1.0,
+   "answer": "No, your acoustic guitar is not missing a string; it is currently tuned and ready to play.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 236,
+   "kind": "event",
+   "say": "That plant in hallway is a fiddle leaf fig and somehow I haven't killed it yet.",
+   "gist": [
+    "fiddle leaf fig",
+    "location",
+    "hallway"
+   ],
+   "truth": [
+    "plant in hallway",
+    "attribute",
+    "fiddle leaf fig"
+   ]
+  },
+  {
+   "day": 238,
+   "ask": "what kind of plant is the plant in hallway?",
+   "expect": "fiddle leaf fig",
+   "stale": null,
+   "anchor": "[plant|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.121,
+   "answer": "I do not remember what kind of plant is in the hallway. If you tell me, I will remember it.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 239,
+   "kind": "chatter",
+   "say": "Nothing good on TV tonight, just scrolling through menus for twenty minutes.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 240,
+   "kind": "event",
+   "say": "Roots are poking out of the plant in hallway, def need to repot into a bigger planter soon.",
+   "gist": [
+    "plant",
+    "location",
+    "hallway"
+   ],
+   "truth": [
+    "plant in hallway",
+    "plan",
+    "repot into a bigger planter"
+   ]
+  },
+  {
+   "day": 242,
+   "ask": "what was I gonna do with the plant in hallway?",
+   "expect": "repot into a bigger planter",
+   "stale": null,
+   "anchor": "[plant|plan]",
+   "tail": "(nothing)",
+   "theta": 0.122,
+   "answer": "I don't remember what you were going to do with the plant in the hallway.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 244,
+   "kind": "event",
+   "say": "Popped open the air conditioner panel and oof, the filter is super dusty.",
+   "gist": [
+    "air conditioner",
+    "status",
+    "filter is dusty"
+   ],
+   "truth": [
+    "air conditioner",
+    "status",
+    "filter is super dusty"
+   ]
+  },
+  {
+   "day": 245,
+   "kind": "chatter",
+   "say": "You can totally feel autumn in the air this morning, nice and crisp.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 246,
+   "ask": "how's the air conditioner looking?",
+   "expect": "filter is super dusty",
+   "stale": null,
+   "anchor": "[air conditioner|status]",
+   "tail": "Aria is dusty.",
+   "theta": 1.0,
+   "answer": "[air conditioner|status] -> Aria is dusty.\n",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 247,
+   "ask": "did I ever tell you how many BTUs the air conditioner has?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[air conditioner|value]",
+   "tail": "(nothing)",
+   "theta": 0.059,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 248,
+   "kind": "event",
+   "say": "If we're talking pizza, thin crust with mushrooms and olives is undefeated.",
+   "gist": [
+    "pizza",
+    "preference",
+    "thin crust with mushrooms and olives"
+   ],
+   "truth": [
+    "pizza",
+    "preference",
+    "thin crust with mushrooms and olives"
+   ]
+  },
+  {
+   "day": 250,
+   "ask": "how do I like my pizza?",
+   "expect": "thin crust with mushrooms and olives",
+   "stale": null,
+   "anchor": "[pizza|preference]",
+   "tail": "thin crust with mushrooms and olives.",
+   "theta": 1.0,
+   "answer": "You mentioned before that you prefer your pizza with a thin crust, topped with mushrooms and olives.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 251,
+   "kind": "chatter",
+   "say": "Roasted some butternut squash, whole place smells amazing.",
+   "gist": [
+    "butternut squash",
+    "status",
+    "roasted"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 251,
+   "ask": "did I tell you when I'm planning to make pizza next?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[pizza|plan]",
+   "tail": "(nothing)",
+   "theta": 0.0,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 252,
+   "kind": "event",
+   "say": "Airline changed my schedule, so my flight to Chicago is August 9 at 6pm now.",
+   "gist": [
+    "flight",
+    "time",
+    "august 9 at 6pm"
+   ],
+   "truth": [
+    "flight to chicago",
+    "time",
+    "august 9 at 6pm"
+   ]
+  },
+  {
+   "day": 254,
+   "ask": "when is my flight to chicago now?",
+   "expect": "august 9 at 6pm",
+   "stale": "august 8 at 7am",
+   "anchor": "[flight|time]",
+   "tail": "august 9 at 6pm.",
+   "theta": 1.0,
+   "answer": "Your flight to Chicago is on August 9th at 6 PM.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 256,
+   "kind": "event",
+   "say": "Had a 1-on-1 with boss Elena today—she's head of product over at work.",
+   "gist": [
+    "elena",
+    "relation",
+    "boss and head of product"
+   ],
+   "truth": [
+    "boss elena",
+    "relation",
+    "head of product"
+   ]
+  },
+  {
+   "day": 257,
+   "kind": "chatter",
+   "say": "Feeling a bit restless tonight, might do a puzzle or something.",
+   "gist": [
+    "puzzle",
+    "plan",
+    "do tonight"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 258,
+   "ask": "who is boss elena at my company?",
+   "expect": "head of product",
+   "stale": null,
+   "anchor": "[elena|relation]",
+   "tail": "boss and head of product.",
+   "theta": 0.998,
+   "answer": "[elena|relation] -> boss and head of product.\n",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 260,
+   "kind": "event",
+   "say": "One thing about boss Elena, she prefers Slack over email for literally everything.",
+   "gist": [
+    "elena",
+    "preference",
+    "slack over email"
+   ],
+   "truth": [
+    "boss elena",
+    "preference",
+    "prefers slack over email"
+   ]
+  },
+  {
+   "day": 262,
+   "ask": "how does boss elena like people to message her?",
+   "expect": "prefers slack over email",
+   "stale": null,
+   "anchor": "[elena|preference]",
+   "tail": "slack over email.",
+   "theta": 1.0,
+   "answer": "[elena|preference] -> slack over email.\n",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 263,
+   "kind": "chatter",
+   "say": "Leaves are starting to turn orange down the block, looks awesome.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 264,
+   "kind": "event",
+   "say": "Went to go for a ride and saw my bicycle back tire is flat. Bummer.",
+   "gist": [
+    "bicycle",
+    "status",
+    "back tire is flat"
+   ],
+   "truth": [
+    "bicycle",
+    "status",
+    "back tire is flat"
+   ]
+  },
+  {
+   "day": 268,
+   "kind": "event",
+   "say": "Kept the bicycle locked in the basement storage so it's out of the rain.",
+   "gist": [
+    "bicycle",
+    "location",
+    "basement storage"
+   ],
+   "truth": [
+    "bicycle",
+    "location",
+    "locked in the basement storage"
+   ]
+  },
+  {
+   "day": 269,
+   "kind": "chatter",
+   "say": "Started a new mystery series on streaming, already hooked.",
+   "gist": [
+    "mystery series",
+    "status",
+    "started watching"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 270,
+   "ask": "where is my bicycle locked up?",
+   "expect": "locked in the basement storage",
+   "stale": null,
+   "anchor": "[bicycle|location]",
+   "tail": "basement storage.",
+   "theta": 0.998,
+   "answer": "Your bicycle is locked up in the basement storage.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 272,
+   "kind": "event",
+   "say": "Took the spare key from the porch, it's with neighbor Dave now in case I lock myself out.",
+   "gist": [
+    "spare key",
+    "location",
+    "with neighbor dave"
+   ],
+   "truth": [
+    "spare key",
+    "location",
+    "with neighbor dave"
+   ]
+  },
+  {
+   "day": 274,
+   "ask": "where's the spare key right now?",
+   "expect": "with neighbor dave",
+   "stale": "under the blue flowerpot",
+   "anchor": "[spare key|location]",
+   "tail": "with neighbor dave.",
+   "theta": 1.0,
+   "answer": "The spare key is currently with our neighbor Dave.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 275,
+   "kind": "chatter",
+   "say": "Drizzling all day, classic gray October vibes.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 276,
+   "kind": "event",
+   "say": "Stuck the umbrella in the coat stand by the entry.",
+   "gist": [
+    "umbrella",
+    "location",
+    "in the coat stand by the entry"
+   ],
+   "truth": [
+    "umbrella",
+    "location",
+    "in the coat stand"
+   ]
+  },
+  {
+   "day": 278,
+   "ask": "umbrella??",
+   "expect": "in the coat stand",
+   "stale": null,
+   "anchor": "[umbrella|location]",
+   "tail": "in the coat stand by the entry.",
+   "theta": 1.0,
+   "answer": "Yes, it is in the coat stand by the entry.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 280,
+   "kind": "event",
+   "say": "Can't miss my umbrella in a crowd, it's bright yellow with wooden handle.",
+   "gist": [
+    "umbrella",
+    "attribute",
+    "bright yellow with wooden handle"
+   ],
+   "truth": [
+    "umbrella",
+    "attribute",
+    "yellow with wooden handle"
+   ]
+  },
+  {
+   "day": 281,
+   "kind": "chatter",
+   "say": "Apple cider donuts are dangerous, I ate three without blinking.",
+   "gist": [
+    "apple cider donuts",
+    "preference",
+    "dangerous"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 282,
+   "ask": "what does my umbrella look like?",
+   "expect": "yellow with wooden handle",
+   "stale": null,
+   "anchor": "[umbrella|attribute]",
+   "tail": "bright yellow with wooden handle.",
+   "theta": 0.998,
+   "answer": "Your umbrella is bright yellow with a wooden handle.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 284,
+   "kind": "event",
+   "say": "Whenever I put a podcast on while cleaning, it's always true crime and history stuff.",
+   "gist": [
+    "podcasts",
+    "preference",
+    "true crime and history"
+   ],
+   "truth": [
+    "podcast",
+    "preference",
+    "true crime and history"
+   ]
+  },
+  {
+   "day": 286,
+   "ask": "what kind of podcast stuff do I listen to?",
+   "expect": "true crime and history",
+   "stale": null,
+   "anchor": "[podcasts|preference]",
+   "tail": "true crime and history.",
+   "theta": 1.0,
+   "answer": "You mentioned you enjoy listening to true crime and history podcasts.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 287,
+   "kind": "chatter",
+   "say": "Spooky movie marathon tonight! Well, mildly spooky, I'm a wimp.",
+   "gist": [
+    "spooky movie marathon",
+    "plan",
+    "tonight"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 287,
+   "ask": "did I ever tell you the name of my favorite podcast?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[podcasts|preference]",
+   "tail": "true crime and history.",
+   "theta": 0.998,
+   "answer": "[podcasts|preference] -> true crime and history.\n",
+   "honest": false
+  },
+  {
+   "day": 288,
+   "kind": "event",
+   "say": "Staring at the bedroom walls... I really wanna paint them sage green before winter.",
+   "gist": [
+    "bedroom walls",
+    "plan",
+    "paint sage green before winter"
+   ],
+   "truth": [
+    "bedroom walls",
+    "plan",
+    "paint them sage green"
+   ]
+  },
+  {
+   "day": 290,
+   "ask": "what was my plan for the bedroom walls?",
+   "expect": "paint them sage green",
+   "stale": null,
+   "anchor": "[bedroom walls|plan]",
+   "tail": "paint sage green before winter.",
+   "theta": 1.0,
+   "answer": "Your plan was to paint them sage green before winter.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 291,
+   "ask": "do you know what color the bedroom walls are right now?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[bedroom|attribute]",
+   "tail": "(nothing)",
+   "theta": 0.168,
+   "answer": "I do not remember.",
+   "honest": true
+  },
+  {
+   "day": 292,
+   "kind": "event",
+   "say": "Half my bagel is raw because on the toaster the left slot doesn't heat up anymore.",
+   "gist": [
+    "toaster",
+    "attribute",
+    "left slot does not heat up"
+   ],
+   "truth": [
+    "toaster",
+    "status",
+    "left slot doesn't heat up"
+   ]
+  },
+  {
+   "day": 293,
+   "kind": "chatter",
+   "say": "Frost on the rooftops this morning, brrr.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 294,
+   "ask": "what's broken on the toaster?",
+   "expect": "left slot doesn't heat up",
+   "stale": null,
+   "anchor": "[toaster|attribute]",
+   "tail": "left slot does not heat up.",
+   "theta": 1.0,
+   "answer": "The left slot of your toaster isn't heating up.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 295,
+   "ask": "where on the counter did I put the toaster?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[toaster|location]",
+   "tail": "(nothing)",
+   "theta": 0.06,
+   "answer": "I do not remember where you put the toaster.",
+   "honest": true
+  },
+  {
+   "day": 296,
+   "kind": "event",
+   "say": "Sam finally returned my camping tent! It's back in the garage.",
+   "gist": [
+    "camping tent",
+    "location",
+    "in the garage"
+   ],
+   "truth": [
+    "camping tent",
+    "status",
+    "back in the garage"
+   ]
+  },
+  {
+   "day": 298,
+   "ask": "does sam still have my camping tent?",
+   "expect": "back in the garage",
+   "stale": "lent to sam",
+   "anchor": "[camping tent|status]",
+   "tail": "lent to sam.",
+   "theta": 0.889,
+   "answer": "Yes, Sam still has your camping tent.",
+   "hit": false,
+   "stale_hit": true
+  },
+  {
+   "day": 299,
+   "kind": "chatter",
+   "say": "Made a huge pot of chili, gonna be eating leftovers for days.",
+   "gist": [
+    "chili",
+    "plan",
+    "eating leftovers for days"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 300,
+   "kind": "event",
+   "say": "Our big anniversary dinner with the friend group is set for November 5 at 8pm.",
+   "gist": [
+    "anniversary dinner",
+    "time",
+    "november 5 at 8pm"
+   ],
+   "truth": [
+    "anniversary dinner",
+    "time",
+    "november 5 at 8pm"
+   ]
+  },
+  {
+   "day": 302,
+   "ask": "when is the anniversary dinner?",
+   "expect": "november 5 at 8pm",
+   "stale": null,
+   "anchor": "[anniversary dinner|time]",
+   "tail": "Friday 5pm.",
+   "theta": 1.0,
+   "answer": "The anniversary dinner is on Friday at 5pm.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 304,
+   "kind": "event",
+   "say": "For the anniversary dinner I still need to book the Italian place downtown.",
+   "gist": [
+    "dinner",
+    "plan",
+    "book the italian place downtown"
+   ],
+   "truth": [
+    "anniversary dinner",
+    "plan",
+    "book the italian place downtown"
+   ]
+  },
+  {
+   "day": 305,
+   "kind": "chatter",
+   "say": "Daylight saving time ending always messes with my internal clock.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 306,
+   "ask": "what's the plan for the anniversary dinner?",
+   "expect": "book the italian place downtown",
+   "stale": null,
+   "anchor": "[dinner|plan]",
+   "tail": "book the italian place downtown.",
+   "theta": 1.0,
+   "answer": "I don't remember any specific details about the anniversary dinner plan beyond booking an Italian place downtown. Do you want me to help with anything else, like making a reservation or picking out an",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 308,
+   "kind": "event",
+   "say": "Found my earbuds! They were in my left jacket pocket the whole time.",
+   "gist": [
+    "earbuds",
+    "location",
+    "in left jacket pocket"
+   ],
+   "truth": [
+    "earbuds",
+    "location",
+    "left jacket pocket"
+   ]
+  },
+  {
+   "day": 310,
+   "ask": "where did I find my earbuds?",
+   "expect": "left jacket pocket",
+   "stale": null,
+   "anchor": "[earbuds|location]",
+   "tail": "in left jacket pocket.",
+   "theta": 1.0,
+   "answer": "You found your earbuds in your left jacket pocket.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 311,
+   "kind": "chatter",
+   "say": "That game show host has way too much energy for 7pm.",
+   "gist": [
+    "game show host",
+    "attribute",
+    "has way too much energy"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 312,
+   "kind": "event",
+   "say": "Pitcher water filter is blinking red, needs replacement.",
+   "gist": [
+    "pitcher water filter",
+    "status",
+    "needs replacement"
+   ],
+   "truth": [
+    "water filter",
+    "status",
+    "blinking red, needs replacement"
+   ]
+  },
+  {
+   "day": 316,
+   "kind": "event",
+   "say": "Perfumed soap makes me sneeze, so for laundry detergent I only buy unscented liquid.",
+   "gist": [
+    "laundry detergent",
+    "preference",
+    "unscented liquid"
+   ],
+   "truth": [
+    "laundry detergent",
+    "preference",
+    "unscented liquid"
+   ]
+  },
+  {
+   "day": 317,
+   "kind": "chatter",
+   "say": "Wind is howling against the windows tonight, glad I'm indoors.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 318,
+   "ask": "what laundry detergent do I buy?",
+   "expect": "unscented liquid",
+   "stale": null,
+   "anchor": "[laundry detergent|preference]",
+   "tail": "unscented liquid.",
+   "theta": 1.0,
+   "answer": "You buy unscented liquid laundry detergent.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 319,
+   "ask": "did I tell you where I keep the laundry detergent?",
+   "expect": null,
+   "stale": null,
+   "anchor": "[laundry detergent|location]",
+   "tail": "(nothing)",
+   "theta": 0.056,
+   "answer": "I don't remember.",
+   "honest": true
+  },
+  {
+   "day": 320,
+   "kind": "event",
+   "say": "Doctor told me to cut the caffeine and dairy-heavy stuff, so my coffee preference is black decaf only now.",
+   "gist": [
+    "coffee",
+    "preference",
+    "black decaf"
+   ],
+   "truth": [
+    "coffee",
+    "preference",
+    "black decaf only"
+   ]
+  },
+  {
+   "day": 322,
+   "ask": "how do I take my coffee these days?",
+   "expect": "black decaf only",
+   "stale": "oat milk, no sugar",
+   "anchor": "[coffee|preference]",
+   "tail": "black with two.",
+   "theta": 1.0,
+   "answer": "[coffee|preference] -> black with two.\n",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 323,
+   "kind": "chatter",
+   "say": "Cinnamon rolls fresh out of the oven... peak happiness.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 324,
+   "kind": "event",
+   "say": "Got my laptop back from the repair bar—new battery installed, works great!",
+   "gist": [
+    "laptop",
+    "status",
+    "repaired with new battery"
+   ],
+   "truth": [
+    "laptop",
+    "status",
+    "new battery installed, works great"
+   ]
+  },
+  {
+   "day": 326,
+   "ask": "how's my laptop battery holding up now?",
+   "expect": "new battery installed, works great",
+   "stale": "battery dies in an hour",
+   "anchor": "[laptop|status]",
+   "tail": "repaired with new battery.",
+   "theta": 1.0,
+   "answer": "[laptop|status] -> repaired with new battery.\n",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 328,
+   "kind": "event",
+   "say": "Food prices are wild, bumped my grocery budget up to $450 a month.",
+   "gist": [
+    "grocery budget",
+    "value",
+    "$450 a month"
+   ],
+   "truth": [
+    "grocery budget",
+    "value",
+    "$450 a month"
+   ]
+  },
+  {
+   "day": 329,
+   "kind": "chatter",
+   "say": "Just feeling super cozy and grateful today, honestly.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 330,
+   "ask": "what's my grocery budget at now?",
+   "expect": "$450 a month",
+   "stale": "$400 a month",
+   "anchor": "[grocery budget|value]",
+   "tail": "$450 a month.",
+   "theta": 1.0,
+   "answer": "Your grocery budget is currently set at $450 per month.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 332,
+   "kind": "event",
+   "say": "Brought my sunglasses inside from the car, they're sitting on the entry table.",
+   "gist": [
+    "sunglasses",
+    "location",
+    "on the entry table"
+   ],
+   "truth": [
+    "sunglasses",
+    "location",
+    "on the entry table"
+   ]
+  },
+  {
+   "day": 334,
+   "ask": "sunglasses??",
+   "expect": "on the entry table",
+   "stale": "in the car glovebox",
+   "anchor": "[sunglasses|location]",
+   "tail": "on the entry table.",
+   "theta": 1.0,
+   "answer": "They are on the entry table.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 335,
+   "kind": "chatter",
+   "say": "Cheesy holiday movies are terrible and yet I watch them every single year.",
+   "gist": [
+    "cheesy holiday movies",
+    "preference",
+    "watched every year despite disliking them"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 336,
+   "kind": "event",
+   "say": "Fixed up the water filter pitcher—fresh cartridge installed.",
+   "gist": [
+    "water filter pitcher",
+    "status",
+    "fresh cartridge installed"
+   ],
+   "truth": [
+    "water filter",
+    "status",
+    "fresh cartridge installed"
+   ]
+  },
+  {
+   "day": 338,
+   "ask": "did I replace the water filter yet?",
+   "expect": "fresh cartridge installed",
+   "stale": "blinking red, needs replacement",
+   "anchor": "[water filter|status]",
+   "tail": "(nothing)",
+   "theta": 0.18,
+   "answer": "I don't remember.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 340,
+   "kind": "event",
+   "say": "Freezing out there today! Pulled the winter coat out, it's hanging by the front door now.",
+   "gist": [
+    "winter coat",
+    "location",
+    "hanging by the front door"
+   ],
+   "truth": [
+    "winter coat",
+    "location",
+    "hanging by the front door"
+   ]
+  },
+  {
+   "day": 341,
+   "kind": "chatter",
+   "say": "Sky has that flat white look like it's about to dump snow.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 342,
+   "ask": "where's my winter coat?",
+   "expect": "hanging by the front door",
+   "stale": "vacuum bag under the bed",
+   "anchor": "[winter coat|location]",
+   "tail": "hanging by the front door.",
+   "theta": 1.0,
+   "answer": "It is hanging by the front door.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 344,
+   "kind": "event",
+   "say": "Fixed the bicycle! New tube put in, ready to ride.",
+   "gist": [
+    "bicycle",
+    "status",
+    "fixed with new tube"
+   ],
+   "truth": [
+    "bicycle",
+    "status",
+    "new tube put in, ready to ride"
+   ]
+  },
+  {
+   "day": 346,
+   "ask": "is my bicycle fixed or still flat?",
+   "expect": "new tube put in, ready to ride",
+   "stale": "back tire is flat",
+   "anchor": "[bicycle|status]",
+   "tail": "fixed with new tube.",
+   "theta": 1.0,
+   "answer": "Your bicycle is fixed; I replaced the inner tube, so it holds air now.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 348,
+   "kind": "event",
+   "say": "Moved my reading glasses so they're in the nightstand drawer for bedtime reading.",
+   "gist": [
+    "reading glasses",
+    "location",
+    "in the nightstand drawer"
+   ],
+   "truth": [
+    "reading glasses",
+    "location",
+    "in the nightstand drawer"
+   ]
+  },
+  {
+   "day": 349,
+   "kind": "chatter",
+   "say": "Hot cocoa with way too many marshmallows is the move tonight.",
+   "gist": [
+    "hot cocoa",
+    "preference",
+    "with way too many marshmallows"
+   ],
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "day": 350,
+   "ask": "where did I put my reading glasses?",
+   "expect": "in the nightstand drawer",
+   "stale": "on the kitchen counter",
+   "anchor": "[reading glasses|location]",
+   "tail": "in the nightstand drawer.",
+   "theta": 0.998,
+   "answer": "Your reading glasses are in the nightstand drawer.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 352,
+   "kind": "event",
+   "say": "Big news—sister Maya packed up and moved to Portland this week!",
+   "gist": [
+    "maya",
+    "location",
+    "portland"
+   ],
+   "truth": [
+    "sister maya",
+    "location",
+    "moved to portland"
+   ]
+  },
+  {
+   "day": 354,
+   "ask": "where is sister maya living now?",
+   "expect": "moved to portland",
+   "stale": "living in seattle",
+   "anchor": "[maya|location]",
+   "tail": "portland.",
+   "theta": 1.0,
+   "answer": "Sister Maya is currently living in Portland.",
+   "hit": true,
+   "stale_hit": false
+  },
+  {
+   "day": 356,
+   "kind": "event",
+   "say": "Ugh, my earbuds are acting up, the right side stopped charging.",
+   "gist": [
+    "earbuds",
+    "status",
+    "right side stopped charging"
+   ],
+   "truth": [
+    "earbuds",
+    "status",
+    "right side stopped charging"
+   ]
+  },
+  {
+   "day": 360,
+   "ask": "what's wrong with my earbuds?",
+   "expect": "right side stopped charging",
+   "stale": null,
+   "anchor": "[earbuds|status]",
+   "tail": "right side stopped charging.",
+   "theta": 1.0,
+   "answer": "I don't know what's wrong with your earbuds, as I have no notes or memories about them.",
+   "hit": false,
+   "stale_hit": false
+  },
+  {
+   "day": 363,
+   "kind": "chatter",
+   "say": "Can't believe another year flew by like that, wild.",
+   "gist": null,
+   "truth": [
+    null,
+    null,
+    null
+   ]
+  }
+ ]
+}

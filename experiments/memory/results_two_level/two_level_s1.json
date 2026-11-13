@@ -1,0 +1,93 @@
+{
+ "args": {
+  "n": 60,
+  "layers": [
+   4,
+   8,
+   14,
+   20
+  ],
+  "ks": [
+   20,
+   100,
+   400
+  ],
+  "D": 32768,
+  "seed": 1,
+  "out": "<workspace>\\experiments\\memory\\results_two_level"
+ },
+ "rows": [
+  {
+   "layer": 4,
+   "k": 20,
+   "topic_auc_question_old_vs_new": 0.5102777777777778,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 4,
+   "k": 100,
+   "topic_auc_question_old_vs_new": 0.5868055555555556,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 4,
+   "k": 400,
+   "topic_auc_question_old_vs_new": 0.6995833333333333,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 8,
+   "k": 20,
+   "topic_auc_question_old_vs_new": 0.5258333333333334,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 8,
+   "k": 100,
+   "topic_auc_question_old_vs_new": 0.65125,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 8,
+   "k": 400,
+   "topic_auc_question_old_vs_new": 0.6769444444444445,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 14,
+   "k": 20,
+   "topic_auc_question_old_vs_new": 0.5086111111111111,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 14,
+   "k": 100,
+   "topic_auc_question_old_vs_new": 0.5441666666666667,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 14,
+   "k": 400,
+   "topic_auc_question_old_vs_new": 0.57375,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 20,
+   "k": 20,
+   "topic_auc_question_old_vs_new": 0.5083333333333333,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 20,
+   "k": 100,
+   "topic_auc_question_old_vs_new": 0.5334722222222222,
+   "item_auc_true_vs_lure": 1.0
+  },
+  {
+   "layer": 20,
+   "k": 400,
+   "topic_auc_question_old_vs_new": 0.5191666666666667,
+   "item_auc_true_vs_lure": 1.0
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+ortho seed 7: recall@5 network index 35 recall@5 network index 34 
+ortho seed 9: recall@5 network index 35 recall@5 network index 34 
+ortho seed 10: recall@5 network index 35 recall@5 network index 34 
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 31 | wrong 5 | none 9 || never-told answered 1 / 18
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 36 | wrong 4 | none 9 || never-told answered 1 / 21

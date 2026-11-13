@@ -1,0 +1,65 @@
+[
+ {
+  "tag": "real_sleep",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "SLEEP_TAG": "_real"
+  }
+ },
+ {
+  "tag": "real_never",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode never --core 60 --noise 1140",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "SLEEP_TAG": "_real"
+  }
+ },
+ {
+  "tag": "real_sleep_sync",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_THETA_TAU": "100",
+   "FMEM_THETA_TAU_SLOW": "500",
+   "SLEEP_THETA_DOWN": "1",
+   "SLEEP_TAG": "_real_sync"
+  }
+ },
+ {
+  "tag": "real_sleep_sync_protect",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_THETA_TAU": "100",
+   "FMEM_THETA_TAU_SLOW": "500",
+   "SLEEP_THETA_DOWN": "1",
+   "SLEEP_PROTECT": "1",
+   "SLEEP_TAG": "_real_sync_protect"
+  }
+ }
+]

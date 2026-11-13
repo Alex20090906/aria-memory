@@ -1,0 +1,19 @@
+[
+ {
+  "tag": "m_u15_never_echo_2400",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode never --core 60 --noise 2340 ",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_ECHO": "1",
+   "FMEM_CONF_PMIN": "1e-9",
+   "SLEEP_LOG": "1",
+   "SLEEP_TAG": "_u15_never_echo_2400"
+  }
+ }
+]

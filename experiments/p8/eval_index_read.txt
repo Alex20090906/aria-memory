@@ -1,0 +1,11 @@
+== zh_result_I_all_old.json Dout 256 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 33 | dense text embedding 35 | either 36
+    dense only: (3, '我護照臉。', '護照｜放在哪｜黑色後背包夾層（原話：哦，我早上去辦簽證把他從書房房朝香拿出來了，我早上去辦簽證把他從')
+    dense only: (13, 'Aria,我存折現在放哪?', '銀行帳戶文件｜放在哪｜收在隨身托特包夾層，不在綠色資料夾（原話：Aria,我剛剛去銀行confirm')
+    dense only: (21, 'A我現在如果叫飲料外送,我是都喝什麼啊?', '飲料｜喜好｜烏龍拿鐵無糖去冰（原話：我最近在借糖，以後飲料外送都改喝烏龍拿鐵無糖為冰才對，）')
+  readout top score: told-with-answer median 0.289, never-told median 0.121, AUC 0.87
+  readout |y|: told-with-answer median 0.489, never-told median 0.304, AUC 0.81
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 29 | wrong 7 | none 9 || never-told answered 1 / 18
+== zh_result_I_all_set2.json Dout 256 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35
+  readout top score: told-with-answer median 0.330, never-told median 0.174, AUC 0.75
+  readout |y|: told-with-answer median 0.471, never-told median 0.357, AUC 0.72
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 36 | wrong 3 | none 10 || never-told answered 1 / 21

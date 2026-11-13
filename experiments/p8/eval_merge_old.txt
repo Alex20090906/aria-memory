@@ -1,0 +1,6 @@
+== zh_result_F_stage_log.json
+  merge off : merged   0 writes | right 28 (direct 20, ask 8) | direct wrong 6 | ask wrong 4 | none 7 | never: direct 2 ask 3
+  merge 0.95: merged   0 writes | right 28 (direct 20, ask 8) | direct wrong 6 | ask wrong 4 | none 7 | never: direct 2 ask 3
+  merge  0.9: merged   1 writes | right 28 (direct 20, ask 8) | direct wrong 6 | ask wrong 4 | none 7 | never: direct 2 ask 3
+  merge 0.85: merged   7 writes | right 26 (direct 18, ask 8) | direct wrong 8 | ask wrong 4 | none 7 | never: direct 2 ask 3
+  merge  0.8: merged  14 writes | right 25 (direct 16, ask 9) | direct wrong 9 | ask wrong 4 | none 7 | never: direct 2 ask 3

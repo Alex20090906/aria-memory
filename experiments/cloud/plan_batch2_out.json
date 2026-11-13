@@ -1,0 +1,23 @@
+[
+ {
+  "tag": "m_echo_protect",
+  "rc": 0,
+  "minutes": 85.8,
+  "tail": "  no-memory guess baseline: 0/60\nMODE sleep: core recall at end 0.483 (29/60) honest-forget 11 confident-wrong 20\n  recall by age quartile (young->old): ['13/15', '10/15', '6/15', '0/15']",
+  "err": ""
+ },
+ {
+  "tag": "m_echo_pmin09",
+  "rc": 0,
+  "minutes": 81.6,
+  "tail": "  no-memory guess baseline: 0/60\nMODE sleep: core recall at end 0.117 (7/60) honest-forget 52 confident-wrong 1\n  recall by age quartile (young->old): ['4/15', '3/15', '0/15', '0/15']",
+  "err": ""
+ },
+ {
+  "tag": "m_echo_seed1",
+  "rc": 0,
+  "minutes": 83.8,
+  "tail": "  no-memory guess baseline: 0/60\nMODE sleep: core recall at end 0.583 (35/60) honest-forget 3 confident-wrong 22\n  recall by age quartile (young->old): ['13/15', '12/15', '6/15', '4/15']",
+  "err": ""
+ }
+]

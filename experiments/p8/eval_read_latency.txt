@@ -1,0 +1,11 @@
+== zh_result_I_all_old.json questions 40
+  embed_q                  median 0.253  p90 0.290  max 0.302
+  embed_rows               median 0.000  p90 2.174  max 3.935
+  n_new_rows               median 0.000  p90 10.100  max 19.000
+  pick_first_ttft          median 1.219  p90 1.330  max 1.629
+  pick_first_first_line    median 1.259  p90 1.354  max 1.629
+  pick_first_total         median 1.433  p90 1.556  max 1.649
+  reply_first_ttft         median 1.202  p90 1.261  max 1.278
+  reply_first_first_line   median 1.348  p90 1.472  max 1.585
+  reply_first_total        median 1.367  p90 1.490  max 1.595
+  same pick in both orders: 36/40

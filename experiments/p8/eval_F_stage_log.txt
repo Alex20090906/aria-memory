@@ -1,0 +1,29 @@
+== zh_result_F_stage_log.json
+  F0: told 51 | direct ok 20 ask-back ok 0 | direct wrong 6 ask-back wrong 0 | none 19 not routed 6 || never 21: direct 2 ask-back 0
+  F1: told 51 | direct ok 20 ask-back ok 1 | direct wrong 6 ask-back wrong 1 | none 17 not routed 6 || never 21: direct 2 ask-back 0
+  F2: told 51 | direct ok 20 ask-back ok 6 | direct wrong 6 ask-back wrong 10 | none 3 not routed 6 || never 21: direct 1 ask-back 6
+  F3: told 51 | direct ok 20 ask-back ok 7 | direct wrong 6 ask-back wrong 10 | none 2 not routed 6 || never 21: direct 1 ask-back 6
+     ('told', '專案報告', '[專案報告|time]', '新Project專案報告|plan', '這禮拜五中午十二點前完成', True)
+     ('told', '印表機墨水', '[書房印表機墨水|location]', '印表機|value', 'HP68 黑色 x2', True)
+     ('told', '媽媽生日聚餐', '[媽媽生日聚餐|time]', '聚餐|time', '第10天中午12點', False)
+     ('never', '水電費', '[汽水|value]', '汽車|plan', '第9天早上9點', None)
+     ('told', '烘衣機', '[烘衣機|attribute]', '襯衫|preference', '烘衣機低溫30分鐘', False)
+     ('told', '汽車保養', '[汽車保養|time]', '汽車|plan', '第9天早上9點', False)
+     ('told', '備用鑰匙', '[車鑰匙|location]', '備用鑰匙|location', '玄關吸鐵盒', True)
+     ('told', '體重計', '[車鑰匙|location]', '備用鑰匙|location', '玄關吸鐵盒', False)
+     ('told', 'Kevin', '[Kevin|relation]', "mother's birthday dinner|plan", 'rescheduled (time and fo', False)
+     ('told', '瑜珈課', '[瑜伽課|time]', '瑜伽墊|attribute', '厚度8mm、墨綠色、防滑穩定', False)
+     ('told', '血壓藥', '[血壓藥|value]', '血壓藥|plan', '每天早上飯後吃半顆', True)
+     ('told', '修車行', '[腳踏車維修費|value]', '修車行|value', '報價800元', False)
+     ('never', '洗碗機', '[洗碗機|time]', '洗衣機|status', '陽台那台今天聲音異常，保修至第345天（明年11', None)
+     ('never', '咖啡豆', '[咖啡豆|attribute]', '咖啡|preference', '冰燕麥拿鐵不加糖', None)
+     ('told', '冷氣師傅', '[冷氣師傅|time]', '冷氣|plan', '第13天早上10點維修', False)
+     ('told', '行動電源', '[黑色行動電源|location]', '行動電源|location', '床頭櫃充電座', True)
+     ('told', '東京住宿', '[東京飯店|location]', '東京住宿|location', '上野車站附近飯店', True)
+     ('never', '汽車保險', '[汽車保險|time]', '汽車|plan', '第9天早上9點', None)
+     ('never', '機車鑰匙', '[機車|location]', '耳機充電盒|location', '常穿外套左邊口袋', None)
+     ('never', '護照', '[護照|location]', '舊護照|location', '防潮箱下層', None)
+     ('told', '體重計電池', '[體重計|value]', '體重計電池|plan', '下次去全聯購買', False)
+     ('never', '冷氣遙控器電池', '[冷氣遙控器|location]', '冷氣遙控器|location', '沙發右手邊收納袋', None)
+     ('told', '報稅資料夾', '[冰箱磁鐵|location]', '報稅資料夾|location', '書櫃第二層藍色L家', True)
+     ('told', '汽車保養', '[汽車保養|time]', '汽車|plan', '第9天早上9點', False)

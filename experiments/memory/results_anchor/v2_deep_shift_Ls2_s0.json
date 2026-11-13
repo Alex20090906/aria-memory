@@ -1,0 +1,31 @@
+{
+ "key": "deep",
+ "ans": "shift",
+ "Ld": 18,
+ "Ls": 2,
+ "n": 40,
+ "C0": 0.725,
+ "C1": 0.0,
+ "examples": [
+  [
+   "behind the bookshelf",
+   "behind the bookshelf. [I",
+   "[notebook|Ivan]"
+  ],
+  [
+   "in the laundry basket",
+   "in the laundry basket. -> in",
+   "[Mia, notebook]\nM"
+  ],
+  [
+   "in the toolbox",
+   "in the toolbox. 1.",
+   "[Tom|lost]\nI can"
+  ],
+  [
+   "in the red teapot",
+   "in the red teapot. [",
+   "[Sara, scarf]\n\nS"
+  ]
+ ]
+}

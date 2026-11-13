@@ -1,0 +1,31 @@
+{
+ "key": "bilinear",
+ "ans": "shift",
+ "Ld": 18,
+ "Ls": 2,
+ "n": 40,
+ "C0": 1.0,
+ "C1": 0.075,
+ "examples": [
+  [
+   "behind the bookshelf",
+   "behind the bookshelf.  ->",
+   "Where is Ivan's notebook?\nI"
+  ],
+  [
+   "in the laundry basket",
+   "in the laundry basket. -> in",
+   "[Mia, notebook]\nM"
+  ],
+  [
+   "in the toolbox",
+   "in the toolbox. The [Tom",
+   "1\nTom's bank card"
+  ],
+  [
+   "in the red teapot",
+   "in the red teapot. [",
+   "in the red bag\nThe scarf"
+  ]
+ ]
+}

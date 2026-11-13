@@ -1,0 +1,1304 @@
+{
+"source": "alwayson/results/run_Dd_21d_s0_e49_final.json (E49 final, strict: right 30, wrong 6, never-told kept 20/21); proactive hit rate 0.696 (analyze.proactive_score)",
+"idle_steps": 180,
+"stops": 56,
+"proactive": 56,
+"answers": [
+{
+"day": 2,
+"start": 38.54,
+"end": 45.28,
+"thing": "四號電池",
+"passed": false,
+"value": "",
+"heard": "體重計踩上去螢幕完全都不亮了欸，家裡還有沒有四號電池可以換"
+},
+{
+"day": 2,
+"start": 71.7,
+"end": 78.78,
+"thing": "專案報告",
+"passed": false,
+"value": "",
+"heard": "那個新Project的專案報告Deadline是這禮拜五中午十二點前嗎，我趕得出來啦，放心"
+},
+{
+"day": 3,
+"start": 4.57,
+"end": 7.95,
+"thing": "印表機",
+"passed": false,
+"value": "",
+"heard": "幫我寄一下書房印表積墨水型號"
+},
+{
+"day": 3,
+"start": 61.16,
+"end": 64.62,
+"thing": "牙醫",
+"passed": true,
+"value": "第3天下午2:30 牙醫預約在第3天下午2:30。",
+"heard": "牙醫可以幫我改明天晚上7點嗎?"
+},
+{
+"day": 3,
+"start": 100.26,
+"end": 101.22,
+"thing": "護照",
+"passed": false,
+"value": "",
+"heard": "我護照臉。"
+},
+{
+"day": 3,
+"start": 106.72,
+"end": 109.76,
+"thing": "咖啡",
+"passed": true,
+"value": "冰燕麥拿鐵加糖 你之前跟我說過，現在喝咖啡都點冰燕麥拿鐵加糖。",
+"heard": "跟你說過我現在喝咖啡都點什麼?"
+},
+{
+"day": 3,
+"start": 114.37,
+"end": 117.27,
+"thing": "台包",
+"passed": false,
+"value": "",
+"heard": "那我的台包正放哪你知道嗎?"
+},
+{
+"day": 4,
+"start": 10.14,
+"end": 13.02,
+"thing": "露營燈",
+"passed": true,
+"value": "第4天來家裡拿露營燈 好的，我記得您計畫在周末讓小傑來家裡拿露營燈。",
+"heard": "等一下周末小節來再拿給他。"
+},
+{
+"day": 4,
+"start": 16.96,
+"end": 22.34,
+"thing": "網路費",
+"passed": false,
+"value": "",
+"heard": "這期網路費是不是還沒繳啊等等,我剛剛看銀行App已經"
+},
+{
+"day": 4,
+"start": 22.34,
+"end": 23.6,
+"thing": "網路費",
+"passed": false,
+"value": "",
+"heard": "用信用卡自"
+},
+{
+"day": 4,
+"start": 54.12,
+"end": 62.62,
+"thing": "將這菜",
+"passed": true,
+"value": "第7天中午12點 媽媽生日聚餐已改為第7天（下週日）中午12點。",
+"heard": "太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中午十二點,改吃那家將這菜好不好。"
+},
+{
+"day": 4,
+"start": 87.52,
+"end": 90.58,
+"thing": "牙醫",
+"passed": false,
+"value": "",
+"heard": "我那個牙衣後來是改到什麼時候啊?"
+},
+{
+"day": 4,
+"start": 94.54,
+"end": 99.48,
+"thing": "健身房教練",
+"passed": true,
+"value": "Kevin 你的健身房教練名字叫 Kevin。",
+"heard": "欸,我上次跟你講我那個健身房教練叫什麼名"
+},
+{
+"day": 4,
+"start": 102.63,
+"end": 105.35,
+"thing": "黑色折疊傘",
+"passed": false,
+"value": "",
+"heard": "看到我那把黑色折疊散在哪嗎?"
+},
+{
+"day": 4,
+"start": 107.81,
+"end": 111.99,
+"thing": "專案報告",
+"passed": true,
+"value": "Deadline是第5天中午十二點前 你的新Project專案報告Deadline是第5天中午十二點前。",
+"heard": "那個我專案報告的deadline是禮拜五幾點啦。"
+},
+{
+"day": 5,
+"start": 71.23,
+"end": 74.81,
+"thing": "書房印表機墨",
+"passed": true,
+"value": "型號是HP68，黑色兩支，下次去賣場要買 書房印表機墨水的型號是 HP68 黑色兩支，記得下次去賣場要買。",
+"heard": "我上次叫你記得那個書房印表機墨,"
+},
+{
+"day": 5,
+"start": 74.81,
+"end": 76.31,
+"thing": "印表機墨水",
+"passed": false,
+"value": "",
+"heard": "家裡把電池啊,是否是怎麼樣?是什麼?是誰什麼型號?"
+},
+{
+"day": 5,
+"start": 79.6,
+"end": 82.6,
+"thing": "印表機",
+"passed": false,
+"value": "",
+"heard": "他是不是對什麼東西過"
+},
+{
+"day": 5,
+"start": 84.69,
+"end": 89.05,
+"thing": "電動起子",
+"passed": false,
+"value": "",
+"heard": "誒我那個電動起子是不是也借給隔壁城"
+},
+{
+"day": 6,
+"start": 45.22,
+"end": 49.96,
+"thing": "貓飼料",
+"passed": false,
+"value": "",
+"heard": "幫我寄一下家裡竹子的貓飼料要買五股雞肉啊不對,"
+},
+{
+"day": 6,
+"start": 69.79,
+"end": 73.23,
+"thing": "藍牙耳機",
+"passed": true,
+"value": "公司辦公桌抽屜 使用者，您第5天提到藍牙耳機忘在公司辦公桌抽屜了。",
+"heard": "我的藍牙耳機現在到底在哪裡啊?"
+},
+{
+"day": 6,
+"start": 76.1,
+"end": 80.76,
+"thing": "媽媽生日聚餐",
+"passed": true,
+"value": "改第7天中午十二點 媽媽生日聚餐改在第7天中午十二點，吃將這菜。",
+"heard": "我媽生日聚餐我們後來改哪時候,吃什麼啊?"
+},
+{
+"day": 6,
+"start": 76.1,
+"end": 80.76,
+"thing": "媽媽生日聚餐",
+"passed": true,
+"value": "改吃將這菜（原話可能為蔣記或類似店名，依語音保留） 媽媽生日聚餐改在第7天中午12點，吃蔣記（語音辨識為「將這菜」）。",
+"heard": "我媽生日聚餐我們後來改哪時候,吃什麼啊?"
+},
+{
+"day": 6,
+"start": 85.04,
+"end": 88.12,
+"thing": "體重計",
+"passed": true,
+"value": "已更換4號電池，功能正常 根據第5天的紀錄，您已經更換了四號電池，體重計目前功能正常可以使用。",
+"heard": "那個體重計現在可以用了嗎?"
+},
+{
+"day": 6,
+"start": 93.29,
+"end": 96.21,
+"thing": "汽水",
+"passed": false,
+"value": "",
+"heard": "跟你講過這汽水電費多少錢?"
+},
+{
+"day": 6,
+"start": 99.74,
+"end": 103.88,
+"thing": "烘衣機",
+"passed": true,
+"value": "烘衣機需低溫、三十分鐘，否則領口會壞 你的襯衫要用低溫烘三十分鐘，不然領口會壞。",
+"heard": "我襯衫丟烘衣機那時候說要怎麼設定。"
+},
+{
+"day": 7,
+"start": 15.94,
+"end": 18.3,
+"thing": "露營燈",
+"passed": true,
+"value": "陽台儲藏櫃第二層 露營燈現在在陽台儲藏櫃的第二層。",
+"heard": "陽台那個露營燈現在在哪?"
+},
+{
+"day": 7,
+"start": 22.84,
+"end": 26.74,
+"thing": "汽車保養",
+"passed": true,
+"value": "第9天早上9點 您約的是第9天（下週二）早上9點。",
+"heard": "我禮拜五約汽車保養室約哪一天幾點啊?"
+},
+{
+"day": 7,
+"start": 28.59,
+"end": 32.67,
+"thing": "乾洗收據",
+"passed": true,
+"value": "第8天去拿 你昨天說把乾洗收據貼在冰箱門上的磁鐵旁邊，並計畫第8天去取。",
+"heard": "ria,我昨天說把那個乾洗片收據加在哪裡?"
+},
+{
+"day": 7,
+"start": 38.02,
+"end": 41.62,
+"thing": "貓飼料",
+"passed": true,
+"value": "五股雞肉魚配方 你之前說要買五股雞肉魚配方的貓飼料。",
+"heard": "貓飼料我後來跟你說要買什麼口味。"
+},
+{
+"day": 7,
+"start": 43.92,
+"end": 48.24,
+"thing": "貓鯊",
+"passed": false,
+"value": "",
+"heard": "那我有跟你說過貓鯊是用哪個牌子嗎?"
+},
+{
+"day": 7,
+"start": 58.95,
+"end": 61.23,
+"thing": "英文家教",
+"passed": false,
+"value": "",
+"heard": "我禮拜幾有英文加教課啊。"
+},
+{
+"day": 8,
+"start": 55.82,
+"end": 61.12,
+"thing": "其他人",
+"passed": false,
+"value": "",
+"heard": "對,我等一下進公司前先幫大家買,你們要喝什麼。"
+},
+{
+"day": 9,
+"start": 94.42,
+"end": 97.58,
+"thing": "印章",
+"passed": true,
+"value": "書桌左邊筆桶 使用者，您昨天把圓形印章放在書桌左邊的筆桶裡了。",
+"heard": "ria﹑我昨天把印章賽去哪了啊"
+},
+{
+"day": 9,
+"start": 102.6,
+"end": 107.06,
+"thing": "手搖飲",
+"passed": false,
+"value": "",
+"heard": "ria﹑我有沒有跟你講過我喝手搖飲都點什麼﹑"
+},
+{
+"day": 10,
+"start": 25.54,
+"end": 31.34,
+"thing": "舊護照",
+"passed": true,
+"value": "防潮箱下層 舊護照在防潮箱下層。",
+"heard": "舊的護照過勤了放在老家衣櫥找不到,只好重辦,超麻煩。"
+},
+{
+"day": 10,
+"start": 72.02,
+"end": 74.22,
+"thing": "車鑰匙",
+"passed": true,
+"value": "玄關吸鐵盒 備用鑰匙現在放在玄關的吸鐵盒裡。",
+"heard": "ria,被用鑰匙現在放哪?"
+},
+{
+"day": 10,
+"start": 76.54,
+"end": 80.76,
+"thing": "車鑰匙",
+"passed": true,
+"value": "沙發底下 體重計在第9天被踢到沙發底下了。",
+"heard": "那個,我上次跟你講量體重那個東西賽拿去了。"
+},
+{
+"day": 10,
+"start": 83.77,
+"end": 87.55,
+"thing": "西裝外套",
+"passed": false,
+"value": "",
+"heard": "我乾洗的西裝外套是不是禮拜五要去拿?"
+},
+{
+"day": 11,
+"start": 24.51,
+"end": 32.73,
+"thing": "紅燒牛肉麵",
+"passed": true,
+"value": "下週（第11天起） 好的，已幫您將今晚的瑜伽課取消並改期到下週。",
+"heard": "我今天在公司趕專案schedule趕不回去,我晚上的瑜伽課先取消改下禮拜哦,"
+},
+{
+"day": 11,
+"start": 63.46,
+"end": 66.84,
+"thing": "洗牙",
+"passed": true,
+"value": "第12天下午2點 你的洗牙改到第12天下午2點。",
+"heard": "我洗牙後來是改到什麼時候啊?"
+},
+{
+"day": 11,
+"start": 69.54,
+"end": 71.66,
+"thing": "Kevin",
+"passed": false,
+"value": "",
+"heard": "Kevin是我們公司的誰啊?"
+},
+{
+"day": 11,
+"start": 76.92,
+"end": 80.1,
+"thing": "除濕機",
+"passed": true,
+"value": "濾網已清洗，正在陽台晾乾（註：此句未涉及#1內容，但使用者語音辨識有誤且無明確實體，僅記錄時間更正意圖） 除濕機濾網已清洗並在陽台晾乾，請等完全乾燥後再裝回去使用。",
+"heard": "除濕機現在狀況怎樣,弄好了沒?"
+},
+{
+"day": 11,
+"start": 84.99,
+"end": 86.55,
+"thing": "台包",
+"passed": false,
+"value": "",
+"heard": "我台包正放哪裡?"
+},
+{
+"day": 12,
+"start": 69.63,
+"end": 72.91,
+"thing": "瑜伽課",
+"passed": true,
+"value": "下週（第11天起） 這週的瑜伽課已從第11天晚上7:30取消並改期至下週，具體時間尚未確定。",
+"heard": "Aria,我這禮拜的瑜伽課是什麼時候?"
+},
+{
+"day": 12,
+"start": 77.16,
+"end": 81.8,
+"thing": "血壓藥",
+"passed": true,
+"value": "每天早上飯後吃半顆 你跟我說過，醫生開的血壓藥每天早上飯後吃半顆。",
+"heard": "Aria,我有沒有跟你說過那個血壓要怎麼吃?"
+},
+{
+"day": 12,
+"start": 85.88,
+"end": 90.04,
+"thing": "包裹",
+"passed": false,
+"value": "",
+"heard": "ria,樓下管理室包裹的取件編號是多少?"
+},
+{
+"day": 13,
+"start": 9.58,
+"end": 10.92,
+"thing": "預約",
+"passed": false,
+"value": "",
+"heard": "欸一點半到對不對。"
+},
+{
+"day": 13,
+"start": 64.82,
+"end": 67.64,
+"thing": "存折",
+"passed": false,
+"value": "",
+"heard": "Aria,我存折現在放哪?"
+},
+{
+"day": 13,
+"start": 72.02,
+"end": 77.36,
+"thing": "腳踏車",
+"passed": true,
+"value": "破胎送修中，報價800元 車行老闆報價是800元。",
+"heard": "Aria,我腳踏車送去修,車行老闆說要多少錢啦。"
+},
+{
+"day": 13,
+"start": 80.49,
+"end": 84.29,
+"thing": "小姑姑",
+"passed": true,
+"value": "對花生、甲殼類過敏 小姑姑對花生和甲殼類海鮮過敏，之前吃蝦膏還送過急診，千萬不能讓她吃。",
+"heard": "Aria,小姑姑吃東西有什麼不能吃的嗎?"
+},
+{
+"day": 13,
+"start": 87.88,
+"end": 90.46,
+"thing": "洗碗機",
+"passed": false,
+"value": "",
+"heard": "我們家洗碗機保護到什麼時候?"
+},
+{
+"day": 13,
+"start": 93.02,
+"end": 96.32,
+"thing": "咖啡豆",
+"passed": false,
+"value": "",
+"heard": "我上次買那個咖啡豆是哪一個國家的?"
+},
+{
+"day": 14,
+"start": 44.59,
+"end": 48.23,
+"thing": "冷氣師傅",
+"passed": true,
+"value": "第13天早上10點維修 冷氣師傅約的是昨天（第13天）早上十點來的。",
+"heard": "冷氣師傅昨天到底是幾點來的啊?"
+},
+{
+"day": 14,
+"start": 51.23,
+"end": 53.81,
+"thing": "黑色行動電源",
+"passed": true,
+"value": "床頭櫃充電座 你上次說把行動電源從登山包拿出來，現在放在床頭櫃的充電座上。",
+"heard": "欸我那個黑色行動電源咧,"
+},
+{
+"day": 14,
+"start": 54.29,
+"end": 55.51,
+"thing": "行動電源",
+"passed": false,
+"value": "",
+"heard": "放哪去了?"
+},
+{
+"day": 14,
+"start": 58.17,
+"end": 61.79,
+"thing": "帳篷",
+"passed": true,
+"value": "已搬下樓給阿哲載走 帳篷在第12天已搬下樓給阿哲載走了。",
+"heard": "Aria 我們家那個露營帳篷去哪了?"
+},
+{
+"day": 14,
+"start": 62.86,
+"end": 66.78,
+"thing": "咖啡",
+"passed": true,
+"value": "冰燕麥拿鐵不加糖 使用者您平常喝咖啡都點冰燕麥拿鐵不加糖。",
+"heard": "Aria 我平常喝咖啡都點什麼?"
+},
+{
+"day": 14,
+"start": 62.86,
+"end": 66.78,
+"thing": "咖啡",
+"passed": true,
+"value": "冰燕麥拿鐵不加糖 使用者您平常喝咖啡都點冰燕麥拿鐵不加糖。",
+"heard": "Aria 我平常喝咖啡都點什麼?"
+},
+{
+"day": 14,
+"start": 71.94,
+"end": 77.42,
+"thing": "東京",
+"passed": true,
+"value": "上野車站附近飯店 您上次跟我講過，東京的飯店是訂在上野車站附近。",
+"heard": "我上次跟你講十月去東京,飯店是訂在哪一區啊?"
+},
+{
+"day": 14,
+"start": 78.94,
+"end": 83.5,
+"thing": "汽車保險",
+"passed": false,
+"value": "",
+"heard": "Aria 我有沒有跟你說過我汽車保險哪時候到期?"
+},
+{
+"day": 15,
+"start": 54.63,
+"end": 66.97,
+"thing": "Cafe",
+"passed": true,
+"value": "埃塞俄比亞手沖豆 記得，您喜歡埃塞俄比亞手沖豆。",
+"heard": "你下次如果有去街口那間Cafe,幫我買手沖咖啡豆,我現在都只喝前輩伊索比亞,上次那個聲被補到不行。"
+},
+{
+"day": 17,
+"start": 3.57,
+"end": 8.05,
+"thing": "洗牙",
+"passed": true,
+"value": "第17天下午2點 使用者，您今天（第17天）下午兩點的洗牙預約是最新的安排。",
+"heard": "喂,你好,我是要改洗牙時間的,對,"
+},
+{
+"day": 17,
+"start": 15.39,
+"end": 19.59,
+"thing": "洗牙",
+"passed": false,
+"value": "",
+"heard": "對,那可以幫我改到禮拜五早上10點嗎?"
+},
+{
+"day": 17,
+"start": 71.9,
+"end": 77.76,
+"thing": "手沖咖啡豆",
+"passed": true,
+"value": "只喝前輩伊索比亞 使用者您之前提過，手沖咖啡豆目前只喝埃塞俄比亞口味的。",
+"heard": "欸Aria,我有沒有講過我手沖咖啡豆都喝什麼口味的啊?"
+},
+{
+"day": 17,
+"start": 82.12,
+"end": 91.0,
+"thing": "手沖咖啡豆",
+"passed": true,
+"value": "第17天睡前設定定時14小時 好的，已記錄您將廚師機移至更衣室，並計畫今晚睡前設定定時14小時。",
+"heard": "還有那個,廚師機我剛剛搬去更衣室了哦,然後我打算今天睡前設定定14小時,"
+},
+{
+"day": 17,
+"start": 82.12,
+"end": 91.0,
+"thing": "手沖咖啡豆",
+"passed": true,
+"value": "第17天睡前設定定時14小時 好的，已記錄您將廚師機移至更衣室，並計畫於今日睡前設定定時14小時。",
+"heard": "還有那個,廚師機我剛剛搬去更衣室了哦,然後我打算今天睡前設定定14小時,"
+},
+{
+"day": 18,
+"start": 14.14,
+"end": 18.02,
+"thing": "洗牙",
+"passed": true,
+"value": "第17天下午2點 根據紀錄，您的洗牙已改約至第17天下午2點。",
+"heard": "誒我那個洗牙到底是改到什麼時候啊?"
+},
+{
+"day": 18,
+"start": 21.92,
+"end": 30.92,
+"thing": "洗牙",
+"passed": true,
+"value": "送洗中，週末可取 你的慢跑鞋正在送洗中，週末就可以去取了。",
+"heard": "吼,本來想說今天晚上去河濱公園跑個五公里,結果我那雙慢跑鞋現在不在家。"
+},
+{
+"day": 18,
+"start": 41.02,
+"end": 44.16,
+"thing": "洗牙",
+"passed": false,
+"value": "",
+"heard": "Aria,轟衣機率往現在是什麼狀況?"
+},
+{
+"day": 18,
+"start": 41.02,
+"end": 44.16,
+"thing": "洗牙",
+"passed": false,
+"value": "",
+"heard": "Aria,轟衣機率往現在是什麼狀況?"
+},
+{
+"day": 18,
+"start": 44.78,
+"end": 46.16,
+"thing": "洗牙",
+"passed": false,
+"value": "",
+"heard": "我有弄過了嗎?"
+},
+{
+"day": 18,
+"start": 65.34,
+"end": 68.22,
+"thing": "機車",
+"passed": false,
+"value": "",
+"heard": "誒,那我的機車要釋放哪?"
+},
+{
+"day": 18,
+"start": 101.2,
+"end": 102.82,
+"thing": "護照",
+"passed": false,
+"value": "",
+"heard": "Aria,我護照臉。"
+},
+{
+"day": 18,
+"start": 103.54,
+"end": 105.72,
+"thing": "護照",
+"passed": false,
+"value": "",
+"heard": "我有跟你說過放哪嗎?"
+},
+{
+"day": 19,
+"start": 16.5,
+"end": 20.94,
+"thing": "耳機充電盒",
+"passed": true,
+"value": "常穿外套左邊口袋 你的耳機充電盒現在在你常穿那件外套的左邊口袋裡。",
+"heard": "欸Aria,我那個耳機充電盒現在是在哪裡啊，,"
+},
+{
+"day": 19,
+"start": 37.71,
+"end": 42.27,
+"thing": "乳清蛋白",
+"passed": true,
+"value": "抹茶口味 你上次買的是抹茶口味的乳清蛋白。",
+"heard": "我上次買那個乳清蛋白是什麼口味的啊，"
+},
+{
+"day": 19,
+"start": 46.78,
+"end": 52.02,
+"thing": "耳機充電盒",
+"passed": true,
+"value": "需裝兩顆4號電池 體重計需要裝兩顆四號電池。",
+"heard": "還有那個體重計便吃，我是說要買幾號幾顆來著，"
+},
+{
+"day": 19,
+"start": 46.78,
+"end": 52.02,
+"thing": "乳清蛋白",
+"passed": true,
+"value": "需裝兩顆4號電池 體重計需要裝兩顆四號電池。",
+"heard": "還有那個體重計便吃，我是說要買幾號幾顆來著，"
+},
+{
+"day": 19,
+"start": 46.78,
+"end": 52.02,
+"thing": "體重計電池",
+"passed": true,
+"value": "需裝兩顆4號電池 體重計需要裝兩顆四號電池。",
+"heard": "還有那個體重計便吃，我是說要買幾號幾顆來著，"
+},
+{
+"day": 19,
+"start": 55.78,
+"end": 58.1,
+"thing": "冷氣遙控器",
+"passed": true,
+"value": "沙發右手邊收納袋 冷氣遙控器在沙發右手邊的收納袋裡。",
+"heard": "那冷氣遙控器便吃咧"
+},
+{
+"day": 19,
+"start": 107.07,
+"end": 110.65,
+"thing": "慢跑鞋",
+"passed": true,
+"value": "不在家，送洗中，週末取回 你的那雙慢跑鞋目前還在送洗中，預計週末就可以取回了。",
+"heard": "给我那双慢跑鞋现在怎么样了"
+},
+{
+"day": 20,
+"start": 1.74,
+"end": 8.7,
+"thing": "老張",
+"passed": true,
+"value": "大學社團學長 老張是你大學社團的學長。",
+"heard": "Aria,我今天中午要喝喜酒那個老張,我有沒有跟你講過他是我誰啊，"
+},
+{
+"day": 20,
+"start": 13.12,
+"end": 15.9,
+"thing": "老張婚禮",
+"passed": true,
+"value": "第20天中午 老張婚禮是今天中午開始。",
+"heard": "然後老張婚禮是幾點開始，"
+},
+{
+"day": 20,
+"start": 16.7,
+"end": 18.46,
+"thing": "老張",
+"passed": true,
+"value": "第20天中午 是的，老張的婚禮就在今天中午。",
+"heard": "是今天中午對不對，"
+},
+{
+"day": 20,
+"start": 16.7,
+"end": 18.46,
+"thing": "老張婚禮",
+"passed": true,
+"value": "第20天中午 是的，老張的婚禮就在今天中午。",
+"heard": "是今天中午對不對，"
+},
+{
+"day": 20,
+"start": 96.23,
+"end": 98.23,
+"thing": "冰箱磁鐵",
+"passed": false,
+"value": "",
+"heard": "我是塞去哪裡了，"
+},
+{
+"day": 21,
+"start": 14.92,
+"end": 18.3,
+"thing": "游泳鏡",
+"passed": false,
+"value": "",
+"heard": "Aria,我的游泳挖鏡放哪裡啊?"
+},
+{
+"day": 21,
+"start": 22.24,
+"end": 26.64,
+"thing": "筆電充電器",
+"passed": true,
+"value": "托特包 你最後是把筆電充電器收進你的托特包裡。",
+"heard": "還有我那個筆電充電器,我最後是收去哪了?"
+},
+{
+"day": 21,
+"start": 27.82,
+"end": 32.48,
+"thing": "飲料",
+"passed": true,
+"value": "烏龍拿鐵無糖去冰 您現在叫飲料外送都喝烏龍拿鐵無糖去冰。",
+"heard": "A我現在如果叫飲料外送,我是都喝什麼啊?"
+},
+{
+"day": 21,
+"start": 27.82,
+"end": 32.48,
+"thing": "飲料",
+"passed": true,
+"value": "烏龍拿鐵無糖去冰 您現在叫飲料外送都喝烏龍拿鐵無糖去冰。",
+"heard": "A我現在如果叫飲料外送,我是都喝什麼啊?"
+},
+{
+"day": 21,
+"start": 36.14,
+"end": 39.3,
+"thing": "汽車保養",
+"passed": true,
+"value": "第9天早上9點 汽車保養約在第9天早上9點。",
+"heard": "我今天那個汽車保養是約幾點?"
+},
+{
+"day": 21,
+"start": 42.06,
+"end": 46.06,
+"thing": "乾洗取件單",
+"passed": false,
+"value": "",
+"heard": "還有那個乾洗電取件單臉,放哪去了?"
+},
+{
+"day": 21,
+"start": 56.56,
+"end": 60.26,
+"thing": "保溫杯",
+"passed": false,
+"value": "",
+"heard": "Aria,我有沒有跟你說過我的保溫杯放哪?"
+}
+],
+"proactive_said": [
+{
+"kind": "提醒",
+"thing": "牙醫",
+"aspect": "time",
+"value": "第3天下午2:30",
+"text": "週三下午兩點半看牙醫",
+"day": 2
+},
+{
+"kind": "提醒",
+"thing": "洗牙",
+"aspect": "time",
+"value": "第3天下午兩點半",
+"text": "週三下午兩點半要記得去洗牙喔",
+"day": 2
+},
+{
+"kind": "待問",
+"thing": "四號電池",
+"aspect": "location",
+"value": null,
+"text": "你之前問我四號電池，我想不起來，可以再跟我說一次嗎？",
+"day": 3
+},
+{
+"kind": "提醒",
+"thing": "四號電池",
+"aspect": "plan",
+"value": "明天去全聯買",
+"text": "記得去全聯買四號電池",
+"day": 3
+},
+{
+"kind": "待問",
+"thing": "專案報告",
+"aspect": "time",
+"value": null,
+"text": "你之前問我專案報告，我想不起來，可以再跟我說一次嗎？",
+"day": 3
+},
+{
+"kind": "提醒",
+"thing": "新Project專案報告",
+"aspect": "time",
+"value": "Deadline是第5天中午十二點前",
+"text": "週五中午前交新Project報告",
+"day": 4
+},
+{
+"kind": "待問",
+"thing": "印表機",
+"aspect": "attribute",
+"value": null,
+"text": "你之前問我印表機，我想不起來，可以再跟我說一次嗎？",
+"day": 4
+},
+{
+"kind": "提醒",
+"thing": "小傑",
+"aspect": "plan",
+"value": "第4天來家裡拿露營燈",
+"text": "明天小傑會來拿露營燈",
+"day": 4
+},
+{
+"kind": "提醒",
+"thing": "聚餐",
+"aspect": "time",
+"value": "第7天中午12點",
+"text": "週日中午有聚餐",
+"day": 5
+},
+{
+"kind": "待問",
+"thing": "牙醫",
+"aspect": "time",
+"value": null,
+"text": "你之前問我牙醫，我想不起來，可以再跟我說一次嗎？",
+"day": 5
+},
+{
+"kind": "待問",
+"thing": "黑色折疊傘",
+"aspect": "location",
+"value": null,
+"text": "你之前問我黑色折疊傘，我想不起來，可以再跟我說一次嗎？",
+"day": 5
+},
+{
+"kind": "提醒",
+"thing": "汽車",
+"aspect": "plan",
+"value": "第9天早上9點",
+"text": "週二早九點有汽車計畫",
+"day": 6
+},
+{
+"kind": "待問",
+"thing": "印表機墨水",
+"aspect": "value",
+"value": null,
+"text": "你之前問我印表機墨水，我想不起來，可以再跟我說一次嗎？",
+"day": 6
+},
+{
+"kind": "待問",
+"thing": "印表機",
+"aspect": "value",
+"value": null,
+"text": "你之前問我印表機，我想不起來，可以再跟我說一次嗎？",
+"day": 6
+},
+{
+"kind": "提醒",
+"thing": "汽車保養",
+"aspect": "time",
+"value": "第9天早上9點",
+"text": "週二早九點汽車保養",
+"day": 7
+},
+{
+"kind": "提醒",
+"thing": "乾洗收據",
+"aspect": "plan",
+"value": "第8天去拿",
+"text": "明天記得去拿乾洗",
+"day": 7
+},
+{
+"kind": "待問",
+"thing": "貓飼料",
+"aspect": "value",
+"value": null,
+"text": "你之前問我貓飼料，我想不起來，可以再跟我說一次嗎？",
+"day": 7
+},
+{
+"kind": "提醒",
+"thing": "按摩枕",
+"aspect": "plan",
+"value": "送表妹喬遷禮物",
+"text": "別忘了買按摩枕送表妹",
+"day": 8
+},
+{
+"kind": "待問",
+"thing": "汽水",
+"aspect": "value",
+"value": null,
+"text": "你之前問我汽水，我想不起來，可以再跟我說一次嗎？",
+"day": 8
+},
+{
+"kind": "待問",
+"thing": "貓鯊",
+"aspect": "brand",
+"value": null,
+"text": "你之前問我貓鯊，我想不起來，可以再跟我說一次嗎？",
+"day": 8
+},
+{
+"kind": "待問",
+"thing": "英文家教",
+"aspect": "time",
+"value": null,
+"text": "你之前問我英文家教，我想不起來，可以再跟我說一次嗎？",
+"day": 9
+},
+{
+"kind": "待問",
+"thing": "其他人",
+"aspect": "preference",
+"value": null,
+"text": "你之前問我其他人，我想不起來，可以再跟我說一次嗎？",
+"day": 9
+},
+{
+"kind": "提醒",
+"thing": "洗牙",
+"aspect": "time",
+"value": "第10天下午3點",
+"text": "後天下午三點要記得去洗牙喔",
+"day": 9
+},
+{
+"kind": "提醒",
+"thing": "瑜伽課",
+"aspect": "time",
+"value": "第11天晚上7:30",
+"text": "後天晚上七點半有瑜伽課",
+"day": 10
+},
+{
+"kind": "待問",
+"thing": "手搖飲",
+"aspect": "preference",
+"value": null,
+"text": "你之前問我手搖飲，我想不起來，可以再跟我說一次嗎？",
+"day": 10
+},
+{
+"kind": "提醒",
+"thing": "冷氣",
+"aspect": "plan",
+"value": "第13天早上10點維修",
+"text": "週六上午十點有冷氣維修",
+"day": 10
+},
+{
+"kind": "提醒",
+"thing": "洗牙",
+"aspect": "time",
+"value": "第12天下午2點",
+"text": "明天下午兩點記得去洗牙",
+"day": 11
+},
+{
+"kind": "提醒",
+"thing": "血壓藥",
+"aspect": "plan",
+"value": "每天早上飯後吃半顆",
+"text": "記得飯後吃半顆血壓藥",
+"day": 11
+},
+{
+"kind": "提醒",
+"thing": "西裝外套",
+"aspect": "time",
+"value": "第12天要去乾洗店拿",
+"text": "明天記得去乾洗店取西裝",
+"day": 11
+},
+{
+"kind": "提醒",
+"thing": "紅燒牛肉麵",
+"aspect": "plan",
+"value": "第11天下班後購買，半斤半肉，加酸菜，不加蔥",
+"text": "下班記得買紅燒牛肉麵",
+"day": 12
+},
+{
+"kind": "提醒",
+"thing": "瑜伽課",
+"aspect": "time",
+"value": "下週（第11天起）",
+"text": "明天有瑜伽課",
+"day": 12
+},
+{
+"kind": "待問",
+"thing": "Kevin",
+"aspect": "relation",
+"value": null,
+"text": "你之前問我Kevin，我想不起來，可以再跟我說一次嗎？",
+"day": 12
+},
+{
+"kind": "待問",
+"thing": "台包",
+"aspect": "location",
+"value": null,
+"text": "你之前問我台包，我想不起來，可以再跟我說一次嗎？",
+"day": 13
+},
+{
+"kind": "提醒",
+"thing": "聚餐",
+"aspect": "plan",
+"value": "下週（第19天）",
+"text": "下週有聚餐，記得安排時間",
+"day": 13
+},
+{
+"kind": "待問",
+"thing": "包裹",
+"aspect": "value",
+"value": null,
+"text": "你之前問我包裹，我想不起來，可以再跟我說一次嗎？",
+"day": 13
+},
+{
+"kind": "待問",
+"thing": "存折",
+"aspect": "location",
+"value": null,
+"text": "你之前問我存折，我想不起來，可以再跟我說一次嗎？",
+"day": 14
+},
+{
+"kind": "提醒",
+"thing": "東京旅行",
+"aspect": "time",
+"value": "10月（5天4夜）",
+"text": "十月東京五天四夜行程",
+"day": 14
+},
+{
+"kind": "待問",
+"thing": "洗碗機",
+"aspect": "time",
+"value": null,
+"text": "你之前問我洗碗機，我想不起來，可以再跟我說一次嗎？",
+"day": 14
+},
+{
+"kind": "待問",
+"thing": "咖啡豆",
+"aspect": "attribute",
+"value": null,
+"text": "你之前問我咖啡豆，我想不起來，可以再跟我說一次嗎？",
+"day": 15
+},
+{
+"kind": "提醒",
+"thing": "機票",
+"aspect": "plan",
+"value": "十月去東京五天四夜，住宿訂在上野車站附近飯店",
+"text": "別忘了規劃十月東京五天行程",
+"day": 15
+},
+{
+"kind": "待問",
+"thing": "行動電源",
+"aspect": "location",
+"value": null,
+"text": "你之前問我行動電源，我想不起來，可以再跟我說一次嗎？",
+"day": 15
+},
+{
+"kind": "待問",
+"thing": "汽車保險",
+"aspect": "time",
+"value": null,
+"text": "你之前問我汽車保險，我想不起來，可以再跟我說一次嗎？",
+"day": 16
+},
+{
+"kind": "提醒",
+"thing": "洗牙",
+"aspect": "time",
+"value": "第17天下午2點",
+"text": "後天下午兩點記得去洗牙",
+"day": 16
+},
+{
+"kind": "提醒",
+"thing": "印表機",
+"aspect": "plan",
+"value": "買黑色墨水",
+"text": "記得買黑色墨水",
+"day": 17
+},
+{
+"kind": "提醒",
+"thing": "老張婚禮",
+"aspect": "time",
+"value": "第20天中午",
+"text": "週六中午是老張婚禮",
+"day": 17
+},
+{
+"kind": "提醒",
+"thing": "婚禮",
+"aspect": "time",
+"value": "第20天中午",
+"text": "週六中午有婚禮",
+"day": 17
+},
+{
+"kind": "提醒",
+"thing": "洗牙",
+"aspect": "time",
+"value": "第19天早上10點",
+"text": "後天早上10點記得去洗牙",
+"day": 18
+},
+{
+"kind": "提醒",
+"thing": "廚師機",
+"aspect": "plan",
+"value": "第17天睡前設定定時14小時",
+"text": "別忘了設定廚師機定時",
+"day": 18
+},
+{
+"kind": "提醒",
+"thing": "結婚紀念日餐廳",
+"aspect": "plan",
+"value": "訂位時要求靠窗位置（因夜景漂亮）",
+"text": "明天記得訂靠窗的結婚紀念日餐廳",
+"day": 18
+},
+{
+"kind": "待問",
+"thing": "機車",
+"aspect": "location",
+"value": null,
+"text": "你之前問我機車，我想不起來，可以再跟我說一次嗎？",
+"day": 19
+},
+{
+"kind": "提醒",
+"thing": "體重計",
+"aspect": "plan",
+"value": "下次去全聯購買",
+"text": "明天記得去全聯買體重計",
+"day": 19
+},
+{
+"kind": "待問",
+"thing": "護照",
+"aspect": "location",
+"value": null,
+"text": "你之前問我護照，我想不起來，可以再跟我說一次嗎？",
+"day": 19
+},
+{
+"kind": "提醒",
+"thing": "報稅",
+"aspect": "time",
+"value": "5月",
+"text": "提醒您準備報稅",
+"day": 20
+},
+{
+"kind": "提醒",
+"thing": "全聯購物",
+"aspect": "plan",
+"value": "下次去要買4號電池",
+"text": "明天去全聯記得買四號電池",
+"day": 20
+},
+{
+"kind": "提醒",
+"thing": "阿凱",
+"aspect": "plan",
+"value": "第20天或第21天爬河歡山",
+"text": "明天要爬河歡山喔",
+"day": 20
+},
+{
+"kind": "待問",
+"thing": "冰箱磁鐵",
+"aspect": "location",
+"value": null,
+"text": "你之前問我冰箱磁鐵，我想不起來，可以再跟我說一次嗎？",
+"day": 21
+}
+]
+}

@@ -1,0 +1,27 @@
+### IX_CODES=random IX_DOUT=512 seed 7
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 20/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 32/38  (distractor writes 1s)
+### IX_CODES=random IX_DOUT=512 seed 9
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 23/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 31/38  (distractor writes 1s)
+### IX_CODES=random IX_DOUT=512 seed 10
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 23/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 32/38  (distractor writes 1s)
+### IX_CODES=block IX_DOUT=512 seed 7
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 23/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 32/38  (distractor writes 1s)
+### IX_CODES=block IX_DOUT=512 seed 9
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 25/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 31/38  (distractor writes 1s)
+### IX_CODES=block IX_DOUT=512 seed 10
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 21/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 32/38  (distractor writes 1s)
+### IX_CODES=ortho IX_DOUT=2048 seed 7
+  zh_result_I_all_old.json D=2048 distractors 2000: recall@5 25/38  (distractor writes 5s)
+  zh_result_I_all_set2.json D=2048 distractors 2000: recall@5 32/38  (distractor writes 5s)
+### IX_CODES=ortho IX_DOUT=2048 seed 9
+  zh_result_I_all_old.json D=2048 distractors 2000: recall@5 25/38  (distractor writes 5s)
+  zh_result_I_all_set2.json D=2048 distractors 2000: recall@5 31/38  (distractor writes 5s)
+### IX_CODES=ortho IX_DOUT=2048 seed 10
+  zh_result_I_all_old.json D=2048 distractors 2000: recall@5 23/38  (distractor writes 5s)
+  zh_result_I_all_set2.json D=2048 distractors 2000: recall@5 32/38  (distractor writes 5s)

@@ -1,0 +1,58 @@
+{
+ "args": {
+  "kind": "sparse",
+  "layer": 14,
+  "D": 16384,
+  "k": 32,
+  "r": 16,
+  "scale": 1.0,
+  "lr": 0.01,
+  "steps": 1,
+  "n": 60,
+  "tau_w": 40.0,
+  "tau_theta": 2000.0,
+  "seed": 0,
+  "tag": "_smoke",
+  "Df": 32768,
+  "kf": 20,
+  "center": 1,
+  "adapt_rate": 0.05,
+  "code_from": "mean",
+  "code_layer": 20,
+  "out": "experiments/memory/smoke_inllm"
+ },
+ "rows": [
+  {
+   "age": "0-20",
+   "n": 20,
+   "recall": 0.65,
+   "recall_no_memory": 0.15,
+   "theta_auc_similar": 0.9625,
+   "theta_auc_unrelated": 1.0,
+   "surprise_auc_similar": 0.68,
+   "surprise_auc_unrelated": 0.62
+  },
+  {
+   "age": "20-50",
+   "n": 30,
+   "recall": 0.26666666666666666,
+   "recall_no_memory": 0.0,
+   "theta_auc_similar": 0.9633333333333334,
+   "theta_auc_unrelated": 0.9977777777777778,
+   "surprise_auc_similar": 0.5322222222222223,
+   "surprise_auc_unrelated": 0.4066666666666667
+  },
+  {
+   "age": "50-100",
+   "n": 10,
+   "recall": 0.2,
+   "recall_no_memory": 0.0,
+   "theta_auc_similar": 0.62,
+   "theta_auc_unrelated": 0.65,
+   "surprise_auc_similar": 0.49,
+   "surprise_auc_unrelated": 0.46
+  }
+ ],
+ "generic_nll_base": 2.0057652791341147,
+ "generic_nll_with_memory": 1.9551558097203572
+}

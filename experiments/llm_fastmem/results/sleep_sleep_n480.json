@@ -1,0 +1,128 @@
+{
+ "mode": "sleep",
+ "core": 20,
+ "noise": 480,
+ "acc": 0.75,
+ "rows": [
+  {
+   "fact": "Ben's pen: in the blue envelope",
+   "out": "",
+   "theta": 0.49,
+   "ok": false
+  },
+  {
+   "fact": "Yumi's medicine: on the windowsill",
+   "out": "",
+   "theta": 0.451,
+   "ok": false
+  },
+  {
+   "fact": "Iris's ring: behind the bookshelf",
+   "out": "behind the bookshelf.\n\n<think>",
+   "theta": 0.567,
+   "ok": true
+  },
+  {
+   "fact": "Chloe's flask: on the windowsill",
+   "out": "on the windowsill.\n\nQuestion:",
+   "theta": 0.564,
+   "ok": true
+  },
+  {
+   "fact": "Ken's passport: in the blue envelope",
+   "out": "in the blue envelope.\n\nWhere is",
+   "theta": 0.543,
+   "ok": true
+  },
+  {
+   "fact": "Yumi's tablet: in the freezer",
+   "out": "in the freezer.\n\nWhat is the",
+   "theta": 0.536,
+   "ok": true
+  },
+  {
+   "fact": "Leo's glasses: on top of the fridge",
+   "out": "on top of the fridge.\n\nBased",
+   "theta": 0.618,
+   "ok": true
+  },
+  {
+   "fact": "Axel's keys: in the toolbox",
+   "out": "in the toolbox.\n\nDo you know",
+   "theta": 0.553,
+   "ok": true
+  },
+  {
+   "fact": "Jack's umbrella: in the red teapot",
+   "out": "in the red box.\n\nWhere is",
+   "theta": 0.583,
+   "ok": false
+  },
+  {
+   "fact": "Ken's flask: in the blue envelope",
+   "out": "10:30 AM Kitchen",
+   "theta": 0.642,
+   "ok": false
+  },
+  {
+   "fact": "Axel's notebook: in the toolbox",
+   "out": "2025-12",
+   "theta": 0.662,
+   "ok": false
+  },
+  {
+   "fact": "Chloe's glasses: under the doormat",
+   "out": "under the doormat.\n\nWhere",
+   "theta": 0.643,
+   "ok": true
+  },
+  {
+   "fact": "Leo's hat: in the freezer",
+   "out": "in the freezer.\n\nWhere is the",
+   "theta": 0.62,
+   "ok": true
+  },
+  {
+   "fact": "Finn's ring: under the piano",
+   "out": "under the piano.\n\nQuestion: Where",
+   "theta": 0.7,
+   "ok": true
+  },
+  {
+   "fact": "Tom's lighter: in the old boot",
+   "out": "in the old boot.\n\nBased on",
+   "theta": 0.744,
+   "ok": true
+  },
+  {
+   "fact": "Tom's notebook: behind the bookshelf",
+   "out": "behind the bookshelf.\n\nThe cat",
+   "theta": 0.812,
+   "ok": true
+  },
+  {
+   "fact": "Kate's sunglasses: on top of the fridge",
+   "out": "on top of the fridge.\n\nBased",
+   "theta": 0.814,
+   "ok": true
+  },
+  {
+   "fact": "Mia's flask: in the freezer",
+   "out": "in the freezer.\n\nThe flask is",
+   "theta": 0.819,
+   "ok": true
+  },
+  {
+   "fact": "Axel's hat: in the blue envelope",
+   "out": "in the blue envelope.\n\nWhere is",
+   "theta": 0.998,
+   "ok": true
+  },
+  {
+   "fact": "Chloe's bike lock: on the windowsill",
+   "out": "on the windowsill.\n\nWhere did",
+   "theta": 1.0,
+   "ok": true
+  }
+ ]
+}

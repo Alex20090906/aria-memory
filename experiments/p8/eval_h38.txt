@@ -1,0 +1,27 @@
+### IX_SPLIT=0
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35
+### IX_SPLIT=1
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 36 | dense text embedding 35 | either 37
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35
+### IX_UNLEARN=0.6
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 32 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 34 | dense text embedding 34 | either 35
+### IX_SPLIT=1 IX_UNLEARN=0.6
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 31 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 34 | dense text embedding 34 | either 35
+### scale IX_UNLEARN=0
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 25/38  (distractor writes 1s)
+  zh_result_I_all_old.json D=512 distractors 10000: recall@5 18/38  (distractor writes 6s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 29/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 10000: recall@5 29/38  (distractor writes 6s)
+### scale IX_UNLEARN=0.6
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 21/38  (distractor writes 5s)
+  zh_result_I_all_old.json D=512 distractors 10000: recall@5 19/38  (distractor writes 70s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 32/38  (distractor writes 5s)
+  zh_result_I_all_set2.json D=512 distractors 10000: recall@5 30/38  (distractor writes 69s)
+### scale IX_SPLIT=1 IX_UNLEARN=0.6
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 22/38  (distractor writes 5s)
+  zh_result_I_all_old.json D=512 distractors 10000: recall@5 20/38  (distractor writes 70s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 32/38  (distractor writes 5s)
+  zh_result_I_all_set2.json D=512 distractors 10000: recall@5 29/38  (distractor writes 70s)

@@ -1,0 +1,44 @@
+{
+ "args": {
+  "layers": "22,25",
+  "D": 16384,
+  "k": 16,
+  "eta": 1.0,
+  "iters": 3,
+  "n": 150,
+  "tau_w": 40.0,
+  "seed": 0,
+  "kl_weight": 0,
+  "target": "logit",
+  "gain": 30.0,
+  "no_prob": 0,
+  "out": "~\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\2001fd13-370b-4e53-9a7f-af84919fcf52\\c6c11626-1e34-4bda-90d8-55502aa7f176\\scratch-2026-11-03-d1f1b4\\experiments\\memory\\results_compile"
+ },
+ "immediate_recall": 1.0,
+ "rows": [
+  {
+   "age": "0-20",
+   "recall": 0.85,
+   "no_memory": 0.1
+  },
+  {
+   "age": "20-50",
+   "recall": 0.43333333333333335,
+   "no_memory": 0.06666666666666667
+  },
+  {
+   "age": "50-100",
+   "recall": 0.1,
+   "no_memory": 0.08
+  },
+  {
+   "age": "100-200",
+   "recall": 0.04,
+   "no_memory": 0.02
+  }
+ ],
+ "generic_nll": [
+  2.0057652791341147,
+  1.9914246400197346
+ ]
+}

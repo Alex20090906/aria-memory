@@ -1,0 +1,18 @@
+day 4 TOLD | heard: 欸,我上次跟你講我那個健身房教練叫什麼名
+   -> ['TOPIC 教練', 'Q 教練 | name']
+day 7 never | heard: 那我有跟你說過貓鯊是用哪個牌子嗎?
+   -> ['TOPIC 貓鯊', 'Q 貓鯊 | brand']
+day 12 TOLD | heard: 我不照臉。
+   -> ['TOPIC 瑜伽課', 'NONE']
+day 17 TOLD | heard: 我那個備用鑰匙上次是跟你說放拿去啦。
+   -> ['TOPIC 備用鑰匙', '備用鑰匙 | location | 拿去']
+day 19 never | heard: 他媽媽媽媽媽媽拿瘋了 Match dannし指 тому sama
+   -> ['TOPIC （無）', 'NONE']
+day 20 never | heard: 那房間那台空氣清淨機率網裂
+   -> ['TOPIC 空氣清淨機', '空氣清淨機 | attribute | 濾網裂']
+day 5 TOLD | heard: 欸我那罐很貴的大碼是隔玫瑰圓金放拿去了。
+   -> ['TOPIC 大碼', '大碼 | location | 玫瑰圓金']
+day 6 TOLD | heard: A我那台小電子襯列。
+   -> ['TOPIC 電子襯列', 'NONE']
+day 11 TOLD | heard: A竹北那家選物店的店長叫什麼名字啊?
+   -> ['TOPIC 竹北選物店', 'Q 竹北選物店 | attribute']

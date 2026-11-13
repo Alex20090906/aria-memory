@@ -1,0 +1,9 @@
+[
+ {
+  "tag": "smoke",
+  "rc": 0,
+  "minutes": 7.7,
+  "tail": "  no-memory guess baseline: 0/10\nMODE sleep: core recall at end 0.900 (9/10) honest-forget 0 confident-wrong 1\n  recall by age quartile (young->old): ['2/2', '2/2', '2/2', '1/2']",
+  "err": ""
+ }
+]

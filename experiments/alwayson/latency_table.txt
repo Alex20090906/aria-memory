@@ -1,0 +1,6 @@
+e44_read: reads 94, median 2.21 s, p90 3.09 s, max 4.68 s, index query -, index write -
+e45_read_idle: reads 94, median 2.19 s, p90 2.85 s, max 3.81 s, index query -, index write -
+e46_index: reads 94, median 1.66 s, p90 2.41 s, max 3.78 s, index query 13 ms, index write 36 ms
+e47_nogate: reads 94, median 1.54 s, p90 1.98 s, max 3.07 s, index query 13 ms, index write 36 ms
+e48_full: reads 94, median 1.52 s, p90 1.87 s, max 3.12 s, index query 11 ms, index write 32 ms
+e49_final: reads 94, median 1.54 s, p90 1.90 s, max 3.11 s, index query 13 ms, index write 36 ms

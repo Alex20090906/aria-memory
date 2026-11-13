@@ -1,0 +1,111 @@
+{
+ "encode_acc_per_kind": {
+  "ambient": 0.998,
+  "background": 0.974,
+  "cancel": 1.0,
+  "complex": 1.0,
+  "greeting": 1.0,
+  "inform": 1.0,
+  "overheard": 1.0,
+  "overheard_fact": 1.0,
+  "recall_q": 1.0,
+  "recall_q_other": 1.0,
+  "result": 1.0,
+  "scene": 0.992,
+  "scene_repeat": 0.979,
+  "scene_return": 0.926
+ },
+ "per_kind": {
+  "ambient": 0.998,
+  "background": 1.0,
+  "cancel": 1.0,
+  "complex": 0.99,
+  "empty": 1.0,
+  "greeting": 0.992,
+  "inform": 0.926,
+  "overheard": 1.0,
+  "overheard_fact": 1.0,
+  "recall_q": 0.925,
+  "recall_q_other": 1.0,
+  "result": 1.0,
+  "scene": 0.984,
+  "scene_repeat": 0.984,
+  "scene_return": 0.929
+ },
+ "n_kind": {
+  "ambient": 7302,
+  "background": 1753,
+  "cancel": 90,
+  "complex": 295,
+  "empty": 18279,
+  "greeting": 475,
+  "inform": 121,
+  "overheard": 450,
+  "overheard_fact": 85,
+  "recall_q": 53,
+  "recall_q_other": 55,
+  "result": 205,
+  "scene": 124,
+  "scene_repeat": 431,
+  "scene_return": 282
+ },
+ "needs_action_acc": 0.975,
+ "false_action_quiet": 0.0006,
+ "first_quarter": 0.955,
+ "last_quarter": 0.988,
+ "longest_nonwait_run": 3,
+ "actions": {
+  "WAIT": 28304,
+  "ATTEND": 402,
+  "THINK": 405,
+  "REPLY": 795,
+  "INTERRUPT": 94
+ },
+ "confusions": [
+  [
+   "scene_return->WAIT",
+   20
+  ],
+  [
+   "ambient->ATTEND",
+   11
+  ],
+  [
+   "inform->THINK",
+   9
+  ],
+  [
+   "scene_repeat->ATTEND",
+   7
+  ],
+  [
+   "greeting->INTERRUPT",
+   4
+  ],
+  [
+   "recall_q->REPLY",
+   4
+  ],
+  [
+   "complex->REPLY",
+   3
+  ],
+  [
+   "scene->WAIT",
+   2
+  ]
+ ],
+ "ms_per_tick_batched": 0.0032,
+ "ms_per_tick_online": 0.926,
+ "params": 231686,
+ "config": {
+  "train_ticks": 200000,
+  "test_ticks": 30000,
+  "steps": 3000,
+  "seed": 1,
+  "no_fam": false,
+  "out": "experiments/model1/results_w4",
+  "world": "w4",
+  "encoder": "qwen3emb"
+ }
+}

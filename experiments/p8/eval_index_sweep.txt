@@ -1,0 +1,18 @@
+### IX_DOUT=512
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35
+### IX_KT=8
+== zh_result_I_all_old.json Dout 256 K 128 KT 8 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 33 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 256 K 128 KT 8 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 33 | dense text embedding 34 | either 35
+### IX_K=256
+== zh_result_I_all_old.json Dout 256 K 256 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 34 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 256 K 256 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35
+### IX_GAMMA=0
+== zh_result_I_all_old.json Dout 256 K 128 KT 4 KS 2 gamma 0.0 | answerable told 38 | recall@5 network index 33 | dense text embedding 35 | either 35
+== zh_result_I_all_set2.json Dout 256 K 128 KT 4 KS 2 gamma 0.0 | answerable told 38 | recall@5 network index 33 | dense text embedding 34 | either 35
+### IX_KS=4
+== zh_result_I_all_old.json Dout 256 K 128 KT 4 KS 4 gamma 0.2 | answerable told 38 | recall@5 network index 34 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 256 K 128 KT 4 KS 4 gamma 0.2 | answerable told 38 | recall@5 network index 34 | dense text embedding 34 | either 35
+### IX_KT=8 IX_K=256 IX_DOUT=512
+== zh_result_I_all_old.json Dout 512 K 256 KT 8 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 34 | dense text embedding 35 | either 36
+== zh_result_I_all_set2.json Dout 512 K 256 KT 8 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 35

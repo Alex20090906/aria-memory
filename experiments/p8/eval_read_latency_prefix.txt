@@ -1,0 +1,9 @@
+== zh_result_I_all_old.json questions 40
+  embed_q                  median 0.275  p90 0.308  max 0.340
+  embed_rows               median 0.000  p90 2.437  max 4.190
+  n_new_rows               median 0.000  p90 10.100  max 19.000
+  pick_first_ttft          median 1.006  p90 1.148  max 2.179
+  pick_first_first_line    median 1.026  p90 1.153  max 2.192
+  pick_first_total         median 1.187  p90 1.416  max 2.192
+  same pick in both orders: 40/40
+  picks [null, 3, null, 5, 10, 11, null, 33, 27, 36, 21, 19, 37, 38, 42, 47, 52, 51, 54, null, null, 64, 58, null, 70, 73, 53, 83, 75, 45, 82, 95, 104, null, 112, 93, 118, 117, 100, 101]

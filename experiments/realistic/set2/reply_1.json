@@ -1,0 +1,894 @@
+{"days": [
+  {
+    "day": 1,
+    "weekday": "一",
+    "segments": [
+      {
+        "speaker": "tv",
+        "to": "none",
+        "text": "【都會生活新聞】本週五下午三點，知名法式甜點主廚將在台北旗艦店舉辦免費可麗露試吃會，現場名額有限……"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，幫我記一下喔，我那副、就是黑框的備用眼鏡啊，我剛剛收進書房防潮箱上層了，免得我每次要調香看刻度都找不到。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "喔對了 Aria，我跟瓶器廠商那個林老闆約禮拜四下午兩點看 sample，然後他給我的那張瓶器報價單啊，我先夾在工作桌切割墊下面喔。"
+      },
+      {
+        "speaker": "family",
+        "to": "owner",
+        "text": "欸妹，我跟妳說喔，我自己的護照跟台胞證我放在客廳電視櫃第二個抽屜裡面，妳找包裝材料的時候不要給我翻亂喔。"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "好啦不會動妳的啦。啊對了姊，我禮拜三晚上要去劍道館練習喔，那天不用留我的飯。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，幫我把客房除濕機設定成五十度就好，不然放在客房衣櫃頂端那箱蜂蠟塊要是吹太乾會裂開。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，再幫我記個配方，這批無花果香精的稀釋比例是百分之十五……啊不對不對，我剛剛看錯上一季的表格，是百分之十二才對，差點毀了一整鍋。"
+      },
+      {
+        "speaker": "family",
+        "to": "owner",
+        "text": "妳那個酸種麵包我放烤箱保溫喔，我等等要去動物醫院值小夜班了。"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "好，路上小心喔，下雨騎車慢一點。"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "weekday": "二",
+    "segments": [
+      {
+        "speaker": "tv",
+        "to": "none",
+        "text": "【居家整理達人】換季收納小撇步！專家建議將冬天的羽絨被用真空袋壓縮後，放進主臥床底下的收納箱……"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我剛剛終於把那個超貴的原料分裝完了，手抖到不行。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "就是那罐大馬士革玫瑰原精啦，我把它鎖進工作室小冰箱下層了。"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "姊，妳有看到我的電子秤嗎？就是稱精油那台最小台的，精準度零點零一克那台。"
+      },
+      {
+        "speaker": "family",
+        "to": "owner",
+        "text": "沒有欸，妳昨天不是拿去廚房融蠟燭？"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "啊對吼！我想起來了，我後來把它收進中島下面的拉籃裡了，難怪在工作室翻半天。"
+      },
+      {
+        "speaker": "phone_owner",
+        "to": "phone",
+        "text": "喂，陳小姐嗎？對對，關於那個森林系蠟燭的 workshop 啊，我們就定在後天早上十點半在工作室那邊確認最終氣味喔，好，那就先這樣，掰掰。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，幫我記一下喔，剛剛傳 line 來的那個張副理啊，他是百貨專櫃招商窗口，之後快閃店合約都要找他。"
+      },
+      {
+        "speaker": "family",
+        "to": "owner",
+        "text": "欸我要叫 Uber Eats 訂飲料，妳要喝什麼？"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "幫我點四季春加蘆薈微糖去冰，我最近戒奶精了，喝鮮奶茶胃都會脹氣。"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "weekday": "三",
+    "segments": [
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，記一下喔，我們這季新款擴香瓶木蓋的尺寸是內徑二十八毫米，下次訂包材千萬別再買成三十的。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "還有啊 Aria，陽台洗手台旁邊那個塑膠桶你提醒我週末要倒掉，我把從鹿角蕨換下來的舊水苔泡在裡面消毒。"
+      },
+      {
+        "speaker": "phone_owner",
+        "to": "phone",
+        "text": "喂林老闆，歹勢歹勢，明天下午兩點我突然有個會議卡住，看 sample 我們能不能改到後天、就是禮拜五早上十一點？好，太感謝您了！"
+      },
+      {
+        "speaker": "visitor",
+        "to": "owner",
+        "text": "嗨！我順路把妳要的乾燥尤加利葉送過來。跟妳抱怨一下，我上禮拜把我的單眼相機借給阿傑，結果他居然給我放在他後車廂曬太陽，氣死我了。"
+      },
+      {
+        "speaker": "owner",
+        "to": "visitor",
+        "text": "天啊也太誇張了吧，鏡頭發霉怎麼辦？你先坐一下喔。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，幫我記兩件事：第一是我那雙深藍色的劍道護手送去武具店修補了，第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我禮拜一跟你說我那副備用眼鏡收去哪裡了啊？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我有沒有跟你講過我那個封蠟印章放在哪個抽屜？"
+      },
+      {
+        "speaker": "tv",
+        "to": "none",
+        "text": "【氣象報告】受到東北季風增強影響，明後兩天北部及東北部地區將轉為有短暫雨的天氣，外出請攜帶雨具……"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "weekday": "四",
+    "segments": [
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我剛剛把備用眼鏡拿出來看配方，現在隨手放進玄關鑰匙盤……喔不對，我是放進客廳茶几下面的藤編盒裡了，幫我更新一下。"
+      },
+      {
+        "speaker": "visitor",
+        "to": "owner",
+        "text": "這支木質調的尾韻很棒欸！對了，妳這時間喝咖啡不會睡不著喔？"
+      },
+      {
+        "speaker": "owner",
+        "to": "visitor",
+        "text": "不會啊，我自己現在手沖咖啡都只喝衣索比亞淺焙水洗豆，果酸比較明亮，深焙的我喝了才會心悸。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我剛剛把這兩個月要給會計師的那些發票與收據全部整理成一袋了。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "我把它塞在書架第三層綠色硬殼資料夾裡面喔，月底報稅要用。"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "姊，我那把日本買的銅製修枝剪怎麼刀口有點生鏽？"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "我剛拿防鏽油仔細擦過一遍，現在把它掛在陽台鐵窗的S掛鉤上了，妳晾衣服小心不要撞到。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，記一下工作室那台超音波清洗機的加熱功能壞掉了，現在只能常溫震動，等有空再送修。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，無花果香精那個稀釋比例是多少啊？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我跟瓶器林老闆看 sample 是改到什麼時候？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我太陽眼鏡收去哪了？"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "weekday": "五",
+    "segments": [
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "姊，中島拉籃裡面鍋碗瓢盆太擠了，我剛剛把那台小電子秤改放到烘碗機旁邊的木頭託盤上囉。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，剛剛跟林老闆談完，我把那張瓶器報價單從切割墊拿出來，改釘在工作室軟木塞留言板上了。"
+      },
+      {
+        "speaker": "phone_owner",
+        "to": "phone",
+        "text": "喂，請問是復健骨科診所嗎？對，我想預約後天早上九點半給王醫師看手腕，對，之前練劍道拉傷有點復發，好，謝謝。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，幫我算一下喔，如果我們新款大豆蠟燭單顆重量要灌兩百二十克，那我現在做十顆加上損耗要融多少蠟？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "還有 Aria，下次買包裝緞帶記得提醒我要買墨綠色的……啊不對，客戶剛剛說改成霧面深灰色的比較搭胡桃木盒，記霧面深灰色喔。"
+      },
+      {
+        "speaker": "family",
+        "to": "owner",
+        "text": "欸我明天早上八點要帶我們醫院的店狗去打狂犬病疫苗，妳早上出門幫我輕一點喔，我今天跟刀超累。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸我那罐很貴的大馬士革玫瑰原精放哪去了？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，百貨專櫃那個張副理是負責什麼的啊？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我上次說換下來的舊水苔泡在哪裡？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我有沒有說過苦橙葉精油包裹什麼時候要去郵局領？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我工作室那把熱風槍丟去哪了？"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "weekday": "六",
+    "segments": [
+      {
+        "speaker": "phone_owner",
+        "to": "phone",
+        "text": "喂老闆，喔喔我的劍道護手已經補好了是不是？好，那我請凱文順路幫我拿回來……喔他剛剛已經幫我放進我家鞋櫃上面了，謝啦！"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我上次喝四季春結果晚上整個失眠，以後手搖飲我還是改喝蕎麥茶無糖微冰好了，幫我記一下。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我剛剛收到台灣農林寄來的新款檜木精油樣品了，木頭香氣超讚。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "我先把它放進書房窗台深色木盒裡避光保存喔。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，提醒我下禮拜二下午三點要跟會計師視訊對帳喔。"
+      },
+      {
+        "speaker": "tv",
+        "to": "none",
+        "text": "【植物星球專題】鹿角蕨上板後的第一週最忌諱強光直射，建議放置在通風良好的半日照遮陰處……"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我備用眼鏡現在到底放哪？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸我那台小電子秤咧？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，這季新款擴香瓶木蓋的尺寸是幾毫米？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "我之前說那一箱蜂蠟塊收在哪裡啊？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我整理好要給會計師的發票收據塞在哪？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我有沒有跟你講過鹿角蕨的液態肥料放哪？"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "weekday": "日",
+    "segments": [
+      {
+        "speaker": "family",
+        "to": "owner",
+        "text": "妹，妳骨科看完回來啦？我把我的瑜珈墊捲起來放客廳沙發後面喔，下午朋友要來家裡喝茶。"
+      },
+      {
+        "speaker": "owner",
+        "to": "family",
+        "text": "好啊，醫師說手腕只要貼藥布休息幾天就好，不用打針。"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，林老闆那張瓶器報價單我後來放哪了？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我的劍道護手現在狀況怎樣，修好了嗎？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸我想叫外送，我現在手搖飲都喝什麼？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我那把日本銅製修枝剪掛在哪裡？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "我昨天收到的那個檜木精油 sample 放哪去了？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，包裝緞帶客戶後來決定要用什麼顏色？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "欸 Aria，我那把不鏽鋼嫁接刀掛在哪裡？"
+      },
+      {
+        "speaker": "owner",
+        "to": "aria",
+        "text": "Aria，我有沒有跟你說過我下禮拜三要跟哪個攝影師拍產品照？"
+      }
+    ]
+  }
+],
+"facts": [
+  {
+    "day": 1,
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "value": "書房防潮箱上層",
+    "evidence": "我那副、就是黑框的備用眼鏡啊，我剛剛收進書房防潮箱上層了",
+    "update_of": null,
+    "kind": "direct"
+  },
+  {
+    "day": 1,
+    "entity": "林老闆",
+    "slot": "time",
+    "value": "禮拜四下午兩點（第4天）",
+    "evidence": "我跟瓶器廠商那個林老闆約禮拜四下午兩點看 sample",
+    "update_of": null,
+    "kind": "multi"
+  },
+  {
+    "day": 1,
+    "entity": "瓶器報價單",
+    "slot": "location",
+    "value": "工作桌切割墊下面",
+    "evidence": "他給我的那張瓶器報價單啊，我先夾在工作桌切割墊下面喔",
+    "update_of": null,
+    "kind": "multi"
+  },
+  {
+    "day": 1,
+    "entity": "蜂蠟塊",
+    "slot": "location",
+    "value": "客房衣櫃頂端",
+    "evidence": "不然放在客房衣櫃頂端那箱蜂蠟塊要是吹太乾會裂開",
+    "update_of": null,
+    "kind": "indirect"
+  },
+  {
+    "day": 1,
+    "entity": "無花果香精稀釋比例",
+    "slot": "value",
+    "value": "百分之十二",
+    "evidence": "這批無花果香精的稀釋比例是百分之十五……啊不對不對，我剛剛看錯上一季的表格，是百分之十二才對",
+    "update_of": null,
+    "kind": "correction"
+  },
+  {
+    "day": 1,
+    "entity": "劍道館練習",
+    "slot": "time",
+    "value": "禮拜三晚上（第3天）",
+    "evidence": "我禮拜三晚上要去劍道館練習喔，那天不用留我的飯",
+    "update_of": null,
+    "kind": "overheard"
+  },
+  {
+    "day": 2,
+    "entity": "玫瑰原精",
+    "slot": "location",
+    "value": "工作室小冰箱下層",
+    "evidence": "我剛剛終於把那個超貴的原料分裝完了 / 就是那罐大馬士革玫瑰原精啦，我把它鎖進工作室小冰箱下層了",
+    "update_of": null,
+    "kind": "split"
+  },
+  {
+    "day": 2,
+    "entity": "電子秤",
+    "slot": "location",
+    "value": "中島下面的拉籃",
+    "evidence": "姊，妳有看到我的電子秤嗎？ / 我後來把它收進中島下面的拉籃裡了",
+    "update_of": null,
+    "kind": "pronoun"
+  },
+  {
+    "day": 2,
+    "entity": "蠟燭工作坊確認",
+    "slot": "time",
+    "value": "禮拜四早上十點半（第4天）",
+    "evidence": "關於那個森林系蠟燭的 workshop 啊，我們就定在後天早上十點半在工作室那邊確認最終氣味喔",
+    "update_of": null,
+    "kind": "relative_time"
+  },
+  {
+    "day": 2,
+    "entity": "手搖飲",
+    "slot": "preference",
+    "value": "四季春加蘆薈微糖去冰",
+    "evidence": "幫我點四季春加蘆薈微糖去冰，我最近戒奶精了",
+    "update_of": null,
+    "kind": "overheard"
+  },
+  {
+    "day": 2,
+    "entity": "張副理",
+    "slot": "relation",
+    "value": "百貨專櫃招商窗口",
+    "evidence": "剛剛傳 line 來的那個張副理啊，他是百貨專櫃招商窗口",
+    "update_of": null,
+    "kind": "direct"
+  },
+  {
+    "day": 3,
+    "entity": "擴香瓶木蓋",
+    "slot": "attribute",
+    "value": "內徑二十八毫米",
+    "evidence": "我們這季新款擴香瓶木蓋的尺寸是內徑二十八毫米",
+    "update_of": null,
+    "kind": "direct"
+  },
+  {
+    "day": 3,
+    "entity": "舊水苔",
+    "slot": "location",
+    "value": "陽台洗手台旁塑膠桶",
+    "evidence": "陽台洗手台旁邊那個塑膠桶你提醒我週末要倒掉，我把從鹿角蕨換下來的舊水苔泡在裡面消毒",
+    "update_of": null,
+    "kind": "indirect"
+  },
+  {
+    "day": 3,
+    "entity": "林老闆",
+    "slot": "time",
+    "value": "禮拜五早上十一點（第5天）",
+    "evidence": "看 sample 我們能不能改到後天、就是禮拜五早上十一點",
+    "update_of": 1,
+    "kind": "relative_time"
+  },
+  {
+    "day": 3,
+    "entity": "劍道護手",
+    "slot": "status",
+    "value": "送去武具店修補",
+    "evidence": "第一是我那雙深藍色的劍道護手送去武具店修補了",
+    "update_of": null,
+    "kind": "multi"
+  },
+  {
+    "day": 3,
+    "entity": "薰衣草精油包裹",
+    "slot": "plan",
+    "value": "下禮拜一去郵局領（第8天）",
+    "evidence": "第二是下禮拜一要去郵局領法國寄來的薰衣草精油包裹",
+    "update_of": null,
+    "kind": "multi"
+  },
+  {
+    "day": 4,
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "value": "客廳茶几下面的藤編盒",
+    "evidence": "現在隨手放進玄關鑰匙盤……喔不對，我是放進客廳茶几下面的藤編盒裡了",
+    "update_of": 0,
+    "kind": "correction"
+  },
+  {
+    "day": 4,
+    "entity": "手沖咖啡",
+    "slot": "preference",
+    "value": "衣索比亞淺焙水洗豆",
+    "evidence": "我自己現在手沖咖啡都只喝衣索比亞淺焙水洗豆",
+    "update_of": null,
+    "kind": "overheard"
+  },
+  {
+    "day": 4,
+    "entity": "發票與收據",
+    "slot": "location",
+    "value": "書架第三層綠色硬殼資料夾",
+    "evidence": "我剛剛把這兩個月要給會計師的那些發票與收據全部整理成一袋了 / 我把它塞在書架第三層綠色硬殼資料夾裡面喔",
+    "update_of": null,
+    "kind": "split"
+  },
+  {
+    "day": 4,
+    "entity": "銅製修枝剪",
+    "slot": "location",
+    "value": "陽台鐵窗的S掛鉤上",
+    "evidence": "我那把日本買的銅製修枝剪怎麼刀口有點生鏽？ / 現在把它掛在陽台鐵窗的S掛鉤上了",
+    "update_of": null,
+    "kind": "pronoun"
+  },
+  {
+    "day": 4,
+    "entity": "超音波清洗機",
+    "slot": "status",
+    "value": "加熱功能壞掉只能常溫震動",
+    "evidence": "記一下工作室那台超音波清洗機的加熱功能壞掉了，現在只能常溫震動",
+    "update_of": null,
+    "kind": "direct"
+  },
+  {
+    "day": 5,
+    "entity": "電子秤",
+    "slot": "location",
+    "value": "烘碗機旁邊的木頭託盤上",
+    "evidence": "我剛剛把那台小電子秤改放到烘碗機旁邊的木頭託盤上囉",
+    "update_of": 7,
+    "kind": "overheard"
+  },
+  {
+    "day": 5,
+    "entity": "瓶器報價單",
+    "slot": "location",
+    "value": "工作室軟木塞留言板上",
+    "evidence": "我把那張瓶器報價單從切割墊拿出來，改釘在工作室軟木塞留言板上了",
+    "update_of": 2,
+    "kind": "direct"
+  },
+  {
+    "day": 5,
+    "entity": "骨科診所看診",
+    "slot": "time",
+    "value": "禮拜日早上九點半（第7天）",
+    "evidence": "我想預約後天早上九點半給王醫師看手腕",
+    "update_of": null,
+    "kind": "relative_time"
+  },
+  {
+    "day": 5,
+    "entity": "大豆蠟燭單顆重量",
+    "slot": "value",
+    "value": "兩百二十克",
+    "evidence": "如果我們新款大豆蠟燭單顆重量要灌兩百二十克，那我現在做十顆加上損耗要融多少蠟",
+    "update_of": null,
+    "kind": "indirect"
+  },
+  {
+    "day": 5,
+    "entity": "包裝緞帶顏色",
+    "slot": "preference",
+    "value": "霧面深灰色",
+    "evidence": "下次買包裝緞帶記得提醒我要買墨綠色的……啊不對，客戶剛剛說改成霧面深灰色的比較搭胡桃木盒",
+    "update_of": null,
+    "kind": "correction"
+  },
+  {
+    "day": 6,
+    "entity": "劍道護手",
+    "slot": "status",
+    "value": "已修補好放進鞋櫃上面",
+    "evidence": "我的劍道護手已經補好了是不是……他剛剛已經幫我放進我家鞋櫃上面了",
+    "update_of": 14,
+    "kind": "overheard"
+  },
+  {
+    "day": 6,
+    "entity": "手搖飲",
+    "slot": "preference",
+    "value": "蕎麥茶無糖微冰",
+    "evidence": "以後手搖飲我還是改喝蕎麥茶無糖微冰好了",
+    "update_of": 9,
+    "kind": "direct"
+  },
+  {
+    "day": 6,
+    "entity": "檜木精油樣品",
+    "slot": "location",
+    "value": "書房窗台深色木盒裡",
+    "evidence": "我剛剛收到台灣農林寄來的新款檜木精油樣品了 / 我先把它放進書房窗台深色木盒裡避光保存喔",
+    "update_of": null,
+    "kind": "pronoun"
+  },
+  {
+    "day": 6,
+    "entity": "會計師視訊對帳",
+    "slot": "plan",
+    "value": "下禮拜二下午三點（第9天）",
+    "evidence": "提醒我下禮拜二下午三點要跟會計師視訊對帳喔",
+    "update_of": null,
+    "kind": "direct"
+  }
+],
+"questions": [
+  {
+    "day": 3,
+    "text": "欸 Aria，我禮拜一跟你說我那副備用眼鏡收去哪裡了啊？",
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "expect": "書房防潮箱上層",
+    "stale": null,
+    "kind": "direct"
+  },
+  {
+    "day": 3,
+    "text": "Aria，我有沒有跟你講過我那個封蠟印章放在哪個抽屜？",
+    "entity": "封蠟印章",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+  },
+  {
+    "day": 4,
+    "text": "Aria，無花果香精那個稀釋比例是多少啊？",
+    "entity": "無花果香精稀釋比例",
+    "slot": "value",
+    "expect": "百分之十二",
+    "stale": null,
+    "kind": "correction"
+  },
+  {
+    "day": 4,
+    "text": "欸 Aria，我跟瓶器林老闆看 sample 是改到什麼時候？",
+    "entity": "林老闆",
+    "slot": "time",
+    "expect": "禮拜五早上十一點（第5天）",
+    "stale": "禮拜四下午兩點（第4天）",
+    "kind": "relative_time"
+  },
+  {
+    "day": 4,
+    "text": "欸 Aria，我太陽眼鏡收去哪了？",
+    "entity": "太陽眼鏡",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+  },
+  {
+    "day": 5,
+    "text": "欸我那罐很貴的大馬士革玫瑰原精放哪去了？",
+    "entity": "玫瑰原精",
+    "slot": "location",
+    "expect": "工作室小冰箱下層",
+    "stale": null,
+    "kind": "split"
+  },
+  {
+    "day": 5,
+    "text": "Aria，百貨專櫃那個張副理是負責什麼的啊？",
+    "entity": "張副理",
+    "slot": "relation",
+    "expect": "百貨專櫃招商窗口",
+    "stale": null,
+    "kind": "direct"
+  },
+  {
+    "day": 5,
+    "text": "Aria，我上次說換下來的舊水苔泡在哪裡？",
+    "entity": "舊水苔",
+    "slot": "location",
+    "expect": "陽台洗手台旁塑膠桶",
+    "stale": null,
+    "kind": "indirect"
+  },
+  {
+    "day": 5,
+    "text": "Aria，我有沒有說過苦橙葉精油包裹什麼時候要去郵局領？",
+    "entity": "苦橙葉精油包裹",
+    "slot": "plan",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+  },
+  {
+    "day": 5,
+    "text": "欸 Aria，我工作室那把熱風槍丟去哪了？",
+    "entity": "熱風槍",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+  },
+  {
+    "day": 6,
+    "text": "Aria，我備用眼鏡現在到底放哪？",
+    "entity": "備用眼鏡",
+    "slot": "location",
+    "expect": "客廳茶几下面的藤編盒",
+    "stale": "書房防潮箱上層",
+    "kind": "correction"
+  },
+  {
+    "day": 6,
+    "text": "欸我那台小電子秤咧？",
+    "entity": "電子秤",
+    "slot": "location",
+    "expect": "烘碗機旁邊的木頭託盤上",
+    "stale": "中島下面的拉籃",
+    "kind": "overheard"
+  },
+  {
+    "day": 6,
+    "text": "Aria，這季新款擴香瓶木蓋的尺寸是幾毫米？",
+    "entity": "擴香瓶木蓋",
+    "slot": "attribute",
+    "expect": "內徑二十八毫米",
+    "stale": null,
+    "kind": "direct"
+  },
+  {
+    "day": 6,
+    "text": "我之前說那一箱蜂蠟塊收在哪裡啊？",
+    "entity": "蜂蠟塊",
+    "slot": "location",
+    "expect": "客房衣櫃頂端",
+    "stale": null,
+    "kind": "indirect"
+  },
+  {
+    "day": 6,
+    "text": "Aria，我整理好要給會計師的發票收據塞在哪？",
+    "entity": "發票與收據",
+    "slot": "location",
+    "expect": "書架第三層綠色硬殼資料夾",
+    "stale": null,
+    "kind": "split"
+  },
+  {
+    "day": 6,
+    "text": "Aria，我有沒有跟你講過鹿角蕨的液態肥料放哪？",
+    "entity": "液態肥料",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+  },
+  {
+    "day": 7,
+    "text": "欸 Aria，林老闆那張瓶器報價單我後來放哪了？",
+    "entity": "瓶器報價單",
+    "slot": "location",
+    "expect": "工作室軟木塞留言板上",
+    "stale": "工作桌切割墊下面",
+    "kind": "direct"
+  },
+  {
+    "day": 7,
+    "text": "Aria，我的劍道護手現在狀況怎樣，修好了嗎？",
+    "entity": "劍道護手",
+    "slot": "status",
+    "expect": "已修補好放進鞋櫃上面",
+    "stale": "送去武具店修補",
+    "kind": "overheard"
+  },
+  {
+    "day": 7,
+    "text": "欸我想叫外送，我現在手搖飲都喝什麼？",
+    "entity": "手搖飲",
+    "slot": "preference",
+    "expect": "蕎麥茶無糖微冰",
+    "stale": "四季春加蘆薈微糖去冰",
+    "kind": "direct"
+  },
+  {
+    "day": 7,
+    "text": "Aria，我那把日本銅製修枝剪掛在哪裡？",
+    "entity": "銅製修枝剪",
+    "slot": "location",
+    "expect": "陽台鐵窗的S掛鉤上",
+    "stale": null,
+    "kind": "pronoun"
+  },
+  {
+    "day": 7,
+    "text": "我昨天收到的那個檜木精油 sample 放哪去了？",
+    "entity": "檜木精油樣品",
+    "slot": "location",
+    "expect": "書房窗台深色木盒裡",
+    "stale": null,
+    "kind": "pronoun"
+  },
+  {
+    "day": 7,
+    "text": "Aria，包裝緞帶客戶後來決定要用什麼顏色？",
+    "entity": "包裝緞帶顏色",
+    "slot": "preference",
+    "expect": "霧面深灰色",
+    "stale": null,
+    "kind": "correction"
+  },
+  {
+    "day": 7,
+    "text": "欸 Aria，我那把不鏽鋼嫁接刀掛在哪裡？",
+    "entity": "不鏽鋼嫁接刀",
+    "slot": "location",
+    "expect": null,
+    "stale": null,
+    "kind": "similar_unmentioned"
+  },
+  {
+    "day": 7,
+    "text": "Aria，我有沒有跟你說過我下禮拜三要跟哪個攝影師拍產品照？",
+    "entity": "產品照攝影師",
+    "slot": "plan",
+    "expect": null,
+    "stale": null,
+    "kind": "unmentioned"
+  }
+]}

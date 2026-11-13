@@ -1,0 +1,1640 @@
+{
+ "events": [
+  {
+   "day": 2,
+   "say": "Ugh, nearly lost my passport again... shoved it in the top desk drawer so I actually know where it is for once.",
+   "entity": "passport",
+   "slot": "location",
+   "value": "top desk drawer",
+   "update_of": null
+  },
+  {
+   "day": 5,
+   "say": "Morning Aria... man I need caffeine. Just so you know, for coffee I'm strictly oat milk, no sugar, forever and always.",
+   "entity": "coffee",
+   "slot": "preference",
+   "value": "oat milk, no sugar",
+   "update_of": null
+  },
+  {
+   "day": 9,
+   "say": "My older sister Maya called earlier, talked my ear off for like forty minutes.",
+   "entity": "sister maya",
+   "slot": "relation",
+   "value": "older sister",
+   "update_of": null
+  },
+  {
+   "day": 12,
+   "say": "Maya keeps complaining about the rain... I mean, that's what happens when you're living in Seattle, right?",
+   "entity": "sister maya",
+   "slot": "location",
+   "value": "living in seattle",
+   "update_of": null
+  },
+  {
+   "day": 16,
+   "say": "Ugh, booked the dentist. February 14 at 2pm. Super romantic Valentine's plans for me lol.",
+   "entity": "dentist",
+   "slot": "time",
+   "value": "february 14 at 2pm",
+   "update_of": null
+  },
+  {
+   "day": 20,
+   "say": "Great, just great, the check engine light is on in the car again. Love that for my wallet.",
+   "entity": "car",
+   "slot": "status",
+   "value": "check engine light is on",
+   "update_of": null
+  },
+  {
+   "day": 24,
+   "say": "I swear half the street drives the exact same dark blue hatchback as my car, I almost tried to unlock the wrong one today.",
+   "entity": "car",
+   "slot": "attribute",
+   "value": "dark blue hatchback",
+   "update_of": null
+  },
+  {
+   "day": 28,
+   "say": "Hid the spare key under the blue flowerpot on the porch... super original hiding spot, I know.",
+   "entity": "spare key",
+   "slot": "location",
+   "value": "under the blue flowerpot",
+   "update_of": null
+  },
+  {
+   "day": 32,
+   "say": "Too cold to walk to the gym, honestly. I put my gym membership as frozen for the winter.",
+   "entity": "gym membership",
+   "slot": "status",
+   "value": "frozen for the winter",
+   "update_of": null
+  },
+  {
+   "day": 36,
+   "say": "When the gym membership is running it's $45 a month, which isn't terrible if I actually go.",
+   "entity": "gym membership",
+   "slot": "value",
+   "value": "$45 a month",
+   "update_of": null
+  },
+  {
+   "day": 40,
+   "say": "Oh wait Aria, dentist receptionist called—moved my dentist appointment to February 21 at 10am instead.",
+   "entity": "dentist",
+   "slot": "time",
+   "value": "february 21 at 10am",
+   "update_of": 4
+  },
+  {
+   "day": 44,
+   "say": "My laptop is basically a desktop now because the battery dies in an hour if I unplug it.",
+   "entity": "laptop",
+   "slot": "status",
+   "value": "battery dies in an hour",
+   "update_of": null
+  },
+  {
+   "day": 48,
+   "say": "Still really like this laptop though, the 13-inch silver pro fits in literally any backpack.",
+   "entity": "laptop",
+   "slot": "attribute",
+   "value": "13-inch silver pro",
+   "update_of": null
+  },
+  {
+   "day": 52,
+   "say": "My younger brother Leo is coming by this weekend to borrow some tools, pray for my sanity.",
+   "entity": "brother leo",
+   "slot": "relation",
+   "value": "younger brother",
+   "update_of": null
+  },
+  {
+   "day": 56,
+   "say": "Gotta remember if I make tacos for brother Leo that he hates cilantro, got that soap gene thing.",
+   "entity": "brother leo",
+   "slot": "preference",
+   "value": "hates cilantro",
+   "update_of": null
+  },
+  {
+   "day": 60,
+   "say": "Looking at new running shoes online... I'm always a size 9.5 in trainers.",
+   "entity": "running shoes",
+   "slot": "value",
+   "value": "size 9.5",
+   "update_of": null
+  },
+  {
+   "day": 64,
+   "say": "Tossed my muddy running shoes in the bottom of the hall closet, out of sight out of mind.",
+   "entity": "running shoes",
+   "slot": "location",
+   "value": "bottom of the hall closet",
+   "update_of": null
+  },
+  {
+   "day": 68,
+   "say": "Wanted to do my tax return tonight but ugh, still missing one form from the bank.",
+   "entity": "tax return",
+   "slot": "status",
+   "value": "still missing one form",
+   "update_of": null
+  },
+  {
+   "day": 72,
+   "say": "At least the tax return isn't due till April 15, got a little breathing room.",
+   "entity": "tax return",
+   "slot": "time",
+   "value": "due april 15",
+   "update_of": null
+  },
+  {
+   "day": 76,
+   "say": "Tried making a smoothie and the blender started leaking from the bottom... smoothie all over the counter.",
+   "entity": "blender",
+   "slot": "status",
+   "value": "leaking from the bottom",
+   "update_of": null
+  },
+  {
+   "day": 80,
+   "say": "Set up a vet appointment for Milo—March 30 at 4pm. Don't let me forget to get the carrier out early.",
+   "entity": "vet appointment",
+   "slot": "time",
+   "value": "march 30 at 4pm",
+   "update_of": null
+  },
+  {
+   "day": 84,
+   "say": "Cat Milo is such a diva, bought three kinds of wet food and he only eats salmon pate.",
+   "entity": "cat milo",
+   "slot": "preference",
+   "value": "only eats salmon pate",
+   "update_of": null
+  },
+  {
+   "day": 88,
+   "say": "Weighed cat Milo by holding him on the scale—he's a solid 11 pounds of fluff.",
+   "entity": "cat milo",
+   "slot": "value",
+   "value": "11 pounds",
+   "update_of": null
+  },
+  {
+   "day": 92,
+   "say": "Finally warm enough to pack away the winter coat! Stuffed it in the vacuum bag under the bed.",
+   "entity": "winter coat",
+   "slot": "location",
+   "value": "vacuum bag under the bed",
+   "update_of": null
+  },
+  {
+   "day": 96,
+   "say": "Honestly that olive green parka is the best winter coat I've ever owned.",
+   "entity": "winter coat",
+   "slot": "attribute",
+   "value": "olive green parka",
+   "update_of": null
+  },
+  {
+   "day": 100,
+   "say": "Boom! Tax return is officially filed and accepted. Done with paperwork for a year.",
+   "entity": "tax return",
+   "slot": "status",
+   "value": "filed and accepted",
+   "update_of": 17
+  },
+  {
+   "day": 104,
+   "say": "My camping tent is lent to Sam for his trip up north, hope he doesn't lose the stakes.",
+   "entity": "camping tent",
+   "slot": "status",
+   "value": "lent to sam",
+   "update_of": null
+  },
+  {
+   "day": 108,
+   "say": "That camping tent is a three-person dome tent, super easy to pitch.",
+   "entity": "camping tent",
+   "slot": "attribute",
+   "value": "three-person dome tent",
+   "update_of": null
+  },
+  {
+   "day": 112,
+   "say": "Picked up my acoustic guitar to noodle around and ping—the high e string is snapped.",
+   "entity": "acoustic guitar",
+   "slot": "status",
+   "value": "high e string is snapped",
+   "update_of": null
+  },
+  {
+   "day": 116,
+   "say": "Left the acoustic guitar leaning behind the sofa for now.",
+   "entity": "acoustic guitar",
+   "slot": "location",
+   "value": "leaning behind the sofa",
+   "update_of": null
+  },
+  {
+   "day": 120,
+   "say": "Checked out a massive biography today, library book is due May 12.",
+   "entity": "library book",
+   "slot": "time",
+   "value": "due may 12",
+   "update_of": null
+  },
+  {
+   "day": 124,
+   "say": "Put the library book on the nightstand so I actually read a chapter before bed.",
+   "entity": "library book",
+   "slot": "location",
+   "value": "on the nightstand",
+   "update_of": null
+  },
+  {
+   "day": 128,
+   "say": "When it comes to olive oil I'm such a snob now, gotta be cold-pressed Greek.",
+   "entity": "olive oil",
+   "slot": "preference",
+   "value": "cold-pressed greek",
+   "update_of": null
+  },
+  {
+   "day": 132,
+   "say": "Stepped on the bathroom scale and nothing happened, thing is totally out of batteries.",
+   "entity": "bathroom scale",
+   "slot": "status",
+   "value": "out of batteries",
+   "update_of": null
+  },
+  {
+   "day": 136,
+   "say": "Got a text from cousin Tariq—he's my mom's nephew on the other side of the family.",
+   "entity": "cousin tariq",
+   "slot": "relation",
+   "value": "mom's nephew",
+   "update_of": null
+  },
+  {
+   "day": 140,
+   "say": "Looks like cousin Tariq is visiting in July for a few days, gonna be fun.",
+   "entity": "cousin tariq",
+   "slot": "plan",
+   "value": "visiting in july",
+   "update_of": null
+  },
+  {
+   "day": 144,
+   "say": "Unfroze my gym membership today, so it's active again. No more excuses.",
+   "entity": "gym membership",
+   "slot": "status",
+   "value": "active again",
+   "update_of": 8
+  },
+  {
+   "day": 148,
+   "say": "This black mesh ergonomic desk chair was worth every penny for my back.",
+   "entity": "desk chair",
+   "slot": "attribute",
+   "value": "black mesh ergonomic",
+   "update_of": null
+  },
+  {
+   "day": 152,
+   "say": "Well I jinxed the desk chair, now the left armrest is wobbly. Need an Allen wrench.",
+   "entity": "desk chair",
+   "slot": "status",
+   "value": "left armrest is wobbly",
+   "update_of": null
+  },
+  {
+   "day": 156,
+   "say": "Left my sunglasses in the car glovebox so I have them for highway driving.",
+   "entity": "sunglasses",
+   "slot": "location",
+   "value": "in the car glovebox",
+   "update_of": null
+  },
+  {
+   "day": 160,
+   "say": "Those sunglasses are polarized tortoiseshell, took me ages to find frames that fit my face.",
+   "entity": "sunglasses",
+   "slot": "attribute",
+   "value": "polarized tortoiseshell",
+   "update_of": null
+  },
+  {
+   "day": 164,
+   "say": "My poor sourdough starter is hiding in the back of the fridge.",
+   "entity": "sourdough starter",
+   "slot": "location",
+   "value": "back of the fridge",
+   "update_of": null
+  },
+  {
+   "day": 168,
+   "say": "Checked the sourdough starter and yeah, it's dormant, needs feeding before I can bake.",
+   "entity": "sourdough starter",
+   "slot": "status",
+   "value": "dormant, needs feeding",
+   "update_of": null
+  },
+  {
+   "day": 172,
+   "say": "Decided the desk wasn't secure enough, moved my passport so now it's in the fireproof safe.",
+   "entity": "passport",
+   "slot": "location",
+   "value": "in the fireproof safe",
+   "update_of": 0
+  },
+  {
+   "day": 176,
+   "say": "Wanted to hem my pants but remembered my sewing machine is at my aunt's house.",
+   "entity": "sewing machine",
+   "slot": "status",
+   "value": "at my aunt's house",
+   "update_of": null
+  },
+  {
+   "day": 180,
+   "say": "Booked the flight to Chicago! August 8 at 7am, brutal wakeup call.",
+   "entity": "flight to chicago",
+   "slot": "time",
+   "value": "august 8 at 7am",
+   "update_of": null
+  },
+  {
+   "day": 184,
+   "say": "At least for the flight to Chicago I snagged a window seat, always my pick.",
+   "entity": "flight to chicago",
+   "slot": "preference",
+   "value": "window seat",
+   "update_of": null
+  },
+  {
+   "day": 188,
+   "say": "Trying to keep the grocery budget strictly at $400 a month this summer.",
+   "entity": "grocery budget",
+   "slot": "value",
+   "value": "$400 a month",
+   "update_of": null
+  },
+  {
+   "day": 192,
+   "say": "Got soaked on the trail today, the waterproofing wore off on my hiking boots.",
+   "entity": "hiking boots",
+   "slot": "status",
+   "value": "waterproofing wore off",
+   "update_of": null
+  },
+  {
+   "day": 196,
+   "say": "Put the hiking boots on the mudroom rack to dry out.",
+   "entity": "hiking boots",
+   "slot": "location",
+   "value": "on the mudroom rack",
+   "update_of": null
+  },
+  {
+   "day": 200,
+   "say": "Bumped into neighbor Dave in the hall—you know, the guy in apartment 4B.",
+   "entity": "neighbor dave",
+   "slot": "relation",
+   "value": "guy in apartment 4b",
+   "update_of": null
+  },
+  {
+   "day": 204,
+   "say": "Neighbor Dave mentioned he loves sourdough bread, I should bake him a loaf sometime.",
+   "entity": "neighbor dave",
+   "slot": "preference",
+   "value": "loves sourdough bread",
+   "update_of": null
+  },
+  {
+   "day": 208,
+   "say": "Picked up the car from the shop! It's freshly serviced and running fine now, thank goodness.",
+   "entity": "car",
+   "slot": "status",
+   "value": "freshly serviced and running fine",
+   "update_of": 5
+  },
+  {
+   "day": 212,
+   "say": "Uh oh, the dishwasher started making a grinding noise mid-cycle.",
+   "entity": "dishwasher",
+   "slot": "status",
+   "value": "making a grinding noise",
+   "update_of": null
+  },
+  {
+   "day": 216,
+   "say": "Left my yoga mat rolled up by the balcony door so I can stretch in the morning sun.",
+   "entity": "yoga mat",
+   "slot": "location",
+   "value": "rolled up by the balcony door",
+   "update_of": null
+  },
+  {
+   "day": 220,
+   "say": "Love that my yoga mat is extra thick purple foam, saves my knees.",
+   "entity": "yoga mat",
+   "slot": "attribute",
+   "value": "extra thick purple",
+   "update_of": null
+  },
+  {
+   "day": 224,
+   "say": "Caved and bought reading glasses... plus 1.5 strength. Officially getting old lol.",
+   "entity": "reading glasses",
+   "slot": "value",
+   "value": "plus 1.5 strength",
+   "update_of": null
+  },
+  {
+   "day": 228,
+   "say": "Dropped my reading glasses on the kitchen counter next to the fruit bowl.",
+   "entity": "reading glasses",
+   "slot": "location",
+   "value": "on the kitchen counter",
+   "update_of": null
+  },
+  {
+   "day": 232,
+   "say": "Finally showed the acoustic guitar some love—it's restrung and tuned.",
+   "entity": "acoustic guitar",
+   "slot": "status",
+   "value": "restrung and tuned",
+   "update_of": 28
+  },
+  {
+   "day": 236,
+   "say": "That plant in hallway is a fiddle leaf fig and somehow I haven't killed it yet.",
+   "entity": "plant in hallway",
+   "slot": "attribute",
+   "value": "fiddle leaf fig",
+   "update_of": null
+  },
+  {
+   "day": 240,
+   "say": "Roots are poking out of the plant in hallway, def need to repot into a bigger planter soon.",
+   "entity": "plant in hallway",
+   "slot": "plan",
+   "value": "repot into a bigger planter",
+   "update_of": null
+  },
+  {
+   "day": 244,
+   "say": "Popped open the air conditioner panel and oof, the filter is super dusty.",
+   "entity": "air conditioner",
+   "slot": "status",
+   "value": "filter is super dusty",
+   "update_of": null
+  },
+  {
+   "day": 248,
+   "say": "If we're talking pizza, thin crust with mushrooms and olives is undefeated.",
+   "entity": "pizza",
+   "slot": "preference",
+   "value": "thin crust with mushrooms and olives",
+   "update_of": null
+  },
+  {
+   "day": 252,
+   "say": "Airline changed my schedule, so my flight to Chicago is August 9 at 6pm now.",
+   "entity": "flight to chicago",
+   "slot": "time",
+   "value": "august 9 at 6pm",
+   "update_of": 45
+  },
+  {
+   "day": 256,
+   "say": "Had a 1-on-1 with boss Elena today—she's head of product over at work.",
+   "entity": "boss elena",
+   "slot": "relation",
+   "value": "head of product",
+   "update_of": null
+  },
+  {
+   "day": 260,
+   "say": "One thing about boss Elena, she prefers Slack over email for literally everything.",
+   "entity": "boss elena",
+   "slot": "preference",
+   "value": "prefers slack over email",
+   "update_of": null
+  },
+  {
+   "day": 264,
+   "say": "Went to go for a ride and saw my bicycle back tire is flat. Bummer.",
+   "entity": "bicycle",
+   "slot": "status",
+   "value": "back tire is flat",
+   "update_of": null
+  },
+  {
+   "day": 268,
+   "say": "Kept the bicycle locked in the basement storage so it's out of the rain.",
+   "entity": "bicycle",
+   "slot": "location",
+   "value": "locked in the basement storage",
+   "update_of": null
+  },
+  {
+   "day": 272,
+   "say": "Took the spare key from the porch, it's with neighbor Dave now in case I lock myself out.",
+   "entity": "spare key",
+   "slot": "location",
+   "value": "with neighbor dave",
+   "update_of": 7
+  },
+  {
+   "day": 276,
+   "say": "Stuck the umbrella in the coat stand by the entry.",
+   "entity": "umbrella",
+   "slot": "location",
+   "value": "in the coat stand",
+   "update_of": null
+  },
+  {
+   "day": 280,
+   "say": "Can't miss my umbrella in a crowd, it's bright yellow with wooden handle.",
+   "entity": "umbrella",
+   "slot": "attribute",
+   "value": "yellow with wooden handle",
+   "update_of": null
+  },
+  {
+   "day": 284,
+   "say": "Whenever I put a podcast on while cleaning, it's always true crime and history stuff.",
+   "entity": "podcast",
+   "slot": "preference",
+   "value": "true crime and history",
+   "update_of": null
+  },
+  {
+   "day": 288,
+   "say": "Staring at the bedroom walls... I really wanna paint them sage green before winter.",
+   "entity": "bedroom walls",
+   "slot": "plan",
+   "value": "paint them sage green",
+   "update_of": null
+  },
+  {
+   "day": 292,
+   "say": "Half my bagel is raw because on the toaster the left slot doesn't heat up anymore.",
+   "entity": "toaster",
+   "slot": "status",
+   "value": "left slot doesn't heat up",
+   "update_of": null
+  },
+  {
+   "day": 296,
+   "say": "Sam finally returned my camping tent! It's back in the garage.",
+   "entity": "camping tent",
+   "slot": "status",
+   "value": "back in the garage",
+   "update_of": 26
+  },
+  {
+   "day": 300,
+   "say": "Our big anniversary dinner with the friend group is set for November 5 at 8pm.",
+   "entity": "anniversary dinner",
+   "slot": "time",
+   "value": "november 5 at 8pm",
+   "update_of": null
+  },
+  {
+   "day": 304,
+   "say": "For the anniversary dinner I still need to book the Italian place downtown.",
+   "entity": "anniversary dinner",
+   "slot": "plan",
+   "value": "book the italian place downtown",
+   "update_of": null
+  },
+  {
+   "day": 308,
+   "say": "Found my earbuds! They were in my left jacket pocket the whole time.",
+   "entity": "earbuds",
+   "slot": "location",
+   "value": "left jacket pocket",
+   "update_of": null
+  },
+  {
+   "day": 312,
+   "say": "Pitcher water filter is blinking red, needs replacement.",
+   "entity": "water filter",
+   "slot": "status",
+   "value": "blinking red, needs replacement",
+   "update_of": null
+  },
+  {
+   "day": 316,
+   "say": "Perfumed soap makes me sneeze, so for laundry detergent I only buy unscented liquid.",
+   "entity": "laundry detergent",
+   "slot": "preference",
+   "value": "unscented liquid",
+   "update_of": null
+  },
+  {
+   "day": 320,
+   "say": "Doctor told me to cut the caffeine and dairy-heavy stuff, so my coffee preference is black decaf only now.",
+   "entity": "coffee",
+   "slot": "preference",
+   "value": "black decaf only",
+   "update_of": 1
+  },
+  {
+   "day": 324,
+   "say": "Got my laptop back from the repair bar—new battery installed, works great!",
+   "entity": "laptop",
+   "slot": "status",
+   "value": "new battery installed, works great",
+   "update_of": 11
+  },
+  {
+   "day": 328,
+   "say": "Food prices are wild, bumped my grocery budget up to $450 a month.",
+   "entity": "grocery budget",
+   "slot": "value",
+   "value": "$450 a month",
+   "update_of": 47
+  },
+  {
+   "day": 332,
+   "say": "Brought my sunglasses inside from the car, they're sitting on the entry table.",
+   "entity": "sunglasses",
+   "slot": "location",
+   "value": "on the entry table",
+   "update_of": 39
+  },
+  {
+   "day": 336,
+   "say": "Fixed up the water filter pitcher—fresh cartridge installed.",
+   "entity": "water filter",
+   "slot": "status",
+   "value": "fresh cartridge installed",
+   "update_of": 78
+  },
+  {
+   "day": 340,
+   "say": "Freezing out there today! Pulled the winter coat out, it's hanging by the front door now.",
+   "entity": "winter coat",
+   "slot": "location",
+   "value": "hanging by the front door",
+   "update_of": 23
+  },
+  {
+   "day": 344,
+   "say": "Fixed the bicycle! New tube put in, ready to ride.",
+   "entity": "bicycle",
+   "slot": "status",
+   "value": "new tube put in, ready to ride",
+   "update_of": 66
+  },
+  {
+   "day": 348,
+   "say": "Moved my reading glasses so they're in the nightstand drawer for bedtime reading.",
+   "entity": "reading glasses",
+   "slot": "location",
+   "value": "in the nightstand drawer",
+   "update_of": 57
+  },
+  {
+   "day": 352,
+   "say": "Big news—sister Maya packed up and moved to Portland this week!",
+   "entity": "sister maya",
+   "slot": "location",
+   "value": "moved to portland",
+   "update_of": 3
+  },
+  {
+   "day": 356,
+   "say": "Ugh, my earbuds are acting up, the right side stopped charging.",
+   "entity": "earbuds",
+   "slot": "status",
+   "value": "right side stopped charging",
+   "update_of": null
+  }
+ ],
+ "questions": [
+  {
+   "day": 14,
+   "ask": "wait who's sister maya to me again, did I tell you?",
+   "entity": "sister maya",
+   "slot": "relation",
+   "expect": "older sister",
+   "stale": null
+  },
+  {
+   "day": 26,
+   "ask": "what kind of car did I say I drive?",
+   "entity": "car",
+   "slot": "attribute",
+   "expect": "dark blue hatchback",
+   "stale": null
+  },
+  {
+   "day": 38,
+   "ask": "how much is my gym membership every month?",
+   "entity": "gym membership",
+   "slot": "value",
+   "expect": "$45 a month",
+   "stale": null
+  },
+  {
+   "day": 45,
+   "ask": "when's my dentist appointment again??",
+   "entity": "dentist",
+   "slot": "time",
+   "expect": "february 21 at 10am",
+   "stale": "february 14 at 2pm"
+  },
+  {
+   "day": 50,
+   "ask": "which laptop model do I have?",
+   "entity": "laptop",
+   "slot": "attribute",
+   "expect": "13-inch silver pro",
+   "stale": null
+  },
+  {
+   "day": 54,
+   "ask": "brother leo—did I mention if he's older or younger?",
+   "entity": "brother leo",
+   "slot": "relation",
+   "expect": "younger brother",
+   "stale": null
+  },
+  {
+   "day": 58,
+   "ask": "what food does brother leo hate again?",
+   "entity": "brother leo",
+   "slot": "preference",
+   "expect": "hates cilantro",
+   "stale": null
+  },
+  {
+   "day": 62,
+   "ask": "running shoes size??",
+   "entity": "running shoes",
+   "slot": "value",
+   "expect": "size 9.5",
+   "stale": null
+  },
+  {
+   "day": 66,
+   "ask": "where did I chuck my running shoes?",
+   "entity": "running shoes",
+   "slot": "location",
+   "expect": "bottom of the hall closet",
+   "stale": null
+  },
+  {
+   "day": 74,
+   "ask": "when is the tax return deadline?",
+   "entity": "tax return",
+   "slot": "time",
+   "expect": "due april 15",
+   "stale": null
+  },
+  {
+   "day": 78,
+   "ask": "what's wrong with the blender again?",
+   "entity": "blender",
+   "slot": "status",
+   "expect": "leaking from the bottom",
+   "stale": null
+  },
+  {
+   "day": 79,
+   "ask": "did I ever tell you what brand my blender is?",
+   "entity": "blender",
+   "slot": "attribute",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 82,
+   "ask": "vet appointment time??",
+   "entity": "vet appointment",
+   "slot": "time",
+   "expect": "march 30 at 4pm",
+   "stale": null
+  },
+  {
+   "day": 83,
+   "ask": "did I ever tell you which street the vet appointment is on?",
+   "entity": "vet appointment",
+   "slot": "location",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 86,
+   "ask": "what wet food does cat milo actually eat?",
+   "entity": "cat milo",
+   "slot": "preference",
+   "expect": "only eats salmon pate",
+   "stale": null
+  },
+  {
+   "day": 90,
+   "ask": "how much does cat milo weigh?",
+   "entity": "cat milo",
+   "slot": "value",
+   "expect": "11 pounds",
+   "stale": null
+  },
+  {
+   "day": 98,
+   "ask": "what does my winter coat look like?",
+   "entity": "winter coat",
+   "slot": "attribute",
+   "expect": "olive green parka",
+   "stale": null
+  },
+  {
+   "day": 106,
+   "ask": "what's the status of my tax return?",
+   "entity": "tax return",
+   "slot": "status",
+   "expect": "filed and accepted",
+   "stale": "still missing one form"
+  },
+  {
+   "day": 110,
+   "ask": "how big is my camping tent?",
+   "entity": "camping tent",
+   "slot": "attribute",
+   "expect": "three-person dome tent",
+   "stale": null
+  },
+  {
+   "day": 118,
+   "ask": "where did I leave the acoustic guitar?",
+   "entity": "acoustic guitar",
+   "slot": "location",
+   "expect": "leaning behind the sofa",
+   "stale": null
+  },
+  {
+   "day": 122,
+   "ask": "when's that library book due?",
+   "entity": "library book",
+   "slot": "time",
+   "expect": "due may 12",
+   "stale": null
+  },
+  {
+   "day": 126,
+   "ask": "library book—where is it?",
+   "entity": "library book",
+   "slot": "location",
+   "expect": "on the nightstand",
+   "stale": null
+  },
+  {
+   "day": 130,
+   "ask": "what kind of olive oil do I always get?",
+   "entity": "olive oil",
+   "slot": "preference",
+   "expect": "cold-pressed greek",
+   "stale": null
+  },
+  {
+   "day": 131,
+   "ask": "where did I put the olive oil bottle?",
+   "entity": "olive oil",
+   "slot": "location",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 134,
+   "ask": "what's up with the bathroom scale?",
+   "entity": "bathroom scale",
+   "slot": "status",
+   "expect": "out of batteries",
+   "stale": null
+  },
+  {
+   "day": 135,
+   "ask": "did I tell you where I shoved the bathroom scale?",
+   "entity": "bathroom scale",
+   "slot": "location",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 138,
+   "ask": "how am I related to cousin tariq?",
+   "entity": "cousin tariq",
+   "slot": "relation",
+   "expect": "mom's nephew",
+   "stale": null
+  },
+  {
+   "day": 142,
+   "ask": "when is cousin tariq planning on coming?",
+   "entity": "cousin tariq",
+   "slot": "plan",
+   "expect": "visiting in july",
+   "stale": null
+  },
+  {
+   "day": 146,
+   "ask": "is my gym membership still frozen or what?",
+   "entity": "gym membership",
+   "slot": "status",
+   "expect": "active again",
+   "stale": "frozen for the winter"
+  },
+  {
+   "day": 150,
+   "ask": "what's my desk chair like?",
+   "entity": "desk chair",
+   "slot": "attribute",
+   "expect": "black mesh ergonomic",
+   "stale": null
+  },
+  {
+   "day": 154,
+   "ask": "what broke on my desk chair?",
+   "entity": "desk chair",
+   "slot": "status",
+   "expect": "left armrest is wobbly",
+   "stale": null
+  },
+  {
+   "day": 162,
+   "ask": "what do my sunglasses look like?",
+   "entity": "sunglasses",
+   "slot": "attribute",
+   "expect": "polarized tortoiseshell",
+   "stale": null
+  },
+  {
+   "day": 166,
+   "ask": "where's my sourdough starter?",
+   "entity": "sourdough starter",
+   "slot": "location",
+   "expect": "back of the fridge",
+   "stale": null
+  },
+  {
+   "day": 170,
+   "ask": "how's the sourdough starter doing?",
+   "entity": "sourdough starter",
+   "slot": "status",
+   "expect": "dormant, needs feeding",
+   "stale": null
+  },
+  {
+   "day": 174,
+   "ask": "passport??",
+   "entity": "passport",
+   "slot": "location",
+   "expect": "in the fireproof safe",
+   "stale": "top desk drawer"
+  },
+  {
+   "day": 178,
+   "ask": "where's my sewing machine right now?",
+   "entity": "sewing machine",
+   "slot": "status",
+   "expect": "at my aunt's house",
+   "stale": null
+  },
+  {
+   "day": 179,
+   "ask": "did I ever tell you what model my sewing machine is?",
+   "entity": "sewing machine",
+   "slot": "attribute",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 186,
+   "ask": "what seat preference did I pick for the flight to chicago?",
+   "entity": "flight to chicago",
+   "slot": "preference",
+   "expect": "window seat",
+   "stale": null
+  },
+  {
+   "day": 194,
+   "ask": "what's the issue with my hiking boots?",
+   "entity": "hiking boots",
+   "slot": "status",
+   "expect": "waterproofing wore off",
+   "stale": null
+  },
+  {
+   "day": 198,
+   "ask": "where did I leave my hiking boots?",
+   "entity": "hiking boots",
+   "slot": "location",
+   "expect": "on the mudroom rack",
+   "stale": null
+  },
+  {
+   "day": 202,
+   "ask": "who's neighbor dave again?",
+   "entity": "neighbor dave",
+   "slot": "relation",
+   "expect": "guy in apartment 4b",
+   "stale": null
+  },
+  {
+   "day": 206,
+   "ask": "what bread does neighbor dave like?",
+   "entity": "neighbor dave",
+   "slot": "preference",
+   "expect": "loves sourdough bread",
+   "stale": null
+  },
+  {
+   "day": 210,
+   "ask": "how's the car doing now?",
+   "entity": "car",
+   "slot": "status",
+   "expect": "freshly serviced and running fine",
+   "stale": "check engine light is on"
+  },
+  {
+   "day": 214,
+   "ask": "what's wrong with the dishwasher?",
+   "entity": "dishwasher",
+   "slot": "status",
+   "expect": "making a grinding noise",
+   "stale": null
+  },
+  {
+   "day": 215,
+   "ask": "did I ever mention how old the dishwasher is?",
+   "entity": "dishwasher",
+   "slot": "attribute",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 218,
+   "ask": "yoga mat??",
+   "entity": "yoga mat",
+   "slot": "location",
+   "expect": "rolled up by the balcony door",
+   "stale": null
+  },
+  {
+   "day": 222,
+   "ask": "what color is my yoga mat?",
+   "entity": "yoga mat",
+   "slot": "attribute",
+   "expect": "extra thick purple",
+   "stale": null
+  },
+  {
+   "day": 226,
+   "ask": "what strength are my reading glasses?",
+   "entity": "reading glasses",
+   "slot": "value",
+   "expect": "plus 1.5 strength",
+   "stale": null
+  },
+  {
+   "day": 234,
+   "ask": "is my acoustic guitar still missing a string?",
+   "entity": "acoustic guitar",
+   "slot": "status",
+   "expect": "restrung and tuned",
+   "stale": "high e string is snapped"
+  },
+  {
+   "day": 238,
+   "ask": "what kind of plant is the plant in hallway?",
+   "entity": "plant in hallway",
+   "slot": "attribute",
+   "expect": "fiddle leaf fig",
+   "stale": null
+  },
+  {
+   "day": 242,
+   "ask": "what was I gonna do with the plant in hallway?",
+   "entity": "plant in hallway",
+   "slot": "plan",
+   "expect": "repot into a bigger planter",
+   "stale": null
+  },
+  {
+   "day": 246,
+   "ask": "how's the air conditioner looking?",
+   "entity": "air conditioner",
+   "slot": "status",
+   "expect": "filter is super dusty",
+   "stale": null
+  },
+  {
+   "day": 247,
+   "ask": "did I ever tell you how many BTUs the air conditioner has?",
+   "entity": "air conditioner",
+   "slot": "value",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 250,
+   "ask": "how do I like my pizza?",
+   "entity": "pizza",
+   "slot": "preference",
+   "expect": "thin crust with mushrooms and olives",
+   "stale": null
+  },
+  {
+   "day": 251,
+   "ask": "did I tell you when I'm planning to make pizza next?",
+   "entity": "pizza",
+   "slot": "plan",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 254,
+   "ask": "when is my flight to chicago now?",
+   "entity": "flight to chicago",
+   "slot": "time",
+   "expect": "august 9 at 6pm",
+   "stale": "august 8 at 7am"
+  },
+  {
+   "day": 258,
+   "ask": "who is boss elena at my company?",
+   "entity": "boss elena",
+   "slot": "relation",
+   "expect": "head of product",
+   "stale": null
+  },
+  {
+   "day": 262,
+   "ask": "how does boss elena like people to message her?",
+   "entity": "boss elena",
+   "slot": "preference",
+   "expect": "prefers slack over email",
+   "stale": null
+  },
+  {
+   "day": 270,
+   "ask": "where is my bicycle locked up?",
+   "entity": "bicycle",
+   "slot": "location",
+   "expect": "locked in the basement storage",
+   "stale": null
+  },
+  {
+   "day": 274,
+   "ask": "where's the spare key right now?",
+   "entity": "spare key",
+   "slot": "location",
+   "expect": "with neighbor dave",
+   "stale": "under the blue flowerpot"
+  },
+  {
+   "day": 278,
+   "ask": "umbrella??",
+   "entity": "umbrella",
+   "slot": "location",
+   "expect": "in the coat stand",
+   "stale": null
+  },
+  {
+   "day": 282,
+   "ask": "what does my umbrella look like?",
+   "entity": "umbrella",
+   "slot": "attribute",
+   "expect": "yellow with wooden handle",
+   "stale": null
+  },
+  {
+   "day": 286,
+   "ask": "what kind of podcast stuff do I listen to?",
+   "entity": "podcast",
+   "slot": "preference",
+   "expect": "true crime and history",
+   "stale": null
+  },
+  {
+   "day": 287,
+   "ask": "did I ever tell you the name of my favorite podcast?",
+   "entity": "podcast",
+   "slot": "attribute",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 290,
+   "ask": "what was my plan for the bedroom walls?",
+   "entity": "bedroom walls",
+   "slot": "plan",
+   "expect": "paint them sage green",
+   "stale": null
+  },
+  {
+   "day": 291,
+   "ask": "do you know what color the bedroom walls are right now?",
+   "entity": "bedroom walls",
+   "slot": "attribute",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 294,
+   "ask": "what's broken on the toaster?",
+   "entity": "toaster",
+   "slot": "status",
+   "expect": "left slot doesn't heat up",
+   "stale": null
+  },
+  {
+   "day": 295,
+   "ask": "where on the counter did I put the toaster?",
+   "entity": "toaster",
+   "slot": "location",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 298,
+   "ask": "does sam still have my camping tent?",
+   "entity": "camping tent",
+   "slot": "status",
+   "expect": "back in the garage",
+   "stale": "lent to sam"
+  },
+  {
+   "day": 302,
+   "ask": "when is the anniversary dinner?",
+   "entity": "anniversary dinner",
+   "slot": "time",
+   "expect": "november 5 at 8pm",
+   "stale": null
+  },
+  {
+   "day": 306,
+   "ask": "what's the plan for the anniversary dinner?",
+   "entity": "anniversary dinner",
+   "slot": "plan",
+   "expect": "book the italian place downtown",
+   "stale": null
+  },
+  {
+   "day": 310,
+   "ask": "where did I find my earbuds?",
+   "entity": "earbuds",
+   "slot": "location",
+   "expect": "left jacket pocket",
+   "stale": null
+  },
+  {
+   "day": 318,
+   "ask": "what laundry detergent do I buy?",
+   "entity": "laundry detergent",
+   "slot": "preference",
+   "expect": "unscented liquid",
+   "stale": null
+  },
+  {
+   "day": 319,
+   "ask": "did I tell you where I keep the laundry detergent?",
+   "entity": "laundry detergent",
+   "slot": "location",
+   "expect": null,
+   "stale": null
+  },
+  {
+   "day": 322,
+   "ask": "how do I take my coffee these days?",
+   "entity": "coffee",
+   "slot": "preference",
+   "expect": "black decaf only",
+   "stale": "oat milk, no sugar"
+  },
+  {
+   "day": 326,
+   "ask": "how's my laptop battery holding up now?",
+   "entity": "laptop",
+   "slot": "status",
+   "expect": "new battery installed, works great",
+   "stale": "battery dies in an hour"
+  },
+  {
+   "day": 330,
+   "ask": "what's my grocery budget at now?",
+   "entity": "grocery budget",
+   "slot": "value",
+   "expect": "$450 a month",
+   "stale": "$400 a month"
+  },
+  {
+   "day": 334,
+   "ask": "sunglasses??",
+   "entity": "sunglasses",
+   "slot": "location",
+   "expect": "on the entry table",
+   "stale": "in the car glovebox"
+  },
+  {
+   "day": 338,
+   "ask": "did I replace the water filter yet?",
+   "entity": "water filter",
+   "slot": "status",
+   "expect": "fresh cartridge installed",
+   "stale": "blinking red, needs replacement"
+  },
+  {
+   "day": 342,
+   "ask": "where's my winter coat?",
+   "entity": "winter coat",
+   "slot": "location",
+   "expect": "hanging by the front door",
+   "stale": "vacuum bag under the bed"
+  },
+  {
+   "day": 346,
+   "ask": "is my bicycle fixed or still flat?",
+   "entity": "bicycle",
+   "slot": "status",
+   "expect": "new tube put in, ready to ride",
+   "stale": "back tire is flat"
+  },
+  {
+   "day": 350,
+   "ask": "where did I put my reading glasses?",
+   "entity": "reading glasses",
+   "slot": "location",
+   "expect": "in the nightstand drawer",
+   "stale": "on the kitchen counter"
+  },
+  {
+   "day": 354,
+   "ask": "where is sister maya living now?",
+   "entity": "sister maya",
+   "slot": "location",
+   "expect": "moved to portland",
+   "stale": "living in seattle"
+  },
+  {
+   "day": 360,
+   "ask": "what's wrong with my earbuds?",
+   "entity": "earbuds",
+   "slot": "status",
+   "expect": "right side stopped charging",
+   "stale": null
+  }
+ ],
+ "chatter": [
+  {
+   "day": 1,
+   "say": "Happy New Year Aria! Man, I stayed up way too late watching fireworks on TV."
+  },
+  {
+   "day": 6,
+   "say": "Why is it already dark at 4:30pm... winter is such a scam."
+  },
+  {
+   "day": 11,
+   "say": "Burnt my toast a little bit,eh, just gonna scrape it over the sink."
+  },
+  {
+   "day": 17,
+   "say": "Have you seen the wind out there today? The trees are sideways."
+  },
+  {
+   "day": 23,
+   "say": "Binge-watched four episodes of that cooking show, now I'm starving for no reason."
+  },
+  {
+   "day": 29,
+   "say": "Honestly just in a weird sleepy mood all afternoon."
+  },
+  {
+   "day": 35,
+   "say": "Ooh, it's snowing! Big fluffy flakes too."
+  },
+  {
+   "day": 41,
+   "say": "That movie ending made zero sense, who wrote that script??"
+  },
+  {
+   "day": 47,
+   "say": "Thinking about making grilled cheese and tomato soup tonight. Classic."
+  },
+  {
+   "day": 53,
+   "say": "Ugh, Monday brain is hitting hard today, can't focus on anything."
+  },
+  {
+   "day": 59,
+   "say": "The sun actually came out for ten whole minutes, miracle of miracles."
+  },
+  {
+   "day": 65,
+   "say": "Accidentally put salt instead of sugar in my oatmeal... do not recommend."
+  },
+  {
+   "day": 71,
+   "say": "Why are reality TV shows so addictive when nothing even happens?"
+  },
+  {
+   "day": 77,
+   "say": "Slush everywhere on the sidewalks, my socks got damp just walking to the corner."
+  },
+  {
+   "day": 83,
+   "say": "Feeling super energized today for once, might actually clean the kitchen."
+  },
+  {
+   "day": 89,
+   "say": "Smells like someone down the hall is frying garlic, making me so hungry."
+  },
+  {
+   "day": 95,
+   "say": "Spring rain is nice when you're inside under a blanket."
+  },
+  {
+   "day": 101,
+   "say": "Stayed up watching a documentary about deep sea squids. Weirdly calming."
+  },
+  {
+   "day": 107,
+   "say": "Nothing beats fresh strawberries when they're actually sweet."
+  },
+  {
+   "day": 113,
+   "say": "Pollen count must be crazy today, everyone outside is sneezing."
+  },
+  {
+   "day": 119,
+   "say": "TGIF Aria, seriously thought this week would never end."
+  },
+  {
+   "day": 125,
+   "say": "Tried a new ramen recipe and ngl, I kind of nailed the broth."
+  },
+  {
+   "day": 131,
+   "say": "That cliffhanger on last night's episode should be illegal."
+  },
+  {
+   "day": 137,
+   "say": "Perfect 70-degree breeze coming through the window right now."
+  },
+  {
+   "day": 143,
+   "say": "Just having one of those lazy Sundays where I don't wanna move off the couch."
+  },
+  {
+   "day": 149,
+   "say": "Cut open an avocado and it was 100% perfect, I should buy a lottery ticket."
+  },
+  {
+   "day": 155,
+   "say": "Thunderstorm rolling in! Love the sound of distant thunder."
+  },
+  {
+   "day": 161,
+   "say": "Rewatching old sitcoms is basically my comfort blanket."
+  },
+  {
+   "day": 167,
+   "say": "So humid out today, feels like walking through warm soup."
+  },
+  {
+   "day": 173,
+   "say": "Ate way too many tortilla chips before dinner, ruined my appetite lol."
+  },
+  {
+   "day": 179,
+   "say": "Why do commercials always seem twice as loud as the actual show?"
+  },
+  {
+   "day": 185,
+   "say": "Cicadas are buzzing like crazy outside this afternoon."
+  },
+  {
+   "day": 191,
+   "say": "Cold watermelon on a hot day hits different."
+  },
+  {
+   "day": 197,
+   "say": "In such a good mood today, everything at work actually went smoothly."
+  },
+  {
+   "day": 203,
+   "say": "Watched a sci-fi flick last night, special effects were surprisingly decent."
+  },
+  {
+   "day": 209,
+   "say": "Heatwave is no joke, the pavement looks like it's melting."
+  },
+  {
+   "day": 215,
+   "say": "Made iced tea and forgot to put ice in it... so, lukewarm tea I guess."
+  },
+  {
+   "day": 221,
+   "say": "Yawning every five seconds, def didn't sleep deep enough."
+  },
+  {
+   "day": 227,
+   "say": "There's a double rainbow out the back window right now!"
+  },
+  {
+   "day": 233,
+   "say": "Popcorn for dinner counts as a balanced meal if you're tired enough, right?"
+  },
+  {
+   "day": 239,
+   "say": "Nothing good on TV tonight, just scrolling through menus for twenty minutes."
+  },
+  {
+   "day": 245,
+   "say": "You can totally feel autumn in the air this morning, nice and crisp."
+  },
+  {
+   "day": 251,
+   "say": "Roasted some butternut squash, whole place smells amazing."
+  },
+  {
+   "day": 257,
+   "say": "Feeling a bit restless tonight, might do a puzzle or something."
+  },
+  {
+   "day": 263,
+   "say": "Leaves are starting to turn orange down the block, looks awesome."
+  },
+  {
+   "day": 269,
+   "say": "Started a new mystery series on streaming, already hooked."
+  },
+  {
+   "day": 275,
+   "say": "Drizzling all day, classic gray October vibes."
+  },
+  {
+   "day": 281,
+   "say": "Apple cider donuts are dangerous, I ate three without blinking."
+  },
+  {
+   "day": 287,
+   "say": "Spooky movie marathon tonight! Well, mildly spooky, I'm a wimp."
+  },
+  {
+   "day": 293,
+   "say": "Frost on the rooftops this morning, brrr."
+  },
+  {
+   "day": 299,
+   "say": "Made a huge pot of chili, gonna be eating leftovers for days."
+  },
+  {
+   "day": 305,
+   "say": "Daylight saving time ending always messes with my internal clock."
+  },
+  {
+   "day": 311,
+   "say": "That game show host has way too much energy for 7pm."
+  },
+  {
+   "day": 317,
+   "say": "Wind is howling against the windows tonight, glad I'm indoors."
+  },
+  {
+   "day": 323,
+   "say": "Cinnamon rolls fresh out of the oven... peak happiness."
+  },
+  {
+   "day": 329,
+   "say": "Just feeling super cozy and grateful today, honestly."
+  },
+  {
+   "day": 335,
+   "say": "Cheesy holiday movies are terrible and yet I watch them every single year."
+  },
+  {
+   "day": 341,
+   "say": "Sky has that flat white look like it's about to dump snow."
+  },
+  {
+   "day": 349,
+   "say": "Hot cocoa with way too many marshmallows is the move tonight."
+  },
+  {
+   "day": 363,
+   "say": "Can't believe another year flew by like that, wild."
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+  no-memory guess baseline: 0/60
+MODE sleep: core recall at end 0.583 (35/60) honest-forget 10 confident-wrong 15
+  recall by age quartile (young->old): ['14/15', '11/15', '9/15', '1/15']
+[real_sleep_echo] done rc=0 in 57 min

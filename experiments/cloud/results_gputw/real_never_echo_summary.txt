@@ -1,0 +1,5 @@
+  never-told answered (false memories): 7/60
+  no-memory guess baseline: 0/60
+MODE never: core recall at end 0.817 (49/60) honest-forget 4 confident-wrong 7
+  recall by age quartile (young->old): ['11/15', '11/15', '14/15', '13/15']
+[real_never_echo] done rc=0 in 23 min

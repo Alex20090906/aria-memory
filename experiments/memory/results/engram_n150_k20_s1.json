@@ -1,0 +1,76 @@
+{
+ "args": {
+  "n": 150,
+  "tau_w": 40.0,
+  "tau_theta": 2000.0,
+  "D": 32768,
+  "k": 20,
+  "seed": 1,
+  "device": "cpu",
+  "out": "results"
+ },
+ "cos_event_vs_similar_lure": 0.8297705054283142,
+ "chance_recall": 0.1,
+ "results": {
+  "dense": [
+   {
+    "age": "0-20",
+    "n": 20,
+    "recall": 0.15,
+    "auc_vs_similar": 0.56,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "20-50",
+    "n": 30,
+    "recall": 0.06666666666666667,
+    "auc_vs_similar": 0.58,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "50-100",
+    "n": 50,
+    "recall": 0.1,
+    "auc_vs_similar": 0.5584,
+    "auc_vs_unrelated": 0.982
+   },
+   {
+    "age": "100-200",
+    "n": 50,
+    "recall": 0.1,
+    "auc_vs_similar": 0.5684,
+    "auc_vs_unrelated": 1.0
+   }
+  ],
+  "sparse": [
+   {
+    "age": "0-20",
+    "n": 20,
+    "recall": 0.85,
+    "auc_vs_similar": 0.8875,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "20-50",
+    "n": 30,
+    "recall": 0.3333333333333333,
+    "auc_vs_similar": 0.8755555555555555,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "50-100",
+    "n": 50,
+    "recall": 0.3,
+    "auc_vs_similar": 0.9052,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "100-200",
+    "n": 50,
+    "recall": 0.04,
+    "auc_vs_similar": 0.7932,
+    "auc_vs_unrelated": 1.0
+   }
+  ]
+ }
+}

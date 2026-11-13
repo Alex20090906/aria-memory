@@ -1,0 +1,192 @@
+memory cleared
+token embeddings 248320 x 2560
+event 0/2400 (noise)
+event 20/2400 (noise)
+  ask@39 Vera watch: 'on the nightstand' ok=True
+event 40/2400 (noise)
+  ask@56 Chloe watch: 'on the dresser' ok=True
+event 60/2400 (noise)
+event 80/2400 (noise)
+event 100/2400 (noise)
+event 120/2400 (noise)
+  ask@121 Max camera: 'in the closet' ok=True
+  ask@139 Finn passport: 'in the filing cabinet' ok=True
+event 140/2400 (noise)
+event 160/2400 (noise)
+  ask@170 Yara scarf: 'in the dresser drawer' ok=True
+  ask@177 Joel passport: 'in the document folder' ok=True
+event 180/2400 (noise)
+event 200/2400 (noise)
+event 220/2400 (noise)
+event 240/2400 (noise)
+event 260/2400 (noise)
+event 280/2400 (noise)
+event 300/2400 (noise)
+event 320/2400 (noise)
+event 340/2400 (core)
+  ask@344 Finn candle: 'in the storage box' ok=True
+  ask@350 Lucas stamp: 'in the stationery box' ok=True
+event 360/2400 (noise)
+  ask@380 Owen comb: 'in the backpack' ok=True
+event 380/2400 (noise)
+event 400/2400 (noise)
+event 420/2400 (noise)
+  ask@426 Fay stamp: 'in the wallet' ok=True
+  ask@440 Will mug: 'on the coffee table' ok=True
+event 440/2400 (noise)
+  ask@456 Iris book: 'in the backpack' ok=True
+event 460/2400 (noise)
+event 480/2400 (noise)
+  ask@484 Eli sunglasses: 'on the dresser' ok=True
+  ask@490 Fay pen: 'in the desk drawer' ok=True
+event 500/2400 (noise)
+event 520/2400 (noise)
+  ask@521 Sara lipstick: 'on the bathroom counter' ok=True
+event 540/2400 (noise)
+event 560/2400 (noise)
+  ask@569 Pablo scarf: 'on the chair' ok=True
+event 580/2400 (noise)
+  ask@593 Yara perfume: 'on the dresser' ok=True
+event 600/2400 (noise)
+  ask@616 Pablo laptop: 'on the dining table' ok=True
+event 620/2400 (noise)
+event 640/2400 (noise)
+event 660/2400 (noise)
+event 680/2400 (noise)
+event 700/2400 (noise)
+  ask@703 Eli hat: 'on the shelf by the door' ok=True
+event 720/2400 (noise)
+event 740/2400 (noise)
+event 760/2400 (noise)
+event 780/2400 (noise)
+  ask@796 Ines candle: 'on the bathroom shelf' ok=True
+event 800/2400 (noise)
+event 820/2400 (noise)
+  ask@821 Lucas scarf: 'on the chair' ok=True
+  ask@834 Lucas perfume: 'on the dresser' ok=True
+event 840/2400 (noise)
+  ask@856 Ines tablet: 'on the dining table' ok=True
+  ask@858 Zack map: 'in the desk drawer' ok=True
+event 860/2400 (noise)
+  ask@867 Tom flask: 'in the kitchen cabinet' ok=True
+event 880/2400 (noise)
+  ask@885 Will backpack: 'in the car' ok=True
+  ask@887 Noah umbrella: '' ok=False
+event 900/2400 (noise)
+event 920/2400 (noise)
+event 940/2400 (noise)
+  ask@947 Noah bike lock: 'in the backpack' ok=True
+event 960/2400 (noise)
+  ask@967 Liam medicine: 'in the fridge' ok=True
+event 980/2400 (noise)
+event 1000/2400 (noise)
+event 1020/2400 (noise)
+  ask@1026 Axel backpack: 'on the bedroom floor' ok=True
+event 1040/2400 (noise)
+event 1060/2400 (noise)
+event 1080/2400 (noise)
+event 1100/2400 (noise)
+event 1120/2400 (noise)
+  ask@1126 Carl pen: '' ok=False
+event 1140/2400 (noise)
+  ask@1157 Nico headphones: 'on the sofa' ok=True
+event 1160/2400 (noise)
+event 1180/2400 (noise)
+event 1200/2400 (noise)
+event 1220/2400 (noise)
+event 1240/2400 (noise)
+event 1260/2400 (noise)
+event 1280/2400 (noise)
+event 1300/2400 (core)
+  ask@1303 Max charger: 'in the desk drawer' ok=True
+event 1320/2400 (noise)
+  ask@1328 Iris batteries: 'in the TV cabinet drawer' ok=True
+event 1340/2400 (noise)
+event 1360/2400 (noise)
+  ask@1375 Adam lipstick: 'in the coat pocket' ok=True
+event 1380/2400 (noise)
+  ask@1389 Ben scarf: 'in the closet' ok=True
+event 1400/2400 (noise)
+  ask@1412 Emma medicine: '' ok=False
+event 1420/2400 (noise)
+event 1440/2400 (noise)
+  ask@1454 Max watch: 'on the dresser' ok=True
+event 1460/2400 (noise)
+event 1480/2400 (noise)
+  ask@1496 Jack comb: 'on the dresser' ok=True
+event 1500/2400 (noise)
+event 1520/2400 (noise)
+  ask@1536 Zoe wallet: 'on the entryway table' ok=True
+event 1540/2400 (noise)
+event 1560/2400 (noise)
+  ask@1576 Leo pen: 'in the desk drawer' ok=True
+event 1580/2400 (noise)
+  ask@1590 Olivia helmet: 'on the bike' ok=True
+event 1600/2400 (noise)
+event 1620/2400 (noise)
+event 1640/2400 (noise)
+  ask@1642 Dora stamp: 'in the wallet' ok=True
+  ask@1657 Iris camera: 'in the closet' ok=True
+event 1660/2400 (noise)
+event 1680/2400 (noise)
+  ask@1690 Ben stamp: 'in the stationery box' ok=True
+  ask@1694 Vera scarf: 'in the coat pocket' ok=True
+event 1700/2400 (noise)
+event 1720/2400 (noise)
+  ask@1721 Axel coin: 'in the coat pocket' ok=True
+  ask@1731 Grace camera: '' ok=False
+event 1740/2400 (noise)
+  ask@1741 Mia backpack: 'next to the front door' ok=True
+  ask@1751 Sara earrings: 'on the nightstand' ok=True
+event 1760/2400 (noise)
+event 1780/2400 (noise)
+  ask@1784 Will coin: 'on the dresser' ok=True
+event 1800/2400 (noise)
+event 1820/2400 (noise)
+event 1840/2400 (noise)
+event 1860/2400 (noise)
+event 1880/2400 (noise)
+event 1900/2400 (noise)
+event 1920/2400 (noise)
+event 1940/2400 (noise)
+event 1960/2400 (noise)
+event 1980/2400 (noise)
+  ask@1988 Ken umbrella: 'next to the front door' ok=True
+event 2000/2400 (noise)
+event 2020/2400 (noise)
+event 2040/2400 (noise)
+event 2060/2400 (noise)
+event 2080/2400 (noise)
+  ask@2090 Lena laptop: 'on the desk' ok=True
+event 2100/2400 (noise)
+  ask@2119 Uma bank card: 'in the document folder' ok=True
+event 2120/2400 (noise)
+event 2140/2400 (noise)
+  ask@2141 Lily flashlight: 'in the storage cabinet' ok=True
+event 2160/2400 (noise)
+event 2180/2400 (noise)
+event 2200/2400 (noise)
+  ask@2216 Carl jacket: 'on the coat rack' ok=True
+event 2220/2400 (noise)
+event 2240/2400 (noise)
+  ask@2242 Finn glasses: 'on the bathroom counter' ok=True
+event 2260/2400 (noise)
+  ask@2272 Tom passport: 'in the document folder' ok=True
+event 2280/2400 (noise)
+  ask@2281 Uma watch: 'on the dresser' ok=True
+event 2300/2400 (noise)
+event 2320/2400 (noise)
+  ask@2340 Ryan notebook: 'in the desk drawer' ok=True
+event 2340/2400 (noise)
+event 2360/2400 (noise)
+event 2380/2400 (noise)
+  never-told answered (false memories): 0/60
+  no-memory guess baseline: 0/60
+MODE never: core recall at end 0.933 (56/60) honest-forget 4 confident-wrong 0
+  recall by age quartile (young->old): ['14/15', '13/15', '14/15', '15/15']
+
+--- stderr ---
+/exp/fmem_anchor.py:193: RuntimeWarning: Mean of empty slice
+  return (x.mean(0) - st["mu"]) / st["sd"]
+/opt/llm/terminal/python/lib/python3.12/site-packages/numpy/_core/_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(

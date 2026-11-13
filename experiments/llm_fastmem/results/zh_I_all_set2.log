@@ -1,0 +1,278 @@
+memory cleared
+day  1 STAGE 改口 #1 -> 第3天晚上
+day  1 WRITE[listen] 道館練習|status -> 不用留飯   <- 見道館練習哦,那天不用留我的
+day  1 WRITE[listen] 道館練習|time -> 第3天晚上   <- 見道館練習哦,那天不用留我的
+day  1 WRITE[sleep] 五花果香精|value -> 稀釋比例為百分之十二（修正先前誤說的百分之十五）   <- 啊,不對不對,我剛剛看錯上一季的表格,是百分之十二才對,差點毀了一
+day  2 STAGE 補充 #1 -> 最小台，精準度0.01克，收在中島下面的拉欄裡
+day  2 WRITE[listen] 電子秤|attribute -> 最小台，精準度0.01克，收在中島下面的拉欄裡   <- 就是春精油那台最小台的,精準度0.01克
+day  2 STAGE 補充 #1 -> 寄送物品給張富里（百貨專櫃招商窗口，後續快閃店合約聯絡人）
+day  2 WRITE[listen] 張富里|plan -> 寄送物品給張富里（百貨專櫃招商窗口，後續快閃店合約聯絡人）   <- 幫我寄一下喔,剛剛傳LINE來的那個張富里啊,
+day  2 WRITE[listen] Q 四季春|preference -> 加糖去冰   <- 幫我點四季春家爐會為糖去冰,我最近借奶精了,喝鮮奶茶味都會瘴氣。
+day  2 WRITE[listen] 飲食|preference -> 不喝含奶精飲品（易脹氣）   <- 幫我點四季春家爐會為糖去冰,我最近借奶精了,喝鮮奶茶味都會瘴氣。
+day  2 WRITE[sleep] 春精油|location -> 收進中島下面的拉欄裡   <- 我後來把它收進中島下面的拉欄裡了,難怪在工作室翻半天。
+day  2 WRITE[sleep] 張富里|relation -> 百貨專櫃招商窗口，之後快閃電合約都要找她   <- 她是百貨專櫃招商窗口,之後快閃電合約都要找她。
+day  2 WRITE[sleep] 四季春家爐會為糖去冰|plan -> 幫我點，最近借奶精了，喝鮮奶茶味都會瘴氣   <- 幫我點四季春家爐會為糖去冰,我最近借奶精了,喝鮮奶茶味都會瘴氣。
+day  3 ASK  ('塑膠桶', 'time           （使用者在問 Aria 一件事；同一句問了幾件就輸出幾行）') -> read None '不記得'
+day  3 STAGE 改口 #1 -> 不能改到後天，就是禮拜五早上11點
+day  3 WRITE[listen] 螢幕蓋|attribute -> 不能改到後天，就是禮拜五早上11點   <- 我們這季新款擴廂屏幕蓋的尺寸是內徑28毫米,下次訂包才千萬別再買成30的
+day  3 ASK  ('父輩用眼鏡', 'location') -> read None '我不記得您父輩的眼鏡收在哪裡。'
+day  3 ASK  ('父輩用眼鏡', 'location') -> read None '不記得。'
+day  3 ASK  ('風蠟印章', 'location') -> read None '不記得。'
+day  3 WRITE[listen] 深藍色劍道護手|status -> 送修中   <- ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二
+day  3 WRITE[listen] 深藍色劍道護手|location -> 武具店   <- ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二
+day  3 WRITE[listen] 薰衣草精油包裹|plan -> 第8天去郵局領取   <- ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二
+day  3 WRITE[sleep] 擴廂屏幕蓋|value -> 內徑28毫米，下次訂包千萬別買成30的   <- 我們這季新款擴廂屏幕蓋的尺寸是內徑28毫米,下次訂包才千萬別再買成30的
+day  3 WRITE[sleep] 塑膠桶|time -> 週末要倒掉   <- 陽台洗手台旁邊那個塑膠桶你提醒我周末要倒掉,我把從路角角換下來的舊水台泡
+day  3 WRITE[sleep] 舊水台|status -> 泡在塑膠桶裡消毒   <- 陽台洗手台旁邊那個塑膠桶你提醒我周末要倒掉,我把從路角角換下來的舊水台泡
+day  3 WRITE[sleep] 衛林老闆|plan -> 會議改到第5天早上11點   <- 不能改到後天,就是禮拜五早上11點。
+day  3 WRITE[sleep] 劍道護手|status -> 送去武具店修補了   <- ria,幫我記兩件事,第一是我那雙深藍色的劍道護手送去武具店修補了,第二
+day  4 STAGE 改口 #3 -> 書架第三層綠色硬殼資料夾
+day  4 WRITE[listen] 備用眼鏡|location -> 客廳茶几下面的藤邊盒   <- 我剛剛把備用眼鏡拿出來看配方,現在隨手放進玄關鑰匙盤哦不對,我是放進客廳
+day  4 WRITE[listen] 咖啡|preference -> 伊索比亞淺杯水洗豆   <- 我自己現在手沖咖啡都只喝伊索比亞淺杯水洗豆,果酸比較明亮,深杯的我喝了才
+day  4 STAGE 改口 #2 -> 已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上
+day  4 WRITE[listen] 帳務文件|location -> 書架第三層綠色硬殼資料夾   <- ria,我剛剛把這兩個月要給會計師的那些發票與收據全部整理成一袋了。
+day  4 WRITE[listen] 修織剪|attribute -> 已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上   <- 我那把日本買的銅製修織剪怎麼刀口有點生修。
+day  4 ASK  ('無花果香精', 'value') -> read ['五花果香精', 'value'] '稀釋比例是百分之十二。'
+day  4 ASK  ('與平氣林老闆看Sample', 'time') -> read ['衛林老闆', 'plan'] '我跟平氣林老闆看Sample是改到第5天早上11點。'
+day  4 WRITE[listen] 超音波清洗機|status -> 加熱功能故障，僅剩常溫震動   <- 即一下工作室那台超音波清洗機的加熱功能壞掉了,現在只能常溫震動,等有空再
+day  4 ASK  ('太陽眼鏡', 'location') -> read None '我不記得太陽眼鏡收在哪裡。'
+day  4 WRITE[sleep] 手沖咖啡|preference -> 只喝伊索比亞淺杯水洗豆，不喝深焙   <- 我自己現在手沖咖啡都只喝伊索比亞淺杯水洗豆,果酸比較明亮,深杯的我喝了才
+day  4 WRITE[sleep] 給會計師的發票與收據|location -> 書架第三層綠色硬殼資料夾裡面   <- 我把它塞在書架第三層綠色硬殼資料夾裡面哦,月底報稅要用。
+day  4 WRITE[sleep] 銅製修織剪|status -> 刀口生鏽，已用防袖油擦拭過   <- 我剛拿防袖油仔細擦過一遍,現在把它掛在陽台鐵窗的S化鉤上了,你晾衣服小心
+day  4 WRITE[sleep] 銅製修織剪|location -> 陽台鐵窗的S形鉤上   <- 我剛拿防袖油仔細擦過一遍,現在把它掛在陽台鐵窗的S化鉤上了,你晾衣服小心
+day  5 STAGE 改口 #1 -> 工作室軟木塞留言板
+day  5 ASK  ('王醫師', 'time') -> read None '不記得。'
+day  5 WRITE[listen] 小電子秤|location -> 工作室軟木塞留言板   <- 姐,中島拉欄裡面鍋碗瓢盆太擠了,我剛剛把那台小電子趁改放到烘碗機旁邊的木
+day  5 ASK  ('大豆蠟燭', 'value') -> read None '不記得'
+day  5 ASK  ('大豆蠟燭', 'value') -> read None '不記得。'
+day  5 ASK  ('張副理事', 'attribute') -> read ['張富里', 'relation'] '她是百貨專櫃招商窗口，之後快閃店合約都要找她。'
+day  5 ASK  ('舊水台', 'location') -> read ['舊水台', 'status'] '舊水台泡在陽台洗手台旁邊那個塑膠桶裡消毒。'
+day  5 ASK  ('苦沉夜精油包裹', 'time') -> read None '不記得。'
+day  5 ASK  ('熱風槍', 'location') -> read None '我不記得熱風槍放在哪裡。'
+day  5 WRITE[sleep] 平氣爆架單|location -> 工作室軟木賽留言板   <- 剛剛跟林老闆談完,我把那張平氣爆架單從切割店拿出來,
+day  5 WRITE[sleep] 王醫師看診|time -> 第7天早上九點半   <- 對,我想預約後天早上九點半給王醫師看手腕,對,之前鏈鍵到拉傷有點復發,好
+day  5 WRITE[sleep] 手腕傷勢|status -> 之前鏈鍵到拉傷有點復發   <- 對,我想預約後天早上九點半給王醫師看手腕,對,之前鏈鍵到拉傷有點復發,好
+day  5 WRITE[sleep] 新款大豆蠟燭|value -> 單顆重量要灌220克，做10顆加上損耗需計算總重   <- 幫我算一下哦,如果我們新款大豆蠟燭單顆重量要灌220克,那我現在做10顆
+day  5 WRITE[sleep] 包裝斷帶顏色|preference -> 改成霧面深灰色（原墨綠色已改口）   <- 還有Aria,下次買包裝斷帶記得提醒我要買墨綠色的啊,不對,客戶剛剛說改
+day  6 ASK  ('劍道護手', 'status') -> read ['劍道護手', 'status'] '我記得您的劍道護手在第3天送去武具店修補了，但沒有記錄顯示它'
+day  6 STAGE 補充 #4 -> 已收到樣品，存放於書房窗台深色木盒避光保存
+day  6 WRITE[listen] 劍道護手|location -> 鞋櫃上面   <- 好,那我請凱文順路幫我拿回來哦他剛剛已經幫我放進我家鞋櫃上面了,謝啦。
+day  6 WRITE[listen] 四季春|attribute -> 導致失眠   <- 我上次喝四季春結果晚上整個失眠,以後首要飲我還是改喝蕎麥茶無糖為冰好了,
+day  6 WRITE[listen] 飲品|preference -> 無糖冰蕎麥茶   <- 我上次喝四季春結果晚上整個失眠,以後首要飲我還是改喝蕎麥茶無糖為冰好了,
+day  6 ASK  ('與會計師試訊對賬', 'time') -> read None '不記得'
+day  6 WRITE[listen] 繪墓精油|status -> 已收到樣品，存放於書房窗台深色木盒避光保存   <- Aria,我剛剛收到台灣農林寄來的新款繪墓精油樣品了,木頭香氣超讚。
+day  6 ASK  ('備用眼鏡', 'location') -> read ['備用眼鏡', 'location'] '備用眼鏡在客廳茶几下面的藤邊盒裡。'
+day  6 ASK  ('備用眼鏡', 'location') -> read ['擴廂屏幕蓋', 'value'] '這季新款擴廂屏幕蓋的尺寸是內徑28毫米，下次訂包千萬別買成3'
+day  6 ASK  ('一箱瘋辣塊', 'location') -> read None '我不記得您提過那一箱瘋辣塊收在哪裡。'
+day  6 ASK  ('發票收據', 'location') -> read ['給會計師的發票與收據', 'location'] '我記得您把它們塞在書架第三層的綠色硬殼資料夾裡面。'
+day  6 ASK  ('路角角', 'location') -> read None '不記得'
+day  6 WRITE[sleep] 蕎麥茶無糖冰飲|preference -> 因四季春導致失眠，以後改喝此種   <- 我上次喝四季春結果晚上整個失眠,以後首要飲我還是改喝蕎麥茶無糖為冰好了,
+day  6 WRITE[sleep] 繪墓精油樣品|location -> 書房窗台深色木盒內閉光保存   <- 我先把它放進書房窗台深色木盒裡閉光保存哦。
+day  6 WRITE[sleep] 與會計師試訊對賬|time -> 第9天下午三點   <- 提醒我下禮拜二下午三點要跟會計師試訊對賬哦。
+day  7 READ-PHON 問句裡的「瓶器報價單」和紀錄裡的「平氣爆架單」唸起來一樣 -> '編號 1'
+day  7 ASK  ('瓶器報價單', 'location') -> read ['平氣爆架單', 'location'] '你把它放在工作室的軟木塞留言板上了。'
+day  7 ASK  ('不鏽鋼架接刀', 'location') -> read None '不記得。'
+day  7 WRITE[listen] 手腕|status -> 貼藥布休息幾天   <- 好啦，醫師說手腕只要貼藥布休息幾天就好，不用打針
+day  7 ASK  ('攝影師', 'relation') -> read None '不記得。'
+day  7 WRITE[sleep] 醫師|plan -> 手腕只要貼藥布休息幾天就好，不用打針   <- 好啦，醫師說手腕只要貼藥布休息幾天就好，不用打針
+day  7 WRITE[sleep] 不鏽鋼架接刀|location -> 不知道掛在哪裡（使用者正在尋找）   <- �Aria�我那把不鏽鋼架接刀掛在哪裡０
+day  8 ASK  ('薰衣草精油', 'plan') -> read ['張富里', 'plan'] '好的，我已經幫您記錄要寄送物品給張富里。'
+day  8 WRITE[listen] 薰衣草精油|location -> 工作室鐵櫃最下層   <- 我剛去郵局把法國寄來的薰衣草精油包裹領回來了,我拆開之後先把那兩大罐薰衣
+day  8 WRITE[listen] 竹北選物店|relation -> 店長是林佩山   <- 竹北那家選物店的店長叫林佩山,
+day  8 STAGE 補充 #2 -> 電器行（已修好，加熱功能正常）
+day  8 WRITE[listen] 竹北選物店|plan -> 30顆雪松蠟燭第12天前出貨   <- 然後他們店裡訂的三十顆雪松蠟燭禮拜五前要出貨。
+day  8 STAGE 改口 #1 -> 工作室（已修好，加熱功能正常）
+day  8 ASK  ('浴室抽風機', 'time') -> read None '不記得'
+day  8 STAGE 改口 #2 -> 與林沛三交易為買斷制，折扣7折
+day  8 WRITE[listen] 超音波清洗機|location -> 工作室（已修好，加熱功能正常）   <- 對了姐,我今天去郵局順便把工作室那台超音波清洗機拿去給電器行老闆,
+day  8 WRITE[listen] 竹北選物店|value -> 與林沛三交易為買斷制，折扣7折   <- Aria,幫我寄一下這次竹北選物店的批發折扣是打七五折啊。
+day  8 WRITE[sleep] 雪松蠟燭|time -> 第12天前要出貨   <- 然後他們店裡訂的三十顆雪松蠟燭禮拜五前要出貨。
+day  8 WRITE[sleep] 銀露露腳掛|location -> 浴室毛巾架上滴水   <- ria,提醒我晚上洗完澡不要馬上關浴室抽風機,我剛剛把上好板的那顆銀露露
+day  9 STAGE 改口 #3 -> 主臥室衣櫃灰色保險箱
+day  9 STAGE 改口 #3 -> 主臥室衣櫃灰色保險箱
+day  9 STAGE 補充 #1 -> 已完成，並找出扣繳憑單與舊合約核對
+day  9 WRITE[listen] 扣繳憑單|location -> 已找出核對   <- 我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。
+day  9 WRITE[listen] 記帳|status -> 已完成，並找出扣繳憑單與舊合約核對   <- 我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。
+day  9 WRITE[listen] 舊合約|location -> 主臥室衣櫃灰色保險箱   <- 我剛剛跟會計師試訊隊完帳了,順便把去年的扣腳平單跟舊合約全部翻出來核對。
+day  9 STAGE 補充 #2 -> 竹心型號雙重、一層木片竹心十三號
+day  9 WRITE[listen] Q 印刷廠成先生|time -> 第11天下午3點   <- 對,我們這批香水是文卡的燙金打樣,我後天下午三點過去你們場裡確認可以嗎?
+day  9 WRITE[listen] 茶香蠟燭|attribute -> 竹心型號雙重、一層木片竹心十三號   <- Aria,幫我記一下,我們新款茶香蠟燭用的竹心型號是雙重。
+day  9 ASK  ('蠟燭', 'attribute') -> read ['新款大豆蠟燭', 'value'] '單顆重量要灌220克。'
+day  9 ASK  ('蠟燭', 'attribute') -> read ['手沖咖啡', 'preference'] '你上次跟凱文說你現在手沖咖啡都只喝伊索比亞淺杯水洗豆。'
+day  9 WRITE[listen] Q 火鍋|preference -> 鍋皮辣椒雞   <- 我火鍋湯底要選鍋皮辣椒雞哦,我最近喉嚨有點乾不想吃麻辣鍋。
+day  9 WRITE[sleep] 黃銅滅火器|status -> 好用，蓋下去完全不會有黑煙   <- 姐,你上次送我的那個黃銅滅竹林真的超好用,蓋下去完全不會有黑煙。
+day  9 WRITE[sleep] 蠟燭|location -> 客廳壁架左邊小釘子   <- 我剛剛是燒完蠟燭,把它掛在客廳壁如架左邊小釘子上了。
+day  9 WRITE[sleep] 香水燙金打樣|time -> 第11天下午三點去印刷廠確認   <- 對,我們這批香水是文卡的燙金打樣,我後天下午三點過去你們場裡確認可以嗎?
+day  9 WRITE[sleep] 茶香蠟燭竹心型號|value -> 雙重   <- Aria,幫我記一下,我們新款茶香蠟燭用的竹心型號是雙重。
+day  9 WRITE[sleep] 木片竹心十三號|attribute -> 燒起來有營火的琵琶聲   <- 一層木片竹心十三號,燒起來才會有那種營火的琵琶聲。
+day  9 WRITE[sleep] 火鍋湯底|preference -> 鍋皮辣椒雞，因喉嚨乾不想吃麻辣鍋   <- 我火鍋湯底要選鍋皮辣椒雞哦,我最近喉嚨有點乾不想吃麻辣鍋。
+day 10 STAGE 改口 #4 -> 第11天早上10點去舞劇店買新竹刀
+day 10 WRITE[listen] 遇事那顆一怒怒|location -> 後陽台遮雨棚鐵網中間   <- 遇事那顆一怒怒攪絕水滴乾了,我剛剛把他一去掛在後陽台遮雨捧鐵網中間囉。
+day 10 STAGE 補充 #3 -> 等出貨忙完後去舞劇店買新竹刀
+day 10 WRITE[listen] 鬧鐘|time -> 提前30分鐘   <- Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習
+day 10 WRITE[listen] 竹刀|status -> 裂開   <- Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習
+day 10 WRITE[listen] 竹刀|plan -> 等出貨忙完後去舞劇店買新竹刀   <- Aria 幫我把明天早上的鬧鐘掉早半小時,我那把被用竹刀今天去劍道館練習
+day 10 ASK  ('超音波清洗機', 'status') -> read ['超音波清洗機', 'location'] '超音波清洗機已修好，加熱功能正常。'
+day 10 ASK  ('皮革微裙', 'location') -> read None '我不記得你有提過皮革微裙掛在哪裡。'
+day 10 WRITE[listen] 被|location -> 工作桌右邊第二個抽屜   <- 幫我寄兩件事,第一是我把被用熱溶膠條放在工作桌右邊第二個抽屜,第二是下禮
+day 10 WRITE[listen] 企業網銀評證|time -> 第17天早上11點   <- 幫我寄兩件事,第一是我把被用熱溶膠條放在工作桌右邊第二個抽屜,第二是下禮
+day 10 ASK  ('黃銅珠心繭', 'location') -> read None '我不記得您把黃銅珠心繭放在哪裡。'
+day 10 WRITE[sleep] 熱水壺|location -> 後陽台遮雨棚鐵網中間   <- 遇事那顆一怒怒攪絕水滴乾了,我剛剛把他一去掛在後陽台遮雨捧鐵網中間囉。
+day 10 WRITE[sleep] 燙精打樣|time -> 第11天早上十點去看   <- 那我不用等到明天下午,我改明天早上十點過去看燙精打樣哦,好,謝謝。
+day 10 WRITE[sleep] 出貨|plan -> 忙完後一定去（推測指某活動或地點，因語意不全僅記錄計畫動作）   <- 好啊,等我這波出貨忙完一定去
+day 10 WRITE[sleep] 熱熔膠條|location -> 工作桌右邊第二個抽屜   <- 幫我寄兩件事,第一是我把被用熱溶膠條放在工作桌右邊第二個抽屜,第二是下禮
+day 11 STAGE 改口 #1 -> 地下室儲藏室木架
+day 11 STAGE 改口 #1 -> 一樓樓梯下方櫻梁櫃
+day 11 WRITE[listen] (upd) 薰衣草精油|location -> 一樓樓梯下方櫻梁櫃   <- 工作室鐵櫃太悶了,我剛剛把那兩罐薰衣草精油鋁瓶拿出來,
+day 11 ASK  ('麻繩', 'location') -> read None '我不記得您剛買的那捲麻繩放在哪裡。'
+day 11 ASK  ('麻繩', 'location') -> read None '我不記得關於重綁路攪絕水台用的相關資訊。'
+day 11 WRITE[listen] 聖誕節限定理|value -> 1680元/組，含大蠟燭及室內噴霧   <- 一組是一千六百八十元,裡面含一顆大蠟燭跟一瓶室內噴霧。
+day 11 ASK  ('展示架', 'time') -> read None '不記得。'
+day 11 WRITE[listen] 麻繩|location -> 陽台工具箱最上層格子   <- Aria,哦我看到了,我剛剛順手把它塞進陽台工具箱最上層格子裡了。
+day 11 ASK  ('印刷場', 'time') -> read ['燙精打樣', 'time'] '使用者，您已將與印刷廠確認香水文卡燙金打樣的時間改約至今天（第'
+day 11 ASK  ('竹北選物店店長', 'name') -> read ['竹北選物店', 'relation'] '竹北那家選物店的店長叫林佩山。'
+day 11 WRITE[listen] 標籤列印機|status -> 色帶快沒了   <- ria,記一下哦,工作室那台標籤列印機的色帶快沒了,印出來的字都有點蛋。
+day 11 ASK  ('竹北選物店', 'value') -> read ['竹北選物店', 'value'] '最後是打七五折。'
+day 11 ASK  ('數位溫濕度計', 'status') -> read None '不記得。'
+day 11 WRITE[sleep] 路攪絕水台|plan -> 要用麻繩重綁   <- 我要重綁路攪絕水台用的。
+day 11 WRITE[sleep] 標籤列印機色帶|status -> 快沒了，印出來的字都有點蛋   <- ria,記一下哦,工作室那台標籤列印機的色帶快沒了,印出來的字都有點蛋。
+day 11 WRITE[sleep] 展示駕|time -> 要確認進場的時間   <- 對,我想跟您確認一下展示駕進場的時間。
+day 12 WRITE[listen] 黃銅擺件|location -> 書房玻璃展示櫃第二層   <- 姐﹑客廳畢爐架那邊電風扇吹過去一直晃﹑我剛剛把那個黃銅滅竹林拿下來﹑改放
+day 12 WRITE[listen] (upd) 雪松蠟燭|time -> 第15天   <- Aria﹑竹北選物店的林沛山剛剛打來說他們店裡還在有七﹑所以那三十顆雪松
+day 12 WRITE[listen] 試駕|time -> 第14天下午1點   <- 試駕就約後天下午一點班進工作室組裝哦﹑麻煩您了
+day 12 WRITE[listen] 木頭展示|plan -> 工作室組裝   <- 試駕就約後天下午一點班進工作室組裝哦﹑麻煩您了
+day 12 WRITE[listen] 蜂巢牛皮紙|preference -> 防撞包材   <- ria﹑幫我把車庫那捲塑膠氣泡布收起來﹑我現在寄包裹的防撞包材都只用蜂巢
+day 12 ASK  ('銀露露角爵', 'location') -> read ['遇事那顆一怒怒', 'location'] '銀露露角爵現在掛在後陽台遮雨棚鐵網中間。'
+day 12 READ-PHON 問句裡的「就合約」和紀錄裡的「舊合約」唸起來一樣 -> '編號 1'
+day 12 ASK  ('合約', 'location') -> read ['舊合約', 'location'] '您把它們收在主臥室衣櫃的灰色保險箱裡。'
+day 12 ASK  ('茶香蠟燭', 'attribute') -> read ['茶香蠟燭', 'attribute'] '新款茶香蠟燭使用的是雙重竹心，其中一層木片部分使用十三號竹心'
+day 12 ASK  ('銀露露角爵', 'location') -> read None '我不記得您提過皇冠露角爵掛在哪裡滴水。'
+day 12 WRITE[sleep] 黃銅滅竹林|location -> 改放進書房玻璃展示櫃第二層   <- 姐﹑客廳畢爐架那邊電風扇吹過去一直晃﹑我剛剛把那個黃銅滅竹林拿下來﹑改放
+day 12 WRITE[sleep] 快閃電的木頭展示|plan -> 試駕約第14天下午一點班進工作室組裝   <- 試駕就約後天下午一點班進工作室組裝哦﹑麻煩您了
+day 12 WRITE[sleep] 塑膠氣泡布|status -> 收起來，寄包裹改用蜂巢牛皮紙   <- ria﹑幫我把車庫那捲塑膠氣泡布收起來﹑我現在寄包裹的防撞包材都只用蜂巢
+day 12 WRITE[sleep] 調香噴霧機|value -> 比試80%古物酒精   <- 調香噴霧機比試80%古物酒精才對﹑
+day 13 STAGE 改口 #3 -> 玄關穿鞋椅下小抽屜
+day 13 WRITE[listen] 木頭展示架|attribute -> 寬度120公分   <- 姐,趙師傅剛剛傳設計圖給我確認,我們那個木頭展示架的寬度是做120公分,
+day 13 WRITE[listen] 標籤印機|status -> 已換新黑色色帶   <- Aria,我剛剛幫工作室那台標籤印機換上新的黑色色帶了,現在印出來超級清
+day 13 ASK  ('香氛展', 'location') -> read ['香氛展', 'time'] '已幫您設定第18天下午兩點去台北市貿參加香氛展展前說明會的提'
+day 13 WRITE[listen] 竹刀|location -> 玄關穿鞋椅下小抽屜   <- Aria,我今天去武具店買竹刀,順便買了一罐劍道竹刀專用的保養竹油。
+day 13 WRITE[listen] 竹油|relation -> 竹刀專用   <- Aria,我今天去武具店買竹刀,順便買了一罐劍道竹刀專用的保養竹油。
+day 13 ASK  ('薰衣草精油', 'location') -> read ['薰衣草精油', 'location'] '那兩罐薰衣草精油後來被您移到了一樓樓梯下方的櫻梁櫃。'
+day 13 ASK  ('薰衣草精油', 'location') -> read ['黃銅滅竹林', 'location'] '那個黃銅滅竹林現在放在書房玻璃展示櫃第二層。'
+day 13 WRITE[listen] 香氛展|time -> 第18天下午2點   <- 提醒我下禮拜四下午兩點要去台北市貿參加香氛展展前說明會。
+day 13 ASK  ('熱熔膠條', 'location') -> read ['熱熔膠條', 'location'] '備用的熱熔膠條放在工作桌右邊第二個抽屜。'
+day 13 ASK  ('聖誕節限定理合', 'value') -> read ['聖誕節限定理', 'value'] '聖誕節限定理合一組定價是1680元，包含大蠟燭及室內噴霧。'
+day 13 ASK  ('電烙鐵', 'location') -> read None '不記得你有跟我提過那把電烙鐵收在哪裡。'
+day 13 WRITE[sleep] 木頭展示架|value -> 寬度做120公分，剛好塞進轉角   <- 姐,趙師傅剛剛傳設計圖給我確認,我們那個木頭展示架的寬度是做120公分,
+day 13 WRITE[sleep] 保養竹油|location -> 放在玄關穿鞋椅下面的小抽屜裡   <- 我先把它放在玄關穿鞋椅下面的小抽屜裡哦。
+day 13 WRITE[sleep] 香氛展展前說明會|time -> 第18天下午兩點要去台北市貿參加   <- 提醒我下禮拜四下午兩點要去台北市貿參加香氛展展前說明會。
+day 14 ASK  ('主北選物店', 'plan') -> read ['雪松蠟燭', 'time'] '後來改到第15天出貨。'
+day 14 ASK  ('標籤列印機', 'status') -> read ['標籤印機', 'status'] '工作室那台標籤列印機已經換上新的黑色色帶，現在印出來超級清楚'
+day 14 WRITE[listen] 展示架|location -> 工作室   <- 哇,太棒了,我等一下去工作室把樣品擺上去看看效果。
+day 14 READ-PHON 問句裡的「保養豬油」和紀錄裡的「保養竹油」唸起來一樣 -> '編號 1'
+day 14 ASK  ('保養豬油', 'location') -> read ['保養竹油', 'location'] '我記得您昨天把它放在玄關穿鞋椅下面的小抽屜裡了。'
+day 14 ASK  ('麻繩', 'location') -> read ['麻繩', 'location'] '那捲麻繩在陽台工具箱最上層格子裡。'
+day 14 ASK  ('銀行', 'time') -> read None '我不記得你有安排去銀行辦外币賬戶，只記得第10天提過第17天'
+day 14 ASK  ('工作室冷氣濾網', 'time') -> read None '不記得。'
+day 14 WRITE[sleep] 樣品|plan -> 等一下去工作室擺上去看看效果   <- 哇,太棒了,我等一下去工作室把樣品擺上去看看效果。
+day 14 WRITE[sleep] 銀行辦外币賬戶|time -> 第17天早上十一點要去   <- Aria,我下禮拜三早上十一點是不是要去銀行辦外币賬戶?
+day 14 WRITE[sleep] 冷氣浴網|time -> 上次是什麼時候用（使用者詢問，非陳述事實，不列）   <- 我有沒有說過工作室冷氣浴網上次是什麼時候用?
+day 15 STAGE 改口 #3 -> 條箱桌左邊第一個抽屜
+day 15 WRITE[listen] 雪松蠟燭|status -> 已寄出   <- 主北選物店那三十顆雪松蠟燭我剛請物流收走了,對了,
+day 15 WRITE[listen] 鐵拖運單|location -> 玄關穿鞋椅旁磁鐵上   <- 司機給我的那鐵拖運單收直連,我先夾在玄關穿鞋椅旁磁鐵加上哦。
+day 15 WRITE[listen] 玫瑰精油|location -> 條箱桌左邊第一個抽屜   <- 我這禮拜每天都要掉玫瑰配方,一直開小冰箱太麻煩了,所以我剛剛把那罐大瑪士
+day 15 STAGE 改口 #1 -> 周宇恩 | relation | 百貨快閃店視覺設計師（更正：無，此句未涉及#1）
+day 15 STAGE 改口 #2 -> 快閃店海報 | time | 第18天晚上（更正：無，此句未涉及#2）
+day 15 STAGE 改口 #3 -> 書房窗戶 | status | 明天早上不要開（更正：無，此句未涉及#3）
+day 15 STAGE 改口 #4 -> 鋼切模型 | location | 書房書桌下紙箱（更正：無，此句未涉及#4）
+day 15 READ-PHON 問句裡的「被用眼鏡」和紀錄裡的「備用眼鏡」唸起來一樣 -> '編號 1'
+day 15 ASK  ('黑框眼鏡', 'location') -> read ['備用眼鏡', 'location'] '上次你把那副備用眼鏡放在客廳茶几下面的藤邊盒裡。'
+day 15 WRITE[listen] 周宇恩|relation -> 周宇恩 | relation | 百貨快閃店視覺設計師（更正：無，此句未涉及#1）   <- Aria,幫我記一下,我們百貨快閃電的視覺設計師叫周宇恩,然後他說快閃電
+day 15 WRITE[listen] 快閃店海報|time -> 快閃店海報 | time | 第18天晚上（更正：無，此句未涉及#2）   <- Aria,幫我記一下,我們百貨快閃電的視覺設計師叫周宇恩,然後他說快閃電
+day 15 WRITE[listen] 書房窗戶|status -> 書房窗戶 | status | 明天早上不要開（更正：無，此句未涉及#3）   <- 還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露
+day 15 WRITE[listen] 鋼切模型|location -> 鋼切模型 | location | 書房書桌下紙箱（更正：無，此句未涉及#4）   <- 還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露
+day 15 ASK  ('銀行行程', 'time') -> read None '我不記得了。'
+day 15 WRITE[listen] 快閃店|value -> 三萬元   <- 記一下這次百貨快閃電押金是三萬五千元啊不對,我剛重看張副理傳來的合約,是
+day 15 ASK  ('銀行行程', 'plan') -> read None '我不記得你上禮拜提過要去銀行辦什麼事。'
+day 15 WRITE[sleep] 大瑪士格玫瑰圓金|location -> 鎖進條箱桌左邊第一個抽屜裡   <- 我這禮拜每天都要掉玫瑰配方,一直開小冰箱太麻煩了,所以我剛剛把那罐大瑪士
+day 15 WRITE[sleep] 向耳露腳掘測牙|location -> 書房書桌下的紙箱裡   <- 還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露
+day 15 WRITE[sleep] 向耳露腳掘測牙|status -> 需硬乾，不能吹風   <- 還有啊Aria,提醒我明天早上不要開書房窗戶,我把鋼切下來要硬乾的向耳露
+day 15 WRITE[sleep] 百貨快閃電押金|value -> 三萬元整   <- 記一下這次百貨快閃電押金是三萬五千元啊不對,我剛重看張副理傳來的合約,是
+day 16 STAGE 改口 #1 -> 工作室工具牆黑色收納架
+day 16 STAGE 補充 #2 -> 已清洗脫水，晾在頂樓曬衣場最裡面的竹竿上
+day 16 WRITE[listen] 電子郵標卡尺|location -> 工作室工具牆黑色收納架   <- Aria,我剛剛去五金行買了一把新的電子郵標卡尺,亮玻璃瓶口內進超準。
+day 16 ASK  ('林教練', 'relation') -> read None '不記得。'
+day 16 WRITE[listen] 調香實驗袍|status -> 已清洗脫水，晾在頂樓曬衣場最裡面的竹竿上   <- 姐,我那件白色的調香實驗袍袖口沾到一點廣闊香精油,我剛洗乾淨脫水完。
+day 16 STAGE 補充 #1 -> 第18天晚上7:30
+day 16 WRITE[listen] 身段審查模擬賽|plan -> 第18天晚上7:30   <- 對,我想報名這個月的身段審查模擬賽,
+day 16 READ-PHON 問句裡的「小便子秤」和紀錄裡的「小電子秤」唸起來一樣 -> '不知道'
+day 16 ASK  ('小秤', 'location') -> read None '不記得'
+day 16 WRITE[listen] 大容量擴香|attribute -> 長度25公分黑色纖維棒   <- Aria,幫我記一下,我們新款大容量擴香配的大容量擴香之規格是長度25公
+day 16 ASK  ('小秤', 'location') -> read ['蜂巢牛皮紙', 'preference'] '您現在寄包裹的防撞包材都只用蜂巢牛皮紙。'
+day 16 WRITE[listen] 早餐|preference -> 藍莓乳酪   <- 幫我買藍莓乳酪口味的當早餐,我最近吃膩原味的了。
+day 16 WRITE[listen] 原味|status -> 吃膩   <- 幫我買藍莓乳酪口味的當早餐,我最近吃膩原味的了。
+day 16 ASK  ('手持掛燙機', 'location') -> read None '我不記得你有提過手持掛燙機收在哪裡。'
+day 16 WRITE[sleep] 身段審查模擬賽|time -> 第18天晚上七點半   <- 時間是後天晚上七點半對不對?
+day 16 WRITE[sleep] 大容量擴香棒|value -> 長度25公分黑色纖維棒（非乳尾桿）   <- Aria,幫我記一下,我們新款大容量擴香配的大容量擴香之規格是長度25公
+day 16 WRITE[sleep] 藍莓乳酪口味|preference -> 想吃這個當早餐，因為吃膩原味的了   <- 幫我買藍莓乳酪口味的當早餐,我最近吃膩原味的了。
+day 17 WRITE[listen] 宇恩|plan -> 第18天晚上家裡有事   <- 宇恩,哦哦你明天晚上家裡有事啊。
+day 17 WRITE[listen] 海報出稿|time -> 第19天下午4點   <- 那快閃遍海報出稿改到禮拜五下午四點再傳給我確認就好,辛苦
+day 17 WRITE[listen] 米蝶香|status -> 葉尖發黑枯萎   <- ria,幫我把前陽台那盆米蝶香寄一下要停水,我剛看那盆陽台米蝶香的葉子尖
+day 17 WRITE[listen] 米蝶香|attribute -> 疑似雨水過多導致   <- ria,幫我把前陽台那盆米蝶香寄一下要停水,我剛看那盆陽台米蝶香的葉子尖
+day 17 WRITE[listen] 米蝶香|location -> 書房桌上透明文件盒   <- 全關磁鐵家那邊太亂了,我剛剛把禮拜一那蝶托運單收直簾拿下來,改放進書房桌
+day 17 ASK  ('大瑪士格玫瑰圓金', 'location') -> read ['大瑪士格玫瑰圓金', 'location'] '大瑪士格玫瑰圓金現在鎖在條箱桌左邊第一個抽屜裡。'
+day 17 READ-PHON 問句裡的「擴廂噴霧基」和紀錄裡的「調香噴霧機」唸起來一樣 -> '編號 1'
+day 17 ASK  ('室內擴香噴霧', 'attribute') -> read ['調香噴霧機', 'value'] '新款室內調香噴霧機的基底使用的是80%的穀物酒精。'
+day 17 WRITE[listen] 企業網銀讀卡機|location -> 書房電腦螢幕下面   <- ria,寄兩件事哦,第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦
+day 17 WRITE[listen] 專櫃進場證|time -> 第23天早上10點   <- ria,寄兩件事哦,第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦
+day 17 ASK  ('甜橙精油', 'location') -> read None '不記得。'
+day 17 WRITE[sleep] 專櫃進場證|plan -> 第23天早上十點要去百貨公司辦理   <- ria,寄兩件事哦,第一是我把剛從銀行領回來的企業網銀讀卡機放在書房電腦
+day 18 STAGE 改口 #3 -> 工作室水槽下面的塑膠抽屜
+day 18 WRITE[listen] (upd) 木頭展示架|value -> 8000元補助   <- Aria 每個參展品牌可以申請8000元,剛好拿來折抵我們木頭展示架的費
+day 18 WRITE[listen] 玻璃壁管|location -> 調香桌   <- Aria 我剛買了一組新的玻璃壁管跟替換用細膠頭,擺在調香桌上超好看。
+day 18 WRITE[listen] 替換用細膠頭|location -> 工作室水槽下面的塑膠抽屜   <- Aria 我剛買了一組新的玻璃壁管跟替換用細膠頭,擺在調香桌上超好看。
+day 18 ASK  ('無花果香精', 'value') -> read ['五花果香精', 'value'] '那個無花果香精的稀釋比例是百分之十二。'
+day 18 WRITE[listen] 郭大哥|relation -> 長期配合的貨運行物流負責人   <- 剛剛幫我們搬瓦冷紙箱進來的那位是郭大哥,我們長期配合的貨運行物流負責人就
+day 18 ASK  ('周宇恩', 'time') -> read ['海報出稿', 'time'] '周宇恩說快閃店海報出稿改到第19天下午4點傳給你確認。'
+day 18 WRITE[listen] 融蠟鍋|attribute -> 溫控旋鈕接觸不良，轉至80度自動斷電   <- ria 記一下喔,工作室那台融蠟鍋的溫控炫鈕接觸不良會跳掉,轉到80度就
+day 18 ASK  ('快閃店押金', 'value') -> read ['百貨快閃電押金', 'value'] '這次百貨快閃電的押金是三萬元整。'
+day 18 READ-PHON 問句裡的「快閃電」和紀錄裡的「快閃店」唸起來一樣 -> '不知道'
+day 18 ASK  ('零錢盒', 'location') -> read None '我不記得你提過快閃店零錢盒放在哪裡。'
+day 18 WRITE[sleep] 向耳露角角側牙|location -> 客廳窗邊白色潛水盤裡   <- 我是鋪在客廳窗邊白色潛水盤裡敷牙了,幫我更新一下。
+day 18 WRITE[sleep] 貿開相分展|plan -> 參展品牌可申請8000元綠色建材補助款，折抵木頭展示架費用   <- Aria 每個參展品牌可以申請8000元,剛好拿來折抵我們木頭展示架的費
+day 19 ASK  ('百貨勞安課', 'time') -> read None '不記得。'
+day 19 WRITE[listen] 白色調香實驗袍|location -> 更衣室左邊衣桿   <- 姐,頂樓好像快飄雨了,我剛剛去把那件白色調香實驗袍收下來,改掛進更衣室左
+day 19 WRITE[listen] (upd) 專櫃進場證|time -> 第23天下午2:30   <- 好,那我去辦專櫃進場證的時間就改到下禮拜二下午兩點半哦,好,謝謝。
+day 19 STAGE 改口 #1 -> 第21天下午4:00
+day 19 WRITE[listen] 錄角決策啞|location -> 花式大門口   <- 好啊,那我們交換錄角決策啞就約後天下午四點在花式大門口見面哦。
+day 19 WRITE[listen] 專櫃背景音樂|preference -> 純鋼琴環境音樂   <- 幫我把快閃電歌單裡面有人聲的歌都刪掉,我們專櫃背景音樂我只喜歡純鋼琴環境
+day 19 ASK  ('火鍋', 'preference') -> read ['火鍋湯底', 'preference'] '你上禮拜說火鍋湯底要選鍋皮辣椒雞，因為喉嚨乾不想吃麻辣鍋。'
+day 19 WRITE[listen] 錄角決策啞|time -> 第21天下午4:00   <- 好啊,那我們交換錄角決策啞就約後天下午四點在花式大門口見面哦。
+day 19 ASK  ('拖運單', 'location') -> read ['鐵拖運單', 'location'] '我把您說的那疊拖運單收直連夾在玄關穿鞋椅旁的磁鐵上了。'
+day 19 ASK  ('電子郵標卡', 'location') -> read ['電子郵標卡尺', 'location'] '你新買的電子遊標卡尺放在工作室工具牆的黑色收納架上。'
+day 19 ASK  ('網銀讀卡機', 'location') -> read None '我不記得您的個人網銀讀卡機放在哪裡，記憶裡只有企業網銀讀卡機'
+day 19 WRITE[sleep] 百貨勞安課|time -> 第23天早上沒空   <- 哦哦下禮拜二早上百貨勞安課沒空是不是?
+day 19 WRITE[sleep] 新款隨身滾珠香水|value -> 容量是8毫升   <- 還有Aria,幫我寄一下新款隨身滾珠香水平容量是10毫升啊不對,廠商這批
+day 20 STAGE 補充 #3 -> 已整理好，裝入防潮袋，放於客廳沙發旁黑色行李箱
+day 20 WRITE[listen] 制服圍裙|attribute -> 防潑水重磅帆布   <- 制服圍裙才直是防潑水重磅翻步,滴到精油一擦就掉。
+day 20 WRITE[listen] 熔蠟鍋|status -> 溫控旋鈕已修好   <- 我剛剛拿電子接點復活記噴了一下工作室那台熔蠟鍋,現在溫控炫鈕已修好不會跳
+day 20 WRITE[listen] 試文紙|status -> 已整理好，裝入防潮袋，放於客廳沙發旁黑色行李箱   <- ria,我剛剛把快閃電要發的五百張蓋好剛印的試文紙全部整理好了。
+day 20 ASK  ('發票收據', 'location') -> read ['給會計師的發票與收據', 'location'] '之前整理好要給會計師的那袋發票與收據，是塞在書架第三層綠色硬'
+day 20 ASK  ('發票收據', 'location') -> read ['向耳露角角側牙', 'location'] '向耳露腳決策牙現在放在客廳窗邊白色潛水盤裡。'
+day 20 WRITE[listen] 直播|time -> 第26天晚上8點   <- 提醒我下禮拜五晚上八點要在官方IG開直播介紹聖誕禮盒哦。
+day 20 WRITE[listen] 直播|plan -> 在官方IG開直播介紹聖誕禮盒   <- 提醒我下禮拜五晚上八點要在官方IG開直播介紹聖誕禮盒哦。
+day 20 ASK  ('發票', 'location') -> read ['給會計師的發票與收據', 'location'] '那袋發票與收據在書架第三層的綠色硬殼資料夾裡面。'
+day 20 ASK  ('牙', 'location') -> read ['給會計師的發票與收據', 'location'] '那袋發票與收據在書架第三層的綠色硬殼資料夾裡面。'
+day 20 ASK  ('白色調香實驗袍', 'location') -> read ['白色調香實驗袍', 'location'] '那件白色調香實驗袍現在掛在更衣室左邊的衣桿上。'
+day 20 ASK  ('備用玻璃燒', 'location') -> read None '我不記得你有提過備用的玻璃燒。'
+day 20 ASK  ('包杯', 'location') -> read None '我不記得包杯收在哪個紙箱。'
+day 20 WRITE[sleep] 制服圍裙|status -> 已做好，防潑水重磅帆布材質，滴到精油一擦就掉   <- 姐,我們快閃電要穿的制服圍裙做好記來了,
+day 20 WRITE[sleep] 試文紙|plan -> 第26天晚上八點要在官方IG開直播介紹聖誕禮盒   <- ria,我剛剛把快閃電要發的五百張蓋好剛印的試文紙全部整理好了。
+day 21 ASK  ('專櫃進場', 'plan') -> read ['專櫃進場證', 'time'] '專櫃進場證辦理時間已改到下禮拜二下午兩點半。'
+day 21 ASK  ('融蠟鍋', 'status') -> read ['熔蠟鍋', 'status'] '融蠟鍋的溫控旋鈕已修好，不會再自動斷電了。'
+day 21 ASK  ('隨身噴霧香水瓶', 'value') -> read None '不記得。'
+day 21 READ-PHON 問句裡的「快閃電」和紀錄裡的「快閃店」唸起來一樣 -> '不知道'
+day 21 ASK  ('快閃店發票', 'location') -> read None '我不記得有跟你說過快閃店的發票收在哪個抽屜。'
+day 21 READ-PHON 問句裡的「快閃電」和紀錄裡的「快閃店」唸起來一樣 -> '編號 1'
+day 21 ASK  ('快閃店發票', 'location') -> read ['快閃店', 'value'] '下禮拜去快閃店可以拿去做，因為押金是三萬元。'
+SUMMARY {"key": "dual", "topic": true, "relisten": true, "event_log": true, "stage": true, "facts": 90, "fact_coverage": 0.567, "coverage_by_kind": {"direct": "10/20", "multi": "9/12", "indirect": "1/9", "correction": "6/9", "overheard": "10/16", "split": "3/6", "pronoun": "7/9", "relative_time": "5/9"}, "writes": 151, "sleep_writes": 62, "false_writes_from_others": 0, "questions_told": 51, "routed": 49, "recall": 0.647, "updated_q": 22, "stale": 1, "never_or_similar": 21, "honest": 1.0, "read": true, "read_k": 5, "hit_read": 33, "never_read_answered": 0, "canon": false, "reldate": true, "read_phon": true, "relisten_zh": true, "route_any": true, "find": "", "find_tau": null, "hit_direct": 0, "hit_ask": 0, "ask_wrong": 0, "never_ask": 0}

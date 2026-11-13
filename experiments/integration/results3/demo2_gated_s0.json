@@ -1,0 +1,680 @@
+{
+ "cond": "gated",
+ "writes": [
+  {
+   "t": 155,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "water bottle",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 210,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "remote control",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 253,
+   "kind": "overheard_fact",
+   "fact": [
+    "Tom",
+    "remote control",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 260,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "wallet",
+    "in the kitchen drawer"
+   ]
+  },
+  {
+   "t": 317,
+   "kind": "inform",
+   "fact": [
+    "Sara",
+    "keys",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 318,
+   "kind": "overheard_fact",
+   "fact": [
+    "Axel",
+    "remote control",
+    "on the desk"
+   ]
+  },
+  {
+   "t": 378,
+   "kind": "inform",
+   "fact": [
+    "Tom",
+    "ring",
+    "next to the TV"
+   ]
+  },
+  {
+   "t": 388,
+   "kind": "inform",
+   "fact": [
+    "Leo",
+    "remote control",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 541,
+   "kind": "inform",
+   "fact": [
+    "Omar",
+    "watch",
+    "under the bed"
+   ]
+  },
+  {
+   "t": 757,
+   "kind": "overheard_fact",
+   "fact": [
+    "Ken",
+    "ring",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 844,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "spare key",
+    "under the doormat"
+   ]
+  },
+  {
+   "t": 856,
+   "kind": "overheard_fact",
+   "fact": [
+    "Axel",
+    "passport",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 874,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "keys",
+    "in the garage"
+   ]
+  },
+  {
+   "t": 1037,
+   "kind": "inform",
+   "fact": [
+    "Ken",
+    "passport",
+    "in the kitchen drawer"
+   ]
+  },
+  {
+   "t": 1051,
+   "kind": "inform",
+   "fact": [
+    "Leo",
+    "spare key",
+    "in my backpack"
+   ]
+  },
+  {
+   "t": 1059,
+   "kind": "inform",
+   "fact": [
+    "Lena",
+    "wallet",
+    "next to the TV"
+   ]
+  },
+  {
+   "t": 1086,
+   "kind": "overheard_fact",
+   "fact": [
+    "Tom",
+    "keys",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 1104,
+   "kind": "overheard_fact",
+   "fact": [
+    "Nina",
+    "remote control",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 1116,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "ticket",
+    "in my backpack"
+   ]
+  },
+  {
+   "t": 1267,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "ticket",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 1344,
+   "kind": "overheard_fact",
+   "fact": [
+    "Sara",
+    "ticket",
+    "on the windowsill"
+   ]
+  },
+  {
+   "t": 1584,
+   "kind": "inform",
+   "fact": [
+    "Ken",
+    "passport",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 1783,
+   "kind": "overheard_fact",
+   "fact": [
+    "Mia",
+    "keys",
+    "in the garage"
+   ]
+  },
+  {
+   "t": 1928,
+   "kind": "overheard_fact",
+   "fact": [
+    "Ken",
+    "passport",
+    "in my backpack"
+   ]
+  },
+  {
+   "t": 2287,
+   "kind": "inform",
+   "fact": [
+    "Mia",
+    "passport",
+    "in the kitchen drawer"
+   ]
+  },
+  {
+   "t": 2294,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "remote control",
+    "under the bed"
+   ]
+  },
+  {
+   "t": 2299,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "passport",
+    "in the blue box"
+   ]
+  },
+  {
+   "t": 2408,
+   "kind": "overheard_fact",
+   "fact": [
+    "Leo",
+    "keys",
+    "in the closet"
+   ]
+  },
+  {
+   "t": 2541,
+   "kind": "overheard_fact",
+   "fact": [
+    "Yumi",
+    "remote control",
+    "behind the sofa"
+   ]
+  },
+  {
+   "t": 2649,
+   "kind": "inform",
+   "fact": [
+    "Nina",
+    "water bottle",
+    "in the car"
+   ]
+  },
+  {
+   "t": 2786,
+   "kind": "overheard_fact",
+   "fact": [
+    "Tom",
+    "umbrella",
+    "in the garage"
+   ]
+  },
+  {
+   "t": 2810,
+   "kind": "inform",
+   "fact": [
+    "Mia",
+    "remote control",
+    "in the closet"
+   ]
+  },
+  {
+   "t": 3128,
+   "kind": "inform",
+   "fact": [
+    "Axel",
+    "ticket",
+    "in the bathroom cabinet"
+   ]
+  },
+  {
+   "t": 3165,
+   "kind": "inform",
+   "fact": [
+    "Omar",
+    "wallet",
+    "next to the TV"
+   ]
+  },
+  {
+   "t": 3818,
+   "kind": "overheard_fact",
+   "fact": [
+    "Mia",
+    "spare key",
+    "on the bookshelf"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "t": 682,
+   "kind": "recall_q",
+   "q": "Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Your remote control is behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's remote control is behind the sofa."
+    }
+   ]
+  },
+  {
+   "t": 766,
+   "kind": "recall_q",
+   "q": "Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Your remote control is behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's remote control is behind the sofa."
+    }
+   ]
+  },
+  {
+   "t": 845,
+   "kind": "recall_q",
+   "q": "Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Your keys are on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Sara's keys is on the windowsill."
+    }
+   ]
+  },
+  {
+   "t": 1182,
+   "kind": "recall_q",
+   "q": "Leo: Aria, where is my remote control?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Your remote control is behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's remote control is behind the sofa."
+    }
+   ]
+  },
+  {
+   "t": 1220,
+   "kind": "recall_q",
+   "q": "Leo: Aria, do you remember where my remote control is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Your remote control is behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's remote control is behind the sofa."
+    }
+   ]
+  },
+  {
+   "t": 1305,
+   "kind": "recall_q_other",
+   "q": "Lena: Aria, any idea where Sara's remote control is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Sara's remote control is on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Sara's remote control is on the windowsill."
+    }
+   ]
+  },
+  {
+   "t": 1318,
+   "kind": "recall_q_other",
+   "q": "Axel: Aria, did Sara say where the remote control is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Sara said Axel's remote control is on the desk.",
+   "label": "wrong",
+   "trace": [
+    {
+     "completion": "Axel's remote control is on the desk."
+    }
+   ]
+  },
+  {
+   "t": 1357,
+   "kind": "recall_q",
+   "q": "Leo: Aria, do you remember where my spare key is?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "Your spare key is in my backpack.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's spare key is in my backpack."
+    }
+   ]
+  },
+  {
+   "t": 1488,
+   "kind": "recall_q",
+   "q": "Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Your keys are on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Sara's keys is on the windowsill."
+    }
+   ]
+  },
+  {
+   "t": 1520,
+   "kind": "recall_q_other",
+   "q": "Tom: Aria, did Nina say where the remote control is?",
+   "truth": "in the blue box",
+   "model1": "THINK",
+   "answer": "Yes, Nina said the remote control is in the blue box.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Nina's remote control is in the blue box."
+    }
+   ]
+  },
+  {
+   "t": 1631,
+   "kind": "recall_q",
+   "q": "Axel: Aria, I can't find my keys, where did I leave it?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "Your keys are in the garage.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Axel's keys is in the garage."
+    }
+   ]
+  },
+  {
+   "t": 1775,
+   "kind": "recall_q",
+   "q": "Axel: Aria, where is my ticket?",
+   "truth": "in my backpack",
+   "model1": "REPLY",
+   "answer": "Your ticket is in my backpack, Axel.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Axel's ticket is in my backpack."
+    }
+   ]
+  },
+  {
+   "t": 2009,
+   "kind": "recall_q_other",
+   "q": "Omar: Aria, any idea where Ken's ring is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Ken's ring is behind the sofa.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Ken's ring is behind the sofa."
+    }
+   ]
+  },
+  {
+   "t": 2263,
+   "kind": "recall_q",
+   "q": "Omar: Aria, where is my watch?",
+   "truth": "under the bed",
+   "model1": "THINK",
+   "answer": "Omar, your watch is under the bed.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Omar's watch is under the bed."
+    }
+   ]
+  },
+  {
+   "t": 2423,
+   "kind": "recall_q_other",
+   "q": "Leo: Aria, any idea where Mia's keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "Mia's keys are in the garage.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Mia's keys is in the garage."
+    }
+   ]
+  },
+  {
+   "t": 2424,
+   "kind": "recall_q_other",
+   "q": "Sara: Aria, any idea where Nina's remote control is?",
+   "truth": "in the blue box",
+   "model1": "THINK",
+   "answer": "Nina's remote control is in the blue box.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Nina's remote control is in the blue box."
+    }
+   ]
+  },
+  {
+   "t": 2577,
+   "kind": "recall_q",
+   "q": "Sara: Aria, do you remember where my keys is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "Sara's keys is on the windowsill.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Sara's keys is on the windowsill."
+    }
+   ]
+  },
+  {
+   "t": 3180,
+   "kind": "recall_q",
+   "q": "Mia: Aria, where is my passport?",
+   "truth": "in the kitchen drawer",
+   "model1": "THINK",
+   "answer": "Mia's passport is in the kitchen drawer.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Mia's passport is in the kitchen drawer."
+    }
+   ]
+  },
+  {
+   "t": 3457,
+   "kind": "recall_q",
+   "q": "Axel: Aria, do you remember where my ticket is?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "Your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Axel's ticket is in the bathroom cabinet."
+    }
+   ]
+  },
+  {
+   "t": 3619,
+   "kind": "recall_q",
+   "q": "Axel: Aria, do you remember where my keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "Your keys are in the garage.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Axel's keys is in the garage."
+    }
+   ]
+  },
+  {
+   "t": 3712,
+   "kind": "recall_q",
+   "q": "Axel: Aria, I can't find my ticket, where did I leave it?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "Your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Axel's ticket is in the bathroom cabinet."
+    }
+   ]
+  },
+  {
+   "t": 3713,
+   "kind": "recall_q_other",
+   "q": "Ken: Aria, did Leo say where the keys is?",
+   "truth": "in the closet",
+   "model1": "THINK",
+   "answer": "Leo said his keys are in the closet.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's keys is in the closet."
+    }
+   ]
+  },
+  {
+   "t": 3813,
+   "kind": "recall_q_other",
+   "q": "Nina: Aria, any idea where Sara's spare key is?",
+   "truth": "under the doormat",
+   "model1": "THINK",
+   "answer": "Sara's spare key is under the doormat.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Sara's spare key is under the doormat."
+    }
+   ]
+  },
+  {
+   "t": 3891,
+   "kind": "recall_q",
+   "q": "Axel: Aria, where is my ticket?",
+   "truth": "in the bathroom cabinet",
+   "model1": "REPLY",
+   "answer": "Axel, your ticket is in the bathroom cabinet.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Axel's ticket is in the bathroom cabinet."
+    }
+   ]
+  },
+  {
+   "t": 3962,
+   "kind": "recall_q_other",
+   "q": "Yumi: Aria, did Leo say where the keys is?",
+   "truth": "in the closet",
+   "model1": "THINK",
+   "answer": "Leo said his keys are in the closet.",
+   "label": "correct",
+   "trace": [
+    {
+     "completion": "Leo's keys is in the closet."
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "correct": 24,
+  "hedged_correct": 0,
+  "unknown": 0,
+  "wrong": 1
+ },
+ "n_writes": 35,
+ "seconds": 250
+}

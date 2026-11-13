@@ -1,0 +1,10 @@
+### nbest query
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 35 | either 36
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 31 | wrong 6 | none 8 || never-told answered 1 / 18
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 36
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 37 | wrong 4 | none 8 || never-told answered 1 / 21
+### nbest read
+== zh_result_I_all_old.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 35 | either 36
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 31 | wrong 6 | none 8 || never-told answered 1 / 18
+== zh_result_I_all_set2.json Dout 512 K 128 KT 4 KS 2 gamma 0.2 | answerable told 38 | recall@5 network index 35 | dense text embedding 34 | either 36
+  read end to end (network top 5 + LLM server reader + sound-twin second read): right 37 | wrong 4 | none 8 || never-told answered 1 / 21

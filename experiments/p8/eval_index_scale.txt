@@ -1,0 +1,20 @@
+   parts 286 keyed in 16s
+  zh_result_I_all_old.json D=512 distractors 0: recall@5 34/38  (distractor writes 0s)
+  zh_result_I_all_old.json D=512 distractors 2000: recall@5 25/38  (distractor writes 1s)
+  zh_result_I_all_old.json D=512 distractors 10000: recall@5 18/38  (distractor writes 6s)
+  zh_result_I_all_old.json D=512 distractors 50000: recall@5 14/38  (distractor writes 30s)
+   parts 286 keyed in 16s
+  zh_result_I_all_set2.json D=512 distractors 0: recall@5 35/38  (distractor writes 0s)
+  zh_result_I_all_set2.json D=512 distractors 2000: recall@5 29/38  (distractor writes 1s)
+  zh_result_I_all_set2.json D=512 distractors 10000: recall@5 29/38  (distractor writes 6s)
+  zh_result_I_all_set2.json D=512 distractors 50000: recall@5 24/38  (distractor writes 30s)
+   parts 286 keyed in 16s
+  zh_result_I_all_old.json D=1024 distractors 0: recall@5 35/38  (distractor writes 0s)
+  zh_result_I_all_old.json D=1024 distractors 2000: recall@5 25/38  (distractor writes 2s)
+  zh_result_I_all_old.json D=1024 distractors 10000: recall@5 21/38  (distractor writes 8s)
+  zh_result_I_all_old.json D=1024 distractors 50000: recall@5 11/38  (distractor writes 39s)
+   parts 286 keyed in 16s
+  zh_result_I_all_set2.json D=1024 distractors 0: recall@5 35/38  (distractor writes 0s)
+  zh_result_I_all_set2.json D=1024 distractors 2000: recall@5 32/38  (distractor writes 2s)
+  zh_result_I_all_set2.json D=1024 distractors 10000: recall@5 30/38  (distractor writes 8s)
+  zh_result_I_all_set2.json D=1024 distractors 50000: recall@5 24/38  (distractor writes 39s)

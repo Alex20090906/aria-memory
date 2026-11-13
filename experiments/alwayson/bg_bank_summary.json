@@ -1,0 +1,74 @@
+{
+ "tv": {
+  "clips": 72,
+  "heard": 229,
+  "owner": 0,
+  "unsure": 1
+ },
+ "family": {
+  "clips": 30,
+  "heard": 42,
+  "owner": 0,
+  "unsure": 0
+ },
+ "visitor": {
+  "clips": 10,
+  "heard": 10,
+  "owner": 0,
+  "unsure": 0
+ },
+ "fan": {
+  "clips": 10,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "ac": {
+  "clips": 6,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "fridge": {
+  "clips": 6,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "rain": {
+  "clips": 6,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "street": {
+  "clips": 10,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "vacuum": {
+  "clips": 6,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "washer": {
+  "clips": 4,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ },
+ "beeps": {
+  "clips": 8,
+  "heard": 1,
+  "owner": 0,
+  "unsure": 0
+ },
+ "quiet": {
+  "clips": 10,
+  "heard": 0,
+  "owner": 0,
+  "unsure": 0
+ }
+}

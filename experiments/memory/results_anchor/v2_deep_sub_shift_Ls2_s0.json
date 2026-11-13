@@ -1,0 +1,31 @@
+{
+ "key": "deep_sub",
+ "ans": "shift",
+ "Ld": 18,
+ "Ls": 2,
+ "n": 40,
+ "C0": 0.8,
+ "C1": 0.0,
+ "examples": [
+  [
+   "behind the bookshelf",
+   "in the bookshelf. -> in",
+   "[Ivan's notebook is in"
+  ],
+  [
+   "in the laundry basket",
+   "in the laundry basket. -> in",
+   "[Mia, notebook]\nM"
+  ],
+  [
+   "in the toolbox",
+   "in the toolbox. [Tom|",
+   "[Tom|lost]\nI can"
+  ],
+  [
+   "in the red teapot",
+   "in the piano bench. [S",
+   "[Sara had a scarf]"
+  ]
+ ]
+}

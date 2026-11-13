@@ -1,0 +1,982 @@
+[
+ {
+  "day": 3,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.10370558500289917,
+  "second": 0.08899275958538055,
+  "top_label": [
+   "深藍色劍道護手",
+   "location"
+  ],
+  "top_value": "武具店",
+  "top_right": false,
+  "heard": "ria,我禮拜一跟你說我那父輩用眼鏡收去哪裡了啊?"
+ },
+ {
+  "day": 3,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.10111533105373383,
+  "second": 0.09640772640705109,
+  "top_label": [
+   "深藍色劍道護手",
+   "location"
+  ],
+  "top_value": "武具店",
+  "top_right": false,
+  "heard": "沒有跟你講過我那個風蠟印章放在哪個抽屜?"
+ },
+ {
+  "day": 4,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.16076162457466125,
+  "second": 0.0715349018573761,
+  "top_label": [
+   "五花果香精",
+   "value"
+  ],
+  "top_value": "稀釋比例為百分之十二（修正先前誤說的百分之十五）",
+  "top_right": true,
+  "heard": "無花果香精那個稀釋比例是多少啊。"
+ },
+ {
+  "day": 4,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2478008270263672,
+  "second": 0.10082438588142395,
+  "top_label": [
+   "衛林老闆",
+   "plan"
+  ],
+  "top_value": "會議改到第5天早上11點",
+  "top_right": true,
+  "heard": "我跟平氣林老闆看Sample是改到什麼時候。"
+ },
+ {
+  "day": 4,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.17710813879966736,
+  "second": 0.10364912450313568,
+  "top_label": [
+   "備用眼鏡",
+   "location"
+  ],
+  "top_value": "客廳茶几下面的藤邊盒",
+  "top_right": false,
+  "heard": "我太陽眼鏡收去哪了。"
+ },
+ {
+  "day": 5,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2499101608991623,
+  "second": 0.2141277939081192,
+  "top_label": [
+   "張富里",
+   "plan"
+  ],
+  "top_value": "寄送物品給張富里（百貨專櫃招商窗口，後續快閃店合約聯絡人）",
+  "top_right": true,
+  "heard": "百貨專櫃那個張副理事負責什麼的啊?"
+ },
+ {
+  "day": 5,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.41851088404655457,
+  "second": 0.12934306263923645,
+  "top_label": [
+   "舊水台",
+   "status"
+  ],
+  "top_value": "泡在塑膠桶裡消毒",
+  "top_right": false,
+  "heard": "我上次說換下來的舊水台泡在哪裡?"
+ },
+ {
+  "day": 5,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.40697747468948364,
+  "second": 0.15140579640865326,
+  "top_label": [
+   "薰衣草精油包裹",
+   "plan"
+  ],
+  "top_value": "第8天去郵局領取",
+  "top_right": false,
+  "heard": "我有沒有說過苦沉夜精油包裹什麼時候要去郵局裡?"
+ },
+ {
+  "day": 5,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.07899276912212372,
+  "second": 0.07731517404317856,
+  "top_label": [
+   "五花果香精",
+   "value"
+  ],
+  "top_value": "稀釋比例為百分之十二（修正先前誤說的百分之十五）",
+  "top_right": false,
+  "heard": "我工作室那把熱風槍丟去哪了?"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.41367292404174805,
+  "second": 0.11338339000940323,
+  "top_label": [
+   "備用眼鏡",
+   "location"
+  ],
+  "top_value": "客廳茶几下面的藤邊盒",
+  "top_right": true,
+  "heard": "我備用眼鏡現在到底放哪?"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4119602143764496,
+  "second": 0.3476714491844177,
+  "top_label": [
+   "螢幕蓋",
+   "attribute"
+  ],
+  "top_value": "不能改到後天，就是禮拜五早上11點",
+  "top_right": false,
+  "heard": "ria,這季新款擴廂屏幕蓋的尺寸是幾毫米。"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.14652438461780548,
+  "second": 0.0918952226638794,
+  "top_label": [
+   "春精油",
+   "location"
+  ],
+  "top_value": "收進中島下面的拉欄裡",
+  "top_right": false,
+  "heard": "Aria,我之前說那一箱瘋辣塊收在哪裡啊?"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.21101875603199005,
+  "second": 0.11293084174394608,
+  "top_label": [
+   "帳務文件",
+   "location"
+  ],
+  "top_value": "書架第三層綠色硬殼資料夾",
+  "top_right": true,
+  "heard": "我整理好要給會計師的發票收據塞在哪?"
+ },
+ {
+  "day": 6,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.13004262745380402,
+  "second": 0.12697833776474,
+  "top_label": [
+   "塑膠桶",
+   "time"
+  ],
+  "top_value": "週末要倒掉",
+  "top_right": false,
+  "heard": "我有沒有跟你講過路角角的液態肥料放哪?"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.38696926832199097,
+  "second": 0.1126818135380745,
+  "top_label": [
+   "平氣爆架單",
+   "location"
+  ],
+  "top_value": "工作室軟木賽留言板",
+  "top_right": true,
+  "heard": "林老闆那張瓶器報價單我後來放哪了"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.12558211386203766,
+  "second": 0.1055237203836441,
+  "top_label": [
+   "修織剪",
+   "attribute"
+  ],
+  "top_value": "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上",
+  "top_right": false,
+  "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.12558211386203766,
+  "second": 0.1055237203836441,
+  "top_label": [
+   "修織剪",
+   "attribute"
+  ],
+  "top_value": "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上",
+  "top_right": false,
+  "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.12558211386203766,
+  "second": 0.1055237203836441,
+  "top_label": [
+   "修織剪",
+   "attribute"
+  ],
+  "top_value": "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上",
+  "top_right": true,
+  "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.12558211386203766,
+  "second": 0.1055237203836441,
+  "top_label": [
+   "修織剪",
+   "attribute"
+  ],
+  "top_value": "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上",
+  "top_right": false,
+  "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.12558211386203766,
+  "second": 0.1055237203836441,
+  "top_label": [
+   "修織剪",
+   "attribute"
+  ],
+  "top_value": "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上",
+  "top_right": false,
+  "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０"
+ },
+ {
+  "day": 7,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.12558211386203766,
+  "second": 0.1055237203836441,
+  "top_label": [
+   "修織剪",
+   "attribute"
+  ],
+  "top_value": "已用防鏽油擦拭，現掛於陽台鐵窗S型鉤上",
+  "top_right": false,
+  "heard": "�Aria�我那把不鏽鋼架接刀掛在哪裡０"
+ },
+ {
+  "day": 7,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.07886696606874466,
+  "second": 0.067933589220047,
+  "top_label": [
+   "薰衣草精油包裹",
+   "plan"
+  ],
+  "top_value": "第8天去郵局領取",
+  "top_right": false,
+  "heard": "我有没有跟你说过我下礼拜三要跟哪个摄影师拍产品照"
+ },
+ {
+  "day": 9,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.46575793623924255,
+  "second": 0.18554310500621796,
+  "top_label": [
+   "新款大豆蠟燭",
+   "value"
+  ],
+  "top_value": "單顆重量要灌220克，做10顆加上損耗需計算總重",
+  "top_right": true,
+  "heard": "喂,Aria,我們新款大豆蠟燭單顆重量是罐幾克啊?"
+ },
+ {
+  "day": 9,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3081473708152771,
+  "second": 0.16038009524345398,
+  "top_label": [
+   "手沖咖啡",
+   "preference"
+  ],
+  "top_value": "只喝伊索比亞淺杯水洗豆，不喝深焙",
+  "top_right": true,
+  "heard": "我上次跟凱文說我現在手沖咖啡都喝什麼豆子。"
+ },
+ {
+  "day": 10,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.5934121608734131,
+  "second": 0.31962645053863525,
+  "top_label": [
+   "超音波清洗機",
+   "location"
+  ],
+  "top_value": "工作室（已修好，加熱功能正常）",
+  "top_right": false,
+  "heard": "工作室那台超音波清洗機現在狀況怎樣?"
+ },
+ {
+  "day": 10,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.23838141560554504,
+  "second": 0.06883928924798965,
+  "top_label": [
+   "不鏽鋼架接刀",
+   "location"
+  ],
+  "top_value": "不知道掛在哪裡（使用者正在尋找）",
+  "top_right": false,
+  "heard": "Aria,我有沒有跟你說過我那個皮革微裙掛在哪裡?"
+ },
+ {
+  "day": 10,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.3247067630290985,
+  "second": 0.18175601959228516,
+  "top_label": [
+   "不鏽鋼架接刀",
+   "location"
+  ],
+  "top_value": "不知道掛在哪裡（使用者正在尋找）",
+  "top_right": false,
+  "heard": "我那把黃銅珠心繭掛在哪裡?"
+ },
+ {
+  "day": 11,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2657979726791382,
+  "second": 0.2152637392282486,
+  "top_label": [
+   "香水燙金打樣",
+   "time"
+  ],
+  "top_value": "第11天下午三點去印刷廠確認",
+  "top_right": false,
+  "heard": "ria,我跟印刷場約看試文卡的燙金打樣式改到幾點。"
+ },
+ {
+  "day": 11,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.5760632753372192,
+  "second": 0.2904248833656311,
+  "top_label": [
+   "竹北選物店",
+   "relation"
+  ],
+  "top_value": "店長是林佩山",
+  "top_right": false,
+  "heard": "A竹北那家選物店的店長叫什麼名字啊?"
+ },
+ {
+  "day": 11,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.5644485950469971,
+  "second": 0.27268627285957336,
+  "top_label": [
+   "竹北選物店",
+   "value"
+  ],
+  "top_value": "與林沛三交易為買斷制，折扣7折",
+  "top_right": true,
+  "heard": "Aria,我們給竹北選物店的批發折扣最後是幾折?"
+ },
+ {
+  "day": 11,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.11513680219650269,
+  "second": 0.08613491803407669,
+  "top_label": [
+   "標籤列印機",
+   "status"
+  ],
+  "top_value": "色帶快沒了",
+  "top_right": false,
+  "heard": "我那個數位溫濕度計電池是不是沒電了?"
+ },
+ {
+  "day": 12,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.38867175579071045,
+  "second": 0.2593994736671448,
+  "top_label": [
+   "銀露露腳掛",
+   "location"
+  ],
+  "top_value": "浴室毛巾架上滴水",
+  "top_right": false,
+  "heard": "ria﹑我那顆銀露露角爵現在掛在哪裡﹑"
+ },
+ {
+  "day": 12,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.16663967072963715,
+  "second": 0.12274805456399918,
+  "top_label": [
+   "舊合約",
+   "location"
+  ],
+  "top_value": "主臥室衣櫃灰色保險箱",
+  "top_right": true,
+  "heard": "Aria﹑我禮拜二把那疊就合約收去哪裡了﹑"
+ },
+ {
+  "day": 12,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.43905460834503174,
+  "second": 0.37476253509521484,
+  "top_label": [
+   "茶香蠟燭竹心型號",
+   "value"
+  ],
+  "top_value": "雙重",
+  "top_right": false,
+  "heard": "我們新款茶香蠟燭是用幾號的什麼燭心啊﹑"
+ },
+ {
+  "day": 12,
+  "told": false,
+  "outcome": "never_answered",
+  "top_score": 0.28494104743003845,
+  "second": 0.23669129610061646,
+  "top_label": [
+   "銀露露腳掛",
+   "location"
+  ],
+  "top_value": "浴室毛巾架上滴水",
+  "top_right": false,
+  "heard": "Aria﹑我上次說皇冠露角爵掛在哪裡滴水﹑"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2774782180786133,
+  "second": 0.2228078693151474,
+  "top_label": [
+   "薰衣草精油",
+   "location"
+  ],
+  "top_value": "一樓樓梯下方櫻梁櫃",
+  "top_right": true,
+  "heard": "從法國寄來的那兩罐薰衣草精油旅品我後來改放到哪去了?"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4387015700340271,
+  "second": 0.25307950377464294,
+  "top_label": [
+   "黃銅滅竹林",
+   "location"
+  ],
+  "top_value": "改放進書房玻璃展示櫃第二層",
+  "top_right": true,
+  "heard": "Aria,我那個黃銅滅竹林現在放哪?"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4504025876522064,
+  "second": 0.1494113802909851,
+  "top_label": [
+   "熱熔膠條",
+   "location"
+  ],
+  "top_value": "工作桌右邊第二個抽屜",
+  "top_right": true,
+  "heard": "我備用的熱熔膠條放在哪個抽屜啊?"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.20935696363449097,
+  "second": 0.068861223757267,
+  "top_label": [
+   "聖誕節限定理",
+   "value"
+  ],
+  "top_value": "1680元/組，含大蠟燭及室內噴霧",
+  "top_right": true,
+  "heard": "聖誕節限定理合一組定價是多少錢?"
+ },
+ {
+  "day": 13,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.09543891251087189,
+  "second": 0.08822706341743469,
+  "top_label": [
+   "不鏽鋼架接刀",
+   "location"
+  ],
+  "top_value": "不知道掛在哪裡（使用者正在尋找）",
+  "top_right": false,
+  "heard": "我有沒有跟你講過我那把客自用的電烙鐵收在哪?"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.40481242537498474,
+  "second": 0.40471768379211426,
+  "top_label": [
+   "竹北選物店",
+   "plan"
+  ],
+  "top_value": "30顆雪松蠟燭第12天前出貨",
+  "top_right": false,
+  "heard": "主北選物店那三十顆雪松蠟燭後來是改到什麼時候要出貨。"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2687608599662781,
+  "second": 0.22546184062957764,
+  "top_label": [
+   "標籤列印機",
+   "status"
+  ],
+  "top_value": "色帶快沒了",
+  "top_right": false,
+  "heard": "ria,工作室那台標籤列印機現在狀況怎樣,"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.21941810846328735,
+  "second": 0.16898632049560547,
+  "top_label": [
+   "竹油",
+   "relation"
+  ],
+  "top_value": "竹刀專用",
+  "top_right": false,
+  "heard": "我昨天買的那罐保養豬油放哪去了?"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.5286222696304321,
+  "second": 0.16692373156547546,
+  "top_label": [
+   "路攪絕水台",
+   "plan"
+  ],
+  "top_value": "要用麻繩重綁",
+  "top_right": false,
+  "heard": "Aria,綁路攪絕水台的那捲麻繩我塞在哪裡?"
+ },
+ {
+  "day": 14,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.15439414978027344,
+  "second": 0.13620299100875854,
+  "top_label": [
+   "企業網銀評證",
+   "time"
+  ],
+  "top_value": "第17天早上11點",
+  "top_right": false,
+  "heard": "Aria,我下禮拜三早上十一點是不是要去銀行辦外币賬戶?"
+ },
+ {
+  "day": 14,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.1245998665690422,
+  "second": 0.09832856804132462,
+  "top_label": [
+   "展示架",
+   "location"
+  ],
+  "top_value": "工作室",
+  "top_right": false,
+  "heard": "我有沒有說過工作室冷氣浴網上次是什麼時候用?"
+ },
+ {
+  "day": 15,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.17207704484462738,
+  "second": 0.14041873812675476,
+  "top_label": [
+   "備用眼鏡",
+   "location"
+  ],
+  "top_value": "客廳茶几下面的藤邊盒",
+  "top_right": true,
+  "heard": "我那副黑框被用眼鏡上次是改放到哪裡去了。"
+ },
+ {
+  "day": 15,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.35579821467399597,
+  "second": 0.10709787160158157,
+  "top_label": [
+   "銀行辦外币賬戶",
+   "time"
+  ],
+  "top_value": "第17天早上十一點要去",
+  "top_right": true,
+  "heard": "Aria,我上禮拜說這個禮拜三早上十一點要去銀行辦什麼事啊。"
+ },
+ {
+  "day": 16,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.12027466297149658,
+  "second": 0.11304321885108948,
+  "top_label": [
+   "小電子秤",
+   "location"
+  ],
+  "top_value": "工作室軟木塞留言板",
+  "top_right": false,
+  "heard": "我那台春筋油的小便子秤現在放在哪裡?"
+ },
+ {
+  "day": 16,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2723081409931183,
+  "second": 0.17708897590637207,
+  "top_label": [
+   "蜂巢牛皮紙",
+   "preference"
+  ],
+  "top_value": "防撞包材",
+  "top_right": false,
+  "heard": "Aria,我上次說我們現在寄包裹的防撞包材都改用什麼?"
+ },
+ {
+  "day": 16,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.14191287755966187,
+  "second": 0.13918469846248627,
+  "top_label": [
+   "冷氣浴網",
+   "time"
+  ],
+  "top_value": "上次是什麼時候用（使用者詢問，非陳述事實，不列）",
+  "top_right": false,
+  "heard": "我有沒有跟你說過我那個手持掛燙機收在哪個櫃子?"
+ },
+ {
+  "day": 17,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.6423165202140808,
+  "second": 0.3726128339767456,
+  "top_label": [
+   "大瑪士格玫瑰圓金",
+   "location"
+  ],
+  "top_value": "鎖進條箱桌左邊第一個抽屜裡",
+  "top_right": true,
+  "heard": "ria,我那罐大瑪士格玫瑰圓金現在所在哪裡?"
+ },
+ {
+  "day": 17,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.2536952495574951,
+  "second": 0.2039753943681717,
+  "top_label": [
+   "調香噴霧機",
+   "value"
+  ],
+  "top_value": "比試80%古物酒精",
+  "top_right": false,
+  "heard": "ria,我們新款室內擴廂噴霧基底是用雞啪的什麼酒精?"
+ },
+ {
+  "day": 17,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.17564207315444946,
+  "second": 0.1055833026766777,
+  "top_label": [
+   "薰衣草精油",
+   "location"
+  ],
+  "top_value": "一樓樓梯下方櫻梁櫃",
+  "top_right": false,
+  "heard": "ria,我上次說甜曾經有鋁平放在哪個陰涼櫃?"
+ },
+ {
+  "day": 18,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.15221381187438965,
+  "second": 0.058813661336898804,
+  "top_label": [
+   "五花果香精",
+   "value"
+  ],
+  "top_value": "稀釋比例為百分之十二（修正先前誤說的百分之十五）",
+  "top_right": true,
+  "heard": "Aria 我第一天跟你記過的那個無花果香精西式比例是百分之幾啊。"
+ },
+ {
+  "day": 18,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.46015673875808716,
+  "second": 0.4368046522140503,
+  "top_label": [
+   "周宇恩",
+   "relation"
+  ],
+  "top_value": "周宇恩 | relation | 百貨快閃店視覺設計師（更正：無，此句未涉及#1）",
+  "top_right": false,
+  "heard": "ria 視覺設計師周宇恩說快閃電海報出稿改到什麼時候傳給我確認。"
+ },
+ {
+  "day": 18,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3820765018463135,
+  "second": 0.29275742173194885,
+  "top_label": [
+   "百貨快閃電押金",
+   "value"
+  ],
+  "top_value": "三萬元整",
+  "top_right": true,
+  "heard": "ria 我們這次百貨快閃電的押金是幾萬塊。"
+ },
+ {
+  "day": 18,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.2366914451122284,
+  "second": 0.16492801904678345,
+  "top_label": [
+   "快閃店海報",
+   "time"
+  ],
+  "top_value": "快閃店海報 | time | 第18天晚上（更正：無，此句未涉及#2）",
+  "top_right": false,
+  "heard": "ria 我有沒有說過快閃電要用的零錢盒放在哪裡。"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.23696568608283997,
+  "second": 0.19944533705711365,
+  "top_label": [
+   "火鍋湯底",
+   "preference"
+  ],
+  "top_value": "鍋皮辣椒雞，因喉嚨乾不想吃麻辣鍋",
+  "top_right": true,
+  "heard": "我上禮拜說去吃火鍋湯比都選什麼鍋。"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.30717799067497253,
+  "second": 0.15866103768348694,
+  "top_label": [
+   "鐵拖運單",
+   "location"
+  ],
+  "top_value": "玄關穿鞋椅旁磁鐵上",
+  "top_right": false,
+  "heard": "Aria,禮拜一那疊拖運單收直連我現在放哪?"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4212039113044739,
+  "second": 0.18284815549850464,
+  "top_label": [
+   "電子郵標卡尺",
+   "location"
+  ],
+  "top_value": "工作室工具牆黑色收納架",
+  "top_right": true,
+  "heard": "我新買的那把電子郵標卡實收在哪裡啊?"
+ },
+ {
+  "day": 19,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.37047916650772095,
+  "second": 0.1244463250041008,
+  "top_label": [
+   "企業網銀讀卡機",
+   "location"
+  ],
+  "top_value": "書房電腦螢幕下面",
+  "top_right": false,
+  "heard": "Aria,我那個個人網銀讀卡機放在哪裡?"
+ },
+ {
+  "day": 20,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2453092336654663,
+  "second": 0.1737961769104004,
+  "top_label": [
+   "帳務文件",
+   "location"
+  ],
+  "top_value": "書架第三層綠色硬殼資料夾",
+  "top_right": true,
+  "heard": "Aria,我之前整理好要給會計師的那袋發票與收據是塞在書架哪裡。"
+ },
+ {
+  "day": 20,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.428962767124176,
+  "second": 0.38137227296829224,
+  "top_label": [
+   "向耳露腳掘測牙",
+   "status"
+  ],
+  "top_value": "需硬乾，不能吹風",
+  "top_right": false,
+  "heard": "Aria,我接下來的向耳露腳決策牙現在放在哪裡敷牙。"
+ },
+ {
+  "day": 20,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.41307204961776733,
+  "second": 0.39847150444984436,
+  "top_label": [
+   "調香實驗袍",
+   "status"
+  ],
+  "top_value": "已清洗脫水，晾在頂樓曬衣場最裡面的竹竿上",
+  "top_right": false,
+  "heard": "Aria,我那件白色的調香實驗袍現在掛在哪。"
+ },
+ {
+  "day": 20,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.11533267050981522,
+  "second": 0.09640242159366608,
+  "top_label": [
+   "冷氣浴網",
+   "time"
+  ],
+  "top_value": "上次是什麼時候用（使用者詢問，非陳述事實，不列）",
+  "top_right": false,
+  "heard": "Aria,我有沒有跟你講過備用的玻璃燒,"
+ },
+ {
+  "day": 21,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.46791309118270874,
+  "second": 0.360477089881897,
+  "top_label": [
+   "專櫃進場證",
+   "plan"
+  ],
+  "top_value": "第23天早上十點要去百貨公司辦理",
+  "top_right": false,
+  "heard": "Aria,我下禮拜二去百貨公司辦專櫃進場正式改到幾點?"
+ },
+ {
+  "day": 21,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.23967069387435913,
+  "second": 0.1457192301750183,
+  "top_label": [
+   "熔蠟鍋",
+   "status"
+  ],
+  "top_value": "溫控旋鈕已修好",
+  "top_right": true,
+  "heard": "Aria,工作室那台融蠟鍋現在狀況怎樣?修好了嗎?"
+ },
+ {
+  "day": 21,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.4929236173629761,
+  "second": 0.16707488894462585,
+  "top_label": [
+   "新款隨身滾珠香水",
+   "value"
+  ],
+  "top_value": "容量是8毫升",
+  "top_right": false,
+  "heard": "Aria,我們新款隨身噴霧香水瓶的容量是幾毫升?"
+ },
+ {
+  "day": 21,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.1980707347393036,
+  "second": 0.15108108520507812,
+  "top_label": [
+   "快閃店海報",
+   "time"
+  ],
+  "top_value": "快閃店海報 | time | 第18天晚上（更正：無，此句未涉及#2）",
+  "top_right": false,
+  "heard": "Aria,我有沒有跟你說過我們快閃電的發票張收在哪個抽屜?"
+ }
+]

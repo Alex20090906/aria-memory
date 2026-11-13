@@ -1,0 +1,23 @@
+W1105 21:43:27.050000 6768 ~\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\scratch-workspaces\2001fd13-370b-4e53-9a7f-af84919fcf52\c6c11626-1e34-4bda-90d8-55502aa7f176\scratch-2026-11-03-d1f1b4\experiments\venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   3%|▎         | 11/338 [00:00<00:04, 76.48it/s]Loading weights:   7%|▋         | 24/338 [00:00<00:04, 74.39it/s]Loading weights:  10%|█         | 35/338 [00:00<00:03, 84.14it/s]Loading weights:  14%|█▍        | 47/338 [00:00<00:03, 77.16it/s]Loading weights:  17%|█▋        | 57/338 [00:00<00:03, 75.80it/s]Loading weights:  19%|█▉        | 65/338 [00:00<00:03, 72.48it/s]Loading weights:  22%|██▏       | 73/338 [00:01<00:03, 66.83it/s]Loading weights:  24%|██▍       | 81/338 [00:01<00:03, 66.75it/s]Loading weights:  28%|██▊       | 94/338 [00:01<00:03, 78.59it/s]Loading weights:  30%|███       | 102/338 [00:01<00:03, 74.75it/s]Loading weights:  33%|███▎      | 110/338 [00:01<00:03, 69.98it/s]Loading weights:  35%|███▍      | 118/338 [00:01<00:03, 64.05it/s]Loading weights:  39%|███▉      | 131/338 [00:01<00:02, 73.65it/s]Loading weights:  42%|████▏     | 143/338 [00:01<00:02, 80.16it/s]Loading weights:  45%|████▍     | 152/338 [00:02<00:02, 77.53it/s]Loading weights:  47%|████▋     | 160/338 [00:02<00:02, 70.62it/s]Loading weights:  50%|████▉     | 168/338 [00:02<00:02, 70.99it/s]Loading weights:  53%|█████▎    | 179/338 [00:02<00:02, 70.24it/s]Loading weights:  57%|█████▋    | 191/338 [00:02<00:02, 63.47it/s]Loading weights:  60%|██████    | 203/338 [00:02<00:02, 66.42it/s]Loading weights:  63%|██████▎   | 213/338 [00:02<00:01, 71.62it/s]Loading weights:  67%|██████▋   | 227/338 [00:03<00:01, 68.74it/s]Loading weights:  70%|███████   | 238/338 [00:03<00:01, 74.78it/s]Loading weights:  74%|███████▍  | 251/338 [00:03<00:01, 68.63it/s]Loading weights:  78%|███████▊  | 263/338 [00:03<00:01, 69.64it/s]Loading weights:  81%|████████  | 273/338 [00:03<00:00, 67.31it/s]Loading weights:  84%|████████▍ | 285/338 [00:03<00:00, 74.52it/s]Loading weights:  88%|████████▊ | 298/338 [00:04<00:00, 80.40it/s]Loading weights:  91%|█████████ | 307/338 [00:04<00:00, 77.83it/s]Loading weights:  93%|█████████▎| 315/338 [00:04<00:00, 67.80it/s]Loading weights:  96%|█████████▌| 325/338 [00:04<00:00, 70.44it/s]Loading weights: 100%|██████████| 338/338 [00:04<00:00, 73.92it/s]
+[Dc] day 1 done  wall 7s  writes 6 agenda 2 idle 9 stops 3 PR 623
+[Dc] day 2 done  wall 11s  writes 18 agenda 3 idle 17 stops 5 PR 1093
+[Dc] day 3 done  wall 25s  writes 40 agenda 5 idle 31 stops 9 PR 1994
+[Dc] day 4 done  wall 38s  writes 69 agenda 5 idle 46 stops 12 PR 2482
+[Dc] day 5 done  wall 50s  writes 108 agenda 5 idle 56 stops 15 PR 2611
+[Dc] day 6 done  wall 65s  writes 155 agenda 5 idle 71 stops 20 PR 2509
+[Dc] day 7 done  wall 75s  writes 197 agenda 4 idle 73 stops 20 PR 1782
+[Dc] day 8 done  wall 88s  writes 247 agenda 2 idle 80 stops 23 PR 2043
+[Dc] day 9 done  wall 108s  writes 301 agenda 5 idle 93 stops 28 PR 2188
+[Dc] day 10 done  wall 131s  writes 363 agenda 5 idle 107 stops 32 PR 2335
+[Dc] day 11 done  wall 153s  writes 430 agenda 5 idle 120 stops 36 PR 2215
+[Dc] day 12 done  wall 172s  writes 504 agenda 5 idle 130 stops 40 PR 2236
+[Dc] day 13 done  wall 194s  writes 571 agenda 5 idle 143 stops 43 PR 2240
+[Dc] day 14 done  wall 208s  writes 634 agenda 5 idle 149 stops 44 PR 1886
+[Dc] day 15 done  wall 226s  writes 704 agenda 3 idle 157 stops 47 PR 1869
+[Dc] day 16 done  wall 247s  writes 779 agenda 2 idle 168 stops 51 PR 1676
+[Dc] day 17 done  wall 267s  writes 849 agenda 2 idle 177 stops 55 PR 1713
+[Dc] day 18 done  wall 291s  writes 916 agenda 5 idle 194 stops 60 PR 2000
+[Dc] day 19 done  wall 309s  writes 984 agenda 4 idle 201 stops 62 PR 1853
+[Dc] day 20 done  wall 323s  writes 1050 agenda 2 idle 207 stops 64 PR 1796
+[Dc] day 21 done  wall 337s  writes 1113 agenda 3 idle 210 stops 64 PR 1630

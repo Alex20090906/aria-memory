@@ -1,0 +1,76 @@
+{
+ "args": {
+  "n": 150,
+  "tau_w": 40.0,
+  "tau_theta": 2000.0,
+  "D": 32768,
+  "k": 20,
+  "seed": 4,
+  "device": "cpu",
+  "out": "results"
+ },
+ "cos_event_vs_similar_lure": 0.8253889679908752,
+ "chance_recall": 0.1,
+ "results": {
+  "dense": [
+   {
+    "age": "0-20",
+    "n": 20,
+    "recall": 0.3,
+    "auc_vs_similar": 0.5675,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "20-50",
+    "n": 30,
+    "recall": 0.06666666666666667,
+    "auc_vs_similar": 0.4711111111111111,
+    "auc_vs_unrelated": 0.9788888888888889
+   },
+   {
+    "age": "50-100",
+    "n": 50,
+    "recall": 0.06,
+    "auc_vs_similar": 0.5176,
+    "auc_vs_unrelated": 0.9956
+   },
+   {
+    "age": "100-200",
+    "n": 50,
+    "recall": 0.1,
+    "auc_vs_similar": 0.548,
+    "auc_vs_unrelated": 0.9992
+   }
+  ],
+  "sparse": [
+   {
+    "age": "0-20",
+    "n": 20,
+    "recall": 0.9,
+    "auc_vs_similar": 0.765,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "20-50",
+    "n": 30,
+    "recall": 0.3333333333333333,
+    "auc_vs_similar": 0.7988888888888889,
+    "auc_vs_unrelated": 1.0
+   },
+   {
+    "age": "50-100",
+    "n": 50,
+    "recall": 0.24,
+    "auc_vs_similar": 0.7084,
+    "auc_vs_unrelated": 0.9996
+   },
+   {
+    "age": "100-200",
+    "n": 50,
+    "recall": 0.14,
+    "auc_vs_similar": 0.7284,
+    "auc_vs_unrelated": 1.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+== zh_result_F_stage_log.json
+  tau 0.6 E           : right 28 (direct 20, ask 8) | ask wrong 4 | direct wrong 6 | none 7 | never asked 3 answered 2
+  tau 0.6 P rho 0.8   : right 22 (direct 20, ask 2) | ask wrong 2 | direct wrong 6 | none 15 | never asked 1 answered 2
+  tau 0.6 P rho 0.9   : right 21 (direct 20, ask 1) | ask wrong 2 | direct wrong 6 | none 16 | never asked 0 answered 2
+  tau 0.6 P rho 1.0   : right 21 (direct 20, ask 1) | ask wrong 2 | direct wrong 6 | none 16 | never asked 0 answered 2
+  tau 0.6 E+P rho 0.8 : right 28 (direct 20, ask 8) | ask wrong 4 | direct wrong 6 | none 7 | never asked 4 answered 2
+  tau 0.6 E+P rho 0.9 : right 28 (direct 20, ask 8) | ask wrong 4 | direct wrong 6 | none 7 | never asked 3 answered 2
+  tau 0.6 E+P rho 1.0 : right 28 (direct 20, ask 8) | ask wrong 4 | direct wrong 6 | none 7 | never asked 3 answered 2
+    sound told  除濕機 [除濕機|status] -> 廚師機|status 1.00 '第12天晚上7:30' ok=False
+    sound told  血壓藥 [血壓藥|value] -> 血壓藥|plan 1.00 '每天早上飯後吃半顆' ok=True
+    sound never 咖啡豆 [咖啡豆|attribute] -> 咖啡|preference 0.80 '冰燕麥拿鐵不加糖' ok=None
+    sound told  行動電源 [黑色行動電源|location] -> 行動電源|location 0.80 '床頭櫃充電座' ok=True
+    sound told  體重計電池 [體重計|value] -> 體重計|plan 1.00 '下次去全聯購買' ok=False

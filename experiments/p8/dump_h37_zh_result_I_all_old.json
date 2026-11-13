@@ -1,0 +1,884 @@
+[
+ {
+  "day": 3,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.42047959566116333,
+  "second": 0.1948147863149643,
+  "top_label": [
+   "護照",
+   "location"
+  ],
+  "top_value": "書房抽屜",
+  "top_right": false,
+  "heard": "我護照臉。"
+ },
+ {
+  "day": 3,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.19174331426620483,
+  "second": 0.14636604487895966,
+  "top_label": [
+   "健身房教練",
+   "relation"
+  ],
+  "top_value": "Kevin",
+  "top_right": false,
+  "heard": "跟你說過我現在喝咖啡都點什麼?"
+ },
+ {
+  "day": 3,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.1572021245956421,
+  "second": 0.13644179701805115,
+  "top_label": [
+   "廚師機",
+   "location"
+  ],
+  "top_value": "陽台",
+  "top_right": false,
+  "heard": "那我的台包正放哪你知道嗎?"
+ },
+ {
+  "day": 4,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.14081081748008728,
+  "second": 0.1384020447731018,
+  "top_label": [
+   "護照",
+   "location"
+  ],
+  "top_value": "書房抽屜",
+  "top_right": false,
+  "heard": "我那個牙衣後來是改到什麼時候啊?"
+ },
+ {
+  "day": 4,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4685339629650116,
+  "second": 0.21935468912124634,
+  "top_label": [
+   "健身房教練",
+   "relation"
+  ],
+  "top_value": "Kevin",
+  "top_right": true,
+  "heard": "欸,我上次跟你講我那個健身房教練叫什麼名"
+ },
+ {
+  "day": 4,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.13491231203079224,
+  "second": 0.08044084906578064,
+  "top_label": [
+   "護照",
+   "location"
+  ],
+  "top_value": "黑色後背包夾層",
+  "top_right": false,
+  "heard": "看到我那把黑色折疊散在哪嗎?"
+ },
+ {
+  "day": 4,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4325500428676605,
+  "second": 0.10256340354681015,
+  "top_label": [
+   "新Project專案報告",
+   "time"
+  ],
+  "top_value": "Deadline是第5天中午十二點前",
+  "top_right": true,
+  "heard": "那個我專案報告的deadline是禮拜五幾點啦。"
+ },
+ {
+  "day": 5,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.15928983688354492,
+  "second": 0.1560031771659851,
+  "top_label": [
+   "體重計",
+   "status"
+  ],
+  "top_value": "螢幕不亮，需確認是否有四號電池可換",
+  "top_right": false,
+  "heard": "家裡把電池啊,是否是怎麼樣?是什麼?是誰什麼型號?"
+ },
+ {
+  "day": 5,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.11957123875617981,
+  "second": 0.08065389096736908,
+  "top_label": [
+   "小傑",
+   "attribute"
+  ],
+  "top_value": "對花生嚴重過敏",
+  "top_right": true,
+  "heard": "他是不是對什麼東西過"
+ },
+ {
+  "day": 5,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.0694374069571495,
+  "second": 0.06890922784805298,
+  "top_label": [
+   "護照",
+   "location"
+  ],
+  "top_value": "書房抽屜",
+  "top_right": false,
+  "heard": "誒我那個電動起子是不是也借給隔壁城"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3052881062030792,
+  "second": 0.24961955845355988,
+  "top_label": [
+   "藍牙耳機",
+   "location"
+  ],
+  "top_value": "公司辦公桌抽屜",
+  "top_right": true,
+  "heard": "我的藍牙耳機現在到底在哪裡啊?"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.40320783853530884,
+  "second": 0.3512905538082123,
+  "top_label": [
+   "媽媽生日聚餐",
+   "plan"
+  ],
+  "top_value": "改吃將這菜（原話可能為蔣記或類似店名，依語音保留）",
+  "top_right": false,
+  "heard": "我媽生日聚餐我們後來改哪時候,吃什麼啊?"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2821779251098633,
+  "second": 0.27527520060539246,
+  "top_label": [
+   "體重計",
+   "status"
+  ],
+  "top_value": "已更換4號電池，功能正常",
+  "top_right": true,
+  "heard": "那個體重計現在可以用了嗎?"
+ },
+ {
+  "day": 6,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.08809924125671387,
+  "second": 0.07633277028799057,
+  "top_label": [
+   "媽媽生日聚餐",
+   "plan"
+  ],
+  "top_value": "改吃將這菜（原話可能為蔣記或類似店名，依語音保留）",
+  "top_right": false,
+  "heard": "跟你講過這汽水電費多少錢?"
+ },
+ {
+  "day": 6,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.37093687057495117,
+  "second": 0.3475974202156067,
+  "top_label": [
+   "襯衫",
+   "attribute"
+  ],
+  "top_value": "烘衣機需低溫、三十分鐘，否則領口會壞",
+  "top_right": false,
+  "heard": "我襯衫丟烘衣機那時候說要怎麼設定。"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.30868422985076904,
+  "second": 0.2137783020734787,
+  "top_label": [
+   "露營燈",
+   "location"
+  ],
+  "top_value": "陽台儲藏櫃第二層",
+  "top_right": false,
+  "heard": "陽台那個露營燈現在在哪?"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3708958625793457,
+  "second": 0.2153967022895813,
+  "top_label": [
+   "汽車保養",
+   "time"
+  ],
+  "top_value": "第9天早上9點",
+  "top_right": true,
+  "heard": "我禮拜五約汽車保養室約哪一天幾點啊?"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.317316472530365,
+  "second": 0.16643276810646057,
+  "top_label": [
+   "乾洗收據",
+   "location"
+  ],
+  "top_value": "冰箱門上磁鐵旁",
+  "top_right": true,
+  "heard": "ria,我昨天說把那個乾洗片收據加在哪裡?"
+ },
+ {
+  "day": 7,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.2745136618614197,
+  "second": 0.07243820279836655,
+  "top_label": [
+   "貓飼料",
+   "value"
+  ],
+  "top_value": "五股雞肉魚配方",
+  "top_right": false,
+  "heard": "貓飼料我後來跟你說要買什麼口味。"
+ },
+ {
+  "day": 7,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.10986343026161194,
+  "second": 0.08540500700473785,
+  "top_label": [
+   "貓飼料",
+   "value"
+  ],
+  "top_value": "五股雞肉魚配方",
+  "top_right": false,
+  "heard": "那我有跟你說過貓鯊是用哪個牌子嗎?"
+ },
+ {
+  "day": 7,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.1201225072145462,
+  "second": 0.09381987154483795,
+  "top_label": [
+   "健身房教練",
+   "relation"
+  ],
+  "top_value": "Kevin",
+  "top_right": false,
+  "heard": "我禮拜幾有英文加教課啊。"
+ },
+ {
+  "day": 9,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.16288404166698456,
+  "second": 0.08846524357795715,
+  "top_label": [
+   "圓形印章",
+   "location"
+  ],
+  "top_value": "書桌左邊筆桶",
+  "top_right": true,
+  "heard": "ria﹑我昨天把印章賽去哪了啊"
+ },
+ {
+  "day": 9,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.11172223091125488,
+  "second": 0.08007553219795227,
+  "top_label": [
+   "健身房教練",
+   "relation"
+  ],
+  "top_value": "Kevin",
+  "top_right": false,
+  "heard": "ria﹑我有沒有跟你講過我喝手搖飲都點什麼﹑"
+ },
+ {
+  "day": 10,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3563418984413147,
+  "second": 0.34578877687454224,
+  "top_label": [
+   "備用鑰匙",
+   "location"
+  ],
+  "top_value": "電視櫃第二個抽屜",
+  "top_right": false,
+  "heard": "ria,被用鑰匙現在放哪?"
+ },
+ {
+  "day": 10,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.13497141003608704,
+  "second": 0.1328551173210144,
+  "top_label": [
+   "體重計",
+   "status"
+  ],
+  "top_value": "已更換4號電池，功能正常",
+  "top_right": false,
+  "heard": "那個,我上次跟你講量體重那個東西賽拿去了。"
+ },
+ {
+  "day": 10,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.229048952460289,
+  "second": 0.1834227442741394,
+  "top_label": [
+   "藍牙耳機",
+   "location"
+  ],
+  "top_value": "灰色西裝外套口袋",
+  "top_right": false,
+  "heard": "我乾洗的西裝外套是不是禮拜五要去拿?"
+ },
+ {
+  "day": 11,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.24257081747055054,
+  "second": 0.15626457333564758,
+  "top_label": [
+   "洗牙",
+   "time"
+  ],
+  "top_value": "第12天下午2點",
+  "top_right": true,
+  "heard": "我洗牙後來是改到什麼時候啊?"
+ },
+ {
+  "day": 11,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.12823164463043213,
+  "second": 0.07683350890874863,
+  "top_label": [
+   "藍牙耳機",
+   "location"
+  ],
+  "top_value": "公司辦公桌抽屜",
+  "top_right": false,
+  "heard": "Kevin是我們公司的誰啊?"
+ },
+ {
+  "day": 11,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.14284388720989227,
+  "second": 0.1253778338432312,
+  "top_label": [
+   "廚師機",
+   "status"
+  ],
+  "top_value": "未乾",
+  "top_right": false,
+  "heard": "除濕機現在狀況怎樣,弄好了沒?"
+ },
+ {
+  "day": 11,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.14407190680503845,
+  "second": 0.137058287858963,
+  "top_label": [
+   "陽台儲藏櫃",
+   "location"
+  ],
+  "top_value": "第二層",
+  "top_right": false,
+  "heard": "我台包正放哪裡?"
+ },
+ {
+  "day": 12,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2995845675468445,
+  "second": 0.26920241117477417,
+  "top_label": [
+   "瑜伽課",
+   "plan"
+  ],
+  "top_value": "今晚取消，改下禮拜",
+  "top_right": true,
+  "heard": "Aria,我這禮拜的瑜伽課是什麼時候?"
+ },
+ {
+  "day": 12,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.20577968657016754,
+  "second": 0.06827517598867416,
+  "top_label": [
+   "血壓藥",
+   "plan"
+  ],
+  "top_value": "每天早上飯後吃半顆",
+  "top_right": true,
+  "heard": "Aria,我有沒有跟你說過那個血壓要怎麼吃?"
+ },
+ {
+  "day": 12,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.07810860872268677,
+  "second": 0.07406800240278244,
+  "top_label": [
+   "瑜伽課",
+   "plan"
+  ],
+  "top_value": "今晚取消，改下禮拜",
+  "top_right": false,
+  "heard": "ria,樓下管理室包裹的取件編號是多少?"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.11810407042503357,
+  "second": 0.11595819145441055,
+  "top_label": [
+   "護照",
+   "location"
+  ],
+  "top_value": "書房抽屜",
+  "top_right": false,
+  "heard": "Aria,我存折現在放哪?"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.36031201481819153,
+  "second": 0.31191784143447876,
+  "top_label": [
+   "修車行",
+   "value"
+  ],
+  "top_value": "報價800元",
+  "top_right": true,
+  "heard": "Aria,我腳踏車送去修,車行老闆說要多少錢啦。"
+ },
+ {
+  "day": 13,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2544874846935272,
+  "second": 0.22963419556617737,
+  "top_label": [
+   "小姑姑",
+   "attribute"
+  ],
+  "top_value": "對花生、甲殼類過敏",
+  "top_right": true,
+  "heard": "Aria,小姑姑吃東西有什麼不能吃的嗎?"
+ },
+ {
+  "day": 13,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.1064964085817337,
+  "second": 0.08633727580308914,
+  "top_label": [
+   "洗衣機",
+   "status"
+  ],
+  "top_value": "保護至第345天（明年11月），若故障需送修",
+  "top_right": false,
+  "heard": "我們家洗碗機保護到什麼時候?"
+ },
+ {
+  "day": 13,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.15466755628585815,
+  "second": 0.10016252100467682,
+  "top_label": [
+   "咖啡",
+   "preference"
+  ],
+  "top_value": "冰燕麥拿鐵加糖",
+  "top_right": false,
+  "heard": "我上次買那個咖啡豆是哪一個國家的?"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.20952042937278748,
+  "second": 0.12631842494010925,
+  "top_label": [
+   "冷氣",
+   "plan"
+  ],
+  "top_value": "第13天早上10點維修",
+  "top_right": false,
+  "heard": "冷氣師傅昨天到底是幾點來的啊?"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4526035189628601,
+  "second": 0.2400696873664856,
+  "top_label": [
+   "行動電源",
+   "status"
+  ],
+  "top_value": "黑色Type-C 10000mAh",
+  "top_right": false,
+  "heard": "欸我那個黑色行動電源咧,"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.22519807517528534,
+  "second": 0.21899598836898804,
+  "top_label": [
+   "帳篷",
+   "status"
+  ],
+  "top_value": "借給阿哲，已搬下樓讓他載走；相關文件（綠色資料夾）已移至隨身托特包夾層",
+  "top_right": true,
+  "heard": "Aria 我們家那個露營帳篷去哪了?"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.14169754087924957,
+  "second": 0.12408921122550964,
+  "top_label": [
+   "健身房教練",
+   "relation"
+  ],
+  "top_value": "Kevin",
+  "top_right": false,
+  "heard": "Aria 我平常喝咖啡都點什麼?"
+ },
+ {
+  "day": 14,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3026699423789978,
+  "second": 0.1961788535118103,
+  "top_label": [
+   "機票",
+   "plan"
+  ],
+  "top_value": "十月去東京五天四夜，住宿訂在上野車站附近飯店",
+  "top_right": true,
+  "heard": "我上次跟你講十月去東京,飯店是訂在哪一區啊?"
+ },
+ {
+  "day": 14,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.15913937985897064,
+  "second": 0.1096019521355629,
+  "top_label": [
+   "汽車保養",
+   "time"
+  ],
+  "top_value": "第9天早上9點",
+  "top_right": false,
+  "heard": "Aria 我有沒有跟你說過我汽車保險哪時候到期?"
+ },
+ {
+  "day": 17,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.3052251935005188,
+  "second": 0.2530098557472229,
+  "top_label": [
+   "手沖咖啡豆",
+   "preference"
+  ],
+  "top_value": "只喝前輩伊索比亞",
+  "top_right": false,
+  "heard": "欸Aria,我有沒有講過我手沖咖啡豆都喝什麼口味的啊?"
+ },
+ {
+  "day": 18,
+  "told": true,
+  "outcome": "wrong",
+  "top_score": 0.1960185468196869,
+  "second": 0.11986442655324936,
+  "top_label": [
+   "洗牙",
+   "time"
+  ],
+  "top_value": "第12天下午2點",
+  "top_right": false,
+  "heard": "誒我那個洗牙到底是改到什麼時候啊?"
+ },
+ {
+  "day": 18,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.16865400969982147,
+  "second": 0.12656506896018982,
+  "top_label": [
+   "烘衣機",
+   "status"
+  ],
+  "top_value": "濾網已清理",
+  "top_right": false,
+  "heard": "Aria,轟衣機率往現在是什麼狀況?"
+ },
+ {
+  "day": 18,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.17253758013248444,
+  "second": 0.08218841254711151,
+  "top_label": [
+   "備用鑰匙",
+   "location"
+  ],
+  "top_value": "拿去",
+  "top_right": false,
+  "heard": "誒,那我的機車要釋放哪?"
+ },
+ {
+  "day": 18,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.32141822576522827,
+  "second": 0.29180702567100525,
+  "top_label": [
+   "護照",
+   "location"
+  ],
+  "top_value": "書房抽屜",
+  "top_right": false,
+  "heard": "Aria,我護照臉。"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.284988671541214,
+  "second": 0.26431018114089966,
+  "top_label": [
+   "耳機充電盒",
+   "location"
+  ],
+  "top_value": "常穿外套左邊口袋",
+  "top_right": true,
+  "heard": "欸Aria,我那個耳機充電盒現在是在哪裡啊，,"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.43029704689979553,
+  "second": 0.33712238073349,
+  "top_label": [
+   "乳清蛋白",
+   "attribute"
+  ],
+  "top_value": "抹茶口味",
+  "top_right": true,
+  "heard": "我上次買那個乳清蛋白是什麼口味的啊，"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2639426290988922,
+  "second": 0.23037312924861908,
+  "top_label": [
+   "體重計",
+   "value"
+  ],
+  "top_value": "需裝兩顆4號電池",
+  "top_right": true,
+  "heard": "還有那個體重計便吃，我是說要買幾號幾顆來著，"
+ },
+ {
+  "day": 19,
+  "told": false,
+  "outcome": "never_answered",
+  "top_score": 0.22832843661308289,
+  "second": 0.16676115989685059,
+  "top_label": [
+   "冷氣遙控器",
+   "location"
+  ],
+  "top_value": "沙發右手邊收納袋",
+  "top_right": false,
+  "heard": "那冷氣遙控器便吃咧"
+ },
+ {
+  "day": 19,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3950859606266022,
+  "second": 0.3611166477203369,
+  "top_label": [
+   "慢跑鞋",
+   "status"
+  ],
+  "top_value": "不在家，送洗中，週末取回",
+  "top_right": true,
+  "heard": "给我那双慢跑鞋现在怎么样了"
+ },
+ {
+  "day": 20,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.14457204937934875,
+  "second": 0.10448689758777618,
+  "top_label": [
+   "老張婚禮",
+   "time"
+  ],
+  "top_value": "第20天中午",
+  "top_right": false,
+  "heard": "Aria,我今天中午要喝喜酒那個老張,我有沒有跟你講過他是我誰啊，"
+ },
+ {
+  "day": 20,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.3987065553665161,
+  "second": 0.2192360758781433,
+  "top_label": [
+   "老張婚禮",
+   "time"
+  ],
+  "top_value": "第20天中午",
+  "top_right": true,
+  "heard": "然後老張婚禮是幾點開始，"
+ },
+ {
+  "day": 20,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.11020345985889435,
+  "second": 0.08020687103271484,
+  "top_label": [
+   "四號電池",
+   "plan"
+  ],
+  "top_value": "明天去全聯買",
+  "top_right": false,
+  "heard": "我是塞去哪裡了，"
+ },
+ {
+  "day": 21,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.09712527692317963,
+  "second": 0.06957726925611496,
+  "top_label": [
+   "備用鑰匙",
+   "location"
+  ],
+  "top_value": "拿去",
+  "top_right": false,
+  "heard": "Aria,我的游泳挖鏡放哪裡啊?"
+ },
+ {
+  "day": 21,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.4096374213695526,
+  "second": 0.3183208107948303,
+  "top_label": [
+   "筆電充電器",
+   "location"
+  ],
+  "top_value": "托特包",
+  "top_right": true,
+  "heard": "還有我那個筆電充電器,我最後是收去哪了?"
+ },
+ {
+  "day": 21,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.2461877167224884,
+  "second": 0.2214764505624771,
+  "top_label": [
+   "小美",
+   "plan"
+  ],
+  "top_value": "第19天下午公司訂飲料外送",
+  "top_right": false,
+  "heard": "A我現在如果叫飲料外送,我是都喝什麼啊?"
+ },
+ {
+  "day": 21,
+  "told": true,
+  "outcome": "ok",
+  "top_score": 0.37227708101272583,
+  "second": 0.23094384372234344,
+  "top_label": [
+   "汽車保養",
+   "time"
+  ],
+  "top_value": "第9天早上9點",
+  "top_right": true,
+  "heard": "我今天那個汽車保養是約幾點?"
+ },
+ {
+  "day": 21,
+  "told": true,
+  "outcome": "none",
+  "top_score": 0.1654742807149887,
+  "second": 0.16493013501167297,
+  "top_label": [
+   "乾洗收據",
+   "location"
+  ],
+  "top_value": "冰箱門上磁鐵旁",
+  "top_right": true,
+  "heard": "還有那個乾洗電取件單臉,放哪去了?"
+ },
+ {
+  "day": 21,
+  "told": false,
+  "outcome": "never_kept",
+  "top_score": 0.16445216536521912,
+  "second": 0.06429131329059601,
+  "top_label": [
+   "備用鑰匙",
+   "location"
+  ],
+  "top_value": "拿去",
+  "top_right": false,
+  "heard": "Aria,我有沒有跟你說過我的保溫杯放哪?"
+ }
+]

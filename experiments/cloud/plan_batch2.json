@@ -1,0 +1,51 @@
+[
+ {
+  "tag": "m_echo_protect",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140 ",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_ECHO": "1",
+   "SLEEP_PROTECT": "1",
+   "FMEM_CONF_PMIN": "1e-9",
+   "SLEEP_TAG": "_echo_protect"
+  }
+ },
+ {
+  "tag": "m_echo_pmin09",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140 ",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_ECHO": "1",
+   "FMEM_CONF_PMIN": "0.9",
+   "SLEEP_TAG": "_echo_pmin09"
+  }
+ },
+ {
+  "tag": "m_echo_seed1",
+  "cmd": "/opt/llm/terminal/python/bin/python3 sleep.py --mode sleep --core 60 --noise 1140 --seed 1",
+  "envs": {
+   "PYTHONUTF8": "1",
+   "SLEEP_BIG": "1",
+   "SLEEP_REAL": "1",
+   "FMEM_ANCHOR_OFFSET": "0",
+   "FMEM_ERR_DRIVEN": "1",
+   "FMEM_KEY": "cross",
+   "FMEM_SHIFT_NOTOK": "1",
+   "FMEM_ECHO": "1",
+   "FMEM_CONF_PMIN": "1e-9",
+   "SLEEP_TAG": "_echo_seed1"
+  }
+ }
+]

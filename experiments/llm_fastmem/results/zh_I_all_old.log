@@ -1,0 +1,252 @@
+memory cleared
+day  1 WRITE[listen] 護照|location -> 書房抽屜   <- 講一下哦,我那個護照啊,我剛剛收進書房房朝香了,免得我又到處亂丟找不到。
+day  1 WRITE[listen] 太陽眼鏡|location -> 玄關鞋櫃最上面   <- Aria,就改放玄關鞋櫃最上面那個啦,
+day  1 WRITE[listen] 牙醫|time -> 第3天下午2:30   <- 好,那我就約後天下午兩點半看牙醫,好,謝謝哦,拜拜。
+day  1 WRITE[listen] 咖啡|preference -> 冰燕麥拿鐵加糖   <- 幫我記一下,我現在喝咖啡都改冰燕麥拿鐵為冰附加糖,哦,對,然後我那個健身
+day  1 WRITE[sleep] 洗牙|time -> 第3天下午兩點半   <- 好,那我就約後天下午兩點半看牙醫,好,謝謝哦,拜拜。
+day  1 WRITE[sleep] 健身房教練|relation -> Kevin   <- 幫我記一下,我現在喝咖啡都改冰燕麥拿鐵為冰附加糖,哦,對,然後我那個健身
+day  2 ASK  ('四號電池', 'location') -> read None '不記得。'
+day  2 WRITE[listen] 藍牙耳機|location -> 灰色西裝外套口袋   <- 我藍牙耳機放餐桌啊，不對不對，我剛剛順手塞進灰色西裝外套口袋了，幫我記著
+day  2 ASK  ('專案報告', 'time') -> read None '不記得'
+day  2 WRITE[listen] (upd) 護照|location -> 黑色後背包夾層   <- 哦，我早上去辦簽證把他從書房房朝香拿出來了，我早上去辦簽證把他從書房房朝
+day  2 WRITE[listen] 四號電池|plan -> 明天去全聯買   <- 哦，我早上去辦簽證把他從書房房朝香拿出來了，我早上去辦簽證把他從書房房朝
+day  2 WRITE[sleep] 體重計|status -> 螢幕不亮，需確認是否有四號電池可換   <- 體重計踩上去螢幕完全都不亮了欸，家裡還有沒有四號電池可以換
+day  2 WRITE[sleep] 新Project專案報告|time -> Deadline是第5天中午十二點前   <- 那個新Project的專案報告Deadline是這禮拜五中午十二點前嗎，
+day  3 ASK  ('印表機', 'attribute') -> read None '不記得。'
+day  3 STAGE 補充 #1 -> HP68 黑色 x2
+day  3 WRITE[listen] 印表機|value -> HP68 黑色 x2   <- 是HP68
+day  3 ASK  ('牙醫', 'time') -> read None '不記得'
+day  3 ASK  ('護照', 'location') -> read None '不記得。'
+day  3 WRITE[listen] 廚師機|location -> 陽台   <- 廳那台廚師機滅網我剛剛下午洗好亮在陽台了,這兩天還沒乾先不要開
+day  3 WRITE[listen] 廚師機|status -> 未乾   <- 廳那台廚師機滅網我剛剛下午洗好亮在陽台了,這兩天還沒乾先不要開
+day  3 ASK  ('咖啡', 'preference') -> read ['咖啡', 'preference'] '您現在喝咖啡都點冰燕麥拿鐵加糖。'
+day  3 WRITE[listen] 小傑|relation -> 大學社團學弟   <- 然後明天要來家裡拿露營燈的那個小傑,是我大學社團學弟啦,他對花生嚴重過敏
+day  3 WRITE[listen] 小傑|attribute -> 對花生嚴重過敏   <- 然後明天要來家裡拿露營燈的那個小傑,是我大學社團學弟啦,他對花生嚴重過敏
+day  3 WRITE[listen] 小傑|plan -> 第4天來家裡拿露營燈   <- 然後明天要來家裡拿露營燈的那個小傑,是我大學社團學弟啦,他對花生嚴重過敏
+day  3 ASK  ('台包', 'location') -> read None '不記得'
+day  3 WRITE[sleep] 印表機墨水|value -> 型號是HP68，黑色兩支，下次去賣場要買   <- 是HP68
+day  3 WRITE[sleep] 廚師機滅網|status -> 下午洗好晾在陽台，這兩天還沒乾先不要開   <- 廳那台廚師機滅網我剛剛下午洗好亮在陽台了,這兩天還沒乾先不要開
+day  4 ASK  ('露營燈', 'time') -> read ['小傑', 'plan'] '小傑是第4天來家裡拿露營燈，記得別請他吃花生糖。'
+day  4 ASK  ('網路費', 'status') -> read None '不記得。'
+day  4 WRITE[listen] 露營燈|location -> 陽台儲藏櫃第二層   <- 先放陽台儲藏櫃第二
+day  4 ASK  ('網路費', 'status') -> read None '不記得。'
+day  4 WRITE[listen] 網路費|status -> 已繳清   <- 動扣款繳清了啦,沒事
+day  4 ASK  ('將這菜', 'value') -> read ['聚餐', 'time'] '已幫您將媽媽生日聚餐改到第7天（下週日）中午12點。'
+day  4 WRITE[listen] 襯衫|preference -> 烘衣機低溫30分鐘   <- 以下,我的襯衫丟烘衣機都要用低溫柔烘三十分鐘,不然那個領口每次都會
+day  4 WRITE[listen] 媽媽|preference -> 不吃辣   <- 太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中午十二點,改吃那家將這菜好不
+day  4 WRITE[listen] 聚餐|time -> 第7天中午12點   <- 太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中午十二點,改吃那家將這菜好不
+day  4 READ-PHON 問句裡的「牙衣」和紀錄裡的「牙醫」唸起來一樣 -> '不知道'
+day  4 ASK  ('牙醫', 'time') -> read None '不記得。'
+day  4 ASK  ('健身房教練', 'name') -> read ['健身房教練', 'relation'] '你的健身房教練名字叫 Kevin。'
+day  4 WRITE[listen] 冷氣遙控器|location -> 沙發右手邊收納袋   <- 哪有亂丟?我剛剛把她插在沙發右蝙蝠手那個收納袋裡面啦。
+day  4 ASK  ('黑色折疊傘', 'location') -> read None '不記得。'
+day  4 ASK  ('專案報告', 'time') -> read ['新Project專案報告', 'time'] '你的新Project專案報告Deadline是明天（第5天）'
+day  4 WRITE[sleep] 陽台儲藏櫃|location -> 第二層   <- 先放陽台儲藏櫃第二
+day  4 WRITE[sleep] 襯衫|attribute -> 烘衣機需低溫、三十分鐘，否則領口會壞   <- 以下,我的襯衫丟烘衣機都要用低溫柔烘三十分鐘,不然那個領口每次都會
+day  4 WRITE[sleep] 媽媽生日聚餐|time -> 改第7天中午十二點   <- 太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中午十二點,改吃那家將這菜好不
+day  4 WRITE[sleep] 媽媽生日聚餐|plan -> 改吃將這菜（原話可能為蔣記或類似店名，依語音保留）   <- 太辣她不想吃辣,那媽媽生日聚餐我們改禮拜日中午十二點,改吃那家將這菜好不
+day  4 WRITE[sleep] 某物（推測為筆或類似長條狀物品）|location -> 沙發右邊扶手收納袋內   <- 哪有亂丟?我剛剛把她插在沙發右蝙蝠手那個收納袋裡面啦。
+day  4 WRITE[sleep] 黑色折疊傘|location -> 詢問在哪（同上，無答案，略過）   <- 
+day  4 WRITE[sleep] 專案報告|time -> 詢問Deadline幾點（同上，無答案，略過）   <- 
+day  5 WRITE[listen] 汽車|plan -> 第9天早上9點   <- 汽車保養,下禮拜二早上9點可以嗎。
+day  5 WRITE[listen] (upd) 藍牙耳機|location -> 公司辦公桌抽屜   <- 我今天下班把藍牙耳機忘在公司辦公桌抽屜,難怪我剛剛打Uber的時候翻灰色
+day  5 STAGE 補充 #3 -> 已更換4號電池，功能正常
+day  5 WRITE[listen] 酒開瓶器|location -> 廚房中島左邊第一個抽屜   <- 酒開瓶器我洗好放進廚房中倒左邊第一個抽
+day  5 WRITE[listen] 瑜伽墊|attribute -> 厚度8mm、墨綠色、防滑穩定   <- 啊,我新買那個瑜伽電是厚度8公里墨綠色的,做放式採起來蠻穩的
+day  5 ASK  ('書房印表機墨', 'value') -> read ['印表機墨水', 'value'] '記得，是 HP68 黑色墨水兩支，下次去賣場要買。'
+day  5 WRITE[listen] (upd) 體重計|status -> 已更換4號電池，功能正常   <- 誒我剛剛下班順便去買4號電池把體重計換好了,
+day  5 ASK  ('印表機墨水', 'value') -> read None '不記得。'
+day  5 ASK  ('印表機', 'value') -> read None '我不記得他具體對什麼東西過敏。'
+day  5 ASK  ('電動起子', 'location') -> read None '我不記得你有借電動起子給隔壁。'
+day  5 WRITE[sleep] 汽車保養|time -> 第9天早上9點   <- 汽車保養,下禮拜二早上9點可以嗎。
+day  6 STAGE 改口 #1 -> 冰箱門上磁鐵旁
+day  6 WRITE[listen] 乾洗收據|location -> 冰箱門上磁鐵旁   <- 我把去拿大一的乾洗電收據貼起來了。
+day  6 ASK  ('貓飼料', 'value') -> read None '不記得。'
+day  6 WRITE[listen] 乾洗收據|plan -> 第8天去拿   <- 就家在冰箱門上的磁鐵家那邊,下禮拜一經過再去拿。
+day  6 ASK  ('藍牙耳機', 'location') -> read ['藍牙耳機', 'location'] '使用者，您第5天提到藍牙耳機忘在公司辦公桌抽屜了。'
+day  6 ASK  ('媽媽生日聚餐', 'time') -> read ['媽媽生日聚餐', 'time'] '媽媽生日聚餐改在第7天中午十二點，吃蔣記。'
+day  6 ASK  ('媽媽生日聚餐', 'value') -> read ['媽媽生日聚餐', 'plan'] '媽媽生日聚餐改在第7天中午12點，吃那家蔣記（語音辨識為「將'
+day  6 WRITE[listen] 按摩枕|status -> 未拆封   <- 閉上那個全心沒拆的按摩枕你不要亂拆哦,那是我打算送給表妹當喬籤禮物的。
+day  6 WRITE[listen] 按摩枕|plan -> 送表妹喬遷禮物   <- 閉上那個全心沒拆的按摩枕你不要亂拆哦,那是我打算送給表妹當喬籤禮物的。
+day  6 ASK  ('體重計', 'status') -> read ['體重計', 'status'] '是的，您昨天已經更換了電池，現在功能正常可以使用了。'
+day  6 ASK  ('汽水', 'value') -> read None '不記得。'
+day  6 ASK  ('烘衣機', 'value') -> read ['襯衫', 'attribute'] '烘襯衫要用低溫烘三十分鐘，不然領口會壞。'
+day  6 WRITE[sleep] 貓飼料|value -> 五股雞肉魚配方   <- 幫我寄一下家裡竹子的貓飼料要買五股雞肉啊不對,
+day  7 ASK  ('露營燈', 'location') -> read ['露營燈', 'location'] '陽台儲藏櫃第二層。'
+day  7 ASK  ('汽車保養', 'time') -> read ['汽車保養', 'time'] '汽車保養約在第9天早上9點。'
+day  7 ASK  ('乾洗收據', 'location') -> read ['乾洗收據', 'plan'] '你昨天說把乾洗收據貼在冰箱門上的磁鐵旁邊，打算下週一去拿。'
+day  7 ASK  ('貓飼料', 'preference') -> read ['貓飼料', 'value'] '記得，您之前提到要買五股雞肉魚配方的貓飼料。'
+day  7 ASK  ('貓鯊', 'brand') -> read None '不記得。'
+day  7 ASK  ('英文家教', 'time') -> read None '我不記得你有安排英文加教課。'
+day  8 STAGE 改口 #1 -> 電視櫃第二個抽屜
+day  8 WRITE[listen] 備用鑰匙|location -> 電視櫃第二個抽屜   <- 我把那個大門的備用鑰匙收起來了哦。
+day  8 ASK  ('其他人', 'preference') -> read None '不記得。'
+day  8 WRITE[listen] (upd) 洗牙|time -> 第10天下午3點   <- 啊,我自己的洗牙是約後天,就是禮拜三下午3點,我那天下午meeting剛
+day  8 STAGE 改口 #1 -> 冰燕麥拿鐵不加糖
+day  8 WRITE[listen] (upd) 咖啡|preference -> 冰燕麥拿鐵不加糖   <- 我一樣冰燕麥拿鐵為冰不加糖啦,
+day  8 WRITE[sleep] 冰燕麥拿鐵|preference -> 不加糖   <- 我一樣冰燕麥拿鐵為冰不加糖啦,
+day  8 WRITE[sleep] 圓形印章|location -> 書桌左邊筆桶   <- Aria 幫我寄一下,那個圓形的印章我放書桌左邊筆桶,然後,欸對,存著我
+day  8 WRITE[sleep] 綠色資料夾|location -> 存著我家（地址/資訊）   <- Aria 幫我寄一下,那個圓形的印章我放書桌左邊筆桶,然後,欸對,存著我
+day  9 STAGE 改口 #1 -> 濾網已清洗，正在陽台晾乾（註：此句未涉及#1內容，但使用者語音辨識有誤且無明確實體，僅記錄時間更正意圖）
+day  9 WRITE[listen] (upd) 廚師機|status -> 濾網已清洗，正在陽台晾乾（註：此句未涉及#1內容，但使用者語音辨識有誤且無明確實體，僅記錄時間更正意圖）   <- 我剛剛把他的濾網拔下來洗乾淨了﹑現在拿去陽台晾乾﹑碗點乾了再裝回去
+day  9 WRITE[listen] 瑜伽課|time -> 第11天晚上7:30   <- 禮拜四晚上七點半有瑜伽課哦﹑
+day  9 WRITE[listen] 體重計|location -> 沙發底下   <- 還有那個﹑體重計我踢到沙發底下了﹑省得我走路一直撞到腳趾頭
+day  9 WRITE[listen] (upd) 備用鑰匙|location -> 玄關吸鐵盒   <- 不用我早上喝過了﹑哦對﹑我把備用鑰匙從電視櫃拿出來﹑改放到玄關那個吸鐵盒
+day  9 ASK  ('印章', 'location') -> read ['圓形印章', 'location'] '使用者，您昨天把圓形印章放在書桌左邊的筆桶裡了。'
+day  9 ASK  ('手搖飲', 'preference') -> read None '不記得你喝手搖飲都點什麼。'
+day  9 WRITE[listen] 冷氣|plan -> 第13天早上10點維修   <- 為師傅你好﹑對﹑客廳那台冷氣不冷﹑那就約這禮拜六早上十點過來看庫﹑好﹑謝
+day 10 WRITE[listen] (upd) 洗牙|time -> 第12天下午2點   <- 那我的洗牙就改到後天,就禮拜五下午兩點可以嗎?
+day 10 ASK  ('舊護照', 'status') -> read ['舊護照', 'location'] '使用者，我記得您提過舊護照過期後放在老家衣櫥裡找不到，所以只好'
+day 10 STAGE 改口 #1 -> 防潮箱下層
+day 10 STAGE 補充 #2 -> 黑色Type-C 10000mAh
+day 10 WRITE[listen] 舊護照|location -> 防潮箱下層   <- 舊的護照過勤了放在老家衣櫥找不到,只好重辦,超麻煩。
+day 10 WRITE[listen] 行動電源|status -> 黑色Type-C 10000mAh   <- 我新買了一顆那個行動電源哦,
+day 10 ASK  ('車鑰匙', 'location') -> read ['備用鑰匙', 'location'] '備用鑰匙現在放在玄關那個吸鐵盒裡面。'
+day 10 WRITE[listen] 行動電源|location -> 登山包側袋   <- 就是黑色泰,C1萬毫安培那顆啦,然後我把它塞在登山包側袋裡面。
+day 10 ASK  ('車鑰匙', 'location') -> read ['體重計', 'location'] '體重計在沙發底下。'
+day 10 WRITE[listen] 血壓藥|plan -> 每天早上飯後吃半顆   <- 對了,Aria,幫我寄一下,醫生開的血壓藥庫,我是每天早上飯後吃半顆。
+day 10 ASK  ('西裝外套', 'time') -> read None '不記得。'
+day 10 WRITE[sleep] 護照|status -> 舊的過期找不到，正在重辦   <- 舊的護照過勤了放在老家衣櫥找不到,只好重辦,超麻煩。
+day 10 WRITE[sleep] 行動電源|attribute -> 黑色泰C1萬毫安培   <- 就是黑色泰,C1萬毫安培那顆啦,然後我把它塞在登山包側袋裡面。
+day 10 WRITE[sleep] 西裝外套|time -> 第12天要去乾洗店拿   <- 我乾洗的西裝外套是不是禮拜五要去拿?
+day 11 ASK  ('紅燒牛肉麵', 'plan   （因使用者無法回家，需確認是否仍執行前文購買計畫）') -> read ['瑜伽課', 'status'] '好的，已幫您將今晚的瑜伽課取消並改期到下週。'
+day 11 WRITE[listen] 紅燒牛肉麵|plan -> 第11天下班後購買，半斤半肉，加酸菜，不加蔥   <- A你下班回來順便幫我買紅燒牛肉麵。A不對,買半斤半肉好了,紅燒半斤半肉,
+day 11 WRITE[listen] 瑜伽課|status -> 取消（第11天晚上）   <- 我今天在公司趕專案schedule趕不回去,我晚上的瑜伽課先取消改下禮拜
+day 11 WRITE[listen] (upd) 瑜伽課|time -> 下週（第11天起）   <- 我今天在公司趕專案schedule趕不回去,我晚上的瑜伽課先取消改下禮拜
+day 11 ASK  ('洗牙', 'time') -> read ['洗牙', 'time'] '你的洗牙已改約在第12天下午2點。'
+day 11 ASK  ('Kevin', 'relation') -> read None '不記得。'
+day 11 WRITE[listen] 腳踏車|status -> 後輪破胎、送修中   <- 而且我今天超衰,騎腳踏車出門結果後輪破胎現在送修中,那個修車行老闆剛剛打
+day 11 WRITE[listen] 修車行|value -> 報價800元   <- 而且我今天超衰,騎腳踏車出門結果後輪破胎現在送修中,那個修車行老闆剛剛打
+day 11 READ-PHON 問句裡的「除濕機」和紀錄裡的「廚師機」唸起來一樣；問句裡的「除濕機」和紀錄裡的「廚師機」唸起來一樣 -> '編號 2'
+day 11 ASK  ('除濕機', 'status') -> read ['廚師機', 'status'] '第9天你清洗了濾網並放在陽台晾乾，請確認是否已完全乾燥後再裝'
+day 11 ASK  ('台包', 'location') -> read None '不記得。'
+day 11 WRITE[sleep] 紅燒牛肉麵|value -> 半斤半肉，加酸菜，不要蔥   <- A你下班回來順便幫我買紅燒牛肉麵。A不對,買半斤半肉好了,紅燒半斤半肉,
+day 11 WRITE[sleep] 瑜伽課|plan -> 今晚取消，改下禮拜   <- 我今天在公司趕專案schedule趕不回去,我晚上的瑜伽課先取消改下禮拜
+day 11 WRITE[sleep] 備用鑰匙|status -> 已丟棄   <- 自己的備用鑰匙我都直接丟
+day 11 WRITE[sleep] 腳踏車後輪|status -> 破胎送修中，報價800元   <- 而且我今天超衰,騎腳踏車出門結果後輪破胎現在送修中,那個修車行老闆剛剛打
+day 12 STAGE 補充 #1 -> 借給阿哲，已搬下樓讓他載走
+day 12 STAGE 改口 #1 -> 借給阿哲，已搬下樓讓他載走；相關文件（綠色資料夾）已移至隨身托特包夾層
+day 12 WRITE[listen] 帳篷|status -> 借給阿哲，已搬下樓讓他載走；相關文件（綠色資料夾）已移至隨身托特包夾層   <- 謝啦兄弟,帳篷借我頂
+day 12 STAGE 補充 #3 -> 陽台那台聲音異常，可能已過保
+day 12 STAGE 改口 #3 -> 陽台那台聲音異常，未過保（有保護書）
+day 12 WRITE[listen] 聚餐|plan -> 下週（第19天）   <- 等一下禮拜聚餐餐廳要勝選哦,小姑姑對花生根甲翹類過敏,上次吃到蝦膏插點送
+day 12 WRITE[listen] 小姑姑|attribute -> 對花生、甲殼類過敏   <- 等一下禮拜聚餐餐廳要勝選哦,小姑姑對花生根甲翹類過敏,上次吃到蝦膏插點送
+day 12 STAGE 改口 #1 -> 保護至第345天（明年11月），若故障需送修
+day 12 ASK  ('瑜伽課', 'time') -> read ['瑜伽課', 'time'] '這週的瑜伽課已改期至下週，具體時間尚未確定。'
+day 12 WRITE[listen] 洗衣機|status -> 保護至第345天（明年11月），若故障需送修   <- 陽台那台風衣機聲音今天聽起來怪怪的,
+day 12 ASK  ('血壓藥', 'usage') -> read ['血壓藥', 'plan'] '你之前跟我說過，醫生開的血壓藥要每天早上飯後吃半顆。'
+day 12 ASK  ('包裹', 'value') -> read None '我不記得楼下管理室包裹的取件编号。'
+day 12 WRITE[sleep] 帳篷|location -> 已搬下樓給阿哲載走   <- 阿哲明天要去苗栗,我剛把我們那個露營帳篷搬下樓給他載走了。
+day 12 WRITE[sleep] 銀行帳戶文件|location -> 收在隨身托特包夾層，不在綠色資料夾   <- Aria,我剛剛去銀行confirm那個帳,存哲現在不在綠色資料夾了,我
+day 12 WRITE[sleep] 聚餐餐廳|plan -> 需勝選（訂位），小姑姑對花生及甲殼類過敏，上次因蝦膏送急診   <- 等一下禮拜聚餐餐廳要勝選哦,小姑姑對花生根甲翹類過敏,上次吃到蝦膏插點送
+day 12 WRITE[sleep] 風衣機|status -> 聲音異常，保固至明年十一月，若壞了去教員場維修   <- 陽台那台風衣機聲音今天聽起來怪怪的,
+day 13 ASK  ('預約', 'time') -> read None '不記得。'
+day 13 STAGE 改口 #1 -> 電視後面收納盒
+day 13 WRITE[listen] Switch遊戲|location -> 電視後面收納盒   <- 片收起來了哦。
+day 13 ASK  ('存折', 'location') -> read None '我不記得你的存折放在哪裡。'
+day 13 WRITE[listen] 機票|status -> 已購買   <- ria 跟你說,我剛剛終於把機票刷下去了,十月去東京五天四夜,然後東京住
+day 13 WRITE[listen] 東京旅行|time -> 10月（5天4夜）   <- ria 跟你說,我剛剛終於把機票刷下去了,十月去東京五天四夜,然後東京住
+day 13 WRITE[listen] 東京住宿|location -> 上野車站附近飯店   <- ria 跟你說,我剛剛終於把機票刷下去了,十月去東京五天四夜,然後東京住
+day 13 ASK  ('腳踏車', 'value') -> read ['腳踏車後輪', 'status'] '車行老闆報價是800元。'
+day 13 WRITE[listen] (upd) 行動電源|location -> 床頭櫃充電座   <- 還有啊Aria,那個行動店員我從登山包拿出來了,現在放在床頭櫃充電座上。
+day 13 ASK  ('小姑姑', 'attribute') -> read ['小姑姑', 'attribute'] '小姑姑對花生和甲殼類海鮮過敏，之前吃蝦膏還送過急診，千萬不能'
+day 13 ASK  ('洗碗機', 'time') -> read None '我不記得我們家洗碗機的保護期限。'
+day 13 ASK  ('咖啡豆', 'attribute') -> read None '不記得。'
+day 13 WRITE[sleep] 機票|plan -> 十月去東京五天四夜，住宿訂在上野車站附近飯店   <- ria 跟你說,我剛剛終於把機票刷下去了,十月去東京五天四夜,然後東京住
+day 13 WRITE[sleep] SW片|location -> 全部裝在電視後面那個收納盒   <- 全部都裝在電視後面那個收納盒,要玩自己拿。
+day 14 ASK  ('冷氣師傅', 'time') -> read ['冷氣', 'plan'] '冷氣師傅約的是昨天早上十點來的。'
+day 14 ASK  ('黑色行動電源', 'location') -> read ['行動電源', 'location'] '黑色行動電源現在放在床頭櫃的充電座上。'
+day 14 WRITE[listen] 網路|value -> 899元/月   <- 欸不過我們家這個網路真的要換一家了啦,每個月光繳那個899塊的網路費就飽
+day 14 WRITE[listen] 網路|status -> 晚上看YouTube卡頓   <- 欸不過我們家這個網路真的要換一家了啦,每個月光繳那個899塊的網路費就飽
+day 14 ASK  ('行動電源', 'location') -> read None '不記得您指的是哪樣東西。'
+day 14 ASK  ('帳篷', 'location') -> read ['帳篷', 'location'] '那個露營帳篷在第12天已經搬下樓借給阿哲，讓他載走去苗栗使用'
+day 14 ASK  ('咖啡', 'preference') -> read ['咖啡', 'preference'] '你平常喝咖啡都點冰燕麥拿鐵不加糖。'
+day 14 ASK  ('東京', 'location') -> read ['東京住宿', 'location'] '您上次提到東京住宿是訂在上野車站附近的飯店。'
+day 14 READ-PHON 問句裡的「汽車保險」和紀錄裡的「汽車保養」唸起來一樣 -> '不知道'
+day 14 ASK  ('汽車保險', 'time') -> read None '不記得。'
+day 15 WRITE[listen] (upd) 備用鑰匙|location -> 鞋櫃上方小盒子   <- Aria,跟你講一下喔,那個,家裡的備用要使我改放去鞋櫃上面那個小盒子裡
+day 15 STAGE 改口 #1 -> 第17天下午2點
+day 15 ASK  ('Cafe', 'location') -> read ['咖啡', 'preference'] '好的，我記下了，下次去街口那間 Cafe 會幫您買埃塞俄比亞'
+day 15 WRITE[listen] (upd) 洗牙|time -> 第17天下午2點   <- 還有那個,幫我記一下,我後天,對,後天下午2點要去洗牙,千萬不要讓我睡過
+day 15 WRITE[listen] (upd) 咖啡|preference -> 埃塞俄比亞手沖豆   <- 你下次如果有去街口那間Cafe,幫我買手沖咖啡豆,我現在都只喝前輩伊索比
+day 15 WRITE[listen] 耳機充電盒|location -> 客廳沙發縫隙   <- 就我的耳機充電盒啦,結果居然掉在客廳沙發縫隙裡面,超扯的,我現在手忙腳亂
+day 15 WRITE[listen] 乳清蛋白|location -> 流理台最左邊櫃子   <- 喔,還有,我剛去領包裹,新買的那罐乳清蛋白這次是買抹茶口味的,我直接塞進
+day 15 WRITE[listen] 乳清蛋白|attribute -> 抹茶口味   <- 喔,還有,我剛去領包裹,新買的那罐乳清蛋白這次是買抹茶口味的,我直接塞進
+day 15 WRITE[sleep] 手沖咖啡豆|plan -> 下次去街口那間Cafe時購買   <- 你下次如果有去街口那間Cafe,幫我買手沖咖啡豆,我現在都只喝前輩伊索比
+day 15 WRITE[sleep] 手沖咖啡豆|preference -> 只喝前輩伊索比亞   <- 你下次如果有去街口那間Cafe,幫我買手沖咖啡豆,我現在都只喝前輩伊索比
+day 15 WRITE[sleep] 乳清蛋白（抹茶口味）|location -> 流理台最左邊櫃子裡   <- 喔,還有,我剛去領包裹,新買的那罐乳清蛋白這次是買抹茶口味的,我直接塞進
+day 16 STAGE 補充 #3 -> 玄關
+day 16 WRITE[listen] 印表機|status -> 黑色墨水快沒了   <- 快沒了要買黑色的了啦，
+day 16 WRITE[listen] 印表機|plan -> 買黑色墨水   <- 快沒了要買黑色的了啦，
+day 16 STAGE 改口 #1 -> 陽台儲藏室
+day 16 WRITE[listen] (upd) 帳篷|location -> 陽台儲藏室   <- Aria 幫我記一下，我那對登山賬收好了，
+day 16 WRITE[listen] 老張|relation -> 大學社團學長   <- 啊，好啊，你的婚禮我一定到，對
+day 16 WRITE[listen] 老張婚禮|time -> 第20天中午   <- 啊，好啊，你的婚禮我一定到，對
+day 16 WRITE[listen] 烘衣機|status -> 濾網已清理   <- 然後他的濾網我剛剛也順手清乾淨了
+day 16 WRITE[sleep] 婚禮|time -> 第20天中午   <- 對啊，好久不見，想說你這個大學社團學長怎麼突然打來，真的假的，這禮拜六中
+day 17 ASK  ('洗牙', 'time') -> read ['洗牙', 'time'] '你目前預約的洗牙時間是今天下午兩點。'
+day 17 ASK  ('洗牙', 'time') -> read None '不記得'
+day 17 WRITE[listen] (upd) 洗牙|time -> 第19天早上10點   <- 好,那就禮拜五早上10點,謝謝歐。
+day 17 WRITE[listen] (upd) 備用鑰匙|location -> 拿去   <- 我那個備用鑰匙上次是跟你說放拿去啦。
+day 17 WRITE[listen] 筆電充電器|location -> 書房桌下延長線   <- 我把筆電充電器插在書房桌下延長線那邊哦,
+day 17 ASK  ('手沖咖啡豆', 'preference') -> read ['手沖咖啡豆', 'preference'] '使用者，您之前提過手沖咖啡豆只喝埃塞俄比亞口味的。'
+day 17 ASK  ('手沖咖啡豆', 'preference') -> read ['廚師機', 'plan'] '好的，已記錄您將廚師機移至更衣室，並計畫今晚睡前設定定時 1'
+day 17 WRITE[listen] (upd) 廚師機|location -> 更衣室   <- 還有那個,廚師機我剛剛搬去更衣室了哦,然後我打算今天睡前設定定14小時,
+day 17 WRITE[listen] 廚師機|plan -> 第17天睡前設定定時14小時   <- 還有那個,廚師機我剛剛搬去更衣室了哦,然後我打算今天睡前設定定14小時,
+day 17 WRITE[listen] 結婚紀念日餐廳|preference -> 靠窗位置   <- 等一下個月我們結婚紀念日那間餐廳啊,你打去定位的時候,記得跟店員說我們一
+day 17 WRITE[sleep] 花生|attribute -> 嚴重過敏（推測自「我對花生嚴重」及後續改訂別家餐廳）   <- 我對花生嚴重
+day 17 WRITE[sleep] 結婚紀念日餐廳|plan -> 訂位時要求靠窗位置（因夜景漂亮）   <- 等一下個月我們結婚紀念日那間餐廳啊,你打去定位的時候,記得跟店員說我們一
+day 18 ASK  ('洗牙', 'time') -> read ['洗牙', 'time'] '你的洗牙改到了明天（第19天）早上10點。'
+day 18 ASK  ('洗牙', 'time') -> read ['慢跑鞋', 'location'] '您提到您的慢跑鞋目前不在家中。'
+day 18 STAGE 改口 #2 -> 送洗中，週末可取
+day 18 WRITE[listen] (upd) 耳機充電盒|location -> 常穿外套左邊口袋   <- ria 那個耳機充電盒我剛剛從沙發拿起來了,現在改放在我常穿那件外套左邊
+day 18 ASK  ('洗牙', 'time') -> read ['烘衣機', 'status'] '烘衣機的濾網在第16天已經清理乾淨了。'
+day 18 WRITE[listen] 慢跑鞋|location -> 送洗中，週末可取   <- 吼,本來想說今天晚上去河濱公園跑個五公里,結果我那雙慢跑鞋現在不在家。
+day 18 ASK  ('洗牙', 'time') -> read None '不記得'
+day 18 ASK  ('機車', 'location') -> read None '不記得。'
+day 18 WRITE[listen] 體重計|plan -> 下次去全聯購買   <- 下次去全聯要買。
+day 18 WRITE[listen] 報稅資料夾|location -> 書櫃第二層藍色L家   <- 我把它塞進書櫃第二層藍色L家裡面了,到時候五月要報稅再提醒我拿。
+day 18 WRITE[listen] 報稅|time -> 5月   <- 我把它塞進書櫃第二層藍色L家裡面了,到時候五月要報稅再提醒我拿。
+day 18 ASK  ('護照', 'location') -> read None '不記得。'
+day 18 ASK  ('護照', 'location') -> read None '我不記得您指的是哪一樣東西，請告訴我具體物品名稱。'
+day 18 WRITE[sleep] 慢跑鞋|status -> 不在家，送洗中，週末取回   <- 吼,本來想說今天晚上去河濱公園跑個五公里,結果我那雙慢跑鞋現在不在家。
+day 18 WRITE[sleep] 體重計|value -> 需裝兩顆4號電池   <- 預示那台體重計沒變了,它要裝的是3號,啊不是啦,講錯,是4號電池兩顆才對
+day 18 WRITE[sleep] 全聯購物|plan -> 下次去要買4號電池   <- 下次去全聯要買。
+day 18 WRITE[sleep] 小美|plan -> 第19天下午公司訂飲料外送   <- 誒小美,明天下午公司要訂飲料外送哦。
+day 18 WRITE[sleep] 蒸奶半糖少冰|plan -> 幫使用者點餐（已確認）   <- 好啦,那幫我點蒸奶半糖少冰,對,謝啦。
+day 19 STAGE 改口 #1 -> 不在陽台
+day 19 STAGE 改口 #1 -> 已借給阿凱
+day 19 ASK  ('耳機充電盒', 'location') -> read ['耳機充電盒', 'location'] '你的耳機充電盒現在在你常穿那件外套的左邊口袋裡。'
+day 19 WRITE[listen] (upd) 帳篷|location -> 已借給阿凱   <- 欸你不要再去陽台找那對登山帳了啦，
+day 19 WRITE[listen] 阿凱|plan -> 第20天或第21天爬河歡山   <- 阿凱這周末要去爬河歡山，
+day 19 ASK  ('乳清蛋白', 'attribute') -> read ['乳清蛋白', 'attribute'] '你上次買的乳清蛋白是抹茶口味的。'
+day 19 STAGE 改口 #1 -> 已更換新墨水（語音辨識錯誤修正：「便吃」應為「電池」，但此句主要是在問規格，且前文已處理過墨水更換狀態，故不重複輸出墨水相關。針對「體重計電池」的詢問，因語意不清「幾號幾顆」，視為對購買規格的疑問）
+day 19 ASK  ('耳機充電盒', 'location') -> read ['體重計', 'value'] '體重計需要裝兩顆四號電池。'
+day 19 ASK  ('乳清蛋白', 'attribute') -> read ['體重計', 'value'] '體重計需要裝兩顆四號電池。'
+day 19 ASK  ('體重計電池', 'attribute') -> read ['體重計', 'value'] '體重計需要裝兩顆四號電池。'
+day 19 ASK  ('冷氣遙控器', 'attribute') -> read ['冷氣遙控器', 'location'] '冷氣遙控器在沙發右手邊的收納袋裡。'
+day 19 WRITE[listen] (upd) 印表機墨水|status -> 已更換新墨水（語音辨識錯誤修正：「便吃」應為「電池」，但此句主要是在問規格，且前文已處理過墨水更換狀態，故不重複輸出墨水相關。針對「體重計電池」的詢問，因語意不清「幾號幾顆」，視為對購買規格的疑問）   <- 終於搞定了，我剛去買了新的印表機墨水回來裝上去，已經換新的了，現在印出來
+day 19 STAGE 補充 #1 -> 豆腐砂原味（現兩包堆在客廳電視櫃旁）
+day 19 ASK  ('慢跑鞋', 'status') -> read ['慢跑鞋', 'status'] '你的那雙慢跑鞋目前還在送洗中，週末就可以取回了。'
+day 19 WRITE[listen] 貓砂|preference -> 豆腐砂原味（現兩包堆在客廳電視櫃旁）   <- 猫砂我后来都固定买豆腐砂原味的
+day 19 WRITE[sleep] 乳清蛋白|value -> 口味忘記了（使用者詢問）   <- 我上次買那個乳清蛋白是什麼口味的啊，
+day 19 WRITE[sleep] 體重計電池|value -> 規格數量忘記了（使用者詢問）   <- 還有那個體重計便吃，我是說要買幾號幾顆來著，
+day 19 WRITE[sleep] 貓砂|location -> 兩包堆在客廳電視柜旁邊   <- 刚送来两包我先堆在客厅电视柜旁边哦
+day 20 ASK  ('老張', 'relation') -> read ['老張', 'relation'] '老張是你大學社團的學長。'
+day 20 ASK  ('老張婚禮', 'time') -> read ['老張婚禮', 'time'] '老張婚禮是今天中午開始。'
+day 20 ASK  ('老張', 'relation') -> read None '不記得'
+day 20 ASK  ('老張婚禮', 'time') -> read ['婚禮', 'time'] '是的，老張的婚禮就在今天中午。'
+day 20 WRITE[listen] (upd) 筆電充電器|location -> 托特包   <- 我出門前把那個筆電充電器拔起來了，現在收進我的托特包裡面哦，
+day 20 ASK  ('冰箱磁鐵', 'location') -> read None '我不記得你把塞去哪裡了。'
+day 20 WRITE[listen] 飲料|preference -> 烏龍拿鐵無糖去冰   <- 我最近在借糖，以後飲料外送都改喝烏龍拿鐵無糖為冰才對，
+day 20 WRITE[listen] 空氣清淨機|attribute -> 濾網破裂   <- 那房間那台空氣清淨機率網裂
+day 20 WRITE[sleep] 烏龍拿鐵無糖冰|preference -> 使用者以後飲料外送都改點這個   <- 我最近在借糖，以後飲料外送都改喝烏龍拿鐵無糖為冰才對，
+day 20 WRITE[sleep] 冰箱門磁鐵紙|status -> 被鐵壓著，誰經過都可以去拿   <- 冰箱門磁鐵紙鐵紙鐵壓著哦，誰經過都可以去拿，
+day 20 WRITE[sleep] 空氣清淨機濾網|status -> 裂了   <- 那房間那台空氣清淨機率網裂
+day 21 ASK  ('游泳鏡', 'location') -> read None '我不記得你的游泳鏡放在哪裡。'
+day 21 ASK  ('筆電充電器', 'location') -> read ['筆電充電器', 'location'] '你最後把筆電充電器收進你的托特包裡了。'
+day 21 ASK  ('飲料', 'preference') -> read ['烏龍拿鐵無糖冰', 'preference'] '您現在叫飲料外送都改喝烏龍拿鐵無糖去冰。'
+day 21 ASK  ('汽車保養', 'time') -> read None '不記得'
+day 21 ASK  ('乾洗取件單', 'location') -> read None '不記得。'
+day 21 ASK  ('保溫杯', 'location') -> read None '不記得。'
+SUMMARY {"key": "dual", "topic": true, "relisten": true, "event_log": true, "stage": true, "facts": 90, "fact_coverage": 0.689, "coverage_by_kind": {"direct": "9/13", "split": "7/8", "relative_time": "6/9", "multi": "12/16", "correction": "5/9", "overheard": "11/16", "indirect": "7/11", "pronoun": "5/8"}, "writes": 135, "sleep_writes": 48, "false_writes_from_others": 3, "questions_told": 51, "routed": 45, "recall": 0.549, "updated_q": 18, "stale": 1, "never_or_similar": 21, "honest": 0.952, "read": true, "read_k": 5, "hit_read": 28, "never_read_answered": 1, "canon": false, "reldate": true, "read_phon": true, "relisten_zh": true, "route_any": true, "find": "", "find_tau": null, "hit_direct": 0, "hit_ask": 0, "ask_wrong": 0, "never_ask": 0}

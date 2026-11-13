@@ -1,0 +1,78 @@
+{
+ "per_kind": {
+  "ambient": 0.998,
+  "background": 1.0,
+  "cancel": 1.0,
+  "complex": 0.993,
+  "empty": 1.0,
+  "greeting": 0.998,
+  "overheard": 1.0,
+  "result": 1.0,
+  "scene": 0.887,
+  "scene_repeat": 0.988,
+  "scene_return": 0.773
+ },
+ "n_kind": {
+  "ambient": 7302,
+  "background": 1753,
+  "cancel": 90,
+  "complex": 295,
+  "empty": 18593,
+  "greeting": 475,
+  "overheard": 450,
+  "result": 205,
+  "scene": 124,
+  "scene_repeat": 431,
+  "scene_return": 282
+ },
+ "needs_action_acc": 0.945,
+ "false_action_quiet": 0.0006,
+ "first_quarter": 0.946,
+ "last_quarter": 0.934,
+ "longest_nonwait_run": 3,
+ "actions": {
+  "WAIT": 28591,
+  "ATTEND": 346,
+  "THINK": 293,
+  "REPLY": 679,
+  "INTERRUPT": 91
+ },
+ "confusions": [
+  [
+   "scene_return->WAIT",
+   64
+  ],
+  [
+   "scene->WAIT",
+   14
+  ],
+  [
+   "ambient->ATTEND",
+   13
+  ],
+  [
+   "scene_repeat->ATTEND",
+   5
+  ],
+  [
+   "complex->WAIT",
+   2
+  ],
+  [
+   "greeting->INTERRUPT",
+   1
+  ]
+ ],
+ "ms_per_tick_batched": 0.0033,
+ "ms_per_tick_online": 0.682,
+ "params": 149637,
+ "config": {
+  "train_ticks": 200000,
+  "test_ticks": 30000,
+  "steps": 3000,
+  "seed": 1,
+  "no_fam": false,
+  "out": "experiments/model1/results_w2",
+  "encoder": "minilm"
+ }
+}

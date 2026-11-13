@@ -1,0 +1,173 @@
+{
+ "cond": "none",
+ "questions": [
+  {
+   "t": 682,
+   "q": "[MIC] Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where you left it. Try checking the couch cushions, side tables, or the last place you used it.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 766,
+   "q": "[MIC] Leo: Aria, I can't find my remote control, where did I leave it?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where you left it. Try checking the couch cushions, table, or last place you watched TV.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 845,
+   "q": "[MIC] Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where you left them. Try checking the last place you had them, like a table, bag, or door.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 1182,
+   "q": "[MIC] Leo: Aria, where is my remote control?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "Leo, I don\u2019t know where your remote control is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 1220,
+   "q": "[MIC] Leo: Aria, do you remember where my remote control is?",
+   "truth": "behind the sofa",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your remote control is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 1357,
+   "q": "[MIC] Leo: Aria, do you remember where my spare key is?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your spare key is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 1488,
+   "q": "[MIC] Sara: Aria, I can't find my keys, where did I leave it?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where you left them. Try checking the last place you had them, like your pocket, bag, or entryway.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 1631,
+   "q": "[MIC] Axel: Aria, I can't find my keys, where did I leave it?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where you left them. Check the last place you had them, like the door, table, or pockets.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 1775,
+   "q": "[MIC] Axel: Aria, where is my ticket?",
+   "truth": "in my backpack",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your ticket is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 2263,
+   "q": "[MIC] Omar: Aria, where is my watch?",
+   "truth": "under the bed",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your watch is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 2577,
+   "q": "[MIC] Sara: Aria, do you remember where my keys is?",
+   "truth": "on the windowsill",
+   "model1": "THINK",
+   "answer": "I don\u2019t remember where your keys are.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 3180,
+   "q": "[MIC] Mia: Aria, where is my passport?",
+   "truth": "in the kitchen drawer",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your passport is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 3457,
+   "q": "[MIC] Axel: Aria, do you remember where my ticket is?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your ticket is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 3619,
+   "q": "[MIC] Axel: Aria, do you remember where my keys is?",
+   "truth": "in the garage",
+   "model1": "THINK",
+   "answer": "I don\u2019t know where your keys are. I don\u2019t have memory of them.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 3712,
+   "q": "[MIC] Axel: Aria, I can't find my ticket, where did I leave it?",
+   "truth": "in the bathroom cabinet",
+   "model1": "THINK",
+   "answer": "I don't know where you left it. Try checking your pockets, bag, or the last place you used it.",
+   "label": "unknown",
+   "recalls": [],
+   "writes_since_fact": null
+  },
+  {
+   "t": 3891,
+   "q": "[MIC] Axel: Aria, where is my ticket?",
+   "truth": "in the bathroom cabinet",
+   "model1": "REPLY",
+   "answer": "I don\u2019t know where your ticket is.",
+   "label": "wrong",
+   "recalls": [],
+   "writes_since_fact": null,
+   "label_e2e": "missed"
+  }
+ ],
+ "writes": 0,
+ "seconds": 34,
+ "summary": {
+  "correct": 0,
+  "unknown": 1,
+  "wrong": 15
+ }
+}

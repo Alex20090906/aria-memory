@@ -1,0 +1,16 @@
+{
+ "args": {
+  "layer": 18,
+  "lam": 0.0,
+  "bcm": 1,
+  "n": 40,
+  "D": 16384,
+  "k": 16,
+  "dl": 14.0,
+  "seed": 0,
+  "out": "<workspace>\\experiments\\memory\\results_anchor"
+ },
+ "C0": 0.775,
+ "C1": 0.0,
+ "no_memory": 0.0
+}

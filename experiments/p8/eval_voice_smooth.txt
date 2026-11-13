@@ -1,0 +1,4 @@
+short < 1.0s, neighbour within 0.5s: owner segments recovered 115 | non-owner turned owner 7 | told question segments newly heard as owner 0/102 | never-told newly heard 0
+short < 2.0s, neighbour within 0.5s: owner segments recovered 131 | non-owner turned owner 4 | told question segments newly heard as owner 0/102 | never-told newly heard 0
+short < 2.0s, neighbour within 1.0s: owner segments recovered 145 | non-owner turned owner 4 | told question segments newly heard as owner 1/102 | never-told newly heard 0
+short < 3.0s, neighbour within 1.0s: owner segments recovered 127 | non-owner turned owner 5 | told question segments newly heard as owner 1/102 | never-told newly heard 0

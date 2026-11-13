@@ -1,0 +1,23 @@
+W1105 18:32:06.194000 3044 ~\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\scratch-workspaces\2001fd13-370b-4e53-9a7f-af84919fcf52\c6c11626-1e34-4bda-90d8-55502aa7f176\scratch-2026-11-03-d1f1b4\experiments\venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   3%|▎         | 11/338 [00:00<00:03, 98.04it/s]Loading weights:   7%|▋         | 23/338 [00:00<00:02, 105.28it/s]Loading weights:  10%|█         | 35/338 [00:00<00:03, 79.33it/s] Loading weights:  13%|█▎        | 44/338 [00:00<00:03, 80.10it/s]Loading weights:  17%|█▋        | 59/338 [00:00<00:02, 97.53it/s]Loading weights:  21%|██        | 70/338 [00:00<00:02, 98.93it/s]Loading weights:  24%|██▍       | 81/338 [00:00<00:02, 91.85it/s]Loading weights:  27%|██▋       | 91/338 [00:01<00:02, 84.61it/s]Loading weights:  30%|██▉       | 100/338 [00:01<00:03, 78.13it/s]Loading weights:  32%|███▏      | 109/338 [00:01<00:02, 77.63it/s]Loading weights:  36%|███▌      | 120/338 [00:01<00:02, 85.35it/s]Loading weights:  38%|███▊      | 129/338 [00:01<00:02, 83.86it/s]Loading weights:  41%|████      | 138/338 [00:01<00:02, 83.47it/s]Loading weights:  43%|████▎     | 147/338 [00:01<00:02, 81.19it/s]Loading weights:  46%|████▋     | 157/338 [00:01<00:02, 80.20it/s]Loading weights:  49%|████▉     | 167/338 [00:02<00:02, 75.57it/s]Loading weights:  53%|█████▎    | 179/338 [00:02<00:01, 85.52it/s]Loading weights:  57%|█████▋    | 191/338 [00:02<00:01, 83.55it/s]Loading weights:  59%|█████▉    | 200/338 [00:02<00:01, 83.12it/s]Loading weights:  62%|██████▏   | 209/338 [00:02<00:01, 82.40it/s]Loading weights:  64%|██████▍   | 218/338 [00:02<00:01, 81.03it/s]Loading weights:  67%|██████▋   | 227/338 [00:02<00:01, 75.55it/s]Loading weights:  71%|███████   | 239/338 [00:02<00:01, 80.72it/s]Loading weights:  74%|███████▍  | 251/338 [00:03<00:01, 70.68it/s]Loading weights:  78%|███████▊  | 263/338 [00:03<00:01, 73.61it/s]Loading weights:  81%|████████▏ | 275/338 [00:03<00:00, 72.10it/s]Loading weights:  85%|████████▍ | 287/338 [00:03<00:00, 77.43it/s]Loading weights:  88%|████████▊ | 299/338 [00:03<00:00, 75.00it/s]Loading weights:  92%|█████████▏| 310/338 [00:03<00:00, 71.87it/s]Loading weights:  96%|█████████▌| 323/338 [00:04<00:00, 72.78it/s]Loading weights: 100%|██████████| 338/338 [00:04<00:00, 81.75it/s]
+[Dc] day 1 done  wall 14s  writes 6 agenda 2 idle 9 stops 3 PR 623
+[Dc] day 2 done  wall 41s  writes 17 agenda 3 idle 17 stops 5 PR 1091
+[Dc] day 3 done  wall 89s  writes 38 agenda 5 idle 31 stops 9 PR 1949
+[Dc] day 4 done  wall 155s  writes 65 agenda 5 idle 46 stops 12 PR 2468
+[Dc] day 5 done  wall 228s  writes 102 agenda 5 idle 57 stops 15 PR 2569
+[Dc] day 6 done  wall 311s  writes 144 agenda 5 idle 72 stops 20 PR 2386
+[Dc] day 7 done  wall 378s  writes 181 agenda 5 idle 75 stops 20 PR 1844
+[Dc] day 8 done  wall 450s  writes 225 agenda 3 idle 82 stops 23 PR 2096
+[Dc] day 9 done  wall 548s  writes 274 agenda 5 idle 95 stops 28 PR 2511
+[Dc] day 10 done  wall 666s  writes 328 agenda 5 idle 110 stops 32 PR 2707
+[Dc] day 11 done  wall 787s  writes 386 agenda 5 idle 124 stops 36 PR 2678
+[Dc] day 12 done  wall 907s  writes 452 agenda 5 idle 135 stops 39 PR 2534
+[Dc] day 13 done  wall 1039s  writes 514 agenda 5 idle 148 stops 43 PR 2451
+[Dc] day 14 done  wall 1150s  writes 573 agenda 5 idle 154 stops 44 PR 2202
+[Dc] day 15 done  wall 1278s  writes 639 agenda 3 idle 162 stops 47 PR 2223
+[Dc] day 16 done  wall 1410s  writes 712 agenda 2 idle 173 stops 51 PR 1987
+[Dc] day 17 done  wall 1532s  writes 779 agenda 4 idle 185 stops 54 PR 1878
+[Dc] day 18 done  wall 1666s  writes 844 agenda 5 idle 204 stops 59 PR 2123
+[Dc] day 19 done  wall 1788s  writes 910 agenda 5 idle 213 stops 61 PR 1975
+[Dc] day 20 done  wall 1910s  writes 975 agenda 4 idle 221 stops 63 PR 1932
+[Dc] day 21 done  wall 2020s  writes 1037 agenda 5 idle 226 stops 63 PR 1908
