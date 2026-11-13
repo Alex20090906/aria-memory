@@ -50,6 +50,10 @@ Source: `experiments/alwayson/results/summary.md` (rows `A_21d_s0`, `Ac_21d_s0`,
 seconds counted twice); the corrected estimates (~45 s and ~95 s, from the logged sleep durations) are in the
 correction note of `報告.md`. B's "idle steps per day" is a rate: B ran 72 h (LLM server) and 12 h (small model, 360 steps; `summary.md` lists the 12-hour total in its per-day column).
 
+A **vegetative hour** (from `experiments/alwayson/analyze.py`) is an hour whose self-generated token share is above
+0.8 with a mean repetition rate above 0.3 over at least 2 idle steps, or in which the owner waited more than 3 s because
+of idle activity, sleep or a background write.
+
 The E49 row's drift of 0.026 is not idle thinking: with the record log, 3 of 115 records that pass came from speech
 that voice ID wrongly accepted as the owner's (`sdr` block of `run_Dd_21d_s0_e49_final.json`).
 

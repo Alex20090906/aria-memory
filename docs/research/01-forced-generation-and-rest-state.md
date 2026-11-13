@@ -92,8 +92,8 @@ Source: rows `B_3d_s0_llm`, `B_1d_s0_12h`, `Dc_21d_s0_llm`, `Dd_21d_s0` of
 `experiments/alwayson/報告.md`, sections 1 and 2.
 
 Definitions (from `experiments/alwayson/analyze.py`): a **vegetative hour** is an hour whose self-generated token
-share is above 0.8 with a mean repetition rate above 0.3, or in which the owner waited more than 3 s because of idle
-activity or sleep. The **self-generated drift rate** is the share of memories that pass the familiarity gate but were
+share is above 0.8 with a mean repetition rate above 0.3 over at least 2 idle steps, or in which the owner waited more
+than 3 s because of idle activity, sleep or a background write. The **self-generated drift rate** is the share of memories that pass the familiarity gate but were
 never said by the owner.
 
 Observations from the no-brake group (B, LLM server):
